@@ -109,6 +109,14 @@ export const DataTagSystem = [
     isComing: false,
   },
   {
+    img: charityIcon,
+    title: "ecosystem.card17.title",
+    desc: "ecosystem.card17.description",
+    url: "https://pionecharity.com/",
+    name: "pionecharity.com",
+    isComing: false,
+  },
+  {
     img: solutionIcon,
     title: "ecosystem.card25.title",
     desc: "ecosystem.card25.description",
@@ -174,14 +182,7 @@ export const DataTagSystem = [
     isComing: true,
   },
 
-  {
-    img: charityIcon,
-    title: "ecosystem.card17.title",
-    desc: "ecosystem.card17.description",
-    url: "https://pione-charity",
-    name: "pionecharity.com",
-    isComing: true,
-  },
+  
   // {
   //   img: demoIcon,
   //   title: "ecosystem.card24.title",

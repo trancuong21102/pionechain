@@ -1,18 +1,26 @@
 "use client";
-import React, { useEffect, useState } from "react";
 import dynamic from "next/dynamic";
-const Earth = dynamic(() => import("@/components/ui/globe"), { ssr: false });
-const SparklesCore = dynamic(() => import("@/components/ui/sparklesCore").then((mod) => mod.SparklesCore), { ssr: false });
 import { useTranslation } from "react-i18next";
+const Earth = dynamic(() => import("@/components/ui/globe"), { ssr: false });
+const SparklesCore = dynamic(
+  () => import("@/components/ui/sparklesCore").then((mod) => mod.SparklesCore),
+  { ssr: false },
+);
 const Possible = dynamic(() => import("./ui/Possible"), { ssr: false });
-const Future = dynamic(() => import("./ui/Future").then((mod) => mod.Future), { ssr: false });
-const Empowering = dynamic(() => import("./ui/Empowering").then((mod) => mod.Empowering), { ssr: false });
-const Tool = dynamic(() => import("./ui/Tool").then((mod) => mod.Tool), { ssr: false });
-const MetaVerse = dynamic(() => import("./ui/Test").then((mod) => mod.MetaVerse), { ssr: false });
-
-import DialogPresale from "./ui/DialogPresale";
-import BannerPromoModal from "./ui/BannerPromoModal";
-import DialogEcosystemReward from "./ui/DialogEcosystemReward";
+const Future = dynamic(() => import("./ui/Future").then((mod) => mod.Future), {
+  ssr: false,
+});
+const Empowering = dynamic(
+  () => import("./ui/Empowering").then((mod) => mod.Empowering),
+  { ssr: false },
+);
+const Tool = dynamic(() => import("./ui/Tool").then((mod) => mod.Tool), {
+  ssr: false,
+});
+const MetaVerse = dynamic(
+  () => import("./ui/Test").then((mod) => mod.MetaVerse),
+  { ssr: false },
+);
 
 export default function HomeSection() {
   const { t } = useTranslation();
@@ -20,7 +28,7 @@ export default function HomeSection() {
   return (
     <div className="relative w-full text-white">
       {/* 🎁 Modal Giới thiệu Ecosystem Reward (Show once) */}
-      <DialogEcosystemReward />
+      {/* <DialogEcosystemReward /> */}
 
       <div className="h-full relative py-14 lg:py-20 overflow-hidden">
         <article className="text-center relative z-10 pt-10 flex flex-col gap-2 justify-center items-center">
