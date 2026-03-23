@@ -1,0 +1,670 @@
+{
+    "common": {
+        "coming": "近日公開",
+        "submitYourApp": "アプリを提出",
+        "contactUs": "お問い合わせ",
+        "startBuilding": "エクスプローラー",
+        "start": "スタート",
+        "header": {
+            "button": "お問い合わせ",
+            "navbar": {
+                "home": "ホーム",
+                "about": {
+                    "company": "会社概要",
+                    "company_desc": "私たちのビジョンと核となる使命について知る。",
+                    "solution": "ソリューション",
+                    "solution_desc": "革新的なブロックチェーンインフラストラクチャ。",
+                    "news": "ニュース",
+                    "news_desc": "最新のアップデートと発表。",
+                    "whitepaper": "ホワイトペーパー",
+                    "whitepaper_desc": "技術文書と戦略的ビジョン。",
+                    "ourTeam": "私たちのチーム",
+                    "ourTeam_desc": "イノベーションを推進する専門家たち。",
+                    "tokenomic": "トークノミクス",
+                    "tokenomic_desc": "トークン配分と経済モデル。",
+                    "roadmap": "ロードマップ",
+                    "roadmap_desc": "戦略的なマイルストーンと将来の成長。",
+                    "community": "コミュニティ",
+                    "community_desc": "構築者のグローバルネットワークに参加しましょう。",
+                    "document": "ドキュメント",
+                    "document_desc": "公式ガイドと技術リソース。",
+                    "projectSpecs": "プロジェクト仕様",
+                    "projectSpecs_desc": "技術仕様と指標。",
+                    "pio_bnb": "PIO vs BNB",
+                    "pio_bnb_desc": "PIOとBNBの比較。",
+                    "pioneSwap": "Pione Swap",
+                    "pioneSwap_desc": "分散型取引プラットフォーム。",
+                    "pioneSuperApp": "Pione SuperApp",
+                    "pioneSuperApp_desc": "Web3への究極のゲートウェイ。",
+                    "pioneInvest": "Pione Invest",
+                    "pioneInvest_desc": "スマートなデジタル資産管理。",
+                    "pioneWallet": "Pione Wallet",
+                    "pioneWallet_desc": "安全な非自己管理型デジタルウォレット。",
+                    "pioneHouse": "Pione House",
+                    "pioneHouse_desc": "不動産RWAのデジタル化。",
+                    "pioneCare": "Pione Care",
+                    "pioneCare_desc": "ブロックチェーンベースのヘルスケアソリューション。",
+                    "pioneFarm": "Pione Farm",
+                    "pioneFarm_desc": "追跡可能な農業エコシステム。",
+                    "aboutUs": "私たちについて",
+                    "aboutUs_desc": "私たちの物語とコアバリューをご覧ください。"
+                },
+                "eco": "エコシステム",
+                "blockchain": "ブロックチェーン・エクスプローラー",
+                "application": "エコシステムへの適用",
+                "partner": "パートナー"
+            }
+        },
+        "footer": {
+            "poli": "ポリシーと規約",
+            "social": "ソーシャルネットワーク",
+            "item1": {
+                "policy": "プライバシーポリシー",
+                "term": "利用規約"
+            }
+        }
+    },
+    "blockchain": {
+        "title": "Web3企業向け統合型パブリック＆プライベートブロックチェーンインフラ",
+        "explore": "探る",
+        "description": "PioneChainは、ZeroscanのガスフリーのパブリックブロックチェーンとPionescanの企業向けプライベートチェーンを統合し、スケーラブルでセキュア、コンプライアンス対応のWeb3ソリューションを提供します。",
+        "card1": {
+            "type": "パブリックブロックチェーン",
+            "link": "zeroscan.org",
+            "description": "Zeroscan.orgは、さまざまな現実世界の適用分野でブロックチェーンアプリケーションを拡大するために設計されたガスフリーのパブリックブロックチェーンです。このシステムは、実世界資産（RWA）のデジタル化およびトークン化ソリューションの開発を支援し、物理世界とデジタル空間をセキュアで透明性が高く効率的な方法で接続することを目指しています。",
+            "features": {
+                "feature1": {
+                    "title": "ゼロガス手数料",
+                    "subtitle": "トランザクションの実行やスマートコントラクトのデプロイにガスコストがかからず、現実世界のアプリケーションでブロックチェーンをよりアクセスしやすくします。"
+                },
+                "feature2": {
+                    "title": "RWAトークン化",
+                    "subtitle": "不動産、商品、証明書などの実世界資産トークン化モデルを開発・運用するための強力なプラットフォーム。"
+                },
+                "feature3": {
+                    "title": "高い透明性とセキュリティ",
+                    "subtitle": "すべてのデータが公開され不変に保存されるため、すべてのトランザクションの完全性と信頼性が確保されます。"
+                },
+                "feature4": {
+                    "title": "スケーラビリティと統合性",
+                    "subtitle": "開発者向けのAPIとツールをサポートし、企業が既存システムにブロックチェーンを簡単に統合できるようにします。"
+                },
+                "feature5": {
+                    "title": "多業界適用",
+                    "subtitle": "サプライチェーン、農業、教育、医療、不動産管理などの業界に適用可能です。"
+                }
+            },
+            "vision": "Zeroscan.orgは、ブロックチェーン技術と現実生活の橋渡し役となることを目指し、Web3時代における包括的なデジタルトランスフォーメーションを推進します。"
+        },
+        "card2": {
+            "type": "プライベートブロックチェーン",
+            "link": "pionescan.com",
+            "description": "Pione Chainは、実世界資産（RWA）のトークン化およびセキュリティトークンの発行における企業ニーズに対応するために開発されたプライベートブロックチェーンプラットフォームです。このシステムは、セキュアでプライベート、高度にカスタマイズ可能なブロックチェーンインフラを提供し、企業が法令遵守のWeb3環境でデジタル化および資産管理ソリューションを効率的に展開できるようにします。",
+            "features": {
+                "feature1": {
+                    "title": "プライベートブロックチェーン",
+                    "subtitle": "組織や企業が独立したブロックチェーンネットワークを運用でき、データとトランザクションを内部で管理することでプライバシーとコントロールを強化します。"
+                },
+                "feature2": {
+                    "title": "資産およびセキュリティトークン化",
+                    "subtitle": "実世界資産（RWA）やデジタル証券を表すトークンの発行をサポートし、企業が資金調達、資産管理、所有権の透明性を向上させます。"
+                },
+                "feature3": {
+                    "title": "高いコントロールとカスタマイズ性",
+                    "subtitle": "企業は自社の運用要件に応じてガバナンスルール、トランザクションポリシー、検証メカニズムを定義できます。"
+                },
+                "feature4": {
+                    "title": "セキュリティとコンプライアンス",
+                    "subtitle": "高度な暗号化と認証レイヤーを統合し、フィンテックおよび企業セクターでの規制およびデータコンプライアンス基準を満たす支援をします。"
+                },
+                "feature5": {
+                    "title": "柔軟な接続性",
+                    "subtitle": "必要に応じてZeroscan.orgなどのパブリックブロックチェーンと相互接続または同期し、トランザクションを拡張したり透明性を高めたりできます。"
+                }
+            },
+            "status": {
+                "label": "稼働中"
+            },
+            "vision": "Pione Chainは、企業向けのリーディングプライベートブロックチェーンプラットフォームとなることを目指します — 組織が資産をデジタル化し、セキュリティトークンを発行し、伝統的な金融とデジタル経済を橋渡しするセキュアで効率的、透明なWeb3ソリューションを実現します。"
+        },
+        "card3": {
+            "type": "エンタープライズブロックチェーン",
+            "link": "pionescan.com",
+            "description": "Pione Chainは、実世界資産トークン化（RWA Tokenization）およびセキュリティトークンの発行を企業が支援するために開発されたプライベートブロックチェーンプラットフォームです。このシステムは、セキュアでプライベート、高度にカスタマイズ可能なブロックチェーンインフラを提供し、企業がWeb3環境でデジタル化アプリケーションを容易に展開し、資産を効率的かつ法令遵守で管理できるようにします。",
+            "features": {
+                "feature1": {
+                    "title": "エンタープライズグレードのブロックチェーンインフラ",
+                    "subtitle": "組織専用に設計された独立したブロックチェーンアーキテクチャで、すべての内部プロセスを完全にコントロールできる閉鎖型の高性能データ環境を提供します。"
+                },
+                "feature2": {
+                    "title": "エンタープライズコンセンサスプロトコル",
+                    "subtitle": "企業は独自のバリデーターを展開し、トランザクション検証に参加し、データライフサイクルを管理でき、透明性、自治性、独自の運用モデルとの整合性を確保します。"
+                },
+                "feature3": {
+                    "title": "包括的な資産デジタル化＆トークン化",
+                    "subtitle": "資産、文書、ワークフロー、商品をデジタル資産に変換し、運用フローを最適化、コントロールを強化し、専用スマートコントラクトによる自動化を可能にします。"
+                },
+                "feature4": {
+                    "title": "業界特化要件への柔軟なカスタマイズ",
+                    "subtitle": "ガバナンスルール、アクセス権限、トランザクション条件、運用基準の深いカスタマイズが可能で、金融、製造、物流、医療などの業界に適しています。"
+                },
+                "feature5": {
+                    "title": "多層セキュリティと国際コンプライアンス",
+                    "subtitle": "高度な暗号化、多層データ保護メカニズムを統合し、グローバル規制基準への準拠をサポートし、高要求セクターでのセキュアな企業運用を可能にします。"
+                },
+                "feature6": {
+                    "title": "Pioneエコシステムとの相互接続性",
+                    "subtitle": "Pione Chain（Layer-1）およびPione Zero Chain（Layer-2）とシームレスに接続し、企業が検証能力を拡張したり、データを共有したり、より広範なPioneバリューチェーンに統合したりできます。"
+                }
+            }
+        }
+    },
+    "aboutPage": {
+        "hero": {
+            "title": "Pione Chainについて",
+            "subtitle": "ブロックチェーンとAIのイノベーションを通じて、現実世界資産の可能性を解き放つ。",
+            "description": "Pione Chainは、デジタル資産と物理的世界の間のギャップを埋めるために特別に設計された次世代のレイヤー1ブロックチェーンプラットフォームです。最先端のAIと安全なブロックチェーンインフラを活用することで、企業や個人が前例のない透明性と効率性で現実世界の資産をトークン化、管理、拡張できるようにします。"
+        },
+        "missionVision": {
+            "mission": {
+                "title": "私たちの使命",
+                "description": "現実世界の資産をデジタル経済にシームレスに統合し、より包括的で効率的なグローバル金融システムを促進する、堅牢でスケーラブルな分散型イノベーションを提供すること。"
+            },
+            "vision": {
+                "title": "私たちのビジョン",
+                "description": "あらゆる物理的資産をデジタルで表現でき、誰もがどこでも流動性、セキュリティ、アクセシビリティを確保できる、RWAトークン化の世界的標準になること。"
+            }
+        },
+        "coreValues": {
+            "title": "私たちのコアバリュー",
+            "values": {
+                "innovation": {
+                    "title": "イノベーション",
+                    "description": "ブロックチェーンとAIで可能なことの境界を常に押し広げ、優れたソリューションを提供します。"
+                },
+                "transparency": {
+                    "title": "透明性",
+                    "description": "誠実さとオープンさは、私たちが構築するすべての核心であり、エコシステム全体で信頼を確保します。"
+                },
+                "security": {
+                    "title": "セキュリティ",
+                    "description": "厳格なセキュリティ基準と高度な技術により、ユーザーの資産の安全を最優先します。"
+                },
+                "impact": {
+                    "title": "現実世界への影響",
+                    "description": "現実生活の課題を解決し、有意義な変化を促進する実践的なアプリケーションの作成に焦点を当てています。"
+                }
+            }
+        }
+    },
+    "home": {
+        "banner": {
+            "welcome": "ようこそ",
+            "subTitle": "Pione Chainは、セキュリティ、透明性、AIイノベーションを備えた、現実世界資産（RWA）のトークン化を企業に提供する次世代のレイヤー1ブロックチェーンです。",
+            "button": "始める"
+        },
+        "possibleSection": {
+            "what": "PIONE CHAINで何ができるか？",
+            "possible": "可能",
+            "with": "PIONE CHAINと共に？",
+            "seeMore": "もっと見る",
+            "card1": {
+                "title": "Solidity互換、低コストで迅速にdAppsを構築",
+                "description": "即時のトランザクション確定と、現在のどの分散型ブロックチェーンプラットフォームをも凌駕する毎秒数千件のトランザクション処理能力を備えたdAppsをデプロイします。"
+            },
+            "card2": {
+                "title": "カスタム、プライベート、パブリックブロックチェーンの立ち上げ",
+                "description": "アプリケーションのニーズに合わせたブロックチェーンをデプロイします。独自の仮想マシンを構築し、ブロックチェーンの動作を正確に定義します。"
+            },
+            "card3": {
+                "title": "最小限のハードウェアで数百万のバリデーターに拡張",
+                "description": "PIONE CHAINをステークまたはロックして、トランザクションの処理とプラットフォームのセキュリティ強化を支援します。51%標準と比較して優れたレベルの安全性を提供します。"
+            }
+        },
+        "futureSection": {
+            "application": "アプリケーションと私たちの未来",
+            "future": " 私たちの未来",
+            "expand": "拡張性",
+            "futureVision": "未来のビジョンと拡張性",
+            "futureSupport": "開発者と企業へのサポート",
+            "description": "Pione Chainは、開発者や企業がEVM互換チェーン上のすべてのユースケースに対して、セキュリティとプライバシーを組み込んだカスタマイズされたロールアップをデプロイできるフレームワークを開発しています。",
+            "subDescription": "ユーザー体験を損なうことなく、次世代企業に分散型ウェブへのスムーズな移行を提供します。",
+            "card1": "UXの向上",
+            "card2": "ハイパースケーラビリティ",
+            "card3": "低コスト",
+            "card4": "高度なカスタマイズ",
+            "card5": "堅牢なセキュリティ",
+            "card6": "組み込みのプライバシー"
+        }
+    },
+    "ecosystem": {
+        "title": "エコシステム",
+        "comming": "近日公開",
+        "discover": "私たちのエコシステムを発見する",
+        "comming_content": "ブロックチェーン技術と人工知能（AI）を現実の生活に適用したエコシステムが、継続的に開発されています。",
+        "description": "単なる純粋なブロックチェーンプラットフォームではなく、Pione Chainは実用的なアプリケーションプロジェクトを通じて社会の現実的な問題を解決することを目指しています。",
+        "card1": {
+            "title": "Pione Node",
+            "description": "AIと量子技術を統合した次世代の暗号通貨マイナー。"
+        },
+        "card2": {
+            "title": "Pione House",
+            "description": "不動産の識別と認証のためのブロックチェーンアプリケーションソリューション。不動産市場における透明性の向上、リスクの低減、取引プロセスの最適化を目指します。"
+        },
+        "card3": {
+            "title": "Pione Bot",
+            "description": "AIと自動取引の統合。"
+        },
+        "card4": {
+            "title": "ExPione",
+            "description": "ExPIONEは、デジタル資産取引とセキュリティトークンへのアクセスを目指し、人工知能（AI）を統合して取引活動の効率を最適化し、セキュリティを強化します。"
+        },
+        "card5": {
+            "title": "Pione Mart",
+            "description": "安全で便利なショッピングのための分散型eコマース。"
+        },
+        "card6": {
+            "title": "Pione Farm",
+            "description": "生産から消費までの農産物トレーサビリティプラットフォーム。企業や協同組合のサプライチェーンを透明化し、ブランド価値を高め、農業セクターでの市場信頼を強化します。"
+        },
+        "card7": {
+            "title": "Pione Game",
+            "description": "Web3ブロックチェーンゲームプラットフォーム。プレイヤー体験の革新とデジタル経済価値の創出。"
+        },
+        "card8": {
+            "title": "Pione Care",
+            "description": "ブロックチェーンを基盤とした個人健康記録管理システム。医療機関やコミュニティがデータをデジタル化し、情報のセキュリティを確保し、デジタル時代における医療効率を向上させます。"
+        },
+        "card9": {
+            "title": "Pione Wallet",
+            "description": "企業やユーザーがデジタル資産を安全・便利・確実に管理、保管、取引できるデジタル資産ウォレット – グローバルな分散型金融エコシステムへのゲートウェイです。"
+        },
+        "card10": {
+            "title": "Pione Swap",
+            "description": "Pione Swapは、ユーザーがデジタル資産やセキュリティトークンを迅速かつ効率的にスワップ、流動性提供、取引できる分散型取引所（DEX）プラットフォームです。"
+        },
+        "card11": {
+            "title": "Pione AI",
+            "description": "中小企業向けに顧客ケア、管理、業務運営をパーソナライズしてサポートするAIツール。"
+        },
+        "card12": {
+            "title": "Pione Smart",
+            "description": "デジタル資産を商品やサービスの購入に変換できる分散型eコマースプラットフォーム。迅速かつ安全な取引を可能にし、国境を越えた取引もサポートします。"
+        },
+        "card13": {
+            "title": "Pione Star",
+            "description": "Pione Star – ユーザーが自身のデータを所有し、責任を持ってコミュニティとつながる透明で信頼できるソーシャルネットワーク。"
+        },
+        "card14": {
+            "title": "Pione Dapps Store",
+            "description": "Web3コミュニティの強力な成長を支援する分散型dAppsストア。"
+        },
+        "card15": {
+            "title": "Pione Security",
+            "description": "企業が株式市場のデジタルトランスフォーメーションを支援し、ブロックチェーン上で効率的に発行・管理するプラットフォーム。"
+        },
+        "card16": {
+            "title": "Pione Dream",
+            "description": "「Startup Dream」 – テクノロジースタートアップとグローバル投資家をつなぎ、画期的なプロジェクトを推進するプラットフォーム。"
+        },
+        "card17": {
+            "title": "Pione Charity",
+            "description": "分散型慈善基金。ブロックチェーンを活用してすべての寄付を透明化し、コミュニティの信頼と責任を強化します。"
+        },
+        "card21": {
+            "title": "Security Tokens",
+            "description": "Security Tokensは、株式や伝統的な証券をブロックチェーン上でデジタル化するもので、資本市場に透明性、柔軟性、グローバル化の新時代を開きます。PIONE GROUPが開発したソリューションは、PioneWallet、PioneHouseなどを含むエコシステムに統合されています。"
+        },
+        "card22": {
+            "title": "Pione Zero",
+            "description": "ガスフリーのブロックチェーンプラットフォーム。AI＆ブロックチェーン時代における企業のデジタルトランスフォーメーションと実用的なアプリケーション展開を促進します。"
+        },
+        "card23": {
+            "title": "Pione Super App",
+            "description": "企業向けデジタルトランスフォーメーションソリューション、デジタル資産管理、支払い、ブロックチェーンプラットフォーム上での透明な税務請求書発行を提供するアプリケーション。"
+        },
+        "card24": {
+            "title": "Pione POAT",
+            "description": "企業向けデジタルトランスフォーメーションソリューション、デジタル資産管理、支払い、ブロックチェーンプラットフォーム上での透明な税務請求書発行を提供するアプリケーション。"
+        },
+        "card25": {
+            "title": "Pione Solution",
+            "description": "Pione Solutionは、資産トークン化、ブロックチェーン、AI、アプリケーション開発に焦点を当てた包括的なソフトウェアソリューションを提供します。企業が安全、透明、持続可能な方法でデジタルトランスフォーメーションを実現するお手伝いをします。"
+        },
+        "card26": {
+            "title": "StealthEX",
+            "description": "最適な暗号通貨交換レートを探す：Bitcoin、Ethereum、Litecoin、XRP、Chainlinkなど、1400以上の暗号通貨が即時ノンカストディアル交換可能です。"
+        },
+        "card27": {
+            "title": "PinkSale",
+            "description": "PinkSaleは、数秒で独自のトークンとトークンセールを作成できるように支援します。PinkSaleで作成されたトークンは検証され、エクスプローラーウェブサイトで公開されます。"
+        },
+        "card28": {
+            "title": "DEXView",
+            "description": "DexView - リアルタイム価格チャート、取引履歴、トークンスワップ、ウォレットポートフォリオ、Ethereum、BNBChain、Polygon、Avalanche、Fantom、Arbitrum、Cronos、OptimismなどのマルチチェーンDEXのトークン情報。"
+        }
+    },
+    "ourTeam": {
+        "title": "私たちのチーム",
+        "subTitle": "先見の明のあるイノベーターの集団",
+        "empty": "チーム情報は近日公開予定です。"
+    },
+    "community": {
+        "banner": {
+            "title": "コミュニティに参加する",
+            "subtitle": "Pione Chainに参加することは、世界中のイノベーター、開発者、ブロックチェーン愛好家の絶えず拡大するネットワークに参加することを意味します。",
+            "joinTelegram": "Pione Telegramに参加",
+            "getSupport": "サポートを受ける"
+        },
+        "social": {
+            "title": "つながる",
+            "subtitle": "友達を見つけ、製品を構築し、あなたのコミュニティを発見しましょう。",
+            "members": "メンバー",
+            "channels": {
+                "telegram": "公式コミュニティに参加",
+                "twitter": "最新情報をフォロー",
+                "facebook": "更新情報やニュースをチェック",
+                "tiktok": "チュートリアルや動画を見る",
+                "reddit": "Redditで議論に参加",
+                "medium": "詳細な記事を読む",
+                "discord": "コミュニティとチャット",
+                "youtube": "チュートリアルや更新情報を視聴",
+                "slack": "Slack経由でつながる"
+            }
+        },
+        "involved": {
+            "title": "参加する",
+            "subtitle": "あなたの声を届けてください — Pione Chainに貢献しましょう",
+            "items": {
+                "docs": {
+                    "title": "ドキュメント",
+                    "description": "公式ドキュメントを活用して、Pioneでの学習と構築を始めましょう。"
+                },
+                "roadmap": {
+                    "title": "ロードマップ",
+                    "description": "私たちの歩みを追跡し、Pione Chainの公式ロードマップのマイルストーンを探索してください。"
+                }
+            },
+            "ecosystem": {
+                "title": "Pioneエコシステム",
+                "subtitle": "最も人気のあるdApps、ソリューションプロバイダー、その他のエコシステムイネーブラーを1か所で探索できます。",
+                "button": "エコシステムを探索",
+                "projects": {
+                    "wallet": "Pione Chainで資産を安全に管理",
+                    "swap": "最小限の手数料と高速なスピードでトークンを交換",
+                    "ai": "ブロックチェーンデータのためのインテリジェントなソリューション",
+                    "scan": "Pioneのための包括的なブロックエクスプローラー",
+                    "bot": "トレーディングとアラートを自動化",
+                    "dapp": "分散型アプリケーションプラットフォーム"
+                }
+            }
+        },
+        "events": {
+            "title": "イベント",
+            "subtitle": "Pione Chainがこれまで歩んできた道のりと、現在の目的地を確認してください"
+        }
+    },
+    "roadmap": {
+        "title": "ロードマップ",
+        "subTitle": "Pione Chainの開発ロードマップは、重要なマイルストーンと共に明確に示されており、エコシステムの構築と拡大に対するチームのコミットメントを実証しています。このロードマップは各段階に分かれており、それぞれが安定した持続可能な開発を確実にするための特定の目標に焦点を当てています。",
+        "September 5, 2019": "September 5, 2019",
+        "IDEA PLANNING": "PROJECT IDEATION - PRACTICAL BLOCKCHAIN DIRECTION",
+        "description1": "Building on years of experience in information technology and software development since 2014, the team identified the potential of blockchain for real-world applications starting in 2017. Initial research focused on traceability solutions and decentralized transaction models.",
+        "November 11, 2021": "November 11, 2021",
+        "LAUNCH OF SWAPTOBE (TOBECHAIN)": "LAUNCH OF SWAPTOBE & TOBECHAIN - ECOSYSTEM PILOT PHASE",
+        "description2": "SwapTobe and the TobeChain ecosystem were launched as pilot implementations. Blockchain technology was applied across sectors such as agriculture, real estate, and healthcare to validate practical use cases.",
+        "January 1, 2024": "January 1, 2024",
+        "PROJECT TOBECHAIN RENAMED TO PIONE CHAIN": "PROJECT REPOSITIONING - REBRANDING TO PIONE CHAIN",
+        "description3": "The TobeChain project was officially repositioned and rebranded as Pione Chain. Pione Labs was established with a specialized technical team, focusing on the integration of Blockchain, AI, Metaverse, and IoT to develop a dedicated ecosystem.",
+        "November 23, 2024": "November 23, 2024",
+        "PIONE GROUP ESTABLISHED": "ESTABLISHMENT OF PIONE GROUP - OPERATIONAL STRUCTURE COMPLETION",
+        "description4": "PIONE LABS LLC and PIONE GROUP JSC were established, marking the completion of the project's organizational structure. Operations expanded across multiple countries, laying the foundation for global ecosystem development.",
+        "February 17, 2025": "February 17, 2025",
+        "PIONE CHAIN OFFICIALLY LAUNCHED": "LAUNCH OF PIONE CHAIN - BLOCKCHAIN WITH AI-BASED DATA TRACING (PoAT)",
+        "description5": "Pione Chain officially entered operation with a focus on enabling practical blockchain applications. Leveraging the Proof of Artificial Intelligence Tracing (PoAT) consensus mechanism, the platform aims to build digital infrastructure for the Real World Asset (RWA) economy, with Pione Wallet serving as the central ecosystem access point.",
+        "April 4, 2025": "April 4, 2025",
+        "PIONE WALLET OFFICIALLY LAUNCHED": "LAUNCH OF PIONE WALLET - RWA ECOSYSTEM GATEWAY",
+        "description6": "Pione Wallet was introduced as a multi-chain, non-custodial wallet within the Pione Chain ecosystem. It enables users to manage digital assets and access RWA-oriented blockchain applications across real-life sectors.",
+        "June 1, 2025": "June 1, 2025",
+        "REGISTER TO PARTICIPATE IN SANDBOX FOR PILOT DEPLOYMENT OF TYPICAL ECOSYSTEMS": "SANDBOX PARTICIPATION - REGULATED PILOT DEPLOYMENT",
+        "description7": "The project joined regulatory sandbox programs to assess the feasibility of selected ecosystems within controlled legal environments. This phase prepares the foundation for broader real-world deployment.",
+        "Quarter 4, 2025": "Quarter 4, 2025",
+        "THE OFFICIAL LISTING OF PIO COIN ON DIGITAL ASSET EXCHANGES": "DEX LISTING - INTERNATIONAL ACCESS & RWA VALIDATION",
+        "THE OFFICIAL LISTING OF PIO COIN ON DIGITAL ASSET EXCHANGES2": "PIONE SOLUTION - WEB2 TO WEB3 TRANSFORMATION FOR ENTERPRISES",
+        "description8": "Pione Chain (PIO) was listed on decentralized exchange platforms to expand international accessibility. This phase focuses on ecosystem testing and the progressive integration of Real World Assets into practical use.",
+        "description82": "Solutions were introduced to support enterprises in transitioning processes, data, and services from Web2 to Web3. The platform enables structured and efficient blockchain adoption in the digital era.",
+        "December 2025": "December 2025",
+        "launch DEX P2P (Pioneswap.com)": "LAUNCH OF PIONE SWAP - DECENTRALIZED P2P TRADING GATEWAY",
+        "descriptiondec": "Pione Swap was launched as a decentralized P2P trading gateway, enabling direct peer-to-peer digital asset transactions. The platform emphasizes transparency, security, and real-world usability.",
+        "Pione Dream Start up": "PIONE DREAM - STARTUP & INVESTOR CONNECTIVITY PLATFORM",
+        "descriptiondec2": "Pione Dream provides a transparent environment connecting startups with investors, improving capital access and supporting innovation within the ecosystem.",
+        "January 2026": "January 2026",
+        "DIGITAL HEALTHCARE & SUPER APP PAYMENT DEVELOPMENT": "PIONE HOUSE - REAL ESTATE RWA DIGITIZATION & IDENTITY",
+        "description9": "Pione House applies blockchain technology to the digitization, identification, and verification of real estate assets. The platform enhances transparency and integrates real estate into the RWA ecosystem.",
+        "Quarter 1, 2026": "Quarter 01, 2026",
+        "Listing on centralized exchanges (CEXs) to expand international markets and drive sustainable growth across the Pione Chain ecosystem": "CEX LISTING - GLOBAL COMMUNITY EXPANSION",
+        "description17": "Pione Chain (PIO) was listed on centralized exchanges to broaden access for the international community. This milestone supports large-scale ecosystem testing and sustainable growth.",
+        "April 2026": "April 2026",
+        "Pioneer Security – Digitalization of Securities Assets for the RWA Era": "PIONE SECURITY - SECURITY TOKENS FOR THE RWA ERA",
+        "description10": "Pione Security was launched to support the digital transformation of traditional securities through blockchain-based issuance and management, aligned with RWA market trends.",
+        "June, 2026": "June, 2026",
+        "DIGITAL MEDICAL DEVELOPMENT & PAYMENT SUPER APP": "LAUNCH OF PIONE CARE & SUPER APP - DIGITAL HEALTHCARE & PAYMENTS",
+        "description11": "Pione Care integrates blockchain and AI into healthcare data management. In parallel, the Pione Super App was launched, offering integrated digital wallet, payment, e-invoicing, and daily financial services.",
+        "September 2026": "September 2026",
+        "DEPLOYING PIONE FARM AGRICULTURAL ECOSYSTEM": "PIONE FARM - BLOCKCHAIN-BASED AGRICULTURAL ECOSYSTEM",
+        "description12": "Pione Farm applies blockchain, AI, and IoT to agricultural identification and traceability. The ecosystem aims to enable transparent and sustainable agricultural supply chain management.",
+        "Quarter 2, 2026": "Quarter 2, 2026",
+        "Pione BOS Chain Mainnet Launch": "LAUNCH OF PIONE BOS CHAIN - ENTERPRISE & RWA PRIVATE BLOCKCHAIN",
+        "description16": "PIONE BOS Chain was introduced as a private, enterprise-focused blockchain supporting Real World Asset digitization, security token issuance, and secure Web3 deployments, bridging traditional finance with the digital economy.",
+        "Quarter 4, 2026": "Quarter 4, 2026",
+        "Officially putting the ecosystem into practice according to RWA orientation - OFFICIALLY BRINGING THE PIONE CHAIN ​​ECOSYSTEM INTO PRACTICE": "RWA ECOSYSTEM DEPLOYMENT INTO REAL-WORLD OPERATIONS",
+        "description13": "Core Pione Chain ecosystems—including Pione AI, Pione Star, Pione Game, and Pione Mart—entered operational phases by sector. Independent management models were applied to optimize long-term value aligned with RWA trends.",
+        "Quarter 1, 2027": "January, 2027",
+        "Pione Chain Ecosystem Operates Strongly": "LAUNCH OF PIONE STAR – TRANSPARENT BLOCKCHAIN SOCIAL NETWORK",
+        "description14": "Pione Star is introduced as a transparent, blockchain-based social network where user data and content are verified on-chain. This ecosystem lays the groundwork for RWA models linked to digital identity, social data, and social value.",
+        "April 1, 2028": "Ngày 1 tháng 4 năm 2028",
+        "IPO - Listing security tokens (PIO) on an international stock exchange": "IPO & NIÊM YẾT TOKEN CHỨNG KHOÁN QUỐC TẾ",
+        "description15": "Triển khai lộ trình IPO và niêm yết token chứng khoán (STO) trên sàn giao dịch quốc tế. Cột mốc này nhằm củng cố vị thế và mở rộng quy mô Pione Group trên toàn cầu.",
+        "October 2026": "October, 2026",
+        "CORE INFRASTRUCTURE OPERATION - FOUNDATION FOR THE RWA ECOSYSTEM": "CORE INFRASTRUCTURE OPERATION – FOUNDATION FOR THE RWA ECOSYSTEM",
+        "description18": "The core infrastructure of Pione Chain, including the Pione Chain blockchain, Pione Wallet, and essential technical components, is fully completed and enters stable operation. This phase establishes the foundational layer for deploying Real World Asset (RWA) application ecosystems in subsequent stages.",
+        "December 2026": "December, 2026",
+        "LAUNCH OF PIONE DAPPSTORE – RWA APPLICATION GATEWAY": "LAUNCH OF PIONE DAPPSTORE – RWA APPLICATION GATEWAY",
+        "description19": "Pione dAppStore officially launches as the decentralized application marketplace of the Pione Chain ecosystem. The platform focuses on distributing dApps related to real-world asset digitization, data traceability, and RWA management on blockchain.",
+        "march 2027": "March, 2027",
+        "LAUNCH OF PIONE CHARITY – TRANSPARENT COMMUNITY CONTRIBUTIONS": "LAUNCH OF PIONE CHARITY – TRANSPARENT COMMUNITY CONTRIBUTIONS",
+        "description20": "Pione Charity leverages blockchain to manage and trace charitable resources, including financial flows, supplies, and community assets. The platform expands RWA applications into the social sector, strengthening transparency and community trust.",
+        "May 2027": "May, 2027",
+        "LAUNCH OF PIONE GAME – RWA-ENABLED WEB3 GAMING PLATFORM": "LAUNCH OF PIONE GAME – RWA-ENABLED WEB3 GAMING PLATFORM",
+        "description21": "Pione Game is launched as a Web3 gaming platform integrating crypto assets and NFTs that represent real-world value. This ecosystem extends RWA applications into digital entertainment, bridging gaming experiences with the real economy.",
+        "July 2027": "July, 2027",
+        "LAUNCH OF PIONE MART – DECENTRALIZED E-COMMERCE MARKETPLACE": "LAUNCH OF PIONE MART – DECENTRALIZED E-COMMERCE MARKETPLACE",
+        "description22": "Pione Mart is a decentralized e-commerce platform that enables users to convert crypto assets into purchases of real-world goods and services. With asset verification and traceability features, Pione Mart brings RWA into everyday commercial transactions.",
+        "September 2027": "September, 2027",
+        "LAUNCH OF PIONE PAY – PAYMENT BRIDGE FOR RWA APPLICATIONS": "LAUNCH OF PIONE PAY – PAYMENT BRIDGE FOR RWA APPLICATIONS",
+        "description23": "Pione Pay is introduced as a solution that enables the conversion and payment of legally permitted services using crypto assets through a controlled intermediary mechanism. The platform serves as a bridge between crypto assets and real-world economic activities.",
+        "November 2027": "November, 2027",
+        "STABLE OPERATIONS & INTERNATIONAL RWA ECOSYSTEM EXPANSION": "STABLE OPERATIONS & INTERNATIONAL RWA ECOSYSTEM EXPANSION",
+        "description24": "The entire Pione Chain ecosystem enters a phase of optimized performance and stable operations. The focus shifts toward expanding RWA models into international markets through community growth, partnerships, and real-world application scenarios.",
+        "January 2028": "January, 2028",
+        "INITIATION OF IPO & SECURITY TOKEN (STO) ROADMAP": "INITIATION OF IPO & SECURITY TOKEN (STO) ROADMAP",
+        "description25": "The project initiates preparations for an IPO and the structuring of security token issuance (STO), aiming to digitize financial assets and expand the RWA ecosystem at the institutional level.",
+        "April 2028": "April, 2028",
+        "SECURITY TOKEN ISSUANCE PILOT (STO PILOT)": "SECURITY TOKEN ISSUANCE PILOT (STO PILOT)",
+        "description26": "A pilot phase for security token issuance is launched to validate asset digitization, management processes, and on-chain transparency before scaling to broader deployment.",
+        "July–September 2028": "July–September, 2028",
+        "IPO / STO EXECUTION – COMPLETION OF A GLOBAL RWA ECOSYSTEM": "IPO / STO EXECUTION – COMPLETION OF A GLOBAL RWA ECOSYSTEM",
+        "description27": "The IPO and STO are executed according to the established roadmap, marking the completion of Pione Chain as a global-scale blockchain platform dedicated to Real World Assets (RWA)."
+    },
+    "tokenomic": {
+        "title": "トークノミクス",
+        "subTitle": "PIOトークンを獲得するさまざまな方法を探索しましょう",
+        "item1": {
+            "title": "NFTミインティング 10%",
+            "description": "TGE 100%。新しいNFTが発行されると、同等のPIOが永久にバーンされ、総供給量が減少します。これにより、ネイティブコインPIOの希少性と本質的な価値が高まります。"
+        },
+        "item2": {
+            "title": "エアドロップ 5%",
+            "description": "TGE 5%、1ヶ月間のクリフ（据置期間）、その後24ヶ月にわたる残りの95%の月次リニア（直線的）配布"
+        },
+        "item3": {
+            "title": "ステーキング 25%",
+            "description": "TGE 0%、0ヶ月のクリフ、120ヶ月にわたる100%の月次リニア配布"
+        },
+        "item4": {
+            "title": "コアチーム 10%",
+            "description": "TGE 0%、12ヶ月のクリフ、その後4ヶ月間で15%を月次リニア配布、続く6ヶ月間で20%を月次リニア配布、最終的に24ヶ月間で残りの65%を月次リニア配布"
+        },
+        "item5": {
+            "title": "エコシステム構築 30%",
+            "description": "TGE 0%、12ヶ月のクリフ、96ヶ月にわたる100%の月次リニア配布"
+        },
+        "item6": {
+            "title": "顧問 5%",
+            "description": "TGE 0%、6ヶ月のクリフ、24ヶ月にわたる100%の月次リニア配布"
+        },
+        "item7": {
+            "title": "投資家 5%",
+            "description": "TGE 0%、6ヶ月のクリフ、24ヶ月にわたる100%の月次リニア配布"
+        },
+        "item8": {
+            "title": "ノードバリデーター 10%",
+            "description": "TGE 0%、12ヶ月のクリフ、36ヶ月にわたる100%の月次リニア配布"
+        }
+    },
+    "terms": {
+        "Last updated February 2, 2025": "最終更新日：2025年2月2日",
+        "des1": "本利用規約は、お客様個人または企業を代表して（「お客様」）、PIONE Chain（「当社」、「当社を」、「当社の」）との間で締結される法的拘束力のある契約であり、お客様によるPIONEscan.comウェブサイトへのアクセスおよび利用、ならびに、これらに関連、付随、または接続されたその他のメディア形式、メディアチャネル、モバイルウェブサイト、またはモバイルアプリケーション（総称して「本サイト」）へのアクセスおよび利用に関するものです。",
+        "1. Acceptance of Terms": "1. 規約の承諾",
+        "des2": "本サービスにアクセスまたは利用することで、お客様は本規約および参照によって組み込まれたすべての規約に拘束されることに同意したものとみなされます。本規約のすべてに同意いただけない場合は、本サービスへのアクセスまたは利用はできません。",
+        "2. Description of Service": "2. サービスの説明",
+        "des3": "PIONE Chainプラットフォームは、分散型ブロックチェーンネットワークおよび関連サービスを提供します。これには、スマートコントラクトの実行、トークン取引、およびデータストレージが含まれますが、これらに限定されません。",
+        "3. User Registration": "3. ユーザー登録",
+        "des4": "本サービスの特定の機能を利用するために、アカウントの作成を求められる場合があります。アカウント作成にあたり、正確かつ完全な情報を提供することに同意するものとします。お客様は、ご自身のアカウント資格情報の機密保持、およびお客様のアカウント下で行われるすべての活動に対して単独で責任を負います。",
+        "4. Information Collection": "4. 情報の収集",
+        "4.1 Collection of Personal Information": "4.1 個人情報の収集",
+        "des5": "当社は、お客様による本サービスの利用に関連してお客様に関する情報を収集します。収集された情報の一部は、お客様またはお客様のデバイスを特定するデータ、または合理的に関連付け可能なデータとして定義される「個人情報」に該当する場合があります。収集される個人情報のカテゴリは、選択されたサービスの性質によって異なります。さらに、当社は、お客様やお客様のデバイスを合理的に特定しない統計情報や匿名化された情報を収集、利用、および開示することがあり、これらは個人情報とはみなされません。",
+        "4.2 Information Provided by Users": "4.2 ユーザーから提供される情報",
+        "des6": "当社は、以下を含む（ただしこれらに限定されない）お客様から提供された情報を収集します：",
+        "des7": "通信およびフィードバック：お客様が直接当社に連絡した際、または当社のサービスに関するコメント、フィードバック、提案を提供した際に提供される情報を収集します。",
+        "des8": "ビジネス関係：お客様がベンダー、サービスプロバイダー、またはビジネスパートナーである場合、お客様および提供されるサービスに関する情報（お客様またはお客様の従業員のビジネス連絡先情報、およびお客様またはお客様の従業員がサービスの提供に関連して、かつ当社との契約に従って提供したその他の情報を含む）を収集する場合があります。",
+        "des9": "その他の詳細：年齢、性別、およびお客様が提供することを選択したその他の情報など、お客様に関連する、または関連付けられる可能性のある情報も収集します。",
+        "4.3 Automatically Collected Information": "4.3 自動的に収集される情報",
+        "des10": "当社のサービスを利用する際、当社はお客様またはお客様のネットワークデバイス（コンピュータやモバイルデバイスを含む）に関連する特定の情報を自動的に収集または受領する場合があります。これには、お客様の本サービスの利用に関する情報や好みが含まれます。このような情報は、クッキー、ピクセル、ビーコン、スクリプト、その他のテクノロジーなどのデバイスベースのトラッキングテクノロジーを通じて自動的に収集される場合があります。",
+        "des11": "自動的に収集される情報には、お客様のデバイスのおおよその位置を特定する詳細情報や、お客様のおおよその位置を推定するために使用されるIPアドレスなどの、地理位置情報データも含まれる場合があります。",
+        "4.4 Information from Partners": "4.4 パートナーからの情報",
+        "des12": "当社は、その他の信頼できる情報源から情報を取得します。これらのビジネスパートナーには、モバイルネットワークオペレーター、特定の政府機関、ライセンス機関などが含まれる場合があります。",
+        "4.5 Information Provided Through Social Media": "4.5 ソーシャルメディアを通じて提供される情報",
+        "des13": "お客様がソーシャルメディアプラットフォーム経由で当社に接続したり、当社のサイトからソーシャルメディアプラットフォームに移動したりする場合、そのソーシャルメディアプラットフォームは独自にお客様の情報を収集します。ソーシャルメディアプラットフォームがお客様の情報をどのように使用しているか、およびその情報に関するお客様の権利を理解するために、各プラットフォームのプライバシーポリシーを確認することをお勧めします。",
+        "4.4 Derived Information": "4.6 派生情報",
+        "des14": "当社は、お客様から直接、受動的に、または第三者を通じて収集された情報に基づいて、追加情報を導き出したり、お客様に関する結論を引き出したりする場合があります。",
+        "5. Intellectual Property Rights": "5. 知的財産権",
+        "des15": "本サービス、およびその独自のコンテンツ、特徴、機能は、PIONE Chainおよびそのライセンサーの独占的財産であり、今後もそうあり続けます。本サービスは、米国および諸外国の著作権法、商標法、その他の法律によって保護されています。当社の商標およびトレードドレスは、PIONE Blockchainの事前の書面による同意なしに、いかなる製品またはサービスに関しても使用することはできません。",
+        "6. Mobile Application License": "6. モバイルアプリケーションライセンス",
+        "6.1 Use License": "6.1 使用ライセンス",
+        "des16": "モバイルアプリケーションを通じて本サイトにアクセスする場合、当社はお客様に対し、お客様が所有または管理するワイヤレス電子デバイスにモバイルアプリケーションをインストールして使用し、本利用規約に含まれる本モバイルアプリケーションライセンスの条件に厳密に従って、当該デバイス上でモバイルアプリケーションにアクセスして使用するための、取り消し可能、非独占的、譲渡不能な限定的な権利を付与します。",
+        "You shall not:": "以下の行為を禁止します：",
+        "des17": "アプリケーションの逆コンパイル、リバースエンジニアリング、逆アセンブル、ソースコードの抽出試行、または暗号解読を行うこと。",
+        "des18": "アプリケーションの修正、適応、改善、翻訳、または派生著作物の作成を行うこと。",
+        "des19": "アプリケーションへのアクセスまたは利用に関連して、適用される法律、規則、または規制に違反すること。",
+        "des20": "当社またはアプリケーションのライセンサーによって表示される所有権通知（著作権または商標の通知を含む）を削除、改変、または隠すこと。",
+        "des21": "収益創出目的、商業企業、または設計・意図されていない目的でアプリケーションを使用すること。",
+        "des22": "ネットワーク、または複数のデバイスやユーザーによる同時アクセスや利用を可能にする環境でアプリケーションを利用可能にすること。",
+        "des23": "アプリケーションを使用して、アプリケーションと直接的または間接的に競合する、あるいは何らかの形で代替となる製品、サービス、またはソフトウェアを作成すること。",
+        "des24": "アプリケーションを使用して、ウェブサイトへの自動クエリ送信や、未承諾の商業電子メールの送信を行うこと。",
+        "des25": "アプリケーションと共に使用することを目的としたアプリケーション、アクセサリ、またはデバイスの設計、開発、製造、ライセンス供与、または配布において、独自の所有情報、あるいは当社のインターフェースやその他の知的財産を使用すること。",
+        "6.2 Apple and Android Devices": "6.2 AppleおよびAndroidデバイス",
+        "des26": "Apple StoreまたはGoogle Play（それぞれ「アプリディストリビューター」）から取得したモバイルアプリケーションを使用して本サイトにアクセスする場合、以下の条件が適用されます：",
+        "des27": "当社のモバイルアプリケーションに対してお客様に付与されるライセンスは、Apple iOSまたはAndroidオペレーティングシステム（場合による）を使用するデバイス上で、適用されるアプリディストリビューターの利用規約に定められた使用規則に従ってアプリケーションを使用するための譲渡不能なライセンスに限定されます。",
+        "des28": "当社は、本利用規約に含まれる本モバイルアプリケーションライセンスの条件、または適用法によって義務付けられる範囲で、モバイルアプリケーションに関するメンテナンスおよびサポートサービスを提供する責任を負い、各アプリディストリビューターはモバイルアプリケーションに関するメンテナンスまたはサポートサービスを提供する義務を一切負わないことをお客様は認めるものとします。",
+        "des29": "モバイルアプリケーションが適用される保証に従わない場合、お客様は該当するアプリディストリビューターに通知することができ、アプリディストリビューターはその規約およびポリシーに従って、モバイルアプリケーションの購入価格（もしあれば）を返金する場合があります。また、適用法で認められる最大限の範囲で、アプリディストリビューターはモバイルアプリケーションに関してその他のいかなる保証義務も負わないものとします。",
+        "des30": "お客様は、(i) 米国政府の通商禁止措置の対象となっている国、または米国政府によって「テロ支援」国として指定されている国に居住していないこと、および (ii) お客様が米国政府の禁止または制限当事者リストに掲載されていないことを表明し、保証するものとします。",
+        "des31": "お客様は、モバイルアプリケーションを使用する際に、適用されるサードパーティの契約条件を遵守する必要があります。例えば、VoIPアプリケーションを使用している場合、モバイルアプリケーションの使用時にサードパーティのワイヤレスデータサービス契約に違反してはなりません。",
+        "des32": "お客様は、アプリディストリビューターが本利用規約に含まれる本モバイルアプリケーションライセンスの条件のサードパーティ受益者であることを認識し、同意するものとし、各アプリディストリビューターは、本利用規約に含まれる本モバイルアプリケーションライセンスの条件を、サードパーティ受益者としてお客様に対して強制する権利（およびその権利を承諾したとみなされる）を有します。",
+        "7. Social Media": "7. ソーシャルメディア",
+        "des33": "本サイトの機能の一部として、お客様は、(1) サードパーティのアカウントのログイン情報を本サイトを通じて提供するか、あるいは、(2) お客様による各サードパーティのアカウントの使用を規定する適用条件で許可されている範囲で、当社にお客様のサードパーティのアカウントへのアクセスを許可することにより、お客様のアカウントをサードパーティのサービスプロバイダーが保有するオンラインアカウント（各「サードパーティのアカウント」）と連携させることができます。",
+        "des34": "お客様は、適用されるサードパーティのアカウントの使用を規定する条件のいずれにも違反することなく、かつ、当社に料金の支払いを義務付けたり、当該サードパーティのサービスプロバイダーが課す利用制限を課したりすることなく、サードパーティのアカウントのログイン情報を当社に開示し、かつ/または当社のアクセスを許可する権利があることを表明し、保証するものとします。",
+        "des35": "当社にいかなるサードパーティのアカウントへのアクセスも許可することにより、お客様は、(1) 当社が、お客様がサードパーティのアカウントに提供し保存したコンテンツ（「ソーシャルネットワークコンテンツ」）にアクセスし、本サイトを利用して利用可能にし、かつ（該当する場合は）保存する場合があること、および (2) 当社が、お客様がサードパーティのアカウントとお客様のアカウントを連携させる際に通知される範囲で、お客様のサードパーティのアカウントに追加の情報を送信したり、同アカウントから追加の情報を受信したりする場合があることを理解するものとします。",
+        "des36": "お客様が選択したサードパーティのアカウントにより、かつ当該アカウントで設定したプライバシー設定に従って、お客様がサードパーティのアカウントに投稿した個人を特定できる情報は、本サイトのお客様のアカウント上および同アカウントを通じて利用可能になる場合があります。",
+        "des37": "サードパーティのアカウントまたは関連サービスが利用不能になった場合、あるいは当社による当該アカウントへのアクセスがサードパーティのサービスプロバイダーによって終了された場合、ソーシャルネットワークコンテンツは本サイト上および同サイトを通じて利用不能になる可能性があることにご注意ください。お客様は、いつでも本サイトのアカウントとサードパーティのアカウントとの間の連携を無効にすることができます。",
+        "8. Privacy": "8. プライバシー",
+        "des38": "お客様の本サービスの利用には、当社のプライバシーポリシーが適用され、同ポリシーは参照用として本規約に組み込まれています。当社の情報の収集、利用、および開示に関する慣行を理解するために、当社のプライバシーポリシーをご確認ください。",
+        "9. Disclaimer of Warranties": "9. 保証の免責",
+        "des39": "本サービスは「現状有姿」かつ「利用可能な範囲」で提供され、明示または黙示を問わず、いかなる種類の保証も行いません。PIONE Blockchainは、商品性、特定の目的への適合性、および権利侵害の不在に関する黙示の保証を含むがこれらに限定されない、すべての保証を免責します。",
+        "10. Limitation of Liability": "10. 責任の限定",
+        "des40": "いかなる場合においても、PIONE Chain、ならびにその取締役、従業員、パートナー、代理人、提供者、または提携先は、(i) お客様の本サービスへのアクセス、利用、またはアクセス不能もしくは利用不能、(ii) 本サービス上の第三者の作為またはコンテンツ、(iii) 本サービスから取得されたコンテンツ、および (iv) お客様の送信内容またはコンテンツへの不正アクセス、利用、または改ざんから生じる、利益、データ、使用、営業権、またはその他の無形資産の損失を含むがこれらに限定されない、間接的、付随的、特別、結果的、または懲罰的損害賠償に対して、保証、契約、不法行為（過失を含む）、またはその他の法的理論に基づいているかどうかにかかわらず、当社が当該損害の可能性について知らされていたとしても、また本書に記載された救済措置がその本質的な目的を達していないことが判明した場合でも、一切の責任を負わないものとします。",
+        "11. Governing Law": "11. 準拠法",
+        "des41": "本規約は、法の抵触に関する規定にかかわらず、セントビンセントの法律に準拠し、同法に従って解釈されるものとします。",
+        "12. Changes to Terms": "12. 規約の変更",
+        "des42": "PIONE Chainは、独自の裁量により、いつでも本規約を修正または変更する権利を留保します。修正が重大なものである場合、新しい規約が効力を発する少なくとも30日前に通知を行います。何をもって重大な変更とするかは、当社の独自の裁量により決定されます。",
+        "13. Contact Us": "13. お問い合わせ",
+        "des43": "本規約または当社のプライバシー慣行に関するご質問がある場合は、info@pionechain.com までお問い合わせください。",
+        "des44": "PIONE Chainプラットフォームを使用することで、お客様は本規約に承諾したものとみなされます。本規約に同意いただけない場合は、当社のサービスを使用しないでください。 ページトップへ戻る"
+    },
+    "privacy": {
+        "des1": "PIONE Chainおよびその関連会社（所有者、取締役、投資家、従業員、またはその他の利害関係者を含む）は、お客様のプライバシーの保護と尊重に尽力しています。本プライバシーポリシーにおいて、「PIONE Blockchain」とは、PIONE Chainおよびその関連会社が提供するサービス、製品、ウェブサイト、コンテンツ、またはその他の資料を指します。",
+        "des2": "個人情報とは、お客様個人を特定する情報、またはお客様の身元を合理的に特定できる情報のことを指します。これには、お名前、ご住所、メールアドレス、およびその他の連絡先情報が含まれる場合があります。",
+        "The purpose of this Privacy Policy is to inform you about": "本プライバシーポリシーの目的は、以下の事項についてお知らせすることです：",
+        "des3": "当社が収集する可能性のあるお客様の個人情報の種類と、その使用方法。",
+        "des4": "IPアドレスに関する情報およびクッキーの使用。",
+        "des5": "お客様の個人情報が第三者に開示される可能性。",
+        "des6": "お客様の個人情報へのアクセス、訂正、更新、および削除に関するお客様の能力。",
+        "des7": "当社の管理下にある個人情報の紛失、誤用、または改ざんを防止し、機密を保持するために当社が実施しているセキュリティ対策。",
+        "Gathering and Use of Personal Information": "個人情報の収集および利用：",
+        "des8": "お客様がPIONE Chainのウェブサイトを利用したり、アカウントを開設したり、ウェブサイト上で取引を行ったりする場合、当社はお客様の個人情報を収集することがあります。収集する個人情報の種類には、以下が含まれる場合があります：",
+        "des9": "お客様の身分証明書。身分証明書またはパスポートの高品質な写真が含まれます。",
+        "Your address, email address.": "お客様のご住所、メールアドレス。",
+        "Your bank details, including account number.": "口座番号を含む銀行口座の詳細。",
+        "des10": "業種、居住地を確認するための公共料金の請求書、または銀行取引明細書などのその他の関連情報。",
+        "Purpose of Using Personal Information": "個人情報利用の目的：",
+        "des11": "お客様がウェブサイトを利用したり、アカウントを開設したり、ウェブサイト上で取引を行ったりする場合、当社はお客様の個人情報を収集することがあります。収集する個人情報の種類には、以下が含まれる場合があります：",
+        "des12": "お客様の体験をカスタマイズし、お客様個人のニーズにより良く対応するため。",
+        "des13": "お客様からいただいたフィードバックに基づいて、当社のウェブサイトを改善および分析するため。",
+        "des14": "カスタマーサービスを向上させるため。",
+        "des15": "マネーロンダリング防止ポリシーを遵守するために、当社のプロバイダーを通じてお客様の身元を確認するため。",
+        "des16": "取引を処理するため。お客様の情報が、お客様の同意なしに他社に販売、交換、または譲渡されることはありません。",
+        "des17": "ご注文、お問い合わせ、および関連するプロモーション、製品、またはサービスに関する定期的なメールを送信するため。",
+        "Our Cookie Policy": "当社のクッキーポリシー：",
+        "des18": "当社のウェブサイトでクッキーの使用を許可することに同意することで、お客様はオンライン上の行動に関するデータの収集にも同意したものとみなされます。これらのデータは、お客様のニーズに合わせてウェブサイトをカスタマイズするために使用されます。クッキーによって当社がお客様のコンピュータを制御できるようになるわけではないことにご注意ください。ブラウザの設定により、クッキーを無効にすることができます。",
+        "Link to Third Party": "第三者へのリンク：",
+        "des19": "当社は、当社のウェブサイト上で第三者の製品またはサービスを提供する場合があります。これらの第三者サイトは、個別の独立したプライバシーポリシーを設けています。それらを利用する前に、各サイトのポリシーを確認することをお勧めします。当社は、第三者ウェブサイトのコンテンツまたは行動に対して責任を負いません。",
+        "Repair/Update/Delete Personal Information": "個人情報の訂正/更新/削除：",
+        "des20": "お客様は、ご自身の個人情報にアクセスし、訂正、更新、および削除する権利を有します。個人情報に関するお問い合わせは、info@pionechain.com までメールでお送りください。法律上の義務および運営上の必要性に従って、対応させていただきます。",
+        "Security": "セキュリティ：",
+        "des21": "当社は、適切なセキュリティ対策の実施を含め、お客様の個人情報を誤用、紛失、不正アクセス、変更、または開示から保護するために合理的な措置を講じます。ただし、そのような事象が全く発生しないことを保証することはできません。",
+        "Retention of Personal Information": "個人情報の保持：",
+        "des22": "当社は、本プライバシーポリシーに記載された目的のために必要な期間、および法的・規制上の要件に従ってのみ、お客様の個人情報を保持します。",
+        "Changes": "変更：",
+        "des23": "当社は、いつでも予告なしにプライバシーポリシーを改訂、修正、更新、および/または補足する場合があります。変更を行った場合は、ウェブサイトを通じてユーザーに通知し、修正後のプライバシーポリシーを掲載します。",
+        "SMS Opt-In Policy for Phone Number Verification": "電話番号確認のためのSMSオプトインポリシー：",
+        "des24": "PIONE Chainをお選びいただきありがとうございます。当社のSMSオプトインポリシーは、確認目的でお客様の電話番号およびメッセージをどのように取り扱うかを概説したものです。本プラットフォームに登録することで、電話番号確認のためのSMSを受信することに同意したものとみなされます。これらのメッセージには、確認コードまたはアカウント関連の情報のみが含まれます。当社はお客様のプライバシーを真剣に受け止め、お客様の同意なしにお客様の電話番号を第三者と共有することはありません。SMSの受信を解除したい場合は、セキュリティの観点から電話番号の確認が不可欠であるため、当社のプラットフォームを利用できなくなる可能性があることにご注意ください。",
+        "des25": "当社のプライバシーポリシーまたはSMSオプトインポリシーに関するご質問や懸念事項がございましたら、info@pionechain.com までお問い合わせください。"
+    },
+    "Solution": {
+        "title": "PIONE SOLUTION",
+        "subTitle": "Web2の設計からWeb3への転換、ブロックチェーンプラットフォーム上での企業のデジタル化をサポートします。",
+        "description": "当社はWeb2からWeb3への移行のための包括的なソリューションを提供し、ブロックチェーン上でのビジネスプロセス、データ、およびサービスのデジタル化を支援します。これにより、デジタル時代のビジネス運営に向けた、透明で安全かつ現代的な環境が開かれます。",
+        "cardTitle": "不動産RWA技術ソリューションプロバイダー",
+        "cardDescription": "最も人気のあるdApps、ソリューションプロバイダー、その他のエコシステムイネーブラーを1か所で探索できます。",
+        "cardButton": "エコシステムを探索",
+        "sectionTitle": "なぜPIONE SOLUTIONなのか？",
+        "sectionSubtitle": "単なる純粋なブロックチェーンプラットフォームではなく、Pione Chainは実践的なアプリケーションプロジェクトを通じて社会の現実世界の問題に対処することを目指しています。",
+        "benefit1": "現代的で安全",
+        "benefit2": "高度な技術統合",
+        "benefit3": "コストと最適化",
+        "benefit4": "グローバルな規模"
+    },
+    "news": {
+        "title": "最新ニュース",
+        "description": "Pione Chainおよび世界のテクノロジー市場に関する最新ニュースを毎日更新します。",
+        "seeAll": "すべて見る",
+        "readMore": "続きを読む",
+        "featured": "おすすめニュース"
+    },
+    "Yummy_data": {
+        "ConclusionData": {
+            "title": "結論",
+            "description": "Pione Chainはブロックチェーンイノベーションの頂点を象徴し、最先端の技術進歩と現実世界の実際的な応用をシームレスに組み合わせています。AI、メタバース、IoTをその構造に統合することで、Pione Chainは単なるデジタル資産のプラットフォームではなく、不動産やヘルスケアから農業やセキュリティに至るまで、さまざまな分野を強化するために設計された堅牢なエコシステムとなっています。その分散型ガバナンスモデルは、透明性とセキュリティへの戦略的な焦点と相まって、Pione ChainをWeb3時代のリーダーとして位置づけています。私たちがグローバルな範囲を拡大し、サービスを磨き続ける中で、私たちのコミットメントは揺るぎません。それは、有意義な社会的進歩を促進する、スケーラブルで安全、かつアクセス可能なブロックチェーンソリューションを通じて、ユーザーと企業に力を与えることです。"
+        }
+    }
+}

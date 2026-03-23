@@ -1,0 +1,450 @@
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
+
+/* Text selection */
+::selection {
+  background: #ff370088;
+  color: #ffffff;
+}
+
+/* Scroll & body config */
+body {
+  font-family: "Roboto", sans-serif;
+  overflow-x: hidden;
+  scrollbar-width: none;
+  /* Firefox */
+  -ms-overflow-style: none;
+  /* IE/Edge */
+}
+
+
+html {
+  scroll-behavior: smooth;
+}
+
+#__next-prerender-indicator {
+  display: none !important;
+}
+
+::-webkit-scrollbar,
+::-webkit-scrollbar-button {
+  display: none;
+  /* Chrome/Safari */
+}
+
+/* Header animation */
+.header-test {
+  transition: all 0.5s ease-in-out;
+  -moz-transition: background-color 1.5s;
+  -ms-transition: background-color 1.5s;
+  -o-transition: background-color 1.5s;
+}
+
+/* Shadow effects */
+.text-shadow-white {
+  text-shadow: 2px 2px 5px rgba(255, 255, 255, 0.53);
+}
+
+.text-shadow-black {
+  text-shadow: 2px 2px 5px rgba(100, 100, 100, 0.4);
+}
+
+/* Card zoom */
+.card-slide-zoom {
+  transition: transform 300ms ease-in-out;
+}
+
+@media (min-width: 600px) {
+  .card-slide-zoom:hover {
+    transform: scale(1.1) translateZ(6px);
+  }
+}
+
+/* Blur animations */
+.blur {
+  filter: blur(5px);
+  transition: filter 0.3s ease-in;
+}
+
+.remove-blur {
+  filter: blur(0);
+  transition: filter 0.3s ease-in;
+}
+
+/* Ping animation */
+@keyframes ping {
+  0% {
+    transform: scale(1);
+    opacity: 0.6;
+  }
+
+  75% {
+    transform: scale(2);
+    opacity: 0;
+  }
+
+  100% {
+    transform: scale(2.5);
+    opacity: 0;
+  }
+}
+
+/* Theme Variables */
+@layer base {
+  :root {
+    --background: 0 0% 100%;
+    --foreground: 222.2 84% 4.9%;
+    --card: 0 0% 100%;
+    --card-foreground: 222.2 84% 4.9%;
+    --popover: 0 0% 100%;
+    --popover-foreground: 222.2 84% 4.9%;
+    --primary: 222.2 47.4% 11.2%;
+    --primary-foreground: 210 40% 98%;
+    --secondary: 210 40% 96.1%;
+    --secondary-foreground: 222.2 47.4% 11.2%;
+    --muted: 210 40% 96.1%;
+    --muted-foreground: 215.4 16.3% 46.9%;
+    --accent: 210 40% 96.1%;
+    --accent-foreground: 222.2 47.4% 11.2%;
+    --destructive: 0 84.2% 60.2%;
+    --destructive-foreground: 210 40% 98%;
+    --border: 214.3 31.8% 91.4%;
+    --input: 214.3 31.8% 91.4%;
+    --ring: 222.2 84% 4.9%;
+    --chart-1: 12 76% 61%;
+    --chart-2: 173 58% 39%;
+    --chart-3: 197 37% 24%;
+    --chart-4: 43 74% 66%;
+    --chart-5: 27 87% 67%;
+    --radius: 0.5rem;
+  }
+
+  .dark {
+    --background: 222.2 84% 4.9%;
+    --foreground: 210 40% 98%;
+    --card: 222.2 84% 4.9%;
+    --card-foreground: 210 40% 98%;
+    --popover: 222.2 84% 4.9%;
+    --popover-foreground: 210 40% 98%;
+    --primary: 210 40% 98%;
+    --primary-foreground: 222.2 47.4% 11.2%;
+    --secondary: 217.2 32.6% 17.5%;
+    --secondary-foreground: 210 40% 98%;
+    --muted: 217.2 32.6% 17.5%;
+    --muted-foreground: 215 20.2% 65.1%;
+    --accent: 217.2 32.6% 17.5%;
+    --accent-foreground: 210 40% 98%;
+    --destructive: 0 62.8% 30.6%;
+    --destructive-foreground: 210 40% 98%;
+    --border: 217.2 32.6% 17.5%;
+    --input: 217.2 32.6% 17.5%;
+    --ring: 212.7 26.8% 83.9%;
+    --chart-1: 220 70% 50%;
+    --chart-2: 160 60% 45%;
+    --chart-3: 30 80% 55%;
+    --chart-4: 280 65% 60%;
+    --chart-5: 340 75% 55%;
+  }
+}
+
+/* Apply base styles */
+@layer base {
+  * {
+    @apply border-border;
+  }
+
+  body {
+    @apply bg-background text-foreground;
+  }
+}
+
+.cpu-architecture {
+  offset-anchor: 10px 0px;
+  animation: animation-path;
+  animation-iteration-count: infinite;
+  animation-timing-function: cubic-bezier(0.75, -0.01, 0, 0.99);
+}
+
+.cpu-line-1 {
+  offset-path: path("M 10 20 h 79.5 q 5 0 5 5 v 30");
+  animation-duration: 5s;
+  animation-delay: 1s;
+}
+
+.cpu-line-2 {
+  offset-path: path("M 180 10 h -69.7 q -5 0 -5 5 v 40");
+  animation-delay: 6s;
+  animation-duration: 2s;
+}
+
+.cpu-line-3 {
+  offset-path: path("M 130 20 v 21.8 q 0 5 -5 5 h -25");
+  animation-delay: 4s;
+  animation-duration: 6s;
+}
+
+.cpu-line-4 {
+  offset-path: path("M 170 80 v -21.8 q 0 -5 -5 -5 h -65");
+  animation-delay: 3s;
+  animation-duration: 3s;
+}
+
+.cpu-line-5 {
+  offset-path: path(
+    "M 135 65 h 15 q 5 0 5 5 v 10 q 0 5 -5 5 h -39.8 q -5 0 -5 -5 v -35"
+  );
+  animation-delay: 9s;
+  animation-duration: 4s;
+}
+
+.cpu-line-6 {
+  offset-path: path("M 94.8 95 v -46");
+  animation-delay: 3s;
+  animation-duration: 7s;
+}
+
+.cpu-line-7 {
+  offset-path: path(
+    "M 88 88 v -15 q 0 -5 -5 -5 h -10 q -5 0 -5 -5 v -5 q 0 -5 5 -5 h 28"
+  );
+  animation-delay: 4s;
+  animation-duration: 4s;
+}
+
+.cpu-line-8 {
+  offset-path: path("M 30 30 h 25 q 5 0 5 5 v 6.5 q 0 5 5 5 h 35");
+  animation-delay: 3s;
+  animation-duration: 3s;
+}
+
+@keyframes animation-path {
+  0% {
+    offset-distance: 0%;
+  }
+
+  100% {
+    offset-distance: 100%;
+  }
+}
+
+@keyframes fade-in {
+  0% {
+    opacity: 0;
+    transform: translateY(20px);
+  }
+
+  100% {
+    opacity: 1;
+    transform: translateY(0);
+  }
+}
+
+@keyframes fade-up {
+  0% {
+    opacity: 0;
+    transform: translateY(40px);
+  }
+
+  100% {
+    opacity: 1;
+    transform: translateY(0);
+  }
+}
+
+/* ========================================
+   ✨ Blog Content — Clean Editor Styles (Dark Theme)
+   ======================================== */
+
+.blog-content {
+  color: #e4e8f4;
+  font-size: 16px;
+  line-height: 1.8;
+  padding: 0;
+}
+
+.blog-content p {
+  margin: 1em 0;
+  color: #d1d5db;
+}
+
+/* Headings */
+.blog-content h1,
+.blog-content h2,
+.blog-content h3,
+.blog-content h4,
+.blog-content h5 {
+  color: #ffffff;
+  font-weight: 700;
+  line-height: 1.3;
+  margin-top: 2.5em;
+  margin-bottom: 1em;
+}
+
+.blog-content h1 {
+  font-size: 2rem;
+}
+
+.blog-content h2 {
+  font-size: 1.75rem;
+  text-transform: uppercase;
+  letter-spacing: 0.5px;
+}
+
+.blog-content h3 {
+  font-size: 1.3rem;
+  font-weight: 600;
+}
+
+.blog-content h4 {
+  font-size: 1.1rem;
+  font-weight: 600;
+  color: #f2f7fb;
+}
+
+/* Links */
+.blog-content a {
+  color: #41b6e6;
+  text-decoration: none;
+  border-bottom: 1px solid transparent;
+  transition: all 0.3s ease;
+}
+
+.blog-content a:hover {
+  border-bottom-color: #41b6e6;
+}
+
+/* Lists */
+.blog-content ul,
+.blog-content ol {
+  padding-left: 1.5rem;
+  margin: 1.5em 0;
+}
+
+.blog-content li {
+  margin-bottom: 0.6em;
+  color: #d1d5db;
+}
+
+.blog-content ul li::marker {
+  color: #41b6e6;
+}
+
+/* Blockquote */
+.blog-content blockquote {
+  background: #1f2937;
+  border-left: 4px solid #41b6e6;
+  padding: 1.2em 1.5em;
+  margin: 2em 0;
+  border-radius: 6px;
+  font-style: italic;
+  color: #e4e8f4;
+  position: relative;
+}
+
+.blog-content blockquote::before {
+  content: '"';
+  position: absolute;
+  top: -10px;
+  left: 10px;
+  font-size: 3rem;
+  color: #41b6e6;
+  opacity: 0.2;
+}
+
+/* Images */
+.blog-content img {
+  display: block;
+  max-width: 100%;
+  height: auto;
+  margin: 2em auto;
+  border-radius: 10px;
+}
+
+/* Tables */
+.blog-content table {
+  width: 100%;
+  border-collapse: collapse;
+  margin: 2em 0;
+  font-size: 15px;
+}
+
+.blog-content th,
+.blog-content td {
+  border: 1px solid #374151;
+  padding: 12px 16px;
+  text-align: left;
+  color: #d1d5db;
+}
+
+.blog-content th {
+  background: #1f2937;
+  font-weight: 600;
+  color: #ffffff;
+}
+
+/* Code blocks */
+.blog-content pre {
+  background: #14161d;
+  color: #fff;
+  font-size: 14px;
+  padding: 16px;
+  border-radius: 6px;
+  overflow-x: auto;
+  margin: 2em 0;
+}
+
+.blog-content code {
+  background: rgba(65, 182, 230, 0.15);
+  padding: 2px 6px;
+  border-radius: 4px;
+  font-family: monospace;
+  font-size: 0.95em;
+  color: #41b6e6;
+}
+
+.blog-content pre code {
+  background: transparent;
+  padding: 0;
+  color: #fff;
+}
+
+/* Horizontal line */
+.blog-content hr {
+  border: none;
+  border-top: 1px solid #374151;
+  margin: 3em 0;
+}
+
+/* Quotes inside lists or text */
+.blog-content q {
+  quotes: '"' '"';
+  font-style: italic;
+  color: #9ca3af;
+}
+
+/* Strong/Bold text */
+.blog-content strong {
+  color: #ffffff;
+  font-weight: 700;
+}
+
+/* Responsive typography */
+@media (min-width: 900px) {
+  .blog-content {
+    font-size: 18px;
+    line-height: 1.9;
+  }
+
+  .blog-content h1 {
+    font-size: 2.5rem;
+  }
+
+  .blog-content h2 {
+    font-size: 2rem;
+  }
+
+  .blog-content h3 {
+    font-size: 1.5rem;
+  }
+}

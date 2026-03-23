@@ -1,0 +1,1313 @@
+{
+  "common": {
+    "coming": "SỚM RA MẮT",
+    "submitYourApp": "Submit your app",
+    "contactUs": "Liên Hệ",
+    "startBuilding": "Khám Phá",
+    "start": "Bắt Đầu",
+    "header": {
+      "button": "Liên hệ ",
+      "navbar": {
+        "home": "Trang chủ",
+        "about": {
+          "company": "Công ty",
+          "company_desc": "Tìm hiểu về tầm nhìn và sứ mệnh cốt lõi của chúng tôi.",
+          "solution": "Giải Pháp",
+          "solution_desc": "Hạ tầng blockchain tiên tiến và đột phá.",
+          "news": "Tin Tức",
+          "news_desc": "Cập nhật mới nhất và thông báo quan trọng.",
+          "whitepaper": "Sách trắng",
+          "whitepaper_desc": "Tài liệu kỹ thuật và tầm nhìn chiến lược.",
+          "ourTeam": "Đội ngũ của chúng tôi",
+          "ourTeam_desc": "Gặp gỡ các chuyên gia thúc đẩy sự đổi mới.",
+          "community": "Cộng đồng",
+          "community_desc": "Tham gia mạng lưới các nhà xây dựng toàn cầu.",
+          "tokenomic": "Tokenomics",
+          "tokenomic_desc": "Phân phối token và mô hình kinh tế.",
+          "roadmap": "Lộ trình",
+          "roadmap_desc": "Các cột mốc chiến lược và tương lai.",
+          "document": "Tài liệu",
+          "document_desc": "Hướng dẫn chính thức và tài liệu kỹ thuật.",
+          "projectSpecs": "Thông số dự án",
+          "projectSpecs_desc": "Thông số kỹ thuật và chỉ số dự án.",
+          "pio_bnb": "PIO vs BNB",
+          "pio_bnb_desc": "So sánh giữa PIO và BNB.",
+          "pioneSwap": "Pione Swap",
+          "pioneSwap_desc": "Nền tảng giao dịch phi tập trung.",
+          "pioneSuperApp": "Pione SuperApp",
+          "pioneSuperApp_desc": "Cổng truy cập tối ưu vào thế giới Web3.",
+          "pioneInvest": "Pione Invest",
+          "pioneInvest_desc": "Quản lý tài sản kỹ thuật số thông minh.",
+          "pioneWallet": "Pione Wallet",
+          "pioneWallet_desc": "Ví kỹ thuật số bảo mật, không lưu ký.",
+          "pioneHouse": "Pione House",
+          "pioneHouse_desc": "Số hóa tài sản thực bất động sản.",
+          "pioneCare": "Pione Care",
+          "pioneCare_desc": "Giải pháp y tế dựa trên công nghệ blockchain.",
+          "pioneFarm": "Pione Farm",
+          "pioneFarm_desc": "Hệ sinh thái nông nghiệp có thể truy xuất.",
+          "aboutUs": "Về Chúng Tôi",
+          "aboutUs_desc": "Gặp gỡ đội ngũ của chúng tôi và lắng nghe câu chuyện của chúng tôi."
+        },
+        "eco": "Hệ sinh thái",
+        "blockchain": "Blockchain Explorer",
+        "application": "Ứng dụng cho hệ sinh thái",
+        "partner": "Đối tác"
+      }
+    },
+    "footer": {
+      "poli": "Chính sách và điều khoản",
+      "social": "Mạng xã hội",
+      "item1": {
+        "policy": "Chính sách bảo mật",
+        "term": "Điều khoản sử dụng"
+      }
+    }
+  },
+  "aboutPage": {
+    "hero": {
+      "title": "Về Pione Chain",
+      "subtitle": "Khai phá tiềm năng của Tài sản Thực thông qua sự đổi mới của blockchain và AI.",
+      "description": "Pione Chain là blockchain Layer-1 tích hợp AI, sử dụng cơ chế đồng thuận Proof of Artificial Intelligence Tracing (PoAT), mang lại khả năng mở rộng, bảo mật và hiệu quả cao. Nền tảng được xây dựng để phát triển hạ tầng cho tài sản thật (RWA), hướng tới vai trò Value Layer cho giao dịch, đầu tư và quản lý tài sản số."
+    },
+    "missionVision": {
+      "mission": {
+        "title": "Sứ Mệnh",
+        "description": "Cung cấp một hạ tầng phi tập trung, mạnh mẽ và có khả năng mở rộng, cho phép tích hợp liền mạch các tài sản thực vào nền kinh tế số, thúc đẩy một hệ thống tài chính toàn cầu toàn diện và hiệu quả hơn."
+      },
+      "vision": {
+        "title": "Tầm Nhìn",
+        "description": "Trở thành tiêu chuẩn toàn cầu cho việc số hóa tài sản thực (RWA), nơi mọi tài sản vật lý đều có thể được đại diện kỹ thuật số, đảm bảo tính thanh khoản, bảo mật và khả năng tiếp cận cho tất cả mọi người, ở mọi nơi."
+      }
+    },
+    "coreValues": {
+      "title": "Giá Trị Cốt Lõi",
+      "values": {
+        "innovation": {
+          "title": "Đổi Mới",
+          "description": "Chúng tôi không ngừng đẩy lùi các giới hạn của những gì blockchain và AI có thể làm để mang lại các giải pháp vượt trội."
+        },
+        "transparency": {
+          "title": "Minh Bạch",
+          "description": "Sự chính trực và cởi mở là trọng tâm của mọi thứ chúng tôi xây dựng, đảm bảo niềm tin trong toàn bộ hệ sinh thái."
+        },
+        "security": {
+          "title": "Bảo Mật",
+          "description": "Chúng tôi ưu tiên sự an toàn cho tài sản của người dùng với các tiêu chuẩn bảo mật nghiêm ngặt và công nghệ tiên tiến."
+        },
+        "impact": {
+          "title": "Tác Động Thực Tế",
+          "description": "Chúng tôi tập trung vào việc tạo ra các ứng dụng thực tế giúp giải quyết các thách thức đời thực và thúc đẩy sự thay đổi ý nghĩa."
+        }
+      }
+    }
+  },
+  "home": {
+    "banner": {
+      "welcome": "Chào mừng đến",
+      "subTitle": "Pione Chain là một blockchain Layer-1 thế hệ mới, giúp các doanh nghiệp số hóa tài sản thực (RWA) với khả năng bảo mật cao, tính minh bạch và sự đổi mới từ trí tuệ nhân tạo (AI).",
+      "button": "Bắt Đầu"
+    },
+    "possibleSection": {
+      "what": "Những điều có thể làm được với PIONE CHAIN?",
+      "possible": "có thể làm được",
+      "with": "với PIONE CHAIN?",
+      "seeMore": "Tìm hiểu thêm",
+      "card1": {
+        "title": "Xây dựng dApps nhanh chóng, tiết kiệm chi phí và tương thích với Solidity",
+        "description": "Triển khai các ứng dụng phi tập trung (dApps) với khả năng xử lý giao dịch tức thì và thông lượng cao, đạt hàng nghìn giao dịch mỗi giây, vượt xa các nền tảng blockchain phi tập trung hiện nay."
+      },
+      "card2": {
+        "title": "Khởi chạy blockchain tùy chỉnh - riêng tư hoặc công khai",
+        "description": "Triển khai blockchain phù hợp với nhu cầu ứng dụng của bạn. Tự xây dựng máy ảo và kiểm soát hoàn toàn cách blockchain vận hành."
+      },
+      "card3": {
+        "title": "Mở rộng mạng lưới validator với yêu cầu phần cứng tối thiểu",
+        "description": "Stake hoặc khóa PIONE CHAIN để hỗ trợ xử lý giao dịch và tăng cường bảo mật nền tảng. Cơ chế này mang lại mức độ an toàn vượt trội so với tiêu chuẩn 51%. Bạn có thể tham gia mà không cần nâng cấp phần cứng."
+      }
+    },
+    "futureSection": {
+      "application": "Ứng Dụng Và Tương Lai Của Chúng Ta",
+      "future": "Tương Lai Của Chúng Ta",
+      "expand": "Khả Năng Mở Rộng",
+      "futureVision": "TẦM NHÌN TƯƠNG LAI & KHẢ NĂNG MỞ RỘNG",
+      "futureSupport": "HỖ TRỢ CHO NHÀ PHÁT TRIỂN VÀ DOANH NGHIỆP",
+      "description": "Pione Chain đang phát triển một nền tảng cho phép các nhà phát triển và doanh nghiệp triển khai các rollup tùy chỉnh với bảo mật và quyền riêng tư tích hợp sẵn cho mọi trường hợp sử dụng trên các chuỗi tương thích EVM.",
+      "subDescription": "Chúng tôi cung cấp quá trình chuyển đổi mượt mà sang web phi tập trung cho các doanh nghiệp thời đại mới mà không làm ảnh hưởng đến trải nghiệm người dùng.",
+      "card1": "Cải thiện trải nghiệm người dùng",
+      "card2": "Khả năng mở rộng cực cao",
+      "card3": "Giảm chi phí",
+      "card4": "Tùy chỉnh tốt hơn",
+      "card5": "Bảo mật vững chắc",
+      "card6": "Quyền riêng tư tích hợp sẵn"
+    },
+    "empoweringSection": {
+      "title": "Trao Quyền Cho Nhà Phát Triển ",
+      "subTitle": "Với Pione Chain",
+      "description": "Pione Chain tạo mọi điều kiện thuận lợi giúp các nhà phát triển và đội ngũ doanh nghiệp xây dựng, tùy chỉnh trong một môi trường không cần cấp phép - phù hợp với từng bối cảnh và mô hình kinh doanh khác nhau, để phát huy chất lượng sản phẩm khi đến tay người dùng đạt tốc độ và hiệu quả cao nhất.",
+      "card1": {
+        "title": "Đa Lĩnh Vực",
+        "description": "Chúng tôi làm việc và nỗ lực không ngừng với mục tiêu ứng dụng công nghệ blockchain vào đời sống thực tiễn, đa lĩnh vực như: nông nghiệp, y tế, giáo dục, thương mại điện tử, giải trí, bất động sản,..."
+      },
+      "card2": {
+        "title": "Phi Tập Trung",
+        "description": "Pione Chain hoạt động trên mạng lưới phi tập trung, ứng dụng công nghệ blockchain và hợp đồng thông minh, mở ra cơ hội đầu tư hiệu quả cho tất cả mọi người, xây dựng nền kinh tế cạnh tranh công bằng và phát triển bền vững."
+      },
+      "card3": {
+        "title": "Khả Năng Mở Rộng",
+        "description": "Định hướng của Pione Chain là ứng dụng và tích hợp công nghệ blockchain vào đời sống thực tiễn, giải quyết hiệu quả các nỗi đau thị trường để mang lại giá trị thật, phù hợp với xu hướng toàn cầu về token hóa tài sản (RWA)."
+      },
+      "card4": {
+        "title": "Tập Trung Nhà Phát Triển",
+        "description": "Mục tiêu là cung cấp tài liệu rõ ràng, súc tích cùng các công cụ mạnh mẽ, nhằm giúp việc phát triển sản phẩm diễn ra nhanh chóng. Đảm bảo rằng các nhà phát triển dành thời gian để kiến tạo sản phẩm, thay vì phải xử lý các vấn đề liên quan đến nhập liệu."
+      }
+    },
+    "buildingSection": {
+      "title": "Cam Kết Phát Triển Toàn Cầu và Bền Vững",
+      "subTitle": "Dành Nhiều Thời Gian Hơn Cho Phát Triển",
+      "content1": {
+        "title": "Tối Ưu Trải Nghiệm (Streamlined UI)",
+        "description": "Chúng tôi loại bỏ các rào cản phức tạp. Mục tiêu là cung cấp một Giao diện người dùng (UI) tinh gọn, hiện đại và thân thiện, cho phép bạn truy cập thông tin cần thiết chỉ bằng vài thao tác đơn giản."
+      },
+      "content2": {
+        "title": "Khen Thưởng Hiệu Quả (Rewards)",
+        "description": "Để thúc đẩy hệ sinh thái, chúng tôi tập trung mang lại phương thức tốt nhất để cộng đồng được nhận thưởng từ giao thức staking. Token của chúng tôi giữ vai trò Người Xác Thực (Validator), đảm bảo lợi ích xứng đáng cho sự đóng góp của thành viên."
+      },
+      "content3": {
+        "title": "Cộng Đồng Minh Bạch (Community)",
+        "description": "Chúng tôi nỗ lực kiến tạo một hệ sinh thái toàn diện, minh bạch và đáng tin cậy cho các nhà đầu tư trên toàn cầu. Mọi thành viên được khuyến khích tham gia đối thoại cởi mở, cùng chúng tôi định hình xu hướng token hóa tài sản thực."
+      }
+    },
+    "metaverseSection": {
+      "title": "Metaverse",
+      "subTitle": "THỰC TẠI CỦA BẢN SAO SỐ CỦA BẠN",
+      "description": "Metaverse là một bản sao kỹ thuật số của thế giới thực, bao gồm con người, dịch vụ và vật thể. Mỗi yếu tố này được đại diện bởi một bản sao số thông minh, hoạt động trên một hệ thống kết nối, giúp chúng tìm thấy và tương tác trực tiếp với nhau mà không cần trung gian. Điều này cho phép các bản sao số tham gia vào một mạng lưới hệ thống và dịch vụ ngày càng mở rộng để hỗ trợ bạn tốt hơn. Hãy cùng xây dựng Metaverse ngay hôm nay! Xem tài liệu dành cho nhà phát triển.",
+      "card1": {
+        "title": "Bản Sao Số Khác",
+        "description": "Mọi người và mọi thứ sẽ sớm có bản sao số riêng, và bản sao số của bạn có thể giao tiếp, thương lượng và làm việc với những bản sao khác để đạt được mục tiêu của bạn."
+      },
+      "card2": {
+        "title": "Thị Trường",
+        "description": "Các mô phỏng của dịch vụ và nền tảng thực tế mà bản sao số của bạn có thể tương tác để hoàn thành các nhiệm vụ cụ thể, chẳng hạn như đặt dịch vụ di chuyển, lên kế hoạch du lịch hoặc thuê dịch vụ vệ sinh cho ngôi nhà của bạn."
+      },
+      "card3": {
+        "title": "Khả Năng",
+        "description": "Những kỹ năng mà bản sao số của bạn có thể học để trở nên giống bạn hơn, chẳng hạn như biết cách sử dụng dịch vụ đấu giá để đặt giá thầu cho vé xem đội thể thao yêu thích của bạn."
+      },
+      "card4": {
+        "title": "Trí Tuệ",
+        "description": "Trí tuệ cá nhân và tập thể dành cho bản sao số của bạn. Bản sao số sẽ tự học hỏi để trở nên giống bạn hơn và lưu giữ thông tin đó một cách an toàn. Trong Metaverse, bản sao số của bạn cũng có quyền truy cập vào trí tuệ tập thể, có thể được đào tạo bởi bạn, bạn bè của bạn hoặc các nhóm có cùng mục tiêu."
+      }
+    },
+    "rollupSection": {
+      "title": "ROLLUP DÀNH CHO DOANH NGHIỆP",
+      "description": "Doanh nghiệp có thể triển khai rollup của mình mà không tốn thêm thời gian và chi phí phát triển bằng cách tích hợp logic kinh doanh của họ vào cơ sở hạ tầng của chúng tôi.",
+      "button": "Liên hệ với chúng tôi"
+    },
+    "ecosystem_reward_modal": {
+      "title": "Chương trình Phần thưởng Hệ sinh thái",
+      "button": "Tham gia ngay",
+      "description": "Tham gia xây dựng hệ sinh thái bền vững và nhận phần thưởng hấp dẫn khi đồng hành dài hạn cùng Pione Chain.",
+      "feature1": "Phần thưởng hấp dẫn: 8% ~ 15% / năm",
+      "feature2": "Kỳ hạn linh hoạt: 6 - 24 tháng",
+      "feature3": "Minh bạch: Ecosystem Reward Fund được quản lý bởi Smart Contract on-chain, đảm bảo mọi hoạt động phân bổ và sử dụng quỹ đều minh bạch, không thể chỉnh sửa và có thể kiểm chứng công khai trên blockchain",
+      "feature4": "Tham gia Ecosystem Reward để thúc đẩy hệ sinh thái Pione Chain và gia tăng giá trị PIO"
+    }
+  },
+  "ecosystem": {
+    "title": "HỆ SINH THÁI",
+    "description": "Không chỉ là nền tảng blockchain thuần tuý, Pione Chain hướng đến việc giải quyết các vấn đề thực tiễn trong xã hội thông qua các dự án ứng dụng thiết thực",
+    "comming": "Sớm ra mắt",
+    "discover": "Khám phá hệ sinh thái của chúng tôi",
+    "comming_content": "Các hệ sinh thái ứng dụng công nghệ Blockchain và Trí tuệ nhân tạo (AI) vào đời sống thực tiễn đang không ngừng được nghiên cứu và phát triển.",
+    "card1": {
+      "title": "Pione Node",
+      "description": "Máy đào coin thế hệ mới tích hợp AI và công nghệ lượng tử."
+    },
+    "card2": {
+      "title": "Pione House",
+      "description": "Giải pháp ứng dụng blockchain trong định danh và xác thực bất động sản, hướng tới tăng cường minh bạch, giảm rủi ro và tối ưu hóa quy trình giao dịch trên thị trường nhà đất."
+    },
+    "card3": {
+      "title": "Pione Bot",
+      "description": "Tích hợp AI và giao dịch tự động hoá."
+    },
+    "card4": {
+      "title": "ExPione",
+      "description": "ExPIONE hướng tới giao dịch tài sản số và tiếp cận token chứng khoán, đồng thời tích hợp Trí tuệ nhân tạo (AI) để tối ưu hóa hiệu quả và tăng cường an toàn cho các hoạt động giao dịch."
+    },
+    "card5": {
+      "title": "Pione Mart",
+      "description": "Sàn thương mại điện tử phi tập trung, cho phép quy đổi tài sản kỹ thuật số để mua sắm hàng hoá và dịch vụ một cách nhanh chóng, an toàn, đồng thời hỗ trợ các giao dịch xuyên biên giới."
+    },
+    "card6": {
+      "title": "Pione Farm",
+      "description": "Nền tảng truy xuất nguồn gốc nông sản từ sản xuất đến tiêu dùng, giúp doanh nghiệp và hợp tác xã minh bạch hóa chuỗi cung ứng, nâng cao giá trị thương hiệu, củng cố niềm tin thị trường trong lĩnh vực nông nghiệp."
+    },
+    "card7": {
+      "title": "Pione Game",
+      "description": "Nền tảng Game blockchain Web3. Đổi mới trải nghiệm và tạo ra giá trị kinh tế số."
+    },
+    "card8": {
+      "title": "Pione Care",
+      "description": "Hệ thống quản lý hồ sơ y tế cá nhân dựa trên blockchain, hỗ trợ tổ chức y tế và cộng đồng số hóa dữ liệu, đảm bảo bảo mật thông tin và nâng cao hiệu quả chăm sóc sức khỏe trong kỷ nguyên số."
+    },
+    "card9": {
+      "title": "Pione Wallet",
+      "description": "Ví tài sản số giúp doanh nghiệp và người dùng quản lý, lưu trữ và giao dịch tài sản kỹ thuật số an toàn, tiện lợi, bảo mật – là cổng kết nối đến hệ sinh  thái tài chính phi tập trung toàn cầu."
+    },
+    "card10": {
+      "title": "Pione Swap",
+      "description": "Pione Swap là một sàn giao dịch phi tập trung (Decentralized Exchange - DEX) cho phép người dùng hoán đổi (swap), cung cấp thanh khoản và giao dịch tài sản số, token chứng khoán nhanh chóng."
+    },
+    "card11": {
+      "title": "Pione AI",
+      "description": "Công cụ AI hỗ trợ cá nhân hoá cho các doanh nghiệp vừa và nhỏ để chăm sóc khách hàng, quản lý và vận hành doanh nghiệp."
+    },
+    "card12": {
+      "title": "Pione Smart",
+      "description": "Trung tâm kiến thức công nghệ mới như AI, Metaverse."
+    },
+    "card13": {
+      "title": "Pione Star",
+      "description": "Mạng xã hội phi tập trung ứng dụng công nghệ blockchain vào quản lý nội dung, giúp người dùng phòng tránh các hành vi giả mạo và lừa đảo."
+    },
+    "card14": {
+      "title": "Pione Dapps Store",
+      "description": "Cửa hàng bao gồm các ứng dụng dApps phi tập trung giúp cộng đồng Web3 phát triển lớn mạnh."
+    },
+    "card15": {
+      "title": "Pione Security",
+      "description": "Nền tảng hỗ trợ doanh nghiệp chuyển đổi số thị trường chứng khoán, phát hành và quản lý trên blockchain một cách hiệu quả."
+    },
+    "card16": {
+      "title": "Pione Dream",
+      "description": "'Giấc mơ khởi nghiệp' - Nền tảng kết nối các startup công nghệ với nhà đầu tư toàn cầu, thúc đẩy dự án đột phá."
+    },
+    "card17": {
+      "title": "Pione Charity",
+      "description": "Quỹ từ thiện phi tập trung, ứng dụng blockchain để minh bạch hóa mọi khoản đóng góp, qua đó củng cố niềm tin và trách nhiệm cộng đồng."
+    },
+    "card21": {
+      "title": "Token chứng khoán",
+      "description": "Token chứng khoán (Security Token) là hình thức số hóa cổ phiếu và các loại chứng khoán truyền thống trên nền tảng Blockchain, mở ra một kỷ nguyên minh bạch, linh hoạt và toàn cầu hóa cho thị trường vốn. Giải pháp do PIONE GROUP phát triển tích hợp trong hệ sinh thái như PioneWallet, PioneHouse,..."
+    },
+    "card22": {
+      "title": "Pione Zero",
+      "description": "Nền tảng blockchain miễn phí gas, thúc đẩy chuyển đổi số và triển khai ứng dụng thực tiễn cho doanh nghiệp trong kỷ nguyên AI & Blockchain."
+    },
+    "card23": {
+      "title": "Pione Super App",
+      "description": "Ứng dụng cung cấp các giải pháp chuyển đổi số cho doanh nghiệp, quản lý tài sản số, thanh toán và xuất hóa đơn thuế minh bạch trên nền tảng blockchain."
+    },
+    "card24": {
+      "title": "Pione PoAT",
+      "description": "PoAT (Proof of Artificial-Intelligence Tracing) – một cơ chế đồng thuận đột phá tích hợp trí tuệ nhân tạo (AI) tự động truy vết, xác minh và đảm bảo tính toàn vẹn dữ liệu trên Blockchain."
+    },
+    "card25": {
+      "title": "Pione Solution",
+      "description": "Pione Solution cung cấp giải pháp phần mềm toàn diện với trọng tâm vào token hoá tài sản, blockchain, AI và phát triển ứng dụng. Giúp doanh nghiệp chuyển đổi số an toàn, minh bạch và bền vững."
+    },
+    "card26": {
+      "title": "StealthEX",
+      "description": "Tìm tỷ giá giao dịch tiền mã hóa tốt nhất: Bitcoin, Ethereum, Litecoin, XRP, Chainlink và hơn 1400 loại tiền mã hóa khác có sẵn để trao đổi tức thì không lưu ký."
+    },
+    "card27": {
+      "title": "PinkSale",
+      "description": "PinkSale giúp mọi người có thể tạo token và tổ chức bán token của riêng mình chỉ trong vài giây. Các token được tạo trên PinkSale sẽ được xác minh và hiển thị trên các trang web explorer."
+    },
+    "card28": {
+      "title": "DEXView",
+      "description": "DexView — cung cấp biểu đồ giá theo thời gian thực, lịch sử giao dịch, hoán đổi token, danh mục ví và thông tin token cho các sàn DEX đa chuỗi: Ethereum, BNBChain, Polygon, Avalanche, Fantom, Arbitrum, Cronos, Optimism và nhiều hơn nữa."
+    }
+  },
+  "partner": {
+    "title": "Các Đối Tác",
+    "description": "Gặp gỡ những đối tác và cộng sự đáng tin cậy đang cùng PioneChain và PioneWallet xây dựng tương lai của blockchain.",
+    "Contact Partner": "Liên hệ hợp tác",
+    "form": {
+      "info": "Thông tin liên hệ",
+      "contact": "Chúng tôi luôn cởi mở với những ý tưởng hợp tác cùng nhau tạo ra giá trị có ý nghĩa và khác biệt.",
+      "First Name": "Họ",
+      "Last Name": "Tên",
+      "Title": "Tiêu đề",
+      "Email": "Email",
+      "Phone Number": "Số điện thoại",
+      "Organization Name": "Tên tổ chức",
+      "Industry": "Lĩnh vực",
+      "Organization Size": "Quy mô tổ chức",
+      "Organization Location": "Địa chỉ doanh nghiệp",
+      "Message": "Tin nhắn",
+      "Categories": "Danh mục",
+      "1-10 employees": "1-10 nhân viên",
+      "11-50 employees": "11-50 nhân viên",
+      "51-200 employees": "51-200 nhân viên",
+      "over 200 employees": "Trên 200 nhân viên"
+    }
+  },
+  "blockchain": {
+    "title": "Hạ tầng Blockchain tích hợp cho doanh nghiệp Web3",
+    "explore": "Khám phá",
+    "description": "PioneChain kết hợp blockchain công khai miễn phí gas của Zeroscan và blockchain riêng tư cấp doanh nghiệp của Pionescan, mang đến giải pháp Web3 mở rộng, an toàn và tuân thủ.",
+    "card1": {
+      "type": "PUBLIC BLOCKCHAIN",
+      "link": "zeroscan.org",
+      "description": "Zero Chain là một nền tảng Public Blockchain miễn phí gas, được thiết kế để mở rộng ứng dụng blockchain vào nhiều lĩnh vực của đời sống thực tiễn. Hệ thống hướng tới việc hỗ trợ phát triển các giải pháp số hóa tài sản thực (Real-World Asset - RWA) và tokenization, giúp kết nối giữa thế giới vật lý và không gian số một cách an toàn, minh bạch và hiệu quả.",
+      "features": {
+        "feature1": {
+          "title": "Miễn phí gas (Zero Gas Fee):",
+          "subtitle": "Cho phép người dùng thực hiện giao dịch và triển khai hợp đồng thông minh mà không tốn chi phí gas, giúp tăng tính phổ cập của blockchain trong ứng dụng thực tế."
+        },
+        "feature2": {
+          "title": "Hỗ trợ Tokenization và RWA:",
+          "subtitle": "Cung cấp nền tảng mạnh mẽ để phát triển và vận hành các mô hình token hóa tài sản thật (bất động sản, hàng hóa, chứng chỉ, v.v.)."
+        },
+        "feature3": {
+          "title": "Tính minh bạch và bảo mật cao:",
+          "subtitle": "Dữ liệu được lưu trữ công khai, không thể sửa đổi, đảm bảo tính toàn vẹn và tin cậy trong mọi giao dịch."
+        },
+        "feature4": {
+          "title": "Khả năng mở rộng và tích hợp:",
+          "subtitle": "Hỗ trợ các API và công cụ phát triển thân thiện, giúp doanh nghiệp dễ dàng tích hợp blockchain vào hệ thống hiện có."
+        },
+        "feature5": {
+          "title": "Ứng dụng thực tiễn đa lĩnh vực:",
+          "subtitle": "Phù hợp với các lĩnh vực như quản lý chuỗi cung ứng trong hệ thống truy xuất nguồn gốc, nông nghiệp, giáo dục, y tế, và quản lý bất động sản."
+        }
+      },
+      "vision": "Zero Chain hướng đến việc trở thành một cầu nối giữa công nghệ blockchain và đời sống thực tế, góp phần thúc đẩy chuyển đổi số toàn diện trong kỷ nguyên Web3."
+    },
+    "card2": {
+      "type": "PRIVATE BLOCKCHAIN",
+      "link": "pionescan.com",
+      "description": "Pione Chain là một nền tảng Private Blockchain được phát triển nhằm phục vụ nhu cầu phát hành token hoá tài sản thực (Real-World Asset Tokenization) và token chứng khoán (Security Token) cho doanh nghiệp. Hệ thống hướng tới việc cung cấp hạ tầng blockchain bảo mật, riêng tư và tùy chỉnh cao, giúp doanh nghiệp dễ dàng triển khai các ứng dụng số hóa và quản lý tài sản trong môi trường Web3 một cách hiệu quả và tuân thủ pháp lý.",
+      "features": {
+        "feature1": {
+          "title": "Blockchain riêng tư (Private Blockchain):",
+          "subtitle": "Cho phép các tổ chức, doanh nghiệp vận hành blockchain độc lập, đảm bảo dữ liệu và giao dịch được quản lý trong phạm vi nội bộ, tăng tính bảo mật và kiểm soát."
+        },
+        "feature2": {
+          "title": "Phát hành Token hoá tài sản và chứng khoán:",
+          "subtitle": "Hỗ trợ phát hành các loại token đại diện cho tài sản thực (RWA) và chứng khoán kỹ thuật số (Security Token), giúp doanh nghiệp huy động vốn, quản lý tài sản và minh bạch hóa quyền sở hữu."
+        },
+        "feature3": {
+          "title": "Quyền kiểm soát và tùy chỉnh cao:",
+          "subtitle": "Doanh nghiệp có thể thiết lập các quy tắc, chính sách giao dịch, và cơ chế xác thực riêng theo nhu cầu quản trị của mình."
+        },
+        "feature4": {
+          "title": "Bảo mật & tuân thủ:",
+          "subtitle": "Tích hợp các lớp mã hóa và xác thực nâng cao, hỗ trợ doanh nghiệp đáp ứng các yêu cầu tuân thủ về dữ liệu và pháp lý trong lĩnh vực tài chính - công nghệ."
+        },
+        "feature5": {
+          "title": "Kết nối linh hoạt:",
+          "subtitle": "Có thể kết nối hoặc đồng bộ với các blockchain công khai (Public Blockchain) như Zeroscan.org khi cần mở rộng giao dịch hoặc minh bạch hoá dữ liệu ra công chúng."
+        }
+      },
+      "vision": "Pione Chain hướng đến việc trở thành nền tảng blockchain riêng tư hàng đầu cho doanh nghiệp, giúp tổ chức số hóa tài sản, phát hành token chứng khoán, và triển khai các giải pháp Web3 an toàn - hiệu quả - minh bạch, tạo cầu nối giữa thế giới tài chính truyền thống và nền kinh tế số."
+    },
+    "card3": {
+      "type": "ENTERPRISE BLOCKCHAIN",
+      "link": "pionescan.com",
+      "description": "Pione Chain là một nền tảng Private Blockchain được phát triển nhằm phục vụ nhu cầu phát hành token hoá tài sản thực (Real-World Asset Tokenization) và token chứng khoán (Security Token) cho doanh nghiệp. Hệ thống hướng tới việc cung cấp hạ tầng blockchain bảo mật, riêng tư và tùy chỉnh cao, giúp doanh nghiệp dễ dàng triển khai các ứng dụng số hóa và quản lý tài sản trong môi trường Web3 một cách hiệu quả và tuân thủ pháp lý.",
+      "features": {
+        "feature1": {
+          "title": "Hạ tầng Blockchain Doanh nghiệp (Enterprise-grade Infrastructure)",
+          "subtitle": "Một kiến trúc blockchain độc lập dành riêng cho tổ chức, cho phép doanh nghiệp vận hành môi trường dữ liệu khép kín, hiệu suất cao và toàn quyền kiểm soát trong mọi quy trình nội bộ."
+        },
+        "feature2": {
+          "title": "Cơ chế Đồng thuận Doanh nghiệp (Enterprise Consensus Protocol)",
+          "subtitle": "Doanh nghiệp được quyền tự triển khai validator, tham gia xác thực giao dịch và quản lý vòng đời dữ liệu, đảm bảo tính minh bạch, tự chủ và phù hợp với mô hình vận hành của riêng mình."
+        },
+        "feature3": {
+          "title": "Số hóa & Token hóa tài sản toàn diện (Enterprise Asset Digitization)",
+          "subtitle": "Hỗ trợ chuyển đổi tài sản, hồ sơ, quy trình hoặc hàng hóa thành tài sản số, giúp tối ưu chuỗi vận hành, tăng khả năng kiểm soát và tự động hóa thông qua smart contract chuyên dụng."
+        },
+        "feature4": {
+          "title": "Tùy chỉnh linh hoạt theo đặc thù ngành (Dynamic Governance & Custom Rulesets)",
+          "subtitle": "Hệ thống cho phép tùy chỉnh sâu các chính sách quản trị, phân quyền truy cập, điều kiện giao dịch và tiêu chuẩn vận hành, phù hợp cho từng ngành nghề như tài chính, sản xuất, logistics, y tế,…"
+        },
+        "feature5": {
+          "title": "Bảo mật đa lớp & tuân thủ chuẩn quốc tế (Multi-layer Security & Compliance)",
+          "subtitle": "Tích hợp mã hóa nâng cao, cơ chế bảo vệ dữ liệu nhiều tầng và hỗ trợ tuân thủ các quy chuẩn pháp lý, giúp doanh nghiệp vận hành an toàn trong các lĩnh vực có yêu cầu khắt khe."
+        },
+        "feature6": {
+          "title": "Kết nối mở rộng với hệ sinh thái Pione (Ecosystem Interconnectivity)",
+          "subtitle": "Kết nối đồng bộ trực tiếp với Pione Chain (Layer-1) và Pione Zero Chain (Layer-2), giúp doanh nghiệp mở rộng khả năng xác thực, chia sẻ dữ liệu hoặc tích hợp vào chuỗi giá trị chung của Pione."
+        }
+      }
+    }
+  },
+  "enterprise": {
+    "application": "Rollup dành cho Doanh nghiệp",
+    "description": "Doanh nghiệp có thể triển khai rollup của họ mà không tốn thêm thời gian và chi phí phát triển bằng cách thêm logic kinh doanh của họ vào cơ sở hạ tầng của chúng tôi.",
+    "card1": "Nút mạng có quyền",
+    "card2": "Logic kinh doanh tùy chỉnh",
+    "card3": "Khả năng bảo mật dữ liệu riêng tư",
+    "card4": "Giảm chi phí triển khai",
+    "card5": "Cải thiện bảo mật và khả năng mở rộng"
+  },
+  "contactUs": {
+    "Contact Us": "Liên hệ",
+    "feedback": "Chúng tôi luôn sẵn sàng cho các câu hỏi, phản   hồi hoặc cơ hội hợp tác. Hãy cho chúng tôi biết cách có thể hỗ trợ bạn!",
+    "Name": "Họ và tên",
+    "enterName": "Nhập họ và tên của bạn ...",
+    "enterEmail": "Nhập email của bạn ...",
+    "enterSubject": "Nhập tiêu đề ...",
+    "enterMessage": "Nhập nội dung ...",
+    "Message": "Nội dung",
+    "Subject": "Tiêu đề",
+    "submit": "Gửi",
+    "title": "Liên hệ với chúng tôi",
+    "subTitle": "Đầu tư vào tương lai của blockchain và dẫn đầu xu hướng cho một thế giới phi tập trung. Hãy tham gia cùng chúng tôi và liên hệ ngay hôm nay!"
+  },
+  "ourTeam": {
+    "title": "Đội Ngũ Chúng Tôi",
+    "subTitle": "Nhóm Những Người Tiên Phong Sáng Tạo và Đầy Tầm Nhìn",
+    "empty": "Thông tin đội ngũ sẽ được cập nhật sớm."
+  },
+  "roadmap": {
+    "title": "Cột Mốc",
+    "subTitle": "Lộ trình phát triển của Pione Chain được vạch ra rõ ràng với các cột mốc quan trọng, thể hiện cam kết của đội ngũ trong việc xây dựng và mở rộng hệ sinh thái. Lộ trình này được chia thành các giai đoạn, mỗi giai đoạn tập trung vào các mục tiêu cụ thể để đảm bảo sự phát triển ổn định và bền vững.",
+    "September 5, 2019": "Ngày 5 tháng 9 năm 2019",
+    "IDEA PLANNING": "HÌNH THÀNH Ý TƯỞNG DỰ ÁN - ĐỊNH HƯỚNG BLOCKCHAIN ỨNG DỤNG THỰC TIỄN",
+    "description1": "Với nền tảng nhiều năm hoạt động trong lĩnh vực công nghệ thông tin và phần mềm từ năm 2014, đội ngũ nhận thấy tiềm năng ứng dụng Blockchain vào các bài toán thực tiễn từ năm 2017. Từ đó, quá trình nghiên cứu được khởi động tập trung vào truy xuất nguồn gốc và các mô hình giao dịch phi tập trung.",
+    "November 11, 2021": "Ngày 11 tháng 11 năm 2021",
+    "LAUNCH OF SWAPTOBE (TOBECHAIN)": "RA MẮT SWAPTOBE & TOBECHAIN - GIAI ĐOẠN THỬ NGHIỆM HỆ SINH THÁI",
+    "description2": "SwapTobe và hệ sinh thái TobeChain được triển khai thử nghiệm nhằm ứng dụng công nghệ Blockchain vào các lĩnh vực như nông nghiệp, bất động sản và y tế tạo ra các giá trị thực tiễn.",
+    "January 1, 2024": "Tháng 01 năm 2024",
+    "PROJECT TOBECHAIN RENAMED TO PIONE CHAIN": "TÁI ĐỊNH VỊ DỰ ÁN - ĐỔI TÊN TOBE CHAIN THÀNH PIONE CHAIN",
+    "description3": "Dự án Tobe Chain chính thức được tái định vị thành Pione Chain. Đội ngũ Pione Labs được thành lập với lực lượng kỹ thuật chuyên sâu, tập trung phát triển công nghệ Blockchain kết hợp AI, Metaverse và IoT để xây dựng hệ sinh thái chuyên biệt.",
+    "November 23, 2024": "Ngày 23 tháng 11 năm 2024",
+    "PIONE GROUP ESTABLISHED": "THÀNH LẬP PIONE GROUP - HOÀN THIỆN CẤU TRÚC VẬN HÀNH",
+    "description4": "Cơ cấu tổ chức được hoàn thiện với việc thành lập PIONE LABS LLC và PIONE GROUP JSC. Hoạt động được mở rộng tại nhiều quốc gia, chuẩn bị nền tảng cho chiến lược phát triển hệ sinh thái trên phạm vi quốc tế.",
+    "February 17, 2025": "Ngày 17 tháng 02 năm 2025",
+    "PIONE CHAIN OFFICIALLY LAUNCHED": "RA MẮT PIONE CHAIN - NỀN TẢNG BLOCKCHAIN RIÊNG TƯ TRUY VẾT DỮ LIỆU BẰNG AI (PoAT)",
+    "description5": "Pione Chain chính thức đi vào vận hành với định hướng xây dựng nền tảng Blockchain cho các ứng dụng thực tiễn. Dựa trên cơ chế đồng thuận Proof of Artificial Intelligence Tracing (PoAT), Pione Chain hướng tới hình thành hạ tầng số cho nền kinh tế tài sản thực (Real World Assets – RWA), trong đó Pione Wallet giữ vai trò trung tâm kết nối người dùng với toàn bộ hệ sinh thái.",
+    "April 4, 2025": "Ngày 04 tháng 04 năm 2025",
+    "PIONE WALLET OFFICIALLY LAUNCHED": "RA MẮT PIONE WALLET - CỔNG TRUY CẬP HỆ SINH THÁI RWA",
+    "description6": "Pione Wallet ra mắt với vai trò là ví phi tập trung đa chuỗi của hệ sinh thái Pione Chain. Ví cho phép người dùng quản lý tài sản mã hoá phù hợp với xu hướng (Real World Assets – RWA) mang lại giá trị thực tiễn vào các lĩnh vực trong đời sống.",
+    "June 1, 2025": "Ngày 01 tháng 06 năm 2025",
+    "REGISTER TO PARTICIPATE IN SANDBOX FOR PILOT DEPLOYMENT OF TYPICAL ECOSYSTEMS": "THAM GIA SANDBOX - THỬ NGHIỆM TRONG MÔI TRƯỜNG PHÁP LÝ KIỂM SOÁT",
+    "description7": "Dự án tham gia các chương trình thử nghiệm (SANDBOX) nhằm đánh giá tính khả thi của các hệ sinh thái tiêu biểu trong môi trường pháp lý kiểm soát. Đây là bước chuẩn bị cho việc mở rộng ứng dụng ra thực tiễn.",
+    "Quarter 4, 2025": "Quý 04 năm 2025",
+    "THE OFFICIAL LISTING OF PIO COIN ON DIGITAL ASSET EXCHANGES": "NIÊM YẾT DEX - MỞ RỘNG TIẾP CẬN & THỬ NGHIỆM RWA",
+    "THE OFFICIAL LISTING OF PIO COIN ON DIGITAL ASSET EXCHANGES2": "PIONE SOLUTION - CHUYỂN ĐỔI WEB2 SANG WEB3 CHO DOANH NGHIỆP",
+    "description8": "Pione Chain (PIO) được niêm yết trên sàn giao dịch phi tập trung nhằm mở rộng tiếp cận thị trường quốc tế. Giai đoạn này tập trung thử nghiệm các hệ sinh thái và từng bước hiện thực hóa mục tiêu đưa (Real World Assets - RWA) vào ứng dụng thực tế.",
+    "description82": "Triển khai các giải pháp hỗ trợ doanh nghiệp chuyển đổi quy trình, dữ liệu và dịch vụ từ Web2 sang Web3. Nền tảng giúp doanh nghiệp tiếp cận công nghệ Blockchain theo lộ trình phù hợp và hiệu quả hơn trong kỷ nguyên số.",
+    "December 2025": "Tháng 12 năm 2025",
+    "launch DEX P2P (Pioneswap.com)": "RA MẮT PIONE SWAP - CỔNG GIAO DỊCH P2P PHI TẬP TRUNG",
+    "descriptiondec": "Cổng giao dịch phi tập trung (P2P) cho phép người dùng trao đổi tài sản mã hoá trực tiếp với nhau mà không cần thông qua bên trung gian. Nền tảng được xây dựng với mục tiêu mang đến trải nghiệm giao dịch minh bạch, an toàn và tối ưu theo đúng định hướng phi tập trung và ứng dụng thực tiễn.",
+    "Pione Dream Start up": "PIONE DREAM - KẾT NỐI STARTUP & NHÀ ĐẦU TƯ",
+    "descriptiondec2": "Pione Dream tạo môi trường kết nối trực tiếp giữa startup và nhà đầu tư. Nền tảng hỗ trợ trình bày dự án minh bạch, giúp tăng khả năng tiếp cận vốn trong hệ sinh thái đổi mới sáng tạo.",
+    "January 2026": "Tháng 01 năm 2026",
+    "DIGITAL HEALTHCARE & SUPER APP PAYMENT DEVELOPMENT": "PIONE HOUSE - SỐ HOÁ & ĐỊNH DANH BẤT ĐỘNG SẢN (RWA)",
+    "description9": "Pione House ứng dụng Blockchain để số hóa, định danh và xác thực bất động sản. Giải pháp góp phần nâng cao tính minh bạch và tạo nền tảng số hoá tài sản thực (Real World Assets – RWA) trong lĩnh vực bất động sản.",
+    "Quarter 1, 2026": "Quý 01 năm 2026",
+    "Listing on centralized exchanges (CEXs) to expand international markets and drive sustainable growth across the Pione Chain ecosystem": "NIÊM YẾT CEX – MỞ RỘNG TIẾP CẬN CỘNG ĐỒNG QUỐC TẾ",
+    "description17": "Pione Chain (PIO) được niêm yết trên sàn giao dịch tập trung nhằm mở rộng tiếp cận cộng đồng quốc tế. Cột mốc này hỗ trợ thử nghiệm hệ sinh thái ở quy mô lớn hơn và thúc đẩy phát triển bền vững.",
+    "April 2026": "Tháng 04 năm 2026",
+    "Pioneer Security – Digitalization of Securities Assets for the RWA Era": "PIONE SECURITY - TOKEN CHỨNG KHOÁN CHO KỶ NGUYÊN RWA",
+    "description10": "Pione Security được triển khai để hỗ trợ doanh nghiệp chuyển đổi số thị trường chứng khoán, phát hành và quản lý trên Blockchain một cách hiệu quả phù hợp với xu hướng (Real World Assets – RWA).",
+    "June, 2026": "Tháng 06 năm 2026",
+    "DIGITAL MEDICAL DEVELOPMENT & PAYMENT SUPER APP": "RA MẮT PIONE CARE & SUPER APP - Y TẾ SỐ & VÍ ĐIỆN TỬ",
+    "description11": "Triển khai nền tảng Pione Care kết hợp Blockchain và AI vào quản lý hồ sơ y tế. Đồng thời ra mắt Pione Super App siêu ứng dụng tích hợp ví điện tử hỗ trợ doanh nghiệp thanh toán, hóa đơn điện tử và các dịch vụ tài chính hằng ngày.",
+    "September 2026": "Tháng 09 năm 2026",
+    "DEPLOYING PIONE FARM AGRICULTURAL ECOSYSTEM": "PIONE FARM – HỆ SINH THÁI NÔNG NGHIỆP ỨNG DỤNG BLOCKCHAIN",
+    "description12": "Ứng dụng Blockchain, AI và IoT vào định danh và truy xuất nguồn gốc nông sản. Hệ sinh thái hướng đến quản lý chuỗi sản xuất nông nghiệp minh bạch và bền vững.",
+    "Quarter 2, 2026": "Quý 2 năm 2026",
+    "Pione BOS Chain Mainnet Launch": "RA MẮT PIONE BOS CHAIN – BLOCKCHAIN RIÊNG TƯ CHO DOANH NGHIỆP & RWA",
+    "description16": "Nền tảng Blockchain riêng tư dành cho doanh nghiệp, hỗ trợ số hóa tài sản thực (Real World Assets – RWA), phát hành token chứng khoán và triển khai các giải pháp Web3 an toàn, minh bạch, tạo cầu nối giữa tài chính truyền thống và nền kinh tế số.",
+    "Quarter 4, 2026": "Quý 04 năm 2026",
+    "Officially putting the ecosystem into practice according to RWA orientation - OFFICIALLY BRINGING THE PIONE CHAIN ​​ECOSYSTEM INTO PRACTICE": "TRIỂN KHAI HỆ SINH THÁI RWA VÀO THỰC TIỄN",
+    "description13": "Các hệ sinh thái Pione Chain như: Pione AI, Pione Star, Pione Game, Pione Mart,... chính thức vận hành theo từng lĩnh vực. Mô hình quản lý và phát triển riêng được triển khai nhằm tối ưu hiệu quả và giá trị dài hạn phù hợp với xu thế (Real World Assets – RWA).",
+    "Quarter 1, 2027": "Tháng 01 năm 2027",
+    "Pione Chain Ecosystem Operates Strongly": "RA MẮT PIONE STAR – MẠNG XÃ HỘI BLOCKCHAIN MINH BẠCH",
+    "description14": "Pione Star được triển khai như nền tảng mạng xã hội blockchain minh bạch, nơi dữ liệu người dùng và nội dung được xác thực on-chain. Hệ sinh thái này tạo tiền đề cho các mô hình (Real World Assets – RWA) gắn với dữ liệu số, danh tính và giá trị xã hội.",
+    "April 1, 2028": "Ngày 1 tháng 4 năm 2028",
+    "IPO - Listing security tokens (PIO) on an international stock exchange": "IPO & NIÊM YẾT TOKEN CHỨNG KHOÁN QUỐC TẾ",
+    "description15": "Triển khai lộ trình IPO và niêm yết token chứng khoán (STO) trên sàn giao dịch quốc tế. Cột mốc này nhằm củng cố vị thế và mở rộng quy mô Pione Group trên toàn cầu.",
+    "October 2026": "Tháng 10 năm 2026",
+    "CORE INFRASTRUCTURE OPERATION - FOUNDATION FOR THE RWA ECOSYSTEM": "VẬN HÀNH HẠ TẦNG CỐT LÕI – NỀN TẢNG CHO HỆ SINH THÁI RWA",
+    "description18": "Hoàn thiện và đưa vào vận hành ổn định hạ tầng Blockchain Pione Chain, Pione Wallet và các thành phần kỹ thuật cốt lõi. Giai đoạn này đóng vai trò nền tảng để triển khai các hệ sinh thái ứng dụng (Real World Assets – RWA) trong các giai đoạn tiếp theo.",
+    "December 2026": "Tháng 12 năm 2026",
+    "LAUNCH OF PIONE DAPPSTORE – RWA APPLICATION GATEWAY": "RA MẮT PIONE DAPPSTORE – CỔNG ỨNG DỤNG RWA TRÊN BLOCKCHAIN",
+    "description19": "Pione dAppStore chính thức ra mắt như cửa hàng ứng dụng phi tập trung của hệ sinh thái Pione Chain. Nền tảng tập trung phân phối các dApps liên quan đến số hóa tài sản thực, truy vết dữ liệu và quản lý (Real World Assets – RWA) trên blockchain.",
+    "march 2027": "Tháng 03 năm 2027",
+    "LAUNCH OF PIONE CHARITY – TRANSPARENT COMMUNITY CONTRIBUTIONS": "RA MẮT PIONE CHARITY – MINH BẠCH ĐÓNG GÓP CỘNG ĐỒNG",
+    "description20": "Pione Charity ứng dụng blockchain để quản lý và truy vết các nguồn lực thiện nguyện, bao gồm dòng tiền, vật tư và tài sản cộng đồng. Nền tảng mở rộng ứng dụng RWA vào lĩnh vực xã hội, tăng cường minh bạch và niềm tin cộng đồng.",
+    "May 2027": "Tháng 05 năm 2027",
+    "LAUNCH OF PIONE GAME – RWA-ENABLED WEB3 GAMING PLATFORM": "RA MẮT PIONE GAME – NỀN TẢNG GAME WEB3 ỨNG DỤNG RWA",
+    "description21": "Pione Game được triển khai như nền tảng game Web3 tích hợp tài sản mã hoá và NFT đại diện cho giá trị thực. Hệ sinh thái này mở rộng RWA sang lĩnh vực giải trí số, tạo cầu nối giữa trải nghiệm game và kinh tế thực.",
+    "July 2027": "Tháng 07 năm 2027",
+    "LAUNCH OF PIONE MART – DECENTRALIZED E-COMMERCE MARKETPLACE": "RA MẮT PIONE MART – SÀN THƯƠNG MẠI ĐIỆN TỬ PHI TẬP TRUNG",
+    "description22": "Pione Mart là nền tảng thương mại điện tử phi tập trung cho phép quy đổi tài sản mã hoá để mua bán hàng hoá và dịch vụ có giá trị thực. Nền tảng hỗ trợ truy xuất nguồn gốc và xác thực tài sản, đưa RWA vào giao dịch thương mại hằng ngày.",
+    "September 2027": "Tháng 09 năm 2027",
+    "LAUNCH OF PIONE PAY – PAYMENT BRIDGE FOR RWA APPLICATIONS": "RA MẮT PIONE PAY – CẦU NỐI THANH TOÁN CHO ỨNG DỤNG RWA",
+    "description23": "Pione Pay được triển khai như giải pháp hỗ trợ quy đổi và thanh toán các dịch vụ hợp pháp bằng tài sản mã hoá thông qua cơ chế thanh toán trung gian được kiểm soát. Nền tảng đóng vai trò cầu nối giữa tài sản mã hoá và các hoạt động kinh tế thực.",
+    "November 2027": "Tháng 11 năm 2027",
+    "STABLE OPERATIONS & INTERNATIONAL RWA ECOSYSTEM EXPANSION": "ỔN ĐỊNH VẬN HÀNH & MỞ RỘNG HỆ SINH THÁI RWA QUỐC TẾ",
+    "description24": "Toàn bộ hệ sinh thái Pione Chain bước vào giai đoạn tối ưu hiệu suất và vận hành ổn định. Trọng tâm là mở rộng các mô hình RWA ra thị trường quốc tế thông qua cộng đồng, đối tác và kịch bản ứng dụng thực tiễn.",
+    "January 2028": "Tháng 01 năm 2028",
+    "INITIATION OF IPO & SECURITY TOKEN (STO) ROADMAP": "KHỞI ĐỘNG LỘ TRÌNH IPO & TOKEN CHỨNG KHOÁN (STO)",
+    "description25": "Khởi động lộ trình chuẩn bị IPO và cấu trúc phát hành token chứng khoán (STO), hướng tới số hóa tài sản tài chính và mở rộng hệ sinh thái RWA ở cấp độ tổ chức.",
+    "April 2028": "Tháng 04 năm 2028",
+    "SECURITY TOKEN ISSUANCE PILOT (STO PILOT)": "THỬ NGHIỆM PHÁT HÀNH TOKEN CHỨNG KHOÁN (STO PILOT)",
+    "description26": "Triển khai giai đoạn thử nghiệm phát hành STO nhằm kiểm chứng quy trình số hóa, quản lý và minh bạch tài sản tài chính trên blockchain trước khi mở rộng quy mô.",
+    "July–September 2028": "Tháng 07 - 09 năm 2028",
+    "IPO / STO EXECUTION – COMPLETION OF A GLOBAL RWA ECOSYSTEM": "TRIỂN KHAI IPO / STO THEO LỘ TRÌNH – HOÀN THIỆN HỆ SINH THÁI RWA TOÀN DIỆN",
+    "description27": "Triển khai các bước IPO và niêm yết STO theo kế hoạch đã chuẩn bị, đánh dấu giai đoạn hoàn thiện hệ sinh thái Pione Chain như một nền tảng Blockchain (Real World Assets – RWA) quy mô toàn cầu."
+  },
+  "tokenomic": {
+    "title": "Tokenomics",
+    "subTitle": "Khám phá nhiều cách khác nhau để kiếm token PIO",
+    "item1": {
+      "title": "ĐÚC NFT 10%",
+      "description": "TGE 100%, Khi một NFT mới được phát hành, một lượng PIO tương ứng sẽ được đốt bỏ vĩnh viễn, làm giảm tổng cung và tăng tính khan hiếm cùng giá trị nội tại của đồng PIO"
+    },
+    "item2": {
+      "title": "AIRDROP 5%",
+      "description": "TGE 5%, khóa 1 tháng, phân phối tuyến tính hàng tháng 95% trong 24 tháng"
+    },
+    "item3": {
+      "title": "STAKING 25%",
+      "description": "TGE 0%, không khóa, phân phối tuyến tính hàng tháng 100% trong 120 tháng"
+    },
+    "item4": {
+      "title": "ĐỘI NGŨ CỐT LÕI 10%",
+      "description": "TGE 0%, khóa 12 tháng, phân phối tuyến tính hàng tháng 15% trong 4 tháng, 6 tháng tiếp theo phân phối tuyến tính 20%, sau đó phân phối tuyến tính 65% trong 24 tháng"
+    },
+    "item5": {
+      "title": "XÂY DỰNG HỆ SINH THÁI 30%",
+      "description": "TGE 0%, khóa 12 tháng, phân phối tuyến tính hàng tháng 100% trong 96 tháng"
+    },
+    "item6": {
+      "title": "CỐ VẤN 5%",
+      "description": "TGE 0%, khóa 6 tháng, phân phối tuyến tính hàng tháng 100% trong 24 tháng"
+    },
+    "item7": {
+      "title": "NHÀ ĐẦU TƯ 5%",
+      "description": "TGE 0%, khóa 6 tháng, phân phối tuyến tính hàng tháng 100% trong 24 tháng"
+    },
+    "item8": {
+      "title": "TRÌNH XÁC NHẬN NÚT 10%",
+      "description": "TGE 0%, khóa 12 tháng, phân phối tuyến tính hàng tháng 100% trong 36 tháng"
+    }
+  },
+  "terms": {
+    "Last updated February 2, 2025": "Cập nhật lần cuối vào ngày 2 tháng 2 năm 2025",
+    "des1": "Các Điều khoản Dịch vụ này là một thỏa thuận có tính ràng buộc pháp lý được lập giữa bạn, dù là cá nhân hay thay mặt cho một tổ chức (\"bạn\"), và PIONE Chain (\"chúng tôi\"), liên quan đến việc bạn truy cập và sử dụng trang web PIONEscan.com cũng như bất kỳ hình thức truyền thông, kênh truyền thông, trang web di động hoặc ứng dụng di động nào có liên quan, liên kết hoặc kết nối với trang web này (gọi chung là \"Trang web\").",
+    "1. Acceptance of Terms": "1. Chấp nhận Điều khoản",
+    "des2": "Bằng cách truy cập hoặc sử dụng Dịch vụ, bạn đồng ý bị ràng buộc bởi các Điều khoản này và tất cả các điều khoản được viện dẫn. Nếu bạn không đồng ý với tất cả các Điều khoản này, bạn không được phép truy cập hoặc sử dụng Dịch vụ.",
+    "2. Description of Service": "2. Mô tả Dịch vụ",
+    "des3": "Nền tảng PIONE Chain cung cấp một mạng lưới blockchain phi tập trung và các dịch vụ liên quan, bao gồm nhưng không giới hạn ở việc thực hiện hợp đồng thông minh, giao dịch token và lưu trữ dữ liệu.",
+    "3. User Registration": "3. Đăng ký Người dùng",
+    "des4": "Để truy cập một số tính năng nhất định của Dịch vụ, bạn có thể được yêu cầu đăng ký tài khoản. Khi đăng ký, bạn đồng ý cung cấp thông tin chính xác và đầy đủ. Bạn hoàn toàn chịu trách nhiệm về việc bảo mật thông tin đăng nhập tài khoản và mọi hoạt động diễn ra dưới tài khoản của bạn.",
+    "4. Information Collection": "4. Thu thập Thông tin",
+    "4.1 Collection of Personal Information": "4.1 Thu thập Thông tin Cá nhân",
+    "des5": "Chúng tôi thu thập thông tin từ bạn và về bạn liên quan đến việc bạn sử dụng Dịch vụ. Một số thông tin thu thập có thể là Thông tin Cá nhân, được định nghĩa là dữ liệu nhận dạng bạn hoặc thiết bị của bạn, hoặc có liên quan hợp lý đến bạn. Các loại Thông tin Cá nhân được thu thập sẽ thay đổi tùy thuộc vào loại Dịch vụ bạn chọn. Ngoài ra, chúng tôi thu thập, sử dụng và tiết lộ thông tin được tổng hợp hoặc đã được ẩn danh mà không thể nhận dạng hợp lý bạn hoặc thiết bị của bạn, và không được coi là Thông tin Cá nhân.",
+    "4.2 Information Provided by Users": "4.2 Thông tin do Người dùng Cung cấp",
+    "des6": "Chúng tôi thu thập thông tin mà bạn cung cấp cho chúng tôi, bao gồm nhưng không giới hạn ở:",
+    "des7": "Thư từ và Phản hồi: Chúng tôi thu thập thông tin bạn cung cấp khi bạn liên hệ trực tiếp với chúng tôi hoặc đưa ra phản hồi, nhận xét hoặc đề xuất về Dịch vụ của chúng tôi.",
+    "des8": "Giao dịch Kinh doanh: Nếu bạn là nhà cung cấp, nhà cung cấp dịch vụ hoặc đối tác kinh doanh, chúng tôi có thể thu thập thông tin về bạn và dịch vụ bạn cung cấp, bao gồm thông tin liên hệ kinh doanh của bạn hoặc nhân viên của bạn và bất kỳ thông tin nào khác mà bạn hoặc nhân viên của bạn cung cấp trong quá trình cung cấp dịch vụ theo thỏa thuận với chúng tôi.",
+    "des9": "Thông tin Khác: Chúng tôi cũng thu thập thông tin liên quan đến bạn hoặc có thể được liên kết với bạn, chẳng hạn như độ tuổi, giới tính và bất kỳ thông tin nào khác mà bạn tự nguyện cung cấp.",
+    "4.3 Automatically Collected Information": "4.3 Thông tin Tự động Thu thập",
+    "des10": "Trong quá trình sử dụng Dịch vụ, chúng tôi có thể tự động thu thập hoặc nhận thông tin cụ thể liên quan đến bạn hoặc thiết bị mạng của bạn, bao gồm máy tính hoặc thiết bị di động. Điều này bao gồm thông tin về cách bạn sử dụng và sở thích của bạn khi sử dụng Dịch vụ. Thông tin này có thể được thu thập thông qua các công nghệ theo dõi trên thiết bị như cookie, pixel, thẻ, beacon, script hoặc các công nghệ khác.",
+    "des11": "Thông tin thu thập tự động cũng có thể bao gồm dữ liệu vị trí địa lý, chẳng hạn như thông tin xác định vị trí tương đối của thiết bị của bạn và địa chỉ IP, có thể được sử dụng để ước tính vị trí gần đúng của bạn.",
+    "4.4 Information from Partners": "4.4 Thông tin từ Đối tác",
+    "des12": "Chúng tôi thu thập thông tin từ các nguồn đáng tin cậy khác. Các đối tác kinh doanh này có thể bao gồm các đơn vị như nhà mạng di động của bạn, một số cơ quan chính phủ, cơ quan cấp phép, v.v.",
+    "4.5 Information Provided Through Social Media": "4.5 Thông tin được cung cấp qua Mạng xã hội",
+    "des13": "Nếu bạn kết nối với chúng tôi qua một nền tảng mạng xã hội hoặc truy cập từ một trong các trang của chúng tôi đến một nền tảng mạng xã hội, nền tảng đó sẽ tự động thu thập thông tin của bạn. Bạn nên xem lại chính sách quyền riêng tư của các nền tảng mạng xã hội để hiểu cách họ sử dụng thông tin của bạn và quyền của bạn liên quan đến thông tin đó.",
+    "4.6 Derived Information": "4.6 Thông tin suy luận",
+    "des14": "Chúng tôi có thể suy ra thêm thông tin hoặc rút ra kết luận về bạn dựa trên thông tin được thu thập trực tiếp từ bạn, thu thập tự động hoặc từ bên thứ ba.",
+    "5. Intellectual Property Rights": "5. Quyền Sở hữu Trí tuệ",
+    "des15": "Dịch vụ và tất cả nội dung gốc, tính năng và chức năng của nó sẽ và luôn thuộc quyền sở hữu độc quyền của PIONE Chain và các bên cấp phép của nó. Dịch vụ được bảo vệ bởi luật bản quyền, nhãn hiệu và các luật khác của Hoa Kỳ và các quốc gia khác. Nhãn hiệu và hình ảnh thương mại của chúng tôi không được sử dụng cho bất kỳ sản phẩm hoặc dịch vụ nào mà không có sự cho phép bằng văn bản của PIONE Blockchain.",
+    "6. Mobile Application License": "6. Giấy phép Ứng dụng Di động",
+    "6.1 Use License": "6.1 Giấy phép sử dụng",
+    "des16": "Nếu bạn truy cập Trang web qua một ứng dụng di động, thì chúng tôi cấp cho bạn quyền sử dụng không độc quyền, không thể chuyển nhượng, có thể thu hồi và giới hạn để cài đặt và sử dụng ứng dụng di động trên các thiết bị điện tử không dây do bạn sở hữu hoặc kiểm soát, và để truy cập và sử dụng ứng dụng di động đó trên các thiết bị đó, tuân theo Điều khoản dịch vụ của giấy phép ứng dụng di động này.",
+    "You shall not:": "Bạn không được phép:",
+    "des17": "giải mã, đảo ngược mã, tháo rời, cố gắng lấy mã nguồn hoặc giải mã ứng dụng.",
+    "des18": "thực hiện bất kỳ sửa đổi, thích nghi, cải tiến, nâng cấp, dịch thuật hoặc sản phẩm phái sinh nào từ ứng dụng.",
+    "des19": "vi phạm bất kỳ luật lệ, quy định hoặc quy tắc hiện hành nào liên quan đến việc bạn truy cập hoặc sử dụng ứng dụng.",
+    "des20": "gỡ bỏ, thay đổi hoặc che khuất bất kỳ thông báo quyền sở hữu nào (bao gồm thông báo bản quyền hoặc nhãn hiệu) được chúng tôi hoặc các bên cấp phép của ứng dụng đăng.",
+    "des21": "sử dụng ứng dụng cho bất kỳ hoạt động tạo doanh thu, doanh nghiệp thương mại hoặc mục đích nào khác ngoài mục đích thiết kế ban đầu của ứng dụng.",
+    "des22": "chia sẻ ứng dụng qua mạng hoặc môi trường khác cho phép nhiều thiết bị hoặc người dùng truy cập hoặc sử dụng cùng lúc.",
+    "des23": "sử dụng ứng dụng để tạo sản phẩm, dịch vụ hoặc phần mềm cạnh tranh trực tiếp hoặc gián tiếp hoặc thay thế cho ứng dụng.",
+    "des24": "sử dụng ứng dụng để gửi truy vấn tự động đến bất kỳ trang web nào hoặc gửi email thương mại không mong muốn.",
+    "des25": "sử dụng bất kỳ thông tin độc quyền nào hoặc giao diện, tài sản trí tuệ khác của chúng tôi để thiết kế, phát triển, sản xuất, cấp phép hoặc phân phối bất kỳ ứng dụng, phụ kiện hoặc thiết bị nào sử dụng với ứng dụng.",
+    "6.2 Apple and Android Devices": "6.2 Thiết bị Apple và Android",
+    "des26": "Các điều khoản sau áp dụng khi bạn sử dụng ứng dụng di động được tải từ Apple Store hoặc Google Play (mỗi bên gọi là \"Nhà phân phối ứng dụng\") để truy cập Trang web:",
+    "des27": "giấy phép được cấp cho bạn đối với ứng dụng di động của chúng tôi bị giới hạn ở việc sử dụng không thể chuyển nhượng trên một thiết bị sử dụng hệ điều hành Apple iOS hoặc Android, tùy thuộc vào các quy tắc sử dụng được quy định trong Điều khoản dịch vụ của Nhà phân phối ứng dụng tương ứng.",
+    "des28": "chúng tôi chịu trách nhiệm cung cấp bất kỳ dịch vụ bảo trì và hỗ trợ nào liên quan đến ứng dụng di động theo quy định trong Điều khoản dịch vụ này hoặc theo yêu cầu của luật hiện hành, và bạn xác nhận rằng mỗi Nhà phân phối ứng dụng không có nghĩa vụ nào trong việc cung cấp dịch vụ bảo trì và hỗ trợ liên quan đến ứng dụng di động.",
+    "des29": "trong trường hợp ứng dụng di động không tuân thủ bất kỳ bảo hành nào hiện hành, bạn có thể thông báo cho Nhà phân phối ứng dụng tương ứng, và theo chính sách và điều khoản của họ, Nhà phân phối có thể hoàn tiền giá mua (nếu có) cho bạn. Trong phạm vi tối đa được luật pháp cho phép, Nhà phân phối sẽ không có nghĩa vụ bảo hành nào khác đối với ứng dụng di động;",
+    "des30": "(4) bạn cam kết và bảo đảm rằng (i) bạn không ở trong một quốc gia bị Chính phủ Hoa Kỳ cấm vận hoặc bị chỉ định là quốc gia hỗ trợ khủng bố và (ii) bạn không nằm trong bất kỳ danh sách cấm hoặc hạn chế nào của Chính phủ Hoa Kỳ.",
+    "des31": "bạn phải tuân thủ các điều khoản thỏa thuận với bên thứ ba khi sử dụng ứng dụng di động, ví dụ: nếu bạn có ứng dụng VoIP, bạn không được vi phạm thỏa thuận dịch vụ dữ liệu không dây của họ khi sử dụng ứng dụng.",
+    "des32": "bạn xác nhận và đồng ý rằng các Nhà phân phối ứng dụng là bên thụ hưởng thứ ba của Điều khoản dịch vụ trong giấy phép ứng dụng di động này, và mỗi Nhà phân phối sẽ có quyền (và được xem là đã chấp nhận quyền) thực thi Điều khoản dịch vụ này đối với bạn như một bên thụ hưởng thứ ba.",
+    "7. Social Media": "7. Mạng xã hội",
+    "des33": "Là một phần của chức năng Trang web, bạn có thể liên kết tài khoản của mình với các tài khoản trực tuyến mà bạn có với các nhà cung cấp dịch vụ bên thứ ba (mỗi tài khoản như vậy gọi là \"Tài khoản bên thứ ba\") bằng cách: (1) cung cấp thông tin đăng nhập Tài khoản bên thứ ba của bạn thông qua Trang web; hoặc (2) cho phép chúng tôi truy cập Tài khoản bên thứ ba của bạn, nếu được cho phép theo Điều khoản dịch vụ áp dụng của tài khoản đó.",
+    "des34": "Bạn cam kết và đảm bảo rằng bạn có quyền tiết lộ thông tin đăng nhập Tài khoản bên thứ ba của mình cho chúng tôi và/hoặc cấp quyền truy cập cho chúng tôi, mà không vi phạm bất kỳ điều khoản nào áp dụng cho việc sử dụng tài khoản đó, và không làm cho chúng tôi phải trả phí hoặc bị giới hạn bởi nhà cung cấp dịch vụ bên thứ ba.",
+    "des35": "Bằng việc cấp quyền truy cập cho chúng tôi đến bất kỳ Tài khoản bên thứ ba nào, bạn hiểu rằng (1) chúng tôi có thể truy cập, hiển thị và lưu trữ (nếu áp dụng) mọi nội dung mà bạn đã cung cấp và lưu trữ trong Tài khoản bên thứ ba của mình (\"Nội dung mạng xã hội\") để hiển thị thông qua Trang web của bạn, bao gồm nhưng không giới hạn danh sách bạn bè và (2) chúng tôi có thể gửi và nhận thêm thông tin từ Tài khoản bên thứ ba của bạn nếu bạn được thông báo khi liên kết tài khoản.",
+    "des36": "Tùy vào các Tài khoản bên thứ ba bạn chọn và cài đặt quyền riêng tư trong các tài khoản đó, thông tin nhận dạng cá nhân mà bạn đăng lên có thể hiển thị thông qua tài khoản của bạn trên Trang web.",
+    "des37": "Lưu ý rằng nếu Tài khoản bên thứ ba hoặc dịch vụ liên quan không còn khả dụng hoặc quyền truy cập bị chấm dứt, thì Nội dung mạng xã hội có thể không còn khả dụng trên Trang web nữa. Bạn có thể vô hiệu hóa liên kết giữa tài khoản trên Trang web và các Tài khoản bên thứ ba bất kỳ lúc nào.",
+    "8. Privacy": "8. Quyền riêng tư",
+    "des38": "Việc bạn sử dụng Dịch vụ được điều chỉnh bởi Chính sách Quyền riêng tư của chúng tôi, được tích hợp vào các Điều khoản này bằng cách tham chiếu. Vui lòng xem Chính sách Quyền riêng tư của chúng tôi để hiểu các thực tiễn liên quan đến việc thu thập, sử dụng và xử lý thông tin của bạn.",
+    "9. Disclaimer of Warranties": "9. Tuyên bố từ chối bảo đảm",
+    "des39": "Dịch vụ được cung cấp dưới dạng 'nguyên trạng' và 'sẵn có', không có bất kỳ bảo đảm nào, dù rõ ràng hay ngụ ý. PIONE Blockchain từ chối mọi bảo đảm, bao gồm nhưng không giới hạn ở các bảo đảm ngụ ý về khả năng thương mại, phù hợp với một mục đích cụ thể và không vi phạm.",
+    "10. Limitation of Liability": "10. Giới hạn trách nhiệm pháp lý",
+    "des40": "Trong mọi trường hợp, PIONE Chain, cũng như các giám đốc, nhân viên, đối tác, đại lý, nhà cung cấp hoặc chi nhánh của mình sẽ không chịu trách nhiệm đối với bất kỳ thiệt hại gián tiếp, ngẫu nhiên, đặc biệt, hậu quả hoặc trừng phạt nào, bao gồm nhưng không giới hạn ở mất lợi nhuận, dữ liệu, khả năng sử dụng, thiện chí hoặc các tổn thất vô hình khác, phát sinh từ (i) việc bạn truy cập hoặc sử dụng hay không thể truy cập hoặc sử dụng Dịch vụ; (ii) bất kỳ hành vi hoặc nội dung nào của bên thứ ba trên Dịch vụ; (iii) bất kỳ nội dung nào có được từ Dịch vụ; và (iv) truy cập, sử dụng hoặc thay đổi trái phép các truyền tải hoặc nội dung của bạn, dù dựa trên bảo đảm, hợp đồng, hành vi sai trái (bao gồm sơ suất) hay bất kỳ lý thuyết pháp lý nào khác, dù chúng tôi đã được thông báo về khả năng xảy ra thiệt hại đó hay chưa, và ngay cả khi một biện pháp khắc phục được đưa ra ở đây bị coi là không đạt được mục đích cơ bản của nó.",
+    "11. Governing Law": "11. Luật điều chỉnh",
+    "des41": "Các Điều khoản này sẽ được điều chỉnh và giải thích theo pháp luật của St. Vicent, không xét đến các quy định về xung đột pháp luật của nó.",
+    "12. Changes to Terms": "12. Thay đổi Điều khoản",
+    "des42": "PIONE Chain có quyền, theo quyết định riêng của mình, sửa đổi hoặc thay thế các Điều khoản này bất kỳ lúc nào. Nếu có sửa đổi quan trọng, chúng tôi sẽ thông báo ít nhất 30 ngày trước khi các điều khoản mới có hiệu lực. Việc thay đổi nào được xem là quan trọng sẽ do chúng tôi toàn quyền quyết định.",
+    "13. Contact Us": "13. Liên hệ với chúng tôi",
+    "des43": "Nếu bạn có bất kỳ câu hỏi nào về các Điều khoản này hoặc các thực tiễn quyền riêng tư của chúng tôi, vui lòng liên hệ qua địa chỉ email: info@pionechain.com",
+    "des44": "Bằng việc sử dụng nền tảng PIONE Chain, bạn xác nhận rằng bạn đồng ý với các Điều khoản này. Nếu bạn không đồng ý với các Điều khoản này, vui lòng không sử dụng Dịch vụ của chúng tôi."
+  },
+  "privacy": {
+    "des1": "PIONE Chain và các công ty liên kết của mình, bao gồm chủ sở hữu, giám đốc, nhà đầu tư, nhân viên hoặc các bên liên quan khác, cam kết bảo vệ và tôn trọng quyền riêng tư của bạn. Trong Chính sách Quyền riêng tư này, PIONE Blockchain đề cập đến các dịch vụ, sản phẩm, trang web, nội dung hoặc tài liệu khác do PIONE Chain và các công ty liên kết cung cấp.",
+    "des2": "Thông tin cá nhân đề cập đến những thông tin nhận dạng bạn hoặc qua đó danh tính của bạn có thể được xác định một cách hợp lý. Điều này có thể bao gồm tên, địa chỉ, email và các thông tin liên hệ khác của bạn.",
+    "The purpose of this Privacy Policy is to inform you about": "Mục đích của Chính sách Quyền riêng tư này là để thông báo cho bạn về:",
+    "des3": "Các loại Thông tin Cá nhân mà chúng tôi có thể thu thập về bạn và cách chúng được sử dụng.",
+    "des4": "Việc sử dụng thông tin liên quan đến Địa chỉ IP và việc sử dụng cookie.",
+    "des5": "Cách Thông tin Cá nhân của bạn có thể được tiết lộ cho bên thứ ba.",
+    "des6": "Khả năng truy cập, chỉnh sửa, cập nhật và xóa Thông tin Cá nhân của bạn.",
+    "des7": "Các biện pháp bảo mật mà chúng tôi áp dụng để ngăn ngừa việc mất mát, sử dụng sai mục đích hoặc thay đổi Thông tin Cá nhân dưới sự kiểm soát của chúng tôi và đảm bảo tính riêng tư của thông tin.",
+    "Gathering and Use of Personal Information": "Thu thập và Sử dụng Thông tin Cá nhân:",
+    "des8": "Chúng tôi có thể thu thập thông tin cá nhân của bạn nếu bạn sử dụng trang web của PIONE Chain, mở tài khoản hoặc thực hiện bất kỳ giao dịch nào trên trang web. Các loại thông tin cá nhân mà chúng tôi có thể thu thập bao gồm:",
+    "des9": "Danh tính của bạn, bao gồm ảnh chất lượng cao của giấy tờ tùy thân hoặc hộ chiếu.",
+    "Your address, email address.": "Địa chỉ và email của bạn.",
+    "Your bank details, including account number.": "Thông tin ngân hàng của bạn, bao gồm số tài khoản.",
+    "des10": "Các thông tin liên quan khác như ngành nghề, hóa đơn tiện ích hoặc sao kê ngân hàng xác nhận địa chỉ cư trú của bạn.",
+    "Purpose of Using Personal Information": "Mục đích sử dụng Thông tin Cá nhân:",
+    "des11": "Chúng tôi có thể thu thập thông tin cá nhân của bạn nếu bạn sử dụng trang web, mở tài khoản hoặc thực hiện bất kỳ giao dịch nào trên trang web. Các loại thông tin cá nhân mà chúng tôi thu thập có thể bao gồm:",
+    "des12": "Cá nhân hóa trải nghiệm của bạn và đáp ứng tốt hơn các nhu cầu riêng của bạn.",
+    "des13": "Cải thiện và phân tích trang web của chúng tôi dựa trên phản hồi nhận được từ bạn.",
+    "des14": "Cải thiện dịch vụ chăm sóc khách hàng.",
+    "des15": "Để xác minh danh tính của bạn với nhà cung cấp của chúng tôi nhằm tuân thủ các chính sách chống rửa tiền.",
+    "des16": "Để xử lý các giao dịch. Thông tin của bạn sẽ không được bán, trao đổi hoặc cung cấp cho bất kỳ công ty nào khác nếu không có sự đồng ý của bạn.",
+    "des17": "Để gửi email định kỳ liên quan đến đơn hàng, yêu cầu và các chương trình khuyến mãi, sản phẩm hoặc dịch vụ liên quan.",
+    "Our Cookie Policy": "Chính sách Cookie của chúng tôi:",
+    "des18": "Bằng cách đồng ý cho phép trang web của chúng tôi sử dụng cookie, bạn cũng đồng ý với việc thu thập dữ liệu về hành vi trực tuyến của mình. Dữ liệu này được sử dụng để tùy chỉnh trang web phù hợp với nhu cầu của bạn. Xin lưu ý rằng cookie không cho phép chúng tôi kiểm soát máy tính của bạn. Bạn có thể tắt cookie thông qua cài đặt trình duyệt internet.",
+    "Link to Third Party:": "Liên kết đến bên thứ ba:",
+    "des19": "Chúng tôi có thể cung cấp các sản phẩm hoặc dịch vụ của bên thứ ba trên trang web của mình. Các trang web bên thứ ba này có chính sách quyền riêng tư riêng biệt và độc lập. Chúng tôi khuyến khích bạn xem xét chính sách của họ trước khi tương tác. Chúng tôi không chịu trách nhiệm về nội dung hoặc hành vi của các trang web bên thứ ba.",
+    "Repair/Update/Delete Personal Information": "Sửa đổi/Cập nhật/Xóa Thông tin Cá nhân:",
+    "des20": "Bạn có quyền truy cập, chỉnh sửa, cập nhật và xóa thông tin cá nhân của mình. Để gửi yêu cầu liên quan đến thông tin cá nhân, vui lòng gửi email cho chúng tôi tại info@pionechain.com. Chúng tôi sẽ xử lý yêu cầu của bạn theo các nghĩa vụ pháp lý và vận hành.",
+    "Security": "Bảo mật:",
+    "des21": "Chúng tôi thực hiện các bước hợp lý để bảo vệ Thông tin Cá nhân của bạn khỏi việc sử dụng sai mục đích, mất mát, truy cập trái phép, sửa đổi hoặc tiết lộ, bao gồm triển khai các biện pháp bảo mật phù hợp. Tuy nhiên, chúng tôi không thể đảm bảo rằng những sự cố như vậy sẽ không xảy ra.",
+    "Retention of Personal Information": "Lưu trữ Thông tin Cá nhân:",
+    "des22": "Chúng tôi sẽ chỉ lưu trữ Thông tin Cá nhân của bạn trong thời gian cần thiết cho các mục đích được mô tả trong Chính sách Quyền riêng tư này và theo yêu cầu của pháp luật và quy định.",
+    "Changes": "Thay đổi:",
+    "des23": "Chúng tôi có thể sửa đổi, cập nhật và/hoặc bổ sung Chính sách Quyền riêng tư của mình bất kỳ lúc nào mà không cần thông báo trước. Nếu có bất kỳ thay đổi nào, chúng tôi sẽ thông báo cho người dùng thông qua trang web và đăng Chính sách Quyền riêng tư đã sửa đổi.",
+    "SMS Opt-In Policy for Phone Number Verification": "Chính sách đồng ý nhận SMS để xác minh số điện thoại:",
+    "des24": "Cảm ơn bạn đã lựa chọn PIONE Chain. Chính sách đồng ý nhận SMS của chúng tôi nêu rõ cách chúng tôi xử lý số điện thoại và tin nhắn xác minh. Bằng cách đăng ký nền tảng của chúng tôi, bạn đồng ý nhận tin nhắn SMS để xác minh số điện thoại. Những tin nhắn này chỉ chứa mã xác minh hoặc thông tin liên quan đến tài khoản. Chúng tôi coi trọng quyền riêng tư của bạn và sẽ không chia sẻ số điện thoại của bạn với bên thứ ba nếu không có sự đồng ý của bạn. Nếu bạn muốn từ chối nhận tin nhắn SMS, xin lưu ý rằng bạn có thể không sử dụng được nền tảng của chúng tôi vì xác minh số điện thoại là bắt buộc cho mục đích bảo mật.",
+    "des25": "Nếu bạn có bất kỳ thắc mắc hoặc lo ngại nào liên quan đến Chính sách Quyền riêng tư hoặc Chính sách đồng ý nhận SMS, vui lòng liên hệ với chúng tôi tại info@pionechain.com"
+  },
+  "Solution": {
+    "title": "Giải Pháp Blockchain Toàn Diện",
+    "with": "với",
+    "title_0": "Đa Ứng Dụng",
+    "title_1": "An Toàn",
+    "title_2": "Minh Bạch",
+    "title_3": "Bảo mật",
+    "title_4": "Bền Vững",
+    "subTitle": "Pione Chain mang đến nền tảng blockchain hiện đại với bảo mật vượt trội, minh bạch tuyệt đối và khả năng ứng dụng đa ngành, giúp cá nhân và doanh nghiệp phát triển bền vững trong kỷ nguyên số.",
+    "GetStarted": "Bắt đầu",
+    "LearnMore": "Tìm hiểu thêm",
+    "Problems": {
+      "PROBLEMS": "Vấn đề",
+      "title": "Những rào cản khiến blockchain chưa phổ cập",
+      "problem_0": "Khó áp dụng do rào cản kỹ thuật & pháp lý",
+      "problem_1": "Thiếu minh bạch & truy xuất nguồn gốc",
+      "problem_2": "Chi phí cao, tốc độ chậm",
+      "problem_3": "Khó tiếp cận & tích hợp với hệ thống truyền thống",
+      "problem_4": "Thiếu ứng dụng gắn liền với đời sống"
+    },
+    "Solutions": {
+      "Solution": "Giải pháp",
+      "title": "Hạ tầng blockchain thế hệ mới - Linh hoạt, minh bạch, hiệu quả",
+      "subTitle": "Pione Chain mang đến kiến trúc blockchain đa tầng, kết hợp hai mạng lưới bổ trợ nhau:",
+      "value": "Pione Chain là nền tảng blockchain hạ tầng chiến lược thế hệ mới, được phát triển nhằm hiện thực hoá tầm nhìn ứng dụng blockchain vào đời sống thực. Với kiến trúc hiệu suất cao, bảo mật mạnh mẽ và khả năng tích hợp linh hoạt với các hệ sinh thái chuyên biệt, Pione Chain không chỉ là một blockchain đơn lẻ mà là một mô hình đa tầng, phục vụ cho cả tài sản số và truy xuất dữ liệu minh bạch.",
+      "gas": "Hệ sinh thái Pione Chain bao gồm hai mạng blockchain độc lập nhưng bổ trợ lẫn nhau, cho phép xử lý tối ưu các nhu cầu khác nhau của ứng dụng thực tiễn."
+    },
+    "PioneChainComp": {
+      "subTitle": "Hạ tầng kinh tế số",
+      "title_0": "Quản lý tài sản số:",
+      "title_1": "Giao dịch tài chính phi tập trung:",
+      "title_2": "Smart Contract linh hoạt:",
+      "title_3": "Cơ chế đồng thuận PoAT (Proof of AI Tracing): ",
+      "content_0": "Bao gồm native token $PIO, NFT, tài sản ảo và ví phi tập trung.",
+      "content_1": "Hỗ trợ các hoạt động DeFi, staking, NFT marketplace, airdrop,...",
+      "content_2": "Cho phép nhà phát triển xây dựng các ứng dụng phi tập trung (dApp) tùy chỉnh theo từng lĩnh vực.",
+      "content_3": "Tích hợp công nghệ trí tuệ nhân tạo (AI) để tự động truy vết, xác minh và phát hiện sai lệch dữ liệu theo thời gian thực, đảm bảo tính toàn vẹn của chuỗi."
+    },
+    "PioneZeroComp": {
+      "title": "Truy xuất dữ liệu & định danh số miễn phí",
+      "titleCard_0": "Zero Gas Fee",
+      "titleCard_1": "Định danh & xác thực dữ liệu",
+      "titleCard_2": "Dữ liệu công khai & minh bạch.",
+      "titleCard_3": "Cầu nối giữa dữ liệu truyền thống và Web3.",
+      "descriptionCard_0": "Người dùng không cần trả phí để ghi hoặc truy xuất dữ liệu, thậm chí có thể được nhận gas fee như một cơ chế khuyến khích.",
+      "descriptionCard_1": "Sử dụng để xác minh bất động sản, hồ sơ y tế, nguồn gốc nông sản, và các loại dữ liệu hành chính khác.",
+      "descriptionCard_2": "Phù hợp với các lĩnh vực như y tế, giáo dục, tài chính, nông nghiệp và bất động sản, nơi dữ liệu cần được xác thực nhanh, truy xuất dễ dàng và không bị chỉnh sửa.",
+      "descriptionCard_3": "Pione Zero đóng vai trò như một “cầu nối” thông minh, chuyển đổi dữ liệu từ hệ thống quản lý truyền thống sang môi trường blockchain. Điều này giúp doanh nghiệp, chính phủ và tổ chức dễ dàng tích hợp với hệ sinh thái Web3 mà vẫn giữ nguyên tính bảo mật và tính pháp lý của dữ liệu gốc."
+    },
+    "Benefit": {
+      "content_0": "Giao dịch an toàn & nhanh chóng",
+      "content_1": "Truy xuất dữ liệu miễn phí",
+      "content_2": "Tích hợp dễ dàng",
+      "content_3": "Ứng dụng đa lĩnh vực"
+    },
+    "footer_slogan": {
+      "title": "Khám Phá Giải Pháp Tối Ưu Của Pione Chain - Tận Hưởng Minh Bạch & Bảo Mật Trong Chuỗi Cung Ứng",
+      "contact": "Hợp tác với Chúng tôi",
+      "subtitle": "Bắt đầu hành trình số hóa và tối ưu hóa doanh nghiệp của bạn với Pione Chain. Với công nghệ blockchain tiên tiến, chúng tôi mang đến giải pháp minh bạch, bảo mật và dễ dàng tích hợp. Hãy liên hệ ngay hôm nay để trở thành đối tác và cùng chúng tôi định hình tương lai của chuỗi cung ứng!"
+    }
+  },
+  "news": {
+    "title": "Tin Tức & Sự Kiện",
+    "subTitle": "Cập nhật những tin tức mới nhất về Pione Chain và xu hướng blockchain toàn cầu.",
+    "ReadMore": "Đọc thêm",
+    "Category": "Danh mục",
+    "All Categroy": "Tất cả danh mục",
+    "Tags": "Thẻ",
+    "All Tag": "Tất cả thẻ",
+    "searchPlaceholder": "Tìm kiếm bài viết...",
+    "NoData": "Không có bài viết nào."
+  },
+  "Yummy_data": {
+    "KeyBenefitsData": {
+      "title_0": "1. Dành cho Người dùng",
+      "title_1": "2. Dành cho Đối tác Thương mại",
+      "title_2": "3. Dành cho Hệ sinh thái",
+      "description_0_0": "Tiện lợi: Tất cả tính năng cốt lõi—lưu trữ, giao dịch và thanh toán—được tích hợp trong một ứng dụng duy nhất.",
+      "description_0_1": "Bảo mật: Các công nghệ bảo mật tiên tiến bảo vệ tài sản số của người dùng.",
+      "description_0_2": "Ứng dụng thực tiễn: Người dùng có thể thanh toán trực tiếp bằng tài sản số tại các đơn vị và đối tác đăng ký qua định danh NFT mà không cần quy đổi sang tiền pháp định.",
+      "description_1_0": "Tăng doanh thu: Khai thác nguồn thu mới từ khách hàng ưa chuộng sử dụng tài sản số.",
+      "description_1_1": "Mở rộng tiếp cận nhóm khách hàng mới, đặc biệt là những người quan tâm đến đổi mới công nghệ blockchain.",
+      "description_1_2": "Hỗ trợ giao dịch nhanh chóng với yêu cầu hạ tầng tối thiểu.",
+      "description_2_0": "Thúc đẩy việc ứng dụng tài sản số vào đời sống hàng ngày.",
+      "description_2_1": "Kết nối tài chính số và thương mại truyền thống.",
+      "description_2_2": "Góp phần xây dựng hệ sinh thái tài chính bền vững."
+    },
+    "OverviewData": {
+      "title_0": "1. Sản phẩm Cốt lõi",
+      "title_1": "2. Điểm nổi bật",
+      "title_2": "3. Tầm nhìn của chúng tôi",
+      "content_0_0": "Đầu tư: Mua và bán các loại tài sản số phổ biến như Bitcoin, Ethereum, BNB và nhiều loại khác.",
+      "content_0_1": "Quản lý tài sản: Theo dõi danh mục tài sản số và tối ưu hiệu suất với phân tích từ AI.",
+      "content_1_0": "AI thông minh: Phân tích thị trường tài sản số và tối ưu danh mục người dùng để tăng lợi nhuận.",
+      "content_1_1": "Giao diện thân thiện: Hỗ trợ nhiều thiết bị và ngôn ngữ, bao gồm cả tiếng Việt và tiếng Anh.",
+      "content_1_2": "Phí thấp: Phí giao dịch cạnh tranh từ 0% đến 0.2% mỗi giao dịch.",
+      "content_2": "Trở thành ứng dụng đầu tư tài sản số toàn cầu và đạt 500.000 người dùng trong vòng ba năm."
+    },
+    "WorksCardData": {
+      "title_0": "1. Đăng ký Người dùng",
+      "title_1": "2. Đầu tư vào Coin",
+      "title_2": "3. Quản lý Danh mục",
+      "title_3": "4. Nạp/Rút Tiền",
+      "title_4": "5. Hỗ trợ Kỹ thuật",
+      "description_0_0": "Tải ứng dụng Pione Invest (trên iOS/Android) hoặc truy cập nền tảng web.",
+      "description_0_1": "Hoàn tất xác minh eKYC (CMND/hộ chiếu và nhận diện khuôn mặt) trong vòng 3 phút.",
+      "description_0_2": "Kết nối ví tài sản số của bạn (ví dụ: Pione Wallet, MetaMask, Trust Wallet).",
+      "description_1_0": "Mua và bán coin (BTC, ETH, USDT, v.v.) trực tiếp trong ứng dụng.",
+      "description_1_1": "Truy cập dữ liệu giá theo thời gian thực của các loại tài sản số.",
+      "description_2_0": "Theo dõi giá trị ví và lãi/lỗ qua biểu đồ trực quan.",
+      "description_2_1": "Tối ưu hóa danh mục bằng AI dựa trên biến động giá coin.",
+      "description_2_2": "Nhận thông báo đẩy về biến động giá khi thị trường thay đổi.",
+      "description_3_0": "Tích hợp với ngân hàng (ví dụ: Vietcombank, Techcombank) và các ví tài sản số.",
+      "description_3_1": "Chuyển tiền tức thì với phí từ 0% đến 0.3%.",
+      "description_4_0": "Chatbot AI hỗ trợ 24/7 bằng cả tiếng Việt và tiếng Anh.",
+      "description_4_1": "Tài nguyên học tập miễn phí, bao gồm video và bài viết hướng dẫn đầu tư tài sản số."
+    },
+    "CoreFeaturesData": {
+      "title_0": "1. Đầu tư",
+      "title_1": "2. Phân tích Thị trường",
+      "title_2": "3. Quản lý Danh mục",
+      "title_3": "4. Tiện ích",
+      "title_4": "5. Bảo mật",
+      "description_0_0": "Mua và bán các loại coin như BTC, ETH, BNB, USDT và nhiều loại khác.",
+      "description_0_1": "Giao dịch tốc độ cao với thời gian xử lý lệnh dưới 1 giây.",
+      "description_1_0": "Bảng giá coin theo thời gian thực để theo dõi thị trường.",
+      "description_1_1": "Bộ lọc coin theo vốn hóa thị trường, xu hướng và khối lượng giao dịch.",
+      "description_1_2": "Biểu đồ phân tích nâng cao như RSI, MACD và các chỉ báo xu hướng giá.",
+      "description_2_0": "Theo dõi lãi/lỗ và phân bổ coin trong danh mục theo thời gian thực.",
+      "description_2_1": "Gợi ý phân bổ danh mục bằng AI, ví dụ: 50% BTC, 30% ETH, tùy theo xu hướng thị trường và mục tiêu người dùng.",
+      "description_3_0": "Giao diện tùy chỉnh: Cá nhân hóa màu sắc và bố cục theo sở thích.",
+      "description_3_1": "Học đầu tư: Video giáo dục và thử thách dạng trò chơi giúp người dùng nâng cao kiến thức đầu tư — tích điểm và đổi thưởng thông qua học tập tương tác.",
+      "description_3_2": "Hỗ trợ 24/7: Trợ giúp liên tục qua live chat và đường dây nóng để đảm bảo trải nghiệm mượt mà mọi lúc, mọi nơi.",
+      "description_4_0": "Mã hóa AES-256 và giao thức SSL/TLS đảm bảo bảo mật dữ liệu và truyền thông an toàn.",
+      "description_4_1": "Tích hợp xác thực hai lớp (2FA) và mã OTP để tăng cường bảo mật tài khoản."
+    },
+    "TechnologyOperationsData": {
+      "title_0": "1. Công nghệ",
+      "title_1": "2. AI/ML",
+      "title_2": "3. Bảo mật",
+      "title_3": "4. Vận hành",
+      "title_4": "5. Hỗ trợ Khách hàng",
+      "title_5": "6. Tuân thủ Pháp lý",
+      "content_0_0": "Frontend:",
+      "content_0_1": "React Native (ứng dụng di động): Giao diện người dùng mượt mà, hỗ trợ đa ngôn ngữ.",
+      "content_0_2": "Next.js (web): Tốc độ tải nhanh, tối ưu hóa SEO.",
+      "content_0_3": "Backend:",
+      "content_0_4": "Node.js với kiến trúc microservices: Hệ thống backend có khả năng mở rộng, xử lý hàng triệu giao dịch.",
+      "content_0_5": "Kubernetes trên AWS: Giúp mở rộng linh hoạt và đảm bảo tính sẵn sàng cao.",
+      "content_1_0": "TensorFlow: Sử dụng cho phân tích thị trường và tối ưu danh mục đầu tư thông qua các mô hình học máy tiên tiến.",
+      "content_1_1": "NLP (Xử lý ngôn ngữ tự nhiên): Áp dụng cho phân tích tin tức tài sản số để rút trích thông tin và đánh giá tâm lý thị trường.",
+      "content_2_0": "Mã hóa SSL/TLS và AES-256: Xác thực hai yếu tố (2FA) và kiểm tra bảo mật định kỳ.",
+      "content_3_0": "Quản lý giao dịch: Hệ thống back-office xử lý các giao dịch mua/bán coin một cách đáng tin cậy và hiệu quả.",
+      "content_3_1": "Bảo trì: Ứng dụng được cập nhật hàng tháng để cải tiến liên tục, đảm bảo độ ổn định và tích hợp tính năng mới.",
+      "content_4_0": "Chatbot AI xử lý 80% câu hỏi từ người dùng:",
+      "content_4_1": "Đội ngũ hỗ trợ 24/7 qua trò chuyện trực tuyến và đường dây nóng:",
+      "content_5_0": "Tuân thủ quy định pháp lý về tài sản số tại nhiều quốc gia trên thế giới, đảm bảo hoạt động hợp pháp trong nước.",
+      "content_5_1": "Hỗ trợ các giao thức KYC/AML và sẵn sàng mở rộng tuân thủ theo các quy định quốc tế."
+    },
+    "CurrentProblemsData": {
+      "title_0": "Hạn chế về tiện ích ngoài chức năng lưu trữ",
+      "title_1": "Trải nghiệm người dùng phức tạp",
+      "title_2": "Những thách thức bảo mật chưa được giải quyết",
+      "content_0": "Hầu hết các ví hiện nay chỉ tập trung vào lưu trữ và giao dịch tài sản số, thiếu sự tích hợp với các ứng dụng trong đời sống thực tế.",
+      "content_1": "Trải nghiệm người dùng vẫn còn phức tạp, gây khó khăn lớn cho người mới.",
+      "content_2": "Bảo mật và quyền riêng tư vẫn là những mối quan tâm hàng đầu."
+    },
+    "SolutionPioneWalletData": {
+      "title_0": "1. Hệ Sinh Thái Tích Hợp",
+      "title_1": "2. Kết Nối Blockchain với Cuộc Sống",
+      "title_2": "3. Trải Nghiệm Người Dùng Tối Ưu",
+      "description_0": "PioneWallet vượt xa chức năng lưu trữ tài sản số khi hỗ trợ DeFi và dApps, giúp người dùng tối ưu hóa và quản lý danh mục kỹ thuật số một cách hiệu quả.",
+      "description_1": "Bằng cách ứng dụng công nghệ blockchain vào các lĩnh vực như y tế, giáo dục và thương mại, PioneWallet mang blockchain đến gần hơn với cuộc sống hàng ngày, thiết thực và dễ tiếp cận hơn.",
+      "description_2": "Giao diện trực quan, hỗ trợ đa ngôn ngữ và tích hợp AI giúp ngay cả người dùng mới cũng có thể dễ dàng sử dụng và khai thác nền tảng."
+    },
+    "KeyHighlightsData": {
+      "title_0": "Kiến Trúc Phi Lưu Ký",
+      "title_1": "Tích Hợp Đa Hệ Sinh Thái",
+      "title_2": "Tương Thích Đa Chuỗi Blockchain",
+      "title_3": "Kết Nối DApp",
+      "content_0": "Người dùng giữ toàn quyền kiểm soát khóa riêng và cụm từ khôi phục, đảm bảo mức độ bảo mật và quyền sở hữu tài sản số tối đa.",
+      "content_1": "Kết nối liền mạch với PioneHouse (bất động sản kỹ thuật số), PioneCare (chăm sóc sức khỏe), PioneFarm (nông nghiệp kỹ thuật số) và nhiều hệ sinh thái khác.",
+      "content_2": "Hỗ trợ PioneChain, Ethereum và BNB Smart Chain — cho phép tương tác dễ dàng mà không cần sử dụng nhiều ví khác nhau.",
+      "content_3": "Cho phép tương tác với hàng nghìn ứng dụng phi tập trung (dApps), giúp người dùng thực hiện nhiều tác vụ mà không cần rời khỏi giao diện PioneWallet."
+    },
+    "DigitalAssetManagementData": {
+      "title_0": "1. Tạo và Quản lý Ví",
+      "title_1": "2. Quản lý Đa Tài Sản",
+      "title_2": "3. RPC (Giao Thức Gọi Thủ Tục Từ Xa)",
+      "content_0_0": "Hỗ trợ tạo ví mới với cụm từ khôi phục có độ bảo mật cao.",
+      "content_0_1": "Cung cấp tính năng sao lưu và phục hồi thân thiện với người dùng, đảm bảo truy cập nhanh chóng và an toàn trong mọi tình huống.",
+      "content_0_2": "Đảm bảo người dùng luôn sở hữu và kiểm soát tài sản kỹ thuật số của mình, không phụ thuộc vào bên thứ ba.",
+      "content_1_0": "Cho phép người dùng quản lý nhiều loại tài sản kỹ thuật số—bao gồm tài sản số, NFT và token—chỉ trong một ví duy nhất.",
+      "content_1_1": "Hiển thị đầy đủ số dư tài sản và lịch sử giao dịch, giúp người dùng theo dõi và quản lý dễ dàng.",
+      "content_2": "PioneWallet sử dụng giao thức RPC (Remote Procedure Call) để kết nối với các node mạng blockchain và thực hiện giao dịch một cách liền mạch."
+    },
+    "BenefitsData": {
+      "title_0": "Lợi ích cho Người dùng",
+      "title_1": "Mở rộng",
+      "title_2": "Ứng dụng Doanh nghiệp",
+      "description_0_0": "Minh bạch và bảo mật cao",
+      "description_0_1": "Toàn quyền kiểm soát tài sản số",
+      "description_0_2": "Giao diện thân thiện với các tính năng tích hợp",
+      "description_1": "Khả năng mở rộng và tích hợp với hệ sinh thái và dApps",
+      "description_2": "Quản lý tài sản số an toàn"
+    },
+    "IntroductionIdentificationData": {
+      "title_0": "1. Tăng cường minh bạch",
+      "title_1": "2. Hỗ trợ xác thực quyền sở hữu",
+      "title_2": "3. Tối ưu khả năng truy cập thông tin",
+      "title_3": "4. Quản lý tài sản thông minh",
+      "content_0": "Lưu trữ dữ liệu tài sản không thể thay đổi giúp loại bỏ gian lận.",
+      "content_1": "Truy cập dễ dàng vào lịch sử giao dịch và tình trạng pháp lý",
+      "content_2": "Cho phép người mua, người bán và cơ quan quản lý nhanh chóng truy xuất và xác minh dữ liệu",
+      "content_3": "Cập nhật và theo dõi thông tin bất động sản theo thời gian thực"
+    },
+    "VisionsMissionsData": {
+      "title_0": "Tăng cường bảo mật",
+      "title_1": "Đảm bảo quyền sở hữu tài sản",
+      "title_2": "Tạo thuận lợi",
+      "content_0": "Tăng cường minh bạch và bảo mật thông tin bất động sản",
+      "content_1": "Đảm bảo quyền sở hữu tài sản thông qua dữ liệu không thể thay đổi",
+      "content_2": "Hỗ trợ người mua, người bán và các bên liên quan tiếp cận thông tin chính xác và kịp thời"
+    },
+    "BenefitsBuyersData": {
+      "title_0": "Xác minh nguồn gốc",
+      "title_1": "Thông tin đáng tin cậy",
+      "title_2": "Bảo vệ khỏi gian lận",
+      "content_0": "Dễ dàng xác minh nguồn gốc và tình trạng pháp lý của tài sản",
+      "content_1": "Tiếp cận thông tin minh bạch và đáng tin cậy",
+      "content_2": "Được bảo vệ khỏi các rủi ro gian lận"
+    },
+    "BenefitsSellersData": {
+      "title_0": "Minh bạch",
+      "title_1": "Tăng cường niềm tin",
+      "title_2": "Rút ngắn thời gian giao dịch",
+      "content_0": "Quảng bá bất động sản chuyên nghiệp",
+      "content_1": "Tăng giá trị tài sản",
+      "content_2": "Đẩy nhanh xác minh thông qua blockchain"
+    },
+    "ForRegulatoryAuthoritiesData": {
+      "content_0": "Quản lý dữ liệu tài sản hiệu quả",
+      "content_1": "Đơn giản hóa quy trình xác minh quyền sở hữu và giấy tờ pháp lý",
+      "content_2": "Đảm bảo tính minh bạch, ngăn chặn gian lận và thao túng thị trường",
+      "title_0": "Quản lý Dữ liệu",
+      "title_1": "Xác minh quyền sở hữu",
+      "title_2": "Ngăn chặn gian lận"
+    },
+    "WhyChoosePioneCareData": {
+      "content_0": "Đặt lịch hẹn nhanh chóng và tiện lợi - Tránh quá tải và giảm thời gian chờ đợi.",
+      "content_1": "Quản lý hồ sơ y tế thông minh - Lưu trữ an toàn, đồng bộ mượt mà và dễ dàng truy cập.",
+      "content_2": "Thông tin sức khỏe minh bạch - Trao quyền cho bệnh nhân kiểm soát dữ liệu cá nhân.",
+      "title_0": "1. Pione Care: Dịch vụ chăm sóc sức khỏe tốt hơn, đơn giản hơn",
+      "title_1": "2. Sức khỏe của bạn, dễ dàng hơn - Pione Care",
+      "title_2": "3. Thông minh. An toàn. Lấy bệnh nhân làm trung tâm - Pione Care"
+    },
+    "BenefitsPatientsData": {
+      "content_0": "Đặt lịch khám trực tuyến thuận tiện với các cơ sở y tế uy tín",
+      "content_1": "Lưu trữ và quản lý hồ sơ y tế an toàn, không thể thay đổi trên Blockchain",
+      "content_2": "Truy cập hồ sơ y tế cá nhân dễ dàng với sự minh bạch hoàn toàn trên Blockchain",
+      "title_0": "Đặt lịch khám",
+      "title_1": "Lưu trữ an toàn",
+      "title_2": "Truy cập dễ dàng"
+    },
+    "HealthcareProviderData": {
+      "content_0": "Hệ thống đặt lịch hẹn tích hợp công nghệ blockchain. Truy xuất dữ liệu dễ dàng.",
+      "content_1": "Lưu trữ hồ sơ bệnh nhân trên nền tảng blockchain, đảm bảo an toàn và dễ dàng quản lý.",
+      "content_2": "Nâng cao độ chính xác và hiệu quả.",
+      "title_0": "Hệ thống đặt lịch hẹn",
+      "title_1": "Quản lý bệnh nhân",
+      "title_2": "Hồ sơ chống giả mạo"
+    },
+    "RegulatoryAuthoritiesData": {
+      "content_0": "Lưu trữ và quản lý hồ sơ y tế bệnh nhân một cách an toàn, minh bạch và không thể chỉnh sửa.",
+      "content_1": "Nâng cao hiệu quả dịch vụ chăm sóc sức khỏe.",
+      "title_0": "Quản lý dữ liệu trên nền tảng Blockchain",
+      "title_1": "Tối ưu hóa hệ thống"
+    },
+    "KeyFeaturesData": {
+      "title_0": "Đặt lịch khám bệnh dựa trên Blockchain",
+      "title_1": "Quản lý hồ sơ sức khỏe cá nhân",
+      "title_2": "Hệ thống tìm kiếm dịch vụ y tế tích hợp Blockchain",
+      "content_0_0": "Người dùng có thể tìm kiếm và đặt lịch khám với bác sĩ, phòng khám, và bệnh viện một cách an toàn.",
+      "content_0_1": "Công nghệ Blockchain đảm bảo tính minh bạch trong quá trình đặt lịch và xác minh bác sĩ thuộc các cơ sở y tế hoặc bệnh viện.",
+      "content_1_0": "Lưu trữ hồ sơ y tế, đơn thuốc và kết quả chẩn đoán trên blockchain một cách an toàn, không thể thay đổi.",
+      "content_1_1": "Hồ sơ sức khỏe không thể chỉnh sửa giúp đảm bảo tính minh bạch và ngăn chặn hành vi thay đổi trái phép.",
+      "content_1_2": "Dễ dàng truy cập và chia sẻ hồ sơ y tế với các nhà cung cấp dịch vụ chăm sóc sức khỏe thông qua công nghệ blockchain.",
+      "content_2_0": "Tính năng tìm kiếm thông minh giúp định vị các bệnh viện, phòng khám và bác sĩ chuyên khoa gần bạn với thông tin đã được xác thực.",
+      "content_2_1": "Lọc dịch vụ dựa trên dữ liệu đã xác minh qua blockchain, vị trí, chuyên khoa và đánh giá từ bệnh nhân."
+    },
+    "ExecutiveSummaryData": {
+      "title_0": "LỢI THẾ",
+      "title_1": "HẠN CHẾ",
+      "title_2": "GIẢI PHÁP",
+      "title_3": "KẾT LUẬN",
+      "content_0_0": "- Nhiều quốc gia đang ưu tiên phát triển nông nghiệp thông minh và công nghệ cao thông qua các chính sách và sáng kiến hỗ trợ.",
+      "content_0_1": "- Nhận thức cộng đồng ngày càng tăng cùng sự bùng nổ của các startup nông nghiệp cho thấy động lực mạnh mẽ trong ngành.",
+      "content_0_2": "- Người tiêu dùng ngày càng quan tâm đến thực phẩm sạch, an toàn và có nguồn gốc rõ ràng, tạo ra nhu cầu cấp thiết về các giải pháp nông nghiệp minh bạch.",
+      "content_1_0": "- Nỗi sợ thay đổi và chậm áp dụng công nghệ",
+      "content_1_1": "- Mối liên kết giữa nghiên cứu khoa học, quản lý nhà nước và các nhà cung cấp giải pháp công nghệ còn yếu và thiếu phối hợp, làm giảm hiệu quả và khả năng mở rộng sáng kiến.",
+      "content_2_0": "- Thúc đẩy nhận thức về cách công nghệ có thể nâng cao năng suất và tính bền vững trong nông nghiệp.",
+      "content_2_1": "- Cung cấp vốn đầu tư, ưu đãi thuế, đào tạo kỹ thuật và hội thảo giúp các doanh nghiệp vừa và nhỏ, trang trại và hợp tác xã tiếp cận và ứng dụng công nghệ hiện đại.",
+      "content_2_2": "- Phát triển các giải pháp công nghệ thực tiễn, chi phí thấp, phù hợp với bối cảnh thông qua tăng cường R&D đáp ứng nhu cầu thực tế trong nông nghiệp.",
+      "content_2_3": "- Hỗ trợ cộng đồng nông thôn và vùng sâu vùng xa bằng dịch vụ internet di động 3G/4G, giúp nông dân tiếp cận và tận dụng các công nghệ số trong nông nghiệp.",
+      "content_3_0": "- Mỗi quốc gia đều có thế mạnh nông nghiệp riêng, tuy nhiên phần lớn vẫn dựa trên mô hình sản xuất hộ gia đình quy mô nhỏ, năng suất lao động thấp. Nhận thấy điều này, PIONE GROUP đã đầu tư hơn ba năm cho dự án PIONE FARM — một sáng kiến được thúc đẩy bởi đam mê của toàn đội ngũ, với mục tiêu tạo ra sản phẩm nông nghiệp đạt chuẩn quốc tế thông qua ứng dụng công nghệ thông tin vào sản xuất.",
+      "content_3_1": "- Cách tiếp cận này mở ra cơ hội lớn để nông dân quy mô nhỏ chuyển mình thành những doanh nghiệp nông nghiệp năng suất cao, mang lại giá trị lớn hơn, qua đó cải thiện chất lượng cuộc sống. Mục tiêu rộng hơn là phát triển và thống nhất nền tảng công nghệ nông nghiệp giữa các quốc gia, hình thành chuẩn chung để phát triển bền vững và tăng trưởng đồng bộ."
+    },
+    "OperatingPrinciplesData": {
+      "title_0": "1. Thành Phần Chính",
+      "title_1": "2. Quy Trình Vận Hành",
+      "title_2": "3. Quy Trình Lựa Chọn Trình Xác Thực",
+      "title_3": "4. Xác Thực Giao Dịch",
+      "content_0_0": "Trình xác thực (Validator): Các nút trong mạng có trách nhiệm xác thực giao dịch và tạo ra các khối mới.",
+      "content_0_1": "Mô hình AI: Mô hình trí tuệ nhân tạo đã được huấn luyện để đánh giá và lựa chọn trình xác thực.",
+      "content_0_2": "Dữ liệu đầu vào: Thông tin về trình xác thực, bao gồm số lượng token đã stake, điểm uy tín, độ chính xác và hiệu suất hoạt động.",
+      "content_1_0": "Thu thập dữ liệu",
+      "content_1_1": "Hệ thống thu thập dữ liệu từ các trình xác thực, bao gồm:",
+      "content_1_2": "Số lượng token đã stake",
+      "content_1_3": "Điểm uy tín (reputation).",
+      "content_1_4": "Độ chính xác khi xác thực giao dịch (accuracy).",
+      "content_1_5": "Hiệu suất hoạt động (performance).",
+      "content_1_6": "Huấn luyện mô hình AI",
+      "content_1_7": "Dữ liệu thu thập được được sử dụng để huấn luyện mô hình AI.",
+      "content_1_8": "Mô hình AI học cách đánh giá và dự đoán trình xác thực nào có khả năng xác thực giao dịch một cách chính xác nhất.",
+      "content_2_0": "Mô hình AI tính toán điểm số cho từng trình xác thực dựa trên các yếu tố đầu vào.",
+      "content_2_1": "Trình xác thực có điểm số cao nhất sẽ được chọn để xác thực giao dịch và tạo khối mới.",
+      "content_3_0": "Pione Chain có lộ trình phát triển rõ ràng và đa dạng các ứng dụng thực tiễn.",
+      "content_3_1": "Định hướng:",
+      "content_3_2": "- Xây dựng hệ sinh thái blockchain thông minh, an toàn và hiệu quả.",
+      "content_3_3": "- Tích hợp AI trong mọi lĩnh vực để thúc đẩy chuyển đổi số và đổi mới công nghệ trong xã hội.",
+      "content_3_4": "- Phát triển các giải pháp công nghệ phục vụ nhu cầu thực tế như thanh toán, quản lý tài sản và bảo mật dữ liệu.",
+      "content_3_5": "Ứng dụng thực tiễn:",
+      "content_3_6": "- Nông nghiệp: Ứng dụng AI và blockchain để giám sát quá trình canh tác, đảm bảo truy xuất nguồn gốc sản phẩm và nâng cao tính minh bạch, an toàn thông tin.",
+      "content_3_7": "- Bất động sản: Sử dụng blockchain để đảm bảo tính pháp lý và an toàn trong giao dịch bất động sản.",
+      "content_3_8": "- Thành phố thông minh: Kết hợp AI và IoT để quản lý hiệu quả giao thông, năng lượng và hệ thống đô thị.",
+      "content_3_9": "- Y tế: Ứng dụng AI để theo dõi sức khỏe người dùng và cảnh báo sớm các vấn đề tiềm ẩn.",
+      "content_3_10": "- Tài chính và kinh tế: Ứng dụng AI để phân tích dữ liệu thị trường, tư vấn đầu tư, xử lý giao dịch thông minh và phát triển sản phẩm tài chính.",
+      "content_3_11": "- Bảo mật tài sản số: Pione Security đóng vai trò là nền tảng bảo vệ dữ liệu và giao dịch trong hệ sinh thái phi tập trung."
+    },
+    "ApplicationData": {
+      "title_0": "1. Ví Tài Sản Mã Hóa - Pione Wallet",
+      "title_1": "2. Quản Lý Chuỗi Cung Ứng Thông Minh - Pione Farm",
+      "title_2": "3. Hệ Thống Chăm Sóc Sức Khỏe Thông Minh - Pione Care",
+      "title_3": "4. Bất Động Sản - Pione House",
+      "title_4": "5. Hệ Thống An Ninh Tối Tân - Pione Security",
+      "title_5": "6. Những Ưu Thế Vượt Trội Của PoAI Trong Ứng Dụng Thực Tiễn",
+      "content_0_0": "Hệ thống thanh toán tốc độ cao: Có khả năng xử lý 50.000 giao dịch mỗi giây với độ trễ dưới 500ms.",
+      "content_0_1": "Nền tảng phát hành trái phiếu số tự động: Hợp đồng thông minh tích hợp AI tự động hóa toàn bộ vòng đời - từ phát hành, chi trả lãi suất đến đáo hạn.",
+      "content_0_2": "Hệ thống phát hiện gian lận tín dụng thông minh: AI phân tích hành vi giao dịch theo thời gian thực và phát hiện bất thường với độ chính xác 99,8%.",
+      "content_1_0": "Hệ thống truy xuất nguồn gốc nông sản tiên tiến: Kết hợp IoT và AI để giám sát 15 chỉ số chất lượng từ nông trại đến bàn ăn.",
+      "content_1_1": "Giám sát dược phẩm chuyên biệt: Theo dõi nhiệt độ và độ ẩm bảo quản, tự động cảnh báo khi vượt ngưỡng.",
+      "content_1_2": "Chứng nhận sản phẩm: NFT vật lý tích hợp xác thực bằng AI để ngăn chặn hàng giả.",
+      "content_2_0": "Hồ sơ bệnh án điện tử liên bệnh viện: Bác sĩ có thể truy cập an toàn toàn bộ lịch sử y tế của bệnh nhân trong vòng 2 giây.",
+      "content_2_1": "Quản lý thuốc hiếm: Theo dõi toàn bộ chuỗi cung ứng từ sản xuất đến tay người bệnh.",
+      "content_2_2": "Hỗ trợ chẩn đoán bằng AI: Kết hợp dữ liệu blockchain với mô hình học sâu để đưa ra chẩn đoán với độ chính xác 98%.",
+      "content_3_0": "Giao dịch bất động sản tự động: Hợp đồng thông minh tự động hóa toàn bộ quy trình mua, bán và chuyển nhượng sở hữu.",
+      "content_3_1": "Quản lý căn hộ thông minh: Tích hợp IoT và blockchain để quản lý tài sản toàn diện.",
+      "content_3_2": "Mã hóa bất động sản: Biến tài sản vật lý thành NFT phân mảnh.",
+      "content_4_0": "Nguyên lý hoạt động: AI phát hiện và ngăn chặn các cuộc tấn công mạng theo thời gian thực.",
+      "content_4_1": "Bảo vệ dữ liệu nhạy cảm: Kết hợp mã hóa lượng tử với blockchain để bảo mật dữ liệu quan trọng.",
+      "content_4_2": "Giám sát giao dịch tài chính: AI nhận diện các hoạt động bất thường với độ chính xác 99,9%.",
+      "content_5_0": "Tốc độ xử lý siêu cao: Đáp ứng nhu cầu của các doanh nghiệp quy mô lớn.",
+      "content_5_1": "Bảo mật đa lớp: Đảm bảo an toàn tuyệt đối cho dữ liệu nhạy cảm.",
+      "content_5_2": "Tự động hóa thông minh: Giảm chi phí vận hành lên đến 90%.",
+      "content_5_3": "Tích hợp AI/ML: Nâng cao hiệu suất hoạt động.",
+      "content_5_4": "Tuân thủ quy định nghiêm ngặt: Phù hợp với tất cả tiêu chuẩn quốc tế."
+    },
+    "FeaturesOfPioneHouseData": {
+      "title_0": "Quản lý tài sản",
+      "title_1": "Truy xuất nguồn gốc",
+      "title_2": "Xác minh danh tính bất động sản (KYC)",
+      "title_3": "Chào bán Token Chứng khoán (STO)",
+      "content_0_0": "Lưu trữ và truy xuất thông tin bất động sản một cách chính xác.",
+      "content_0_1": "Quản lý hợp đồng và tài liệu pháp lý dưới dạng số.",
+      "content_1_0": "Xác minh lịch sử sở hữu và các giao dịch của bất động sản.",
+      "content_1_1": "Xác thực tính hợp pháp của tài sản.",
+      "content_2_0": "Thực hiện KYC bất động sản phù hợp với khung pháp lý của từng quốc gia.",
+      "content_2_1": "Mã hóa bất động sản thành token.",
+      "content_3_0": "Hỗ trợ phát hành quyền sở hữu bất động sản dưới dạng token chứng khoán.",
+      "content_3_1": "Đại diện tài sản thông qua token số, giúp giảm ngưỡng đầu tư cho nhà đầu tư cá nhân."
+    },
+    "GoalsMissionsData": {
+      "title_0": "Hồ sơ phi tập trung",
+      "title_1": "Đặt lịch hiệu quả",
+      "title_2": "Dịch vụ y tế đã xác minh",
+      "content_0": "Quản lý hồ sơ y tế cá nhân một cách an toàn và phi tập trung.",
+      "content_1": "Đặt lịch khám bệnh mượt mà và hiệu quả với khả năng truy xuất thông tin nhờ công nghệ blockchain.",
+      "content_2": "Truy cập nhanh vào các dịch vụ và hệ thống y tế đã được xác minh."
+    },
+    "HealthcareServiceSearchData": {
+      "title_0": "Tìm kiếm thông minh",
+      "title_1": "Chứng chỉ xác thực",
+      "title_2": "Lọc dịch vụ",
+      "content_0": "Tìm kiếm bệnh viện và bác sĩ chuyên khoa gần bạn.",
+      "content_1": "Dữ liệu được xác thực bằng blockchain.",
+      "content_2": "Dựa trên vị trí và đánh giá."
+    },
+    "RealWorldApplicationsData": {
+      "title_0": "1. PIONE WALLET (Ví tài sản số)",
+      "title_1": "2. EXPIONE (Nền tảng giao dịch tài sản số)",
+      "title_2": "3. PIONE HOUSE (Bất động sản)",
+      "title_3": "4. PIONE FARM (Nông nghiệp)",
+      "content_0_0": "- Công nghệ sử dụng:",
+      "content_0_1": "Chữ ký đơn (Single-Sig): Cho phép người dùng quản lý tài sản số một cách tiện lợi tối đa.",
+      "content_0_2": "Ví HD (Hierarchical Deterministic): Tạo địa chỉ ví mới từ một cụm từ khóa duy nhất, đơn giản hóa việc quản lý tài sản.",
+      "content_0_3": "- Ứng dụng thực tế:",
+      "content_0_4": "Hỗ trợ người dùng Việt quản lý tài sản số an toàn và minh bạch.",
+      "content_0_5": "Tích hợp với dịch vụ tài chính truyền thống, thu hẹp khoảng cách giữa tài sản số và tiền pháp định.",
+      "content_0_6": "Phân tích hành vi tài chính: Đưa ra khuyến nghị chi tiêu thông minh dựa trên lịch sử giao dịch.",
+      "content_0_7": "Phát hiện bất thường: Cảnh báo khi phát hiện giao dịch đáng ngờ hoặc bất thường.",
+      "content_1_0": "- Công nghệ sử dụng:",
+      "content_1_1": "Công cụ khớp lệnh: Hệ thống khớp lệnh hiệu suất cao có khả năng xử lý hàng triệu giao dịch mỗi giây.",
+      "content_1_2": "Lưu trữ lạnh: Lưu trữ ngoại tuyến an toàn để bảo vệ tài sản khỏi các cuộc tấn công mạng.",
+      "content_1_3": "- Ứng dụng thực tế:",
+      "content_1_4": "Cho phép doanh nghiệp Việt huy động vốn thông qua phát hành token.",
+      "content_1_5": "Đáp ứng nhu cầu giao dịch và đầu tư tài sản số của người dùng trong và ngoài nước.",
+      "content_1_6": "Tư vấn đầu tư: Phân tích xu hướng thị trường và đề xuất chiến lược đầu tư cá nhân hóa.",
+      "content_1_7": "Công cụ AI chống gian lận: Phát hiện sớm các hành vi thao túng thị trường và tự động ngăn chặn hoạt động rửa tiền hoặc giao dịch gian lận.",
+      "content_2_0": "- Công nghệ sử dụng:",
+      "content_2_1": "Hợp đồng thông minh: Tự động hóa giao dịch và chuyển nhượng bất động sản, lưu trữ thông tin trực tiếp trên Pione Zero.",
+      "content_2_2": "Mã hóa tài sản (Token hóa): Biến quyền sở hữu bất động sản thành các token có thể giao dịch trên blockchain.",
+      "content_2_3": "Mô hình đồng sở hữu: Cho phép nhiều người dùng cùng sở hữu một bất động sản thông qua NFT được gắn với giá trị tài sản thực.",
+      "content_2_4": "- Ứng dụng thực tế:",
+      "content_2_5": "Giảm thiểu gian lận trong giao dịch bất động sản nhờ tính minh bạch của blockchain.",
+      "content_2_6": "Cung cấp cho người dùng quyền tiếp cận thị trường bất động sản một cách an toàn và dễ dàng.",
+      "content_2_7": "Định giá bất động sản: Phân tích dữ liệu thị trường và vị trí để đưa ra giá trị định giá khách quan.",
+      "content_2_8": "Phát hiện rủi ro pháp lý: Xác minh tình trạng pháp lý của tài sản và hợp đồng.",
+      "content_3_0": "- Công nghệ sử dụng:",
+      "content_3_1": "IoT (Internet vạn vật): Tích hợp với blockchain để giám sát và quản lý chuỗi cung ứng nông nghiệp.",
+      "content_3_2": "Thẻ RFID/NFC: Gắn trực tiếp lên sản phẩm để theo dõi nguồn gốc và chất lượng.",
+      "content_3_3": "- Ứng dụng thực tế:",
+      "content_3_4": "Truy xuất nguồn gốc sản phẩm: Xác minh nguồn gốc hàng nông sản để đảm bảo chất lượng và an toàn thực phẩm.",
+      "content_3_5": "Dự báo mùa vụ và sâu bệnh: Phân tích dữ liệu nông nghiệp thời gian thực để dự đoán mùa vụ và phát hiện sâu bệnh.",
+      "content_3_6": "Quản lý cung cầu: Tối ưu hóa phân phối và xuất khẩu dựa trên nhu cầu thị trường.",
+      "content_3_7": "Hỗ trợ nông dân tiếp cận thị trường: Mở rộng ra thị trường quốc tế thông qua hợp đồng thông minh."
+    },
+    "ConclusionData": {
+      "title_0": "1. PoAI là giải pháp tối ưu cho",
+      "title_1": "2. PoA phù hợp khi",
+      "content_0_0": "Các dự án yêu cầu mức độ bảo mật cực kỳ cao.",
+      "content_0_1": "Các ứng dụng cần thích nghi với công nghệ tương lai.",
+      "content_1_0": "Chi phí triển khai cần thấp.",
+      "content_1_1": "Việc đánh đổi tính phi tập trung là chấp nhận được."
+    },
+    "TestimonialsData": {
+      "name_0": "1. Giới thiệu Pione AI:",
+      "name_1": "2. TẦM NHÌN VÀ MỤC TIÊU",
+      "name_2": "3. NGUỒN GỐC VÀ PHÁT TRIỂN",
+      "name_3": "4. ĐỐI TƯỢNG SỬ DỤNG:",
+      "name_4": "5. ĐỊNH HƯỚNG VÀ ỨNG DỤNG THỰC TẾ:",
+      "quote_0_0": " Giới thiệu mô hình Pione AI - Trí tuệ nhân tạo chuyên ngành do Pione phát triển",
+      "quote_0_1": "Pione AI là mô hình trí tuệ nhân tạo do Công ty Pione nghiên cứu và phát triển, được xây dựng trên kiến trúc DeepSeek. Nó được thiết kế để phục vụ như một trợ lý chuyên gia trong các lĩnh vực chăm sóc sức khỏe, nông nghiệp và tài chính - những lĩnh vực đòi hỏi độ chính xác ngôn ngữ cao và chuyên môn cụ thể về lĩnh vực. Pione AI đã được đào tạo chuyên sâu để đáp ứng các yêu cầu này.",
+      "quote_0_2": "Mô hình được đào tạo trên một tập dữ liệu lớn, được tuyển chọn có nguồn gốc từ các tài liệu tham khảo học thuật, thực tế và có thẩm quyền, đảm bảo hiểu biết sâu sắc về ngữ cảnh và phản hồi tự nhiên, chính xác và có cơ sở. Pione AI vượt trội trong xử lý ngôn ngữ tiếng Việt và cũng hỗ trợ tương tác song ngữ Việt-Anh, phục vụ hiệu quả cho nhiều ứng dụng khác nhau trong hệ sinh thái của Tập đoàn Pione.",
+      "quote_0_3": " Các điểm nổi bật của Pione AI:",
+      "quote_0_4": "Kiến thức chuyên sâu trong các lĩnh vực: y tế - sức khỏe, nông nghiệp, tài chính - kinh tế.",
+      "quote_0_5": "Tối ưu hóa cho cả tiếng Việt và tiếng Anh, hỗ trợ các ứng dụng trong nước và toàn cầu.",
+      "quote_0_6": "Các trường hợp sử dụng linh hoạt bao gồm tư vấn chuyên gia, truy xuất thông tin, hỗ trợ quyết định và phân tích dữ liệu.",
+      "quote_0_7": "Dễ dàng tích hợp với các hệ thống phần mềm doanh nghiệp, trung tâm dữ liệu và nền tảng chăm sóc khách hàng.",
+      "quote_0_8": "Được xây dựng trên kiến trúc DeepSeek, mang lại khả năng lập luận minh bạch và hiệu quả.",
+      "quote_0_9": "Với Pione AI, Pione mong muốn đóng góp vào việc triển khai thực tế trí tuệ nhân tạo trong các ngành thiết yếu, hỗ trợ chuyển đổi số bền vững và tạo ra giá trị thực tiễn cho cộng đồng và doanh nghiệp.",
+      "quote_1_0": "Việc tích hợp AI (Trí tuệ nhân tạo) vào hệ sinh thái Pione Chain đánh dấu một bước tiến quan trọng trong công nghệ blockchain và Công nghiệp 4.0. Ý tưởng này bắt nguồn từ việc kết hợp khả năng của AI với những lợi thế vốn có của blockchain để tạo nên một hệ sinh thái thông minh hơn, an toàn hơn và hiệu quả hơn.",
+      "quote_1_1": "Mục đích chính của việc tích hợp AI vào Pione Chain bao gồm:",
+      "quote_1_2": "Tối ưu hóa xử lý giao dịch blockchain bằng cách sử dụng AI để phân tích hành vi các node, phát hiện gian lận và điều chỉnh hệ thống một cách thông minh.",
+      "quote_1_3": "Cung cấp các giải pháp công nghệ tiên tiến cho nhiều lĩnh vực như nông nghiệp, tài chính, bất động sản, thành phố thông minh, y tế và nhiều ngành khác.",
+      "quote_1_4": "Đảm bảo tính minh bạch, an toàn và hiệu quả năng lượng trong vận hành của hệ sinh thái Pione Chain.",
+      "quote_2_0": "Pione Chain là một dự án blockchain được phát triển bởi đội ngũ công nghệ của Pione Group. Điểm khác biệt của Pione Chain so với các blockchain truyền thống là việc sử dụng thuật toán đồng thuận PoAI (Proof of Artificial Intelligence) thay vì các cơ chế PoW hay PoS thông thường.",
+      "quote_2_1": "Ý tưởng này xuất phát từ nhu cầu ngày càng tăng đối với một hệ thống blockchain an toàn, hiệu quả có thể ứng dụng vào các trường hợp thực tế.",
+      "quote_2_2": "Phát triển: Pione Chain đã nghiên cứu và triển khai thành công thuật toán PoAI, giúp tăng tốc độ xử lý giao dịch, giảm tiêu thụ năng lượng và nâng cao tính bảo mật.",
+      "quote_2_3": "Hệ sinh thái Pione Chain được thiết kế để phục vụ đa dạng người dùng:",
+      "quote_2_4": "Người dùng cá nhân: Những người muốn tham gia vào hệ sinh thái blockchain, sử dụng các dịch vụ ứng dụng AI hoặc bảo vệ tài sản số của họ.",
+      "quote_2_5": "Doanh nghiệp: Các doanh nghiệp trong lĩnh vực như nông nghiệp, bất động sản, công nghệ thông minh (IoT) và thành phố thông minh có thể sử dụng Pione Chain để số hóa hoạt động, đảm bảo tuân thủ pháp lý và tăng cường bảo mật dữ liệu.",
+      "quote_3_0": "Hệ sinh thái Pione Chain được thiết kế để phục vụ đa dạng người dùng:",
+      "quote_3_1": "Người dùng cá nhân: Những người muốn tham gia vào hệ sinh thái blockchain, sử dụng các dịch vụ ứng dụng AI hoặc bảo vệ tài sản số của họ.",
+      "quote_3_2": "Doanh nghiệp: Các doanh nghiệp trong lĩnh vực như nông nghiệp, bất động sản, công nghệ thông minh (IoT) và thành phố thông minh có thể sử dụng Pione Chain để số hóa hoạt động, đảm bảo tuân thủ pháp lý và tăng cường bảo mật dữ liệu.",
+      "quote_4_0": "Pione Chain có lộ trình phát triển rõ ràng và ứng dụng thực tiễn đa dạng.",
+      "quote_4_1": "- Định hướng:",
+      "quote_4_2": "Xây dựng một hệ sinh thái blockchain thông minh, an toàn và hiệu quả.",
+      "quote_4_3": "Tích hợp AI vào mọi lĩnh vực để thúc đẩy chuyển đổi số và đổi mới công nghệ trong xã hội.",
+      "quote_4_4": "Phát triển các giải pháp công nghệ đáp ứng nhu cầu thực tế như thanh toán, quản lý tài sản và bảo mật dữ liệu.",
+      "quote_4_5": "- Ứng dụng thực tiễn:",
+      "quote_4_6": "Nông nghiệp: Ứng dụng AI và blockchain để giám sát quy trình canh tác, đảm bảo truy xuất nguồn gốc sản phẩm và tăng tính minh bạch, bảo mật thông tin.",
+      "quote_4_7": "Bất động sản: Sử dụng blockchain để đảm bảo tính pháp lý và an toàn trong giao dịch bất động sản.",
+      "quote_4_8": "Thành phố thông minh: Kết hợp AI và IoT để quản lý hiệu quả giao thông, năng lượng và hệ thống đô thị.",
+      "quote_4_9": "Y tế: Ứng dụng AI để theo dõi sức khỏe người dùng và cảnh báo sớm các vấn đề tiềm ẩn.",
+      "quote_4_10": "Tài chính - Kinh tế: Ứng dụng AI để phân tích dữ liệu thị trường, tư vấn đầu tư, xử lý giao dịch thông minh và phát triển sản phẩm tài chính.",
+      "quote_4_11": "Bảo mật tài sản số: Pione Security là nền tảng bảo vệ dữ liệu và giao dịch trong hệ sinh thái phi tập trung."
+    },
+    "ConnectedEcosystemData": {
+      "title_0": "Pione House",
+      "title_1": "Pione Care",
+      "title_2": "Pione Farm",
+      "content_2": "Cung cấp cho nông dân và doanh nghiệp khả năng truy xuất nguồn gốc toàn diện của sản phẩm nông nghiệp, tối ưu chuỗi cung ứng đồng thời đảm bảo tính minh bạch và an toàn thực phẩm. Giải pháp này cho phép theo dõi sản phẩm từ canh tác đến tiêu dùng.",
+      "content_1": "Hỗ trợ nhận dạng và quản lý hồ sơ y tế, giúp người dân tiếp cận dịch vụ chăm sóc sức khỏe hiện đại, minh bạch và an toàn.",
+      "content_0": "Cho phép mã hóa và xác thực tài sản bất động sản, nâng cao tính minh bạch trong giao dịch và quản lý tài sản."
+    },
+    "HealthRecordManagementData": {
+      "title_1": "01. Lưu trữ an toàn",
+      "title_2": "02. Dữ liệu bất biến",
+      "title_3": "03. Truy cập dễ dàng"
+    },
+    "BenefitsPioneFarmData": {
+      "title_0": "Dành cho Doanh nghiệp",
+      "title_1": "Dành cho Nông dân",
+      "title_2": "Dành cho Người tiêu dùng",
+      "content_0_0": "+ Xác minh nguồn gốc và chất lượng nông sản.",
+      "content_0_1": "+ Tăng doanh thu.",
+      "content_0_2": "+ Khám phá sản phẩm nông nghiệp đáng tin cậy và đã được xác minh thông qua hệ sinh thái PIONE FARM.",
+      "content_0_3": "+ Xây dựng niềm tin với người tiêu dùng.",
+      "content_1_0": "+ Tăng lợi nhuận thông qua nguồn cung minh bạch và tiếp cận thị trường trực tiếp.",
+      "content_1_1": "+ Tiếp cận công nghệ blockchain tiên tiến.",
+      "content_1_2": "+ Giao dịch nhanh chóng và tiện lợi.",
+      "content_1_3": "+ Gia tăng giá trị nông sản.",
+      "content_1_4": "+ Giảm chi phí tổng thể.",
+      "content_2_0": "+ Tìm kiếm sản phẩm chất lượng cao, tốt cho sức khỏe.",
+      "content_2_1": "+ Thông tin nguồn gốc rõ ràng đảm bảo vệ sinh và an toàn.",
+      "content_2_2": "+ Quét mã QR để truy cập đầy đủ thông tin sản phẩm qua hệ thống PIONE FARM."
+    },
+    "TechnicalPlatformData": {
+      "title_0": "Thông số",
+      "title_1": "PoAI (Pione Chain)",
+      "title_2": "PoA (Binance Smart Chain)",
+      "content_0_0": "Nền tảng",
+      "content_0_1": "Lớp AI + Blockchain (TensorFlow/PyTorch tích hợp trực tiếp vào cơ chế đồng thuận)",
+      "content_0_2": "Thuật toán Byzantine Fault Tolerance cải tiến (mBFT)",
+      "content_1_0": "Cơ chế xác thực",
+      "content_1_1": "Chấm điểm xác thực AI: Cổ phần (40%), Danh tiếng (30%), Độ chính xác (20%), Hiệu suất (10%)",
+      "content_1_2": "Danh sách trình xác thực được Binance phê duyệt trước (KYC AML cấp độ 3)",
+      "content_2_0": "Tốc độ xử lý",
+      "content_2_1": "≥ 100,000 TPS (AI tối ưu theo thời gian thực)",
+      "content_2_2": "3,000–5,000 TPS (21 trình xác thực)",
+      "content_3_0": "Độ trễ khối",
+      "content_3_1": "≤ 500ms",
+      "content_3_2": "≥ 3s"
+    },
+    "WhyChoosePioneFarmData": {
+      "title_0": "Nhiệm vụ",
+      "title_1": "Ghi chép thủ công",
+      "content_0_0": "Lưu trữ dữ liệu",
+      "content_0_1": "Dễ bị mất",
+      "content_0_2": "Rất dễ dàng",
+      "content_1_0": "Xem lại dữ liệu lịch sử",
+      "content_1_1": "Khó khăn",
+      "content_1_2": "Rất dễ dàng",
+      "content_2_0": "Truy xuất nguồn gốc",
+      "content_2_1": "Khó khăn",
+      "content_2_2": "Rất dễ dàng",
+      "content_3_0": "Tổng hợp và thống kê",
+      "content_3_1": "Tốn nhiều thời gian và công sức",
+      "content_3_2": "Tự động hoàn toàn",
+      "content_4_0": "Tự động hóa hoặc tích hợp dữ liệu",
+      "content_4_1": "Không khả thi",
+      "content_4_2": "Dễ dàng thực hiện"
+    }
+  },
+  "community": {
+    "banner": {
+      "title": "Tham gia cộng đồng của chúng tôi",
+      "subtitle": "Gia nhập Pione Chain nghĩa là tham gia vào một mạng lưới không ngừng mở rộng của các nhà đổi mới, nhà phát triển và những người đam mê blockchain trên toàn thế giới.",
+      "joinTelegram": "Tham gia Telegram",
+      "getSupport": "Nhận hỗ trợ"
+    },
+    "social": {
+      "title": "Kết nối",
+      "subtitle": "Tìm bạn bè, xây dựng sản phẩm, khám phá cộng đồng của bạn.",
+      "members": "thành viên",
+      "channels": {
+        "telegram": "Tham gia cộng đồng chính thức",
+        "twitter": "Theo dõi tin tức mới nhất",
+        "facebook": "Cập nhật tin tức và sự kiện",
+        "tiktok": "Xem video và hướng dẫn",
+        "reddit": "Thảo luận trên Reddit",
+        "medium": "Đọc các bài viết chuyên sâu",
+        "discord": "Trò chuyện cùng cộng đồng",
+        "youtube": "Xem cập nhật và hướng dẫn",
+        "slack": "Kết nối qua Slack"
+      }
+    },
+    "involved": {
+      "title": "Tham gia ngay",
+      "subtitle": "Hãy để tiếng nói của bạn được lắng nghe—đóng góp cho Pione Chain",
+      "items": {
+        "docs": {
+          "title": "Tài liệu",
+          "description": "Tìm hiểu và bắt đầu xây dựng trên Pione với sự hỗ trợ từ tài liệu chính thức của chúng tôi."
+        },
+        "roadmap": {
+          "title": "Lộ trình",
+          "description": "Theo dõi hành trình của chúng tôi và khám phá các cột mốc trên lộ trình chính thức của Pione Chain."
+        }
+      },
+      "ecosystem": {
+        "title": "Hệ sinh thái Pione",
+        "subtitle": "Khám phá các dApp, nhà cung cấp giải pháp và những nhân tố thúc đẩy hệ sinh thái hàng đầu tại một nơi.",
+        "button": "Khám phá hệ sinh thái",
+        "projects": {
+          "wallet": "Quản lý tài sản an toàn trên Pione Chain",
+          "swap": "Hoán đổi token với phí thấp và tốc độ cao",
+          "ai": "Giải pháp thông minh cho dữ liệu blockchain",
+          "scan": "Công cụ khám phá khối toàn diện cho Pione",
+          "bot": "Tự động hóa giao dịch và thông báo",
+          "dapp": "Nền tảng ứng dụng phi tập trung"
+        }
+      }
+    },
+    "events": {
+      "title": "Sự kiện",
+      "subtitle": "Xem những nơi Pione Chain đã đi qua và hành trình sắp tới của chúng tôi"
+    }
+  }
+}

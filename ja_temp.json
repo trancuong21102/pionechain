@@ -1,0 +1,216 @@
+{
+    "Solution": {
+        "title": "Giải Pháp Blockchain Toàn Diện",
+        "with": "với",
+        "title_0": "Đa Ứng Dụng",
+        "title_1": "An Toàn",
+        "title_2": "Minh Bạch",
+        "title_3": "Bảo mật",
+        "title_4": "Bền Vững",
+        "subTitle": "Pione Chain mang đến nền tảng blockchain hiện đại với bảo mật vượt trội, minh bạch tuyệt đối và khả năng ứng dụng đa ngành, giúp cá nhân và doanh nghiệp phát triển bền vững trong kỷ nguyên số.",
+        "GetStarted": "Bắt đầu",
+        "LearnMore": "Tìm hiểu thêm",
+        "Problems": {
+            "PROBLEMS": "Vấn đề",
+            "title": "Những rào cản khiến blockchain chưa phổ cập",
+            "problem_0": "Khó áp dụng do rào cản kỹ thuật & pháp lý",
+            "problem_1": "Thiếu minh bạch & truy xuất nguồn gốc",
+            "problem_2": "Chi phí cao, tốc độ chậm",
+            "problem_3": "Khó tiếp cận & tích hợp với hệ thống truyền thống",
+            "problem_4": "Thiếu ứng dụng gắn liền với đời sống"
+        },
+        "Solutions": {
+            "Solution": "Giải pháp",
+            "title": "Hạ tầng blockchain thế hệ mới - Linh hoạt, minh bạch, hiệu quả",
+            "subTitle": "Pione Chain mang đến kiến trúc blockchain đa tầng, kết hợp hai mạng lưới bổ trợ nhau:",
+            "value": "Pione Chain là nền tảng blockchain hạ tầng chiến lược thế hệ mới, được phát triển nhằm hiện thực hoá tầm nhìn ứng dụng blockchain vào đời sống thực. Với kiến trúc hiệu suất cao, bảo mật mạnh mẽ và khả năng tích hợp linh hoạt với các hệ sinh thái chuyên biệt, Pione Chain không chỉ là một blockchain đơn lẻ mà là một mô hình đa tầng, phục vụ cho cả tài sản số và truy xuất dữ liệu minh bạch.",
+            "gas": "Hệ sinh thái Pione Chain bao gồm hai mạng blockchain độc lập nhưng bổ trợ lẫn nhau, cho phép xử lý tối ưu các nhu cầu khác nhau của ứng dụng thực tiễn."
+        },
+        "PioneChainComp": {
+            "subTitle": "Hạ tầng kinh tế số",
+            "title_0": "Quản lý tài sản số:",
+            "title_1": "Giao dịch tài chính phi tập trung:",
+            "title_2": "Smart Contract linh hoạt:",
+            "title_3": "Cơ chế đồng thuận PoAT (Proof of AI Tracing): ",
+            "content_0": "Bao gồm native token $PIO, NFT, tài sản ảo và ví phi tập trung.",
+            "content_1": "Hỗ trợ các hoạt động DeFi, staking, NFT marketplace, airdrop,...",
+            "content_2": "Cho phép nhà phát triển xây dựng các ứng dụng phi tập trung (dApp) tùy chỉnh theo từng lĩnh vực.",
+            "content_3": "Tích hợp công nghệ trí tuệ nhân tạo (AI) để tự động truy vết, xác minh và phát hiện sai lệch dữ liệu theo thời gian thực, đảm bảo tính toàn vẹn của chuỗi."
+        },
+        "PioneZeroComp": {
+            "title": "Truy xuất dữ liệu & định danh số miễn phí",
+            "titleCard_0": "Zero Gas Fee",
+            "titleCard_1": "Định danh & xác thực dữ liệu",
+            "titleCard_2": "Dữ liệu công khai & minh bạch.",
+            "titleCard_3": "Cầu nối giữa dữ liệu truyền thống và Web3.",
+            "descriptionCard_0": "Người dùng không cần trả phí để ghi hoặc truy xuất dữ liệu, thậm chí có thể được nhận gas fee như một cơ chế khuyến khích.",
+            "descriptionCard_1": "Sử dụng để xác minh bất động sản, hồ sơ y tế, nguồn gốc nông sản, và các loại dữ liệu hành chính khác.",
+            "descriptionCard_2": "Phù hợp với các lĩnh vực như y tế, giáo dục, tài chính, nông nghiệp và bất động sản, nơi dữ liệu cần được xác thực nhanh, truy xuất dễ dàng và không bị chỉnh sửa.",
+            "descriptionCard_3": "Pione Zero đóng vai trò như một “cầu nối” thông minh, chuyển đổi dữ liệu từ hệ thống quản lý truyền thống sang môi trường blockchain. Điều này giúp doanh nghiệp, chính phủ và tổ chức dễ dàng tích hợp với hệ sinh thái Web3 mà vẫn giữ nguyên tính bảo mật và tính pháp lý của dữ liệu gốc."
+        },
+        "Benefit": {
+            "content_0": "Giao dịch an toàn & nhanh chóng",
+            "content_1": "Truy xuất dữ liệu miễn phí",
+            "content_2": "Tích hợp dễ dàng",
+            "content_3": "Ứng dụng đa lĩnh vực"
+        },
+        "footer_slogan": {
+            "title": "Khám Phá Giải Pháp Tối Ưu Của Pione Chain - Tận Hưởng Minh Bạch & Bảo Mật Trong Chuỗi Cung Ứng",
+            "contact": "Hợp tác với Chúng tôi",
+            "subtitle": "Bắt đầu hành trình số hóa và tối ưu hóa doanh nghiệp của bạn với Pione Chain. Với công nghệ blockchain tiên tiến, chúng tôi mang đến giải pháp minh bạch, bảo mật và dễ dàng tích hợp. Hãy liên hệ ngay hôm nay để trở thành đối tác và cùng chúng tôi định hình tương lai của chuỗi cung ứng!"
+        }
+    },
+    "news": {
+        "title": "Tin Tức & Cập Nhật",
+        "subTitle": "Cập nhật những tin tức mới nhất về Pione Chain và xu hướng blockchain toàn cầu.",
+        "ReadMore": "Đọc thêm",
+        "Category": "Danh mục",
+        "All Categroy": "Tất cả danh mục",
+        "Tags": "Thẻ",
+        "All Tag": "Tất cả thẻ",
+        "searchPlaceholder": "Tìm kiếm bài viết...",
+        "NoData": "Không có bài viết nào."
+    },
+    "partner": {
+        "title": "Các Đối Tác",
+        "description": "Gặp gỡ những đối tác và cộng sự đáng tin cậy đang cùng PioneChain và PioneWallet xây dựng tương lai của blockchain.",
+        "Contact Partner": "Liên hệ hợp tác",
+        "form": {
+            "info": "Thông tin liên hệ",
+            "contact": "Chúng tôi luôn cởi mở với những ý tưởng hợp tác cùng nhau tạo ra giá trị có ý nghĩa và khác biệt.",
+            "First Name": "Họ",
+            "Last Name": "Tên",
+            "Title": "Tiêu đề",
+            "Email": "Email",
+            "Phone Number": "Số điện thoại",
+            "Organization Name": "Tên tổ chức",
+            "Industry": "Lĩnh vực",
+            "Organization Size": "Quy mô tổ chức",
+            "Organization Location": "Địa chỉ doanh nghiệp",
+            "Message": "Tin nhắn",
+            "Categories": "Danh mục",
+            "1-10 employees": "1-10 nhân viên",
+            "11-50 employees": "11-50 nhân viên",
+            "51-200 employees": "51-200 nhân viên",
+            "over 200 employees": "Trên 200 nhân viên"
+        }
+    },
+    "blockchain": {
+        "title": "Hạ tầng Blockchain tích hợp cho doanh nghiệp Web3",
+        "explore": "Khám phá",
+        "description": "PioneChain kết hợp blockchain công khai miễn phí gas của Zeroscan và blockchain riêng tư cấp doanh nghiệp của Pionescan, mang đến giải pháp Web3 mở rộng, an toàn và tuân thủ.",
+        "card1": {
+            "type": "PUBLIC BLOCKCHAIN",
+            "link": "zeroscan.org",
+            "description": "Zero Chain là một nền tảng Public Blockchain miễn phí gas, được thiết kế để mở rộng ứng dụng blockchain vào nhiều lĩnh vực của đời sống thực tiễn. Hệ thống hướng tới việc hỗ trợ phát triển các giải pháp số hóa tài sản thực (Real-World Asset - RWA) và tokenization, giúp kết nối giữa thế giới vật lý và không gian số một cách an toàn, minh bạch và hiệu quả.",
+            "features": {
+                "feature1": {
+                    "title": "Miễn phí gas (Zero Gas Fee):",
+                    "subtitle": "Cho phép người dùng thực hiện giao dịch và triển khai hợp đồng thông minh mà không tốn chi phí gas, giúp tăng tính phổ cập của blockchain trong ứng dụng thực tế."
+                },
+                "feature2": {
+                    "title": "Hỗ trợ Tokenization và RWA:",
+                    "subtitle": "Cung cấp nền tảng mạnh mẽ để phát triển và vận hành các mô hình token hóa tài sản thật (bất động sản, hàng hóa, chứng chỉ, v.v.)."
+                },
+                "feature3": {
+                    "title": "Tính minh bạch và bảo mật cao:",
+                    "subtitle": "Dữ liệu được lưu trữ công khai, không thể sửa đổi, đảm bảo tính toàn vẹn và tin cậy trong mọi giao dịch."
+                },
+                "feature4": {
+                    "title": "Khả năng mở rộng và tích hợp:",
+                    "subtitle": "Hỗ trợ các API và công cụ phát triển thân thiện, giúp doanh nghiệp dễ dàng tích hợp blockchain vào hệ thống hiện có."
+                },
+                "feature5": {
+                    "title": "Ứng dụng thực tiễn đa lĩnh vực:",
+                    "subtitle": "Phù hợp với các lĩnh vực như quản lý chuỗi cung ứng trong hệ thống truy xuất nguồn gốc, nông nghiệp, giáo dục, y tế, và quản lý bất động sản."
+                }
+            },
+            "vision": "Zero Chain hướng đến việc trở thành một cầu nối giữa công nghệ blockchain và đời sống thực tế, góp phần thúc đẩy chuyển đổi số toàn diện trong kỷ nguyên Web3."
+        },
+        "card2": {
+            "type": "PRIVATE BLOCKCHAIN",
+            "link": "pionescan.com",
+            "description": "Pione Chain là một nền tảng Private Blockchain được phát triển nhằm phục vụ nhu cầu phát hành token hoá tài sản thực (Real-World Asset Tokenization) và token chứng khoán (Security Token) cho doanh nghiệp. Hệ thống hướng tới việc cung cấp hạ tầng blockchain bảo mật, riêng tư và tùy chỉnh cao, giúp doanh nghiệp dễ dàng triển khai các ứng dụng số hóa và quản lý tài sản trong môi trường Web3 một cách hiệu quả và tuân thủ pháp lý.",
+            "features": {
+                "feature1": {
+                    "title": "Blockchain riêng tư (Private Blockchain):",
+                    "subtitle": "Cho phép các tổ chức, doanh nghiệp vận hành blockchain độc lập, đảm bảo dữ liệu và giao dịch được quản lý trong phạm vi nội bộ, tăng tính bảo mật và kiểm soát."
+                },
+                "feature2": {
+                    "title": "Phát hành Token hoá tài sản và chứng khoán:",
+                    "subtitle": "Hỗ trợ phát hành các loại token đại diện cho tài sản thực (RWA) và chứng khoán kỹ thuật số (Security Token), giúp doanh nghiệp huy động vốn, quản lý tài sản và minh bạch hóa quyền sở hữu."
+                },
+                "feature3": {
+                    "title": "Quyền kiểm soát và tùy chỉnh cao:",
+                    "subtitle": "Doanh nghiệp có thể thiết lập các quy tắc, chính sách giao dịch, và cơ chế xác thực riêng theo nhu cầu quản trị của mình."
+                },
+                "feature4": {
+                    "title": "Bảo mật & tuân thủ:",
+                    "subtitle": "Tích hợp các lớp mã hóa và xác thực nâng cao, hỗ trợ doanh nghiệp đáp ứng các yêu cầu tuân thủ về dữ liệu và pháp lý trong lĩnh vực tài chính - công nghệ."
+                },
+                "feature5": {
+                    "title": "Kết nối linh hoạt:",
+                    "subtitle": "Có thể kết nối hoặc đồng bộ với các blockchain công khai (Public Blockchain) như Zeroscan.org khi cần mở rộng giao dịch hoặc minh bạch hoá dữ liệu ra công chúng."
+                }
+            },
+            "status": {
+                "label": "Hoạt động"
+            },
+            "vision": "Pione Chain hướng tới mục tiêu trở thành nền tảng Private Blockchain hàng đầu dành cho doanh nghiệp — trao quyền cho các tổ chức số hóa tài sản, phát hành security token và triển khai các giải pháp Web3 an toàn, hiệu quả và minh bạch, kết nối tài chính truyền thống với nền kinh tế số."
+        },
+        "card3": {
+            "type": "ENTERPRISE BLOCKCHAIN",
+            "link": "pionescan.com",
+            "description": "Pione Chain là một nền tảng Private Blockchain được phát triển nhằm phục vụ nhu cầu phát hành token hoá tài sản thực (Real-World Asset Tokenization) và token chứng khoán (Security Token) cho doanh nghiệp. Hệ thống hướng tới việc cung cấp hạ tầng blockchain bảo mật, riêng tư và tùy chỉnh cao, giúp doanh nghiệp dễ dàng triển khai các ứng dụng số hóa và quản lý tài sản trong môi trường Web3 một cách hiệu quả và tuân thủ pháp lý.",
+            "features": {
+                "feature1": {
+                    "title": "Hạ tầng Blockchain Doanh nghiệp (Enterprise-grade Infrastructure)",
+                    "subtitle": "Một kiến trúc blockchain độc lập dành riêng cho tổ chức, cho phép doanh nghiệp vận hành môi trường dữ liệu khép kín, hiệu suất cao và toàn quyền kiểm soát trong mọi quy trình nội bộ."
+                },
+                "feature2": {
+                    "title": "Cơ chế Đồng thuận Doanh nghiệp (Enterprise Consensus Protocol)",
+                    "subtitle": "Doanh nghiệp được quyền tự triển khai validator, tham gia xác thực giao dịch và quản lý vòng đời dữ liệu, đảm bảo tính minh bạch, tự chủ và phù hợp với mô hình vận hành của riêng mình."
+                },
+                "feature3": {
+                    "title": "Số hóa & Token hóa tài sản toàn diện (Enterprise Asset Digitization)",
+                    "subtitle": "Hỗ trợ chuyển đổi tài sản, hồ sơ, quy trình hoặc hàng hóa thành tài sản số, giúp tối ưu chuỗi vận hành, tăng khả năng kiểm soát và tự động hóa thông qua smart contract chuyên dụng."
+                },
+                "feature4": {
+                    "title": "Tùy chỉnh linh hoạt theo đặc thù ngành (Dynamic Governance & Custom Rulesets)",
+                    "subtitle": "Hệ thống cho phép tùy chỉnh sâu các chính sách quản trị, phân quyền truy cập, điều kiện giao dịch và tiêu chuẩn vận hành, phù hợp cho từng ngành nghề như tài chính, sản xuất, logistics, y tế,…"
+                },
+                "feature5": {
+                    "title": "Bảo mật đa lớp & tuân thủ chuẩn quốc tế (Multi-layer Security & Compliance)",
+                    "subtitle": "Tích hợp mã hóa nâng cao, cơ chế bảo vệ dữ liệu nhiều tầng và hỗ trợ tuân thủ các quy chuẩn pháp lý, giúp doanh nghiệp vận hành an toàn trong các lĩnh vực có yêu cầu khắt khe."
+                },
+                "feature6": {
+                    "title": "Kết nối mở rộng với hệ sinh thái Pione (Ecosystem Interconnectivity)",
+                    "subtitle": "Kết nối đồng bộ trực tiếp với Pione Chain (Layer-1) và Pione Zero Chain (Layer-2), giúp doanh nghiệp mở rộng khả năng xác thực, chia sẻ dữ liệu hoặc tích hợp vào chuỗi giá trị chung của Pione."
+                }
+            }
+        }
+    },
+    "enterprise": {
+        "application": "Rollup dành cho Doanh nghiệp",
+        "description": "Doanh nghiệp có thể triển khai rollup của họ mà không tốn thêm thời gian và chi phí phát triển bằng cách thêm logic kinh doanh của họ vào cơ sở hạ tầng của chúng tôi.",
+        "card1": "Nút mạng có quyền",
+        "card2": "Logic kinh doanh tùy chỉnh",
+        "card3": "Khả năng bảo mật dữ liệu riêng tư",
+        "card4": "Giảm chi phí triển khai",
+        "card5": "Cải thiện bảo mật và khả năng mở rộng"
+    },
+    "contactUs": {
+        "Contact Us": "Liên hệ",
+        "feedback": "Chúng tôi luôn sẵn sàng cho các câu hỏi, phản   hồi hoặc cơ hội hợp tác. Hãy cho chúng tôi biết cách có thể hỗ trợ bạn!",
+        "Name": "Họ và tên",
+        "enterName": "Nhập họ và tên của bạn ...",
+        "enterEmail": "Nhập email của bạn ...",
+        "enterSubject": "Nhập tiêu đề ...",
+        "enterMessage": "Nhập nội dung ...",
+        "Message": "Nội dung",
+        "Subject": "Tiêu đề",
+        "submit": "Gửi",
+        "title": "Liên hệ với chúng tôi",
+        "subTitle": "Đầu tư vào tương lai của blockchain và dẫn đầu xu hướng cho một thế giới phi tập trung. Hãy tham gia cùng chúng tôi và liên hệ ngay hôm nay!"
+    }
+}

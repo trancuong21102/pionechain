@@ -1,0 +1,1302 @@
+{
+    "common": {
+        "coming": "即将推出",
+        "submitYourApp": "提交您的应用",
+        "contactUs": "联系我们",
+        "startBuilding": "浏览器",
+        "start": "开始",
+        "header": {
+            "button": "联系我们",
+            "navbar": {
+                "home": "首页",
+                "about": {
+                    "company": "公司",
+                    "company_desc": "了解我们的愿景和核心任务。",
+                    "solution": "解决方案",
+                    "solution_desc": "创新的区块链基础设施。",
+                    "news": "新闻",
+                    "news_desc": "最新动态和公告。",
+                    "whitepaper": "白皮书",
+                    "whitepaper_desc": "技术文档和战略愿景。",
+                    "ourTeam": "我们的团队",
+                    "ourTeam_desc": "会见推动创新的专家。",
+                    "tokenomic": "代币经济学",
+                    "tokenomic_desc": "代币分配和经济模型。",
+                    "roadmap": "路线图",
+                    "roadmap_desc": "战略里程碑和未来增长。",
+                    "document": "文档",
+                    "document_desc": "官方指南和技术资源。",
+                    "community": "社区",
+                    "community_desc": "加入我们的全球建设者网络。",
+                    "projectSpecs": "项目规格",
+                    "projectSpecs_desc": "技术规格和指标。",
+                    "pio_bnb": "PIO vs BNB",
+                    "pio_bnb_desc": "PIO 与 BNB 的对比。",
+                    "pioneSwap": "Pione Swap",
+                    "pioneSwap_desc": "去中心化交易平台。",
+                    "pioneSuperApp": "Pione SuperApp",
+                    "pioneSuperApp_desc": "通往 Web3 的终极门户。",
+                    "pioneInvest": "Pione Invest",
+                    "pioneInvest_desc": "智能数字资产管理。",
+                    "pioneWallet": "Pione 钱包",
+                    "pioneWallet_desc": "安全、非托管的数字钱包。",
+                    "pioneHouse": "Pione 房屋",
+                    "pioneHouse_desc": "房地产 RWA 数字化。",
+                    "pioneCare": "Pione 关怀",
+                    "pioneCare_desc": "基于区块链的医疗保健解决方案。",
+                    "pioneFarm": "Pione 农场",
+                    "pioneFarm_desc": "可追溯的农业生态系统。",
+                    "aboutUs": "关于我们",
+                    "aboutUs_desc": "了解我们的故事和核心价值。"
+                },
+                "eco": "生态系统",
+                "blockchain": "区块链浏览器",
+                "application": "生态系统申请项目",
+                "partner": "我们的合作伙伴"
+            }
+        },
+        "footer": {
+            "poli": "政策和条款",
+            "social": "社交网络",
+            "item1": {
+                "policy": "隐私政策",
+                "term": "使用条款"
+            }
+        }
+    },
+    "aboutPage": {
+        "hero": {
+            "title": "关于 Pione Chain",
+            "subtitle": "通过区块链和 AI 创新解锁现实世界资产的潜力。",
+            "description": "Pione Chain 是专门为弥合数字资产与物理世界之间的差距而设计的下一代 Layer-1 区块链平台。通过利用尖端的 AI 和安全的区块链基础设施，我们使企业和个人能够以前所未有的透明度和效率对现实世界资产进行代币化、管理和扩展。"
+        },
+        "missionVision": {
+            "mission": {
+                "title": "我们的使命",
+                "description": "提供强大、可扩展且去中心化的基础设施，使现实世界资产无缝集成到数字经济中，促进更具包容性和效率的全球金融体系。"
+            },
+            "vision": {
+                "title": "我们的愿景",
+                "description": "成为 RWA 代币化的全球标准，使每项物理资产都能以数字方式表示，确保每个人的流动性、安全性和可访问性。"
+            }
+        },
+        "coreValues": {
+            "title": "我们的核心价值",
+            "values": {
+                "innovation": {
+                    "title": "创新",
+                    "description": "我们不断突破区块链和 AI 的可能边界，提供卓越的解决方案。"
+                },
+                "transparency": {
+                    "title": "透明度",
+                    "description": "诚信和开放是我们构建一切的核心，确保我们整个生态系统的信任。"
+                },
+                "security": {
+                    "title": "安全性",
+                    "description": "我们通过严格的安全标准和先进技术优先考虑用户资产的安全。"
+                },
+                "impact": {
+                    "title": "现实世界的影响",
+                    "description": "我们专注于创建解决现实生活挑战并推动有意义变革的实际应用。"
+                }
+            }
+        }
+    },
+    "home": {
+        "banner": {
+            "welcome": "欢迎来到",
+            "subTitle": "Pione Chain 是下一代 Layer-1 区块链，赋予企业通过安全性、透明度和 AI 创新将现实世界资产 (RWA) 代币化的能力。",
+            "button": "立即开始"
+        },
+        "possibleSection": {
+            "what": "PIONE CHAIN 可以实现什么？",
+            "possible": "实现",
+            "with": "与 PIONE CHAIN 共同努力？",
+            "seeMore": "查看更多",
+            "card1": {
+                "title": "快速、低成本地构建与 Solidity 兼容的 dApp",
+                "description": "部署具有即时交易确认能力的 dApp，每秒处理成千上万次交易，超越当今任何去中心化区块链平台。"
+            },
+            "card2": {
+                "title": "启动自定义、私有和公共区块链",
+                "description": "根据您的应用需求部署定制化区块链。构建您自己的虚拟机，并精确定义区块链的运行方式。"
+            },
+            "card3": {
+                "title": "以最低硬件要求扩展到数百万验证者",
+                "description": "质押或锁定您的 PIONE CHAIN 以帮助处理交易并增强平台安全性——提供比 51% 标准更高级别的安全性。您可能已经拥有参与此生态系统所需的硬件。"
+            }
+        },
+        "futureSection": {
+            "application": "应用与我们的未来",
+            "future": " 我们的未来",
+            "expand": "扩展性",
+            "futureVision": "未来愿景与扩展性",
+            "futureSupport": "对开发者与企业的支持",
+            "description": "Pione Chain 正在开发框架，使开发者和公司能够在 EVM 兼容链上为所有用例部署具有内置安全和隐私的定制 Rollup。",
+            "subDescription": "我们为新时代公司提供平滑过渡到去中心化网络的服务，且不影响用户体验",
+            "card1": "改进的 UX",
+            "card2": "超大规模扩展性",
+            "card3": "更低成本",
+            "card4": "更好的定制化",
+            "card5": "强大的安全性",
+            "card6": "内置隐私"
+        },
+        "empoweringSection": {
+            "title": "赋能开发者",
+            "subTitle": "与 Pione Chain 共同成长",
+            "description": "PIONE CHAIN 将允许开发者和公司在无需许可的环境中构建适合其业务用例的定制 Rollup，使其能够以更高的速度和效率为用户提供更好的产品。",
+            "card1": {
+                "title": "行业领域",
+                "description": "我们不断致力于将区块链技术引入关键的现实部门，包括：农业、制药、医疗保障、教育、政府、零售、电子商务、媒体与娱乐、游戏、NFT 和房地产。"
+            },
+            "card2": {
+                "title": "去中心化",
+                "description": "Pione Chain 利用智能合约和区块链技术应用在去中心化网络上高效运行，从而为所有参与者创造有效的投资机会，促进竞争性经济并实现可持续发展。"
+            },
+            "card3": {
+                "title": "强大的可扩展性",
+                "description": "Pione Chain 的方向是将区块链技术应用并集成到现实生活中，有效解决市场痛点以交付真实价值，符合全球现实世界资产 (RWA) 代币化的趋势。"
+            },
+            "card4": {
+                "title": "以开发者为中心的方法",
+                "description": "我们的目标是提供清晰、简洁的文档和强大的工具，使产品能够快速开发，确保开发者将时间花在创造上，而不是排除文档故障。"
+            }
+        },
+        "buildingSection": {
+            "title": "全球与可持续发展承诺",
+            "subTitle": "花更多时间进行构建",
+            "content1": {
+                "title": "简化的用户体验",
+                "description": "我们努力为我们的社区提供最有效的方式，从质押协议中获得奖励，并使用我们的代币作为验证者"
+            },
+            "content2": {
+                "title": "奖励驱动机制",
+                "description": "为了促进生态系统的发展，我们专注于为社区提供从质押协议中获取奖励的最有效方式。我们的代币旨在作为验证者，确保为成员的贡献提供应有的利益。"
+            },
+            "content3": {
+                "title": "以社区为中心的发展",
+                "description": "我们坚持不懈地努力为所有全球投资者建立一个全面、透明和可靠的生态系统。鼓励每位成员参与关于我们产品和服务的公开对话，从而与我们共同塑造现实世界资产的代币化趋势。"
+            }
+        },
+        "metaverseSection": {
+            "title": "元宇宙",
+            "subTitle": "您数字孪生的现实",
+            "description": "元宇宙是现实世界事物（如人、服务和对象）的数字表示。其中的每项都由一个智能数字孪生表示，该数字孪生运行在将它们互连并使它们能够在没有中间人的情况下直接与其他孪生进行查找和交互的架构上。这允许孪生插入一个不断增长的系统和服务网络，以更好地为您提供帮助。立即帮助构建元宇宙 开发者文档",
+            "card1": {
+                "title": "其他孪生",
+                "description": "每个人和每件事很快都将拥有数字孪生，您的孪生可以与它们中的每一个进行通信、协商和协作，以实现您的目标。"
+            },
+            "card2": {
+                "title": "市场",
+                "description": "现实服务和平台的表示，您的孪生可以与之交互以完成特定任务，如预订出行服务、计划假期或为您的房屋预订清洁服务。"
+            },
+            "card3": {
+                "title": "能力",
+                "description": "您的数字孪生可以学习像您一样的技能，例如了解如何使用拍卖服务为您最喜欢的运动队出价购票。"
+            },
+            "card4": {
+                "title": "智能",
+                "description": "为您孪生提供的个人和集体大脑。您的孪生自学如何更像您，并将这些信息内化以确保其安全。在元宇宙中，您的孪生还可以访问集体大脑，这些大脑可以由您和您的朋友或朝着相同目标努力的团队进行教学。"
+            }
+        },
+        "rollupSection": {
+            "title": "企业级 ROLLUP",
+            "description": "企业可以通过将其业务逻辑添加到我们的基础设施，在无需额外开发时间和成本的情况下部署其 Rollup。",
+            "button": "联系我们",
+            "card1": "许可节点",
+            "card2": "定制业务逻辑",
+            "card3": "私有数据可用性",
+            "card4": "更低的部署成本",
+            "card5": "更高的安全性与扩展性",
+            "card6": "高性能"
+        }
+    },
+    "ecosystem": {
+        "title": "生态系统",
+        "comming": "即将推出",
+        "discover": "探索我们的生态系统",
+        "comming_content": "将区块链技术和人工智能 (AI) 应用于现实实践的生态系统已经并正在不断开发中。",
+        "description": "不仅仅是一个纯粹的区块链平台，Pione Chain 旨在通过实际应用项目解决社会中的现实问题。",
+        "card1": {
+            "title": "Pione Node",
+            "description": "集成 AI 和量子技术的下一代加密货币矿机。"
+        },
+        "card2": {
+            "title": "Pione House",
+            "description": "用于房地产识别和认证的区块链应用解决方案，旨在增强透明度、降低风险并优化房地产市场的交易流程。"
+        },
+        "card3": {
+            "title": "Pione Bot",
+            "description": "整合 AI 和自动化交易。"
+        },
+        "card4": {
+            "title": "ExPione",
+            "description": "ExPIONE 旨在进行数字资产交易和证券代币访问，同时结合人工智能 (AI) 以优化效率并增强交易活动的安全性。"
+        },
+        "card5": {
+            "title": "Pione Mart",
+            "description": "去中心化电子商务，提供安全便捷的购物体验。"
+        },
+        "card6": {
+            "title": "Pione Farm",
+            "description": "从生产到消费的农产品溯源平台，帮助企业和合作社透明化供应链，提升品牌价值，增强市场对农业部门的信任。"
+        },
+        "card7": {
+            "title": "Pione Game",
+            "description": "Web3 区块链游戏平台。创新玩家体验并创造数字经济价值。"
+        },
+        "card8": {
+            "title": "Pione Care",
+            "description": "基于区块链的个人健康记录管理系统，支持医疗机构和社区将数据数字化，确保信息安全并提高数字时代的医疗效率。"
+        },
+        "card9": {
+            "title": "Pione Wallet",
+            "description": "数字资产钱包，帮助企业和用户安全、便捷、稳妥地管理、存储和交易数字资产——它是通往全球去中心化金融生态系统的门户。"
+        },
+        "card10": {
+            "title": "Pione Swap",
+            "description": "Pione Swap 是一个去中心化交易所 (DEX) 平台，允许用户快速高效地交换、提供流动性以及交易数字资产和证券代币。"
+        },
+        "card11": {
+            "title": "Pione AI",
+            "description": "为中小企业在客户关怀、管理和业务运营方面提供个性化支持的 AI 工具。"
+        },
+        "card12": {
+            "title": "Pione Smart",
+            "description": "去中心化电子商务平台，能够转换数字资产以快速安全地购买商品和服务，同时支持跨境交易。"
+        },
+        "card13": {
+            "title": "Pione Star",
+            "description": "Pione Star – 一个透明且值得信赖的社交网络，用户拥有自己的数据并负有责任地与社区连接"
+        },
+        "card14": {
+            "title": "Pione Dapps Store",
+            "description": "该商店包括去中心化 dApp，以帮助 Web3 社区做大做强。"
+        },
+        "card15": {
+            "title": "Pione Security",
+            "description": "支持企业在股市数字化转型中，在区块链上高效发行和管理的平台。"
+        },
+        "card16": {
+            "title": "Pione Dream",
+            "description": "“创业梦想” - 连接技术初创公司与全球投资者的平台，推广突破性项目。"
+        },
+        "card17": {
+            "title": "Pione Charity",
+            "description": "去中心化慈善基金，应用区块链透明化所有捐赠，从而加强社区信任和责任。"
+        },
+        "card21": {
+            "title": "证券代币",
+            "description": "证券代币是区块链上传统股票和证券的数字化，开启了资本市场透明、灵活和全球化的新时代。由 PIONE GROUP 开发的解决方案已集成到生态系统中，包括 PioneWallet、PioneHouse 等。"
+        },
+        "card22": {
+            "title": "Pione Zero",
+            "description": "零 Gas 费区块链平台，促进 AI 和区块链时代企业的数字化转型和实际应用部署。"
+        },
+        "card23": {
+            "title": "Pione Super App",
+            "description": "为企业提供数字化转型解决方案、数字资产管理、支付以及在区块链平台上透明开具税务发票的应用程序。"
+        },
+        "card24": {
+            "title": "Pione POAT",
+            "description": "该应用程序提供数字化转型解决方案、数字资产管理、支付以及在区块链平台上透明开具税务发票。"
+        },
+        "card25": {
+            "title": "Pione Solution",
+            "description": "Pione Solution 提供全面的软件解决方案，重点关注资产代币化、区块链、AI 和应用程序开发. 我们帮助企业以安全、透明和可持续的方式实现数字化转型。"
+        },
+        "card26": {
+            "title": "StealthEX",
+            "description": "寻找最佳加密货币兑换率：Bitcoin, Ethereum, Litecoin, XRP, Chainlink, 以及超过 1400 种加密货币可供即时非托管交换。"
+        },
+        "card27": {
+            "title": "PinkSale",
+            "description": "PinkSale 帮助每个人在几秒钟内创建自己的代币和代币销售。在 PinkSale 上创建的代币将在浏览器网站上得到验证和发布"
+        },
+        "card28": {
+            "title": "DEXView",
+            "description": "DexView - 实时价格图表、交易历史、代币交换、钱包组合以及多链上 DEX 的代币信息：Ethereum, BNBChain, Polygon, Avalance, Fantom, Arbitrum, Cronos, Optimism 等。"
+        }
+    },
+    "partner": {
+        "title": "我们的合作伙伴",
+        "description": "会见与 PioneChain 和 PioneWallet 共同构建区块链未来的可信合作伙伴与合作者。",
+        "Contact Partner": "联系合作伙伴",
+        "form": {
+            "info": "联系信息",
+            "contact": "我们始终欢迎能共同创造有意义且独特价值的伙伴关系想法。",
+            "First Name": "名",
+            "Last Name": "姓",
+            "Title": "头衔",
+            "Email": "电子邮件",
+            "Phone Number": "电话号码",
+            "Organization Name": "组织名称",
+            "Industry": "行业",
+            "Organization Size": "组织规模",
+            "Organization Location": "组织所在地",
+            "Message": "留言",
+            "Categories": "类别",
+            "1-10 employees": "1-10 名员工",
+            "11-50 employees": "11-50 名员工",
+            "51-200 employees": "51-200 名员工",
+            "over 200 employees": "超过 200 名员工"
+        }
+    },
+    "blockchain": {
+        "title": "为 Web3 企业集成的公共与私有区块链基础设施",
+        "explore": "探索",
+        "description": "PioneChain 联合了 Zeroscan 的零 Gas 公共区块链和 Pionescan 的企业级私有链，交付可扩展、安全且合规的 Web3 解决方案。",
+        "card1": {
+            "type": "公共区块链",
+            "link": "zeroscan.org",
+            "description": "Zeroscan.org 是一个零 Gas 公共区块链，旨在将区块链应用扩展到现实世界实践的各个方面。该系统旨在支持现实世界资产 (RWA) 数字化和代币化解决方案开发，在物理世界和数字空间之间搭建安全、透明和高效的连接。",
+            "features": {
+                "feature1": {
+                    "title": "零 Gas 费",
+                    "subtitle": "执行交易和部署智能合约无需 Gas 成本，使区块链更易于用于现实世界应用。"
+                },
+                "feature2": {
+                    "title": "RWA 代币化",
+                    "subtitle": "开发和运行房地产、大宗商品和认证等现实资产代币化模型的强大平台。"
+                },
+                "feature3": {
+                    "title": "高透明度与安全性",
+                    "subtitle": "所有数据都公开且不可篡改地存储，确保每笔交易的完整性和信任。"
+                },
+                "feature4": {
+                    "title": "可扩展性与集成",
+                    "subtitle": "支持开发者友好的 API 和工具，使企业能够轻松将区块链集成到现有系统中。"
+                },
+                "feature5": {
+                    "title": "多行业应用",
+                    "subtitle": "适用于供应链、农业、教育、医疗保障和房地产管理等行业。"
+                }
+            },
+            "vision": "Zeroscan.org 旨在成为区块链技术与现实生活之间的桥梁，推动 Web3 时代的全面数字化转型。"
+        },
+        "card2": {
+            "type": "私有区块链",
+            "link": "pionescan.com",
+            "description": "Pione Chain 是一个私有区块链平台，旨在服务现实世界资产 (RWA) 代币化和证券代币发行的企业需求。该系统提供了一个安全、私密且高度可定制的区块链基础设施，使企业能够在法律合规的 Web3 环境中高效地部署数字化和资产管理解决方案。",
+            "features": {
+                "feature1": {
+                    "title": "私有区块链",
+                    "subtitle": "允许机构和企业运行独立的区块链网络，确保内部管理数据和交易，以增强隐私和控制。"
+                },
+                "feature2": {
+                    "title": "资产与证券代币化",
+                    "subtitle": "支持发行代表现实世界资产 (RWA) 和数字证券的代币，帮助企业筹集资金、管理资产并提高所有权的透明度。"
+                },
+                "feature3": {
+                    "title": "高度控制与定制",
+                    "subtitle": "企业可以根据其业务需求定义自己的治理规则、交易政策和验证机制。"
+                },
+                "feature4": {
+                    "title": "安全性与合规性",
+                    "subtitle": "集成先进的加密和认证层，帮助企业满足金融科技和企业领域的监管及数据合规标准。"
+                },
+                "feature5": {
+                    "title": "灵活连接",
+                    "subtitle": "可以与 Zeroscan.org 等公共区块链互连或同步，以在需要时扩展交易或提高透明度。"
+                }
+            },
+            "status": {
+                "label": "活跃"
+            },
+            "vision": "Pione Chain 旨在成为企业领先的私有区块链平台 —— 赋能机构将资产数字化、发行证券代币，并实施安全、高效且透明的 Web3 解决方案，架起传统金融与数字经济之间的桥梁。"
+        },
+        "card3": {
+            "type": "企业级区块链",
+            "link": "pionescan.com",
+            "description": "Pione Chain 是一个私有区块链平台，开发用于支持企业发行现实世界资产代币化 (RWA 代币化) 和证券代币。系统旨在提供安全、私密且高度可定制的区块链基础设施，使企业能在 Web3 环境中轻松高效地部署数字化应用并管理资产，且符合法律要求。",
+            "features": {
+                "feature1": {
+                    "title": "企业级区块链基础设施",
+                    "subtitle": "专门为机构设计的独立区块链架构，允许其运行封闭的高性能数据环境，并完全控制所有内部流程。"
+                },
+                "feature2": {
+                    "title": "企业共识协议",
+                    "subtitle": "企业可以部署自己的验证者，参与交易验证并管理数据生命周期，确保与其运营模式的一致，且透明、自治。"
+                },
+                "feature3": {
+                    "title": "全面的资产数字化与代币化",
+                    "subtitle": "支持将资产、文档、工作流程或商品转换为数字资产，优化运营流程，加强控制并能通过专门的智能合约实现自动化。"
+                },
+                "feature4": {
+                    "title": "根据行业特定要求的灵活定制",
+                    "subtitle": "系统允许对治理规则、访问权限、交易条件和操作标准进行深度定制，适用于金融、制造、物流、医疗保障等行业。"
+                },
+                "feature5": {
+                    "title": "多层安全与国际合规",
+                    "subtitle": "集成先进加密、多层数据保护机制，并支持全球监管标准，使企业能在高需求部门安全运营。"
+                },
+                "feature6": {
+                    "title": "与 Pione 的生态互连性",
+                    "subtitle": "与 Pione Chain (Layer-1) 和 Pione Zero Chain (Layer-2) 无缝连接，使企业能扩展验证能力、分享数据或集成到更广泛的 Pione 价值链中。"
+                }
+            }
+        }
+    },
+    "enterprise": {
+        "application": "企业级 Rollup",
+        "description": "企业可以通过将其业务逻辑添加到我们的基础设施，在无需额外开发时间和成本的情况下部署其 Rollup。",
+        "card1": "许可节点",
+        "card2": "定制业务逻辑",
+        "card3": "私有数据可用性",
+        "card4": "更低的部署成本",
+        "card5": "改进的安全性与扩展性"
+    },
+    "contactUs": {
+        "Contact Us": "联系我们",
+        "feedback": "我们可以接受提问、反馈或合作机会。让我们知道我们能如何提供帮助！",
+        "Name": "名称",
+        "enterName": "输入您的姓名 ...",
+        "enterEmail": "输入您的电子邮件 ...",
+        "enterSubject": "输入您的主题 ...",
+        "enterMessage": "输入您的留言 ...",
+        "Message": "留言",
+        "Subject": "主题",
+        "submit": "发送",
+        "title": "保持联系",
+        "subTitle": "投资区块链的未来，引领去中心化世界的潮流，加入运动，今天就与我们取得联系！"
+    },
+    "ourTeam": {
+        "title": "我们的团队",
+        "subTitle": "愿景家与创新者的集体",
+        "empty": "团队信息即将上线。"
+    },
+    "roadmap": {
+        "title": "路线图",
+        "subTitle": "Pione Chain 的发展路线图明确列出了重要里程碑，展示了团队构建和扩展生态系统的承诺。该路线图分为多个阶段，每个阶段都侧重于特定目标，以确保稳定和可持续的发展。",
+        "September 5, 2019": "September 5, 2019",
+        "IDEA PLANNING": "PROJECT IDEATION - PRACTICAL BLOCKCHAIN DIRECTION",
+        "description1": "Building on years of experience in information technology and software development since 2014, the team identified the potential of blockchain for real-world applications starting in 2017. Initial research focused on traceability solutions and decentralized transaction models.",
+        "November 11, 2021": "November 11, 2021",
+        "LAUNCH OF SWAPTOBE (TOBECHAIN)": "LAUNCH OF SWAPTOBE & TOBECHAIN - ECOSYSTEM PILOT PHASE",
+        "description2": "SwapTobe and the TobeChain ecosystem were launched as pilot implementations. Blockchain technology was applied across sectors such as agriculture, real estate, and healthcare to validate practical use cases.",
+        "January 1, 2024": "January 1, 2024",
+        "PROJECT TOBECHAIN RENAMED TO PIONE CHAIN": "PROJECT REPOSITIONING - REBRANDING TO PIONE CHAIN",
+        "description3": "The TobeChain project was officially repositioned and rebranded as Pione Chain. Pione Labs was established with a specialized technical team, focusing on the integration of Blockchain, AI, Metaverse, and IoT to develop a dedicated ecosystem.",
+        "November 23, 2024": "November 23, 2024",
+        "PIONE GROUP ESTABLISHED": "ESTABLISHMENT OF PIONE GROUP - OPERATIONAL STRUCTURE COMPLETION",
+        "description4": "PIONE LABS LLC and PIONE GROUP JSC were established, marking the completion of the project's organizational structure. Operations expanded across multiple countries, laying the foundation for global ecosystem development.",
+        "February 17, 2025": "February 17, 2025",
+        "PIONE CHAIN OFFICIALLY LAUNCHED": "LAUNCH OF PIONE CHAIN - BLOCKCHAIN WITH AI-BASED DATA TRACING (PoAT)",
+        "description5": "Pione Chain officially entered operation with a focus on enabling practical blockchain applications. Leveraging the Proof of Artificial Intelligence Tracing (PoAT) consensus mechanism, the platform aims to build digital infrastructure for the Real World Asset (RWA) economy, with Pione Wallet serving as the central ecosystem access point.",
+        "April 4, 2025": "April 4, 2025",
+        "PIONE WALLET OFFICIALLY LAUNCHED": "LAUNCH OF PIONE WALLET - RWA ECOSYSTEM GATEWAY",
+        "description6": "Pione Wallet was introduced as a multi-chain, non-custodial wallet within the Pione Chain ecosystem. It enables users to manage digital assets and access RWA-oriented blockchain applications across real-life sectors.",
+        "June 1, 2025": "June 1, 2025",
+        "REGISTER TO PARTICIPATE IN SANDBOX FOR PILOT DEPLOYMENT OF TYPICAL ECOSYSTEMS": "SANDBOX PARTICIPATION - REGULATED PILOT DEPLOYMENT",
+        "description7": "The project joined regulatory sandbox programs to assess the feasibility of selected ecosystems within controlled legal environments. This phase prepares the foundation for broader real-world deployment.",
+        "Quarter 4, 2025": "Quarter 4, 2025",
+        "THE OFFICIAL LISTING OF PIO COIN ON DIGITAL ASSET EXCHANGES": "DEX LISTING - INTERNATIONAL ACCESS & RWA VALIDATION",
+        "THE OFFICIAL LISTING OF PIO COIN ON DIGITAL ASSET EXCHANGES2": "PIONE SOLUTION - WEB2 TO WEB3 TRANSFORMATION FOR ENTERPRISES",
+        "description8": "Pione Chain (PIO) was listed on decentralized exchange platforms to expand international accessibility. This phase focuses on ecosystem testing and the progressive integration of Real World Assets into practical use.",
+        "description82": "Solutions were introduced to support enterprises in transitioning processes, data, and services from Web2 to Web3. The platform enables structured and efficient blockchain adoption in the digital era.",
+        "December 2025": "December 2025",
+        "launch DEX P2P (Pioneswap.com)": "LAUNCH OF PIONE SWAP - DECENTRALIZED P2P TRADING GATEWAY",
+        "descriptiondec": "Pione Swap was launched as a decentralized P2P trading gateway, enabling direct peer-to-peer digital asset transactions. The platform emphasizes transparency, security, and real-world usability.",
+        "Pione Dream Start up": "PIONE DREAM - STARTUP & INVESTOR CONNECTIVITY PLATFORM",
+        "descriptiondec2": "Pione Dream provides a transparent environment connecting startups with investors, improving capital access and supporting innovation within the ecosystem.",
+        "January 2026": "January 2026",
+        "DIGITAL HEALTHCARE & SUPER APP PAYMENT DEVELOPMENT": "PIONE HOUSE - REAL ESTATE RWA DIGITIZATION & IDENTITY",
+        "description9": "Pione House applies blockchain technology to the digitization, identification, and verification of real estate assets. The platform enhances transparency and integrates real estate into the RWA ecosystem.",
+        "Quarter 1, 2026": "Quarter 01, 2026",
+        "Listing on centralized exchanges (CEXs) to expand international markets and drive sustainable growth across the Pione Chain ecosystem": "CEX LISTING - GLOBAL COMMUNITY EXPANSION",
+        "description17": "Pione Chain (PIO) was listed on centralized exchanges to broaden access for the international community. This milestone supports large-scale ecosystem testing and sustainable growth.",
+        "April 2026": "April 2026",
+        "Pioneer Security – Digitalization of Securities Assets for the RWA Era": "PIONE SECURITY - SECURITY TOKENS FOR THE RWA ERA",
+        "description10": "Pione Security was launched to support the digital transformation of traditional securities through blockchain-based issuance and management, aligned with RWA market trends.",
+        "June, 2026": "June, 2026",
+        "DIGITAL MEDICAL DEVELOPMENT & PAYMENT SUPER APP": "LAUNCH OF PIONE CARE & SUPER APP - DIGITAL HEALTHCARE & PAYMENTS",
+        "description11": "Pione Care integrates blockchain and AI into healthcare data management. In parallel, the Pione Super App was launched, offering integrated digital wallet, payment, e-invoicing, and daily financial services.",
+        "September 2026": "September 2026",
+        "DEPLOYING PIONE FARM AGRICULTURAL ECOSYSTEM": "PIONE FARM - BLOCKCHAIN-BASED AGRICULTURAL ECOSYSTEM",
+        "description12": "Pione Farm applies blockchain, AI, and IoT to agricultural identification and traceability. The ecosystem aims to enable transparent and sustainable agricultural supply chain management.",
+        "Quarter 2, 2026": "Quarter 2, 2026",
+        "Pione BOS Chain Mainnet Launch": "LAUNCH OF PIONE BOS CHAIN - ENTERPRISE & RWA PRIVATE BLOCKCHAIN",
+        "description16": "PIONE BOS Chain was introduced as a private, enterprise-focused blockchain supporting Real World Asset digitization, security token issuance, and secure Web3 deployments, bridging traditional finance with the digital economy.",
+        "Quarter 4, 2026": "Quarter 4, 2026",
+        "Officially putting the ecosystem into practice according to RWA orientation - OFFICIALLY BRINGING THE PIONE CHAIN ​​ECOSYSTEM INTO PRACTICE": "RWA ECOSYSTEM DEPLOYMENT INTO REAL-WORLD OPERATIONS",
+        "description13": "Core Pione Chain ecosystems—including Pione AI, Pione Star, Pione Game, and Pione Mart—entered operational phases by sector. Independent management models were applied to optimize long-term value aligned with RWA trends.",
+        "Quarter 1, 2027": "January, 2027",
+        "Pione Chain Ecosystem Operates Strongly": "LAUNCH OF PIONE STAR – TRANSPARENT BLOCKCHAIN SOCIAL NETWORK",
+        "description14": "Pione Star is introduced as a transparent, blockchain-based social network where user data and content are verified on-chain. This ecosystem lays the groundwork for RWA models linked to digital identity, social data, and social value.",
+        "April 1, 2028": "Ngày 1 tháng 4 năm 2028",
+        "IPO - Listing security tokens (PIO) on an international stock exchange": "IPO & NIÊM YẾT TOKEN CHỨNG KHOÁN QUỐC TẾ",
+        "description15": "Triển khai lộ trình IPO và niêm yết token chứng khoán (STO) trên sàn giao dịch quốc tế. Cột mốc này nhằm củng cố vị thế và mở rộng quy mô Pione Group trên toàn cầu.",
+        "October 2026": "October, 2026",
+        "CORE INFRASTRUCTURE OPERATION - FOUNDATION FOR THE RWA ECOSYSTEM": "CORE INFRASTRUCTURE OPERATION – FOUNDATION FOR THE RWA ECOSYSTEM",
+        "description18": "The core infrastructure of Pione Chain, including the Pione Chain blockchain, Pione Wallet, and essential technical components, is fully completed and enters stable operation. This phase establishes the foundational layer for deploying Real World Asset (RWA) application ecosystems in subsequent stages.",
+        "December 2026": "December, 2026",
+        "LAUNCH OF PIONE DAPPSTORE – RWA APPLICATION GATEWAY": "LAUNCH OF PIONE DAPPSTORE – RWA APPLICATION GATEWAY",
+        "description19": "Pione dAppStore officially launches as the decentralized application marketplace of the Pione Chain ecosystem. The platform focuses on distributing dApps related to real-world asset digitization, data traceability, and RWA management on blockchain.",
+        "march 2027": "March, 2027",
+        "LAUNCH OF PIONE CHARITY – TRANSPARENT COMMUNITY CONTRIBUTIONS": "LAUNCH OF PIONE CHARITY – TRANSPARENT COMMUNITY CONTRIBUTIONS",
+        "description20": "Pione Charity leverages blockchain to manage and trace charitable resources, including financial flows, supplies, and community assets. The platform expands RWA applications into the social sector, strengthening transparency and community trust.",
+        "May 2027": "May, 2027",
+        "LAUNCH OF PIONE GAME – RWA-ENABLED WEB3 GAMING PLATFORM": "LAUNCH OF PIONE GAME – RWA-ENABLED WEB3 GAMING PLATFORM",
+        "description21": "Pione Game is launched as a Web3 gaming platform integrating crypto assets and NFTs that represent real-world value. This ecosystem extends RWA applications into digital entertainment, bridging gaming experiences with the real economy.",
+        "July 2027": "July, 2027",
+        "LAUNCH OF PIONE MART – DECENTRALIZED E-COMMERCE MARKETPLACE": "LAUNCH OF PIONE MART – DECENTRALIZED E-COMMERCE MARKETPLACE",
+        "description22": "Pione Mart is a decentralized e-commerce platform that enables users to convert crypto assets into purchases of real-world goods and services. With asset verification and traceability features, Pione Mart brings RWA into everyday commercial transactions.",
+        "September 2027": "September, 2027",
+        "LAUNCH OF PIONE PAY – PAYMENT BRIDGE FOR RWA APPLICATIONS": "LAUNCH OF PIONE PAY – PAYMENT BRIDGE FOR RWA APPLICATIONS",
+        "description23": "Pione Pay is introduced as a solution that enables the conversion and payment of legally permitted services using crypto assets through a controlled intermediary mechanism. The platform serves as a bridge between crypto assets and real-world economic activities.",
+        "November 2027": "November, 2027",
+        "STABLE OPERATIONS & INTERNATIONAL RWA ECOSYSTEM EXPANSION": "STABLE OPERATIONS & INTERNATIONAL RWA ECOSYSTEM EXPANSION",
+        "description24": "The entire Pione Chain ecosystem enters a phase of optimized performance and stable operations. The focus shifts toward expanding RWA models into international markets through community growth, partnerships, and real-world application scenarios.",
+        "January 2028": "January, 2028",
+        "INITIATION OF IPO & SECURITY TOKEN (STO) ROADMAP": "INITIATION OF IPO & SECURITY TOKEN (STO) ROADMAP",
+        "description25": "The project initiates preparations for an IPO and the structuring of security token issuance (STO), aiming to digitize financial assets and expand the RWA ecosystem at the institutional level.",
+        "April 2028": "April, 2028",
+        "SECURITY TOKEN ISSUANCE PILOT (STO PILOT)": "SECURITY TOKEN ISSUANCE PILOT (STO PILOT)",
+        "description26": "A pilot phase for security token issuance is launched to validate asset digitization, management processes, and on-chain transparency before scaling to broader deployment.",
+        "July–September 2028": "July–September, 2028",
+        "IPO / STO EXECUTION – COMPLETION OF A GLOBAL RWA ECOSYSTEM": "IPO / STO EXECUTION – COMPLETION OF A GLOBAL RWA ECOSYSTEM",
+        "description27": "The IPO and STO are executed according to the established roadmap, marking the completion of Pione Chain as a global-scale blockchain platform dedicated to Real World Assets (RWA)."
+    },
+    "tokenomic": {
+        "title": "代币经济学",
+        "subTitle": "探索赚取 PIO 代币的多种方式",
+        "item1": {
+            "title": "NFT 铸造 10%",
+            "description": "TGE 100%，当发行新 NFT 时，等量的 PIO 将被永久销毁，从而减少总供应量，增强原生代币 PIO 的稀缺性和内在价值。"
+        },
+        "item2": {
+            "title": "空投 5%",
+            "description": "TGE 5%，锁仓 1 个月，在 24 个月内按月线性分发 95%"
+        },
+        "item3": {
+            "title": "质押 25%",
+            "description": "TGE 0%，锁仓 0 个月，在 120 个月内按月线性分发 100%"
+        },
+        "item4": {
+            "title": "核心团队 10%",
+            "description": "TGE 0%，锁仓 12 个月，在 4 个月内按月线性分发 15%，接下来的 6 个月线性分发 20%，然后在 24 个月内线性分发 65%"
+        },
+        "item5": {
+            "title": "生态系统建设 30%",
+            "description": "TGE 0%，锁仓 12 个月，在 96 个月内按月线性分发 100%"
+        },
+        "item6": {
+            "title": "顾问 5%",
+            "description": "TGE 0%，锁仓 6 个月，在 24 个月内按月线性分发 100%"
+        },
+        "item7": {
+            "title": "投资者 5%",
+            "description": "TGE 0%，锁仓 6 个月，在 24 个月内按月线性分发 100%"
+        },
+        "item8": {
+            "title": "节点验证者 10%",
+            "description": "TGE 0%，锁仓 12 个月，在 36 个月内按月线性分发 100%"
+        }
+    },
+    "terms": {
+        "Last updated February 2, 2025": "最后更新于 2025年2月2日",
+        "des1": "这些服务条款构成您（无论是个人还是代表实体，以下简称“您”）与 PIONE Chain（“我们”或“我们的”）之间具有法律约束力的协议，涉及您访问和使用 PIONEscan.com 网站以及与其相关、链接或以其他方式连接的任何其他媒体形式、媒体渠道、移动网站或移动应用程序（统称为“本网站”）。",
+        "1. Acceptance of Terms": "1. 接受条款",
+        "des2": "通过访问或使用本服务，您同意受这些条款及所有引用并入的条款的约束。如果您不同意所有这些条款，则不得访问或使用本服务。",
+        "2. Description of Service": "2. 服务描述",
+        "des3": "PIONE Chain 平台提供去中心化区块链网络及相关服务，包括但不限于智能合约执行、代币交易和数据存储。",
+        "3. User Registration": "3. 用户注册",
+        "des4": "为了访问本服务的某些功能，您可能需要注册账户。注册账户时，您同意提供准确且完整的信息。您全权负责维护账户凭据的机密性以及在您账户下发生的所有活动。",
+        "4. Information Collection": "4. 信息收集",
+        "4.1 Collection of Personal Information": "4.1 个人信息的收集",
+        "des5": "我们在您使用服务的过程中收集与您或您的设备相关的信息。某些收集的信息可能构成个人信息，定义为能识别您或您的设备的数据，或与您合理相关的数据。收集的个人信息类别将取决于您选择的服务性质。此外，我们收集、使用和披露不合理识别您或您的设备的汇总或去匿名化信息，此类信息不被视为个人信息。",
+        "4.2 Information Provided by Users": "4.2 用户提供的信息",
+        "des6": "我们收集您提供给我们的信息，包括但不限于：",
+        "des7": "通信和反馈：我们收集您直接联系我们或对我们的服务提供反馈、评论或建议时提供的信息。",
+        "des8": "业务往来：如果您是供应商、服务提供商或商业伙伴，我们可能会收集有关您及其提供的服务的信息，包括您或您员工的业务联系详情，以及您或您的员工在提供服务过程中及根据我们与您的协议向我们提供的任何其他信息。",
+        "des9": " 其他详情：我们还收集与您相关或能够与您关联的信息，如年龄、性别以及您选择提供的任何其他信息。",
+        "4.3 Automatically Collected Information": "4.3 自动收集的信息",
+        "des10": "在使用我们的服务期间，我们可能会自动收集或接收与您或您的网络设备（包括计算机或移动设备）相关的特定信息。这包括有关您的服务使用情况和偏好的信息。此类信息可能通过基于设备的追踪技术（如 cookies, pixels, tags, beacons, scripts 或其他技术）自动收集。",
+        "des11": "自动收集的信息还可能包括地理位置数据，如识别您设备的大致位置的信息和您的 IP 地址，这些信息可能用于估计您的大致位置。",
+        "4.4 Information from Partners": "4.4 来自合作伙伴的信息",
+        "des12": "我们从其他信誉良好的来源获取信息。这些业务合作伙伴可能包括您的移动电话运营商、某些政府机构、许可机构等实体。",
+        "4.5 Information Provided Through Social Media": "4.5 通过社交媒体提供的信息",
+        "des13": "如果您通过社交媒体平台与我们建立联系，或从我们的某个站点导航到社交媒体平台，该社交媒体平台将独立收集您的信息。建议查看社交媒体平台的隐私政策，以了解他们如何利用您的信息以及您在这些信息方面的权利。",
+        "4.6 Derived Information": "4.6 衍生信息",
+        "des14": "我们可能会根据直接从您那里收集的、被动收集的或通过第三方收集的信息，得出额外信息或对您进行推断。",
+        "5. Intellectual Property Rights": "5. 知识产权",
+        "des15": "本服务及其原始内容、特征和功能是且将一直是 PIONE Chain 及其许可方的专有财产。本服务受美国及外国版权法、商标法和其他法律的保护。未经 PIONE Blockchain 事先书面同意，不得将我们的商标和商业外观与任何产品或服务结合使用。",
+        "6. Mobile Application License": "6. 移动应用程序许可",
+        "6.1 Use License": "6.1 使用许可",
+        "des16": "如果您通过移动应用程序访问本网站，则我们授予您可撤销的、非独占的、不可转让的有限权利，以在您拥有或控制的无线电子设备上安装和使用该移动应用程序，并严格按照本服务条款中包含的移动应用程序许可条款在这些设备上访问和使用该移动应用程序。",
+        "You shall not:": "您不得：",
+        "des17": "对应用程序进行反编译、逆向工程、拆解、试图获取其源代码或对其进行解密。",
+        "des18": "对应用程序进行任何修改、改编、改进、增强、翻译或创作衍生作品。",
+        "des19": "在访问或使用应用程序时违反任何适用的法律、规则或条例。",
+        "des20": "移除、更改或遮盖由我们或应用程序许可方发布的任何所有权声明（包括任何版权或商标声明）。",
+        "des21": "将应用程序用于任何创收活动、商业企业或非其设计或预期目的的其他目的。",
+        "des22": "通过网络或其他环境提供应用程序，允许同时通过多个设备或由多个用户访问或使用。",
+        "des23": "使用应用程序创建与应用程序直接或间接竞争、或在任何方面作为其替代品的产品、服务或软件。",
+        "des24": "使用应用程序向任何网站发送自动查询，或发送任何未经请求的商业电子邮件。",
+        "des25": "在设计、开发、制造、许可或分发供应用程序使用的任何应用程序、附件或设备时，使用任何专有信息或我们的任何接口或其他知识产权。",
+        "6.2 Apple and Android Devices": " 6.2 Apple 和 Android 设备",
+        "des26": "当您使用从 Apple Store 或 Google Play（各称为“应用分发商”）获取的移动应用程序访问本网站时，以下条款适用：",
+        "des27": "授予您的移动应用程序许可以不可转让为限，且仅限在运行 Apple iOS 或 Android 操作系统的设备上（视情况而定）使用，并符合适用应用分发商服务条款中规定的使用规则。",
+        "des28": "我们负责按照这些服务条款中包含的移动应用程序许可条款的规定或适用法律的要求，提供与该移动应用程序相关的任何维护和支持服务，并且您承认各应用分发商完全没有义务就该移动应用程序提供任何维护和支持服务。",
+        "des29": "如果移动应用程序未能符合任何适用保证，您可以通知适用的应用分发商，应用分发商将根据其条款和政策退还购买该移动应用程序支付的任何价款（如有），并且在适用法律允许的最大范围内，应用分发商对该移动应用程序不承担任何其他保证义务；",
+        "des30": "(4) 您声明并保证 (i) 您不位于受美国政府禁运或被美国政府指定为“支持恐怖主义”的国家，并且 (ii) 您未列入任何美国政府的禁止或限制方名单。",
+        "des31": "在使用移动应用程序时，您必须遵守适用的第三方协议条款，例如，如果您使用的是 VoIP 应用程序，则在使用此移动应用程序时不得违反其无线数据服务协议。",
+        "des32": "您承认并同意，应用分发商是这些服务条款中定义的移动应用程序许可的第三方受益人，并且每个应用分发商将有权（且将被视为已接受该权利）作为第三方受益人对您执行本服务条款中定义的移动应用程序许可条款。",
+        "7. Social Media": "7. 社交媒体",
+        "des33": "作为本网站功能的一部分，您可以通过以下方式将您的账户与您在第三方服务提供商处拥有的在线账户（各称为“第三方账户”）关联：(1) 通过本网站提供您的第三方账户登录信息；或 (2) 允许我们访问您的第三方账户，这在管辖您使用每个第三方账户的适用服务条款下是允许的。",
+        "des34": "您声明并保证您有权向我们披露您的第三方账户登录信息，并/或允许我们访问您的第三方账户，且不违反您使用适用第三方账户的任何服务条款，也不使我们承担支付任何费用的义务，或使我们受第三方账户服务提供商强加的任何使用限制。",
+        "des35": "通过授权我们访问任何第三方账户，您理解：(1) 我们可能会访问、提供并存储（如适用）您提供给第三方账户并存储在其中的任何内容（“社交网络内容”），以便可以通过您的网站账户在本网站上使用这些内容，包括但不限于任何好友列表；以及 (2) 我们可能会向您的第三方账户提交并从中接收额外信息，其程度取决于您在将账户与第三方账户关联时收到的通知。",
+        "des36": "根据您选择的第三方账户以及您在这些第三方账户中设置的隐私设置，您发布到第三方账户的个人身份信息可能会在本网站上通过您的账户获取。",
+        "des37": "请注意，如果第三方账户或相关服务变得不可用，或者第三方服务提供商终止了我们对该第三方账户的访问，则社交网络内容可能无法再在本网站上获取。您可以随时禁用本网站账户与第三方账户之间的连接。",
+        "8. Privacy": "8. 隐私",
+        "des38": "您对本服务的使用受我们的隐私政策限制，该政策通过引用并入这些条款。请查看我们的隐私政策，以了解我们关于收集、使用和处理您的信息的做法。",
+        "9. Disclaimer of Warranties": "9. 免责声明",
+        "des39": "本服务按“原样”且“可用”的基础提供，不带任何形式的明示或暗示保证。PIONE Blockchain 不承担所有保证，包括但不限于适销性、特定用途的适用性以及非侵权性的暗示保证。",
+        "10. Limitation of Liability": "10. 责任限制",
+        "des40": "在任何情况下，PIONE Chain 及其董事、员工、合作伙伴、代理商、供应商或关联方均不对任何间接、附带、特别、后果性或惩罚性损害承担责任，包括但不限于由于以下原因产生的利润损失、数据丢失、使用损失、商誉损失或其他无形损失：(i) 您访问或使用、或无法访问或使用本服务；(ii) 第三方在本服务上的任何行为或内容；(iii) 从本服务获得的任何内容；以及 (iv) 未经授权访问、使用或更改您的传输或内容，无论是否基于保证、合同、侵权（包括疏忽）或任何其他法律理论，无论我们是否已被告知发生此类损害的可能性，即使此处规定的补救措施被发现未能达到其基本目的。",
+        "11. Governing Law": "11. 适用法律",
+        "des41": "这些条款应受圣文森特法律管辖并按其解释，不考虑其法律冲突条款。",
+        "12. Changes to Terms": "12. 条款变更",
+        "des42": "PIONE Chain 保留在其全权酌情决定权下随时修改或替换这些条款的权利。如果修订是重大的，我们将至少在任何新条款生效前 30 天提供通知。何为重大变更将由我们全权酌情决定。",
+        "13. Contact Us": "13. 联系我们",
+        "des43": "如果您对这些条款或我们的隐私做法有任何疑问，请通过 info@pionechain.com 与我们联系。",
+        "des44": "通过使用 PIONE Chain 平台，即表示您接受这些条款。如果您不同意这些条款，请不要使用我们的服务。"
+    },
+    "privacy": {
+        "des1": " PIONE Chain 及其关联公司（包括所有者、董事、投资者、员工或其他利益相关者）致力于保护并尊重您的隐私。在本隐私政策中，PIONE Blockchain 是指由 PIONE Chain 及其关联公司提供的服务、产品、网站、内容或其他材料。",
+        "des2": "个人信息是指能识别您个人身份的信息，或通过其可以合理识别您身份的信息。这可能包括您的姓名、地址、电子邮件地址和其他联系方式。",
+        "The purpose of this Privacy Policy is to inform you about": "本隐私政策旨在告知您：",
+        "des3": "我们可能收集的有关您的个人信息类型及其用途。",
+        "des4": "与我们 IP 地址及 cookie 使用相关的信息使用情况。",
+        "des5": "您的个人信息可能如何披露给第三方。",
+        "des6": "您访问、更正、更新和删除个人信息的能力。",
+        "des7": "我们为防止受控个人信息丢失、误用或更改，以及保持其私密性而采取的安全措施。",
+        "Gathering and Use of Personal Information": "个人信息的收集和使用：",
+        "des8": "如果您使用 PIONE Chain 网站、开立账户或在网站上进行任何交易，我们可能会收集您的个人信息。我们收集的个人信息类型可能包括：",
+        "des9": "您的身份证明，包括身份证或护照的高质量照片。",
+        "Your address, email address.": "您的地址、电子邮件地址。",
+        "Your bank details, including account number.": "您的银行详情，包括账号。",
+        "des10": " 其他相关信息，如行业、公用事业账单或确认您居住地址的银行对账单。",
+        "Purpose of Using Personal Information": "使用个人信息的目的：",
+        "des11": "如果您使用网站、开立账户或在网站上进行任何交易，我们可能会收集您的个人信息。我们收集的个人信息类型可能包括：",
+        "des12": "提供个性化体验，更好地满足您的个人需求。",
+        "des13": "根据收到的您的反馈，改进并分析我们的网站。",
+        "des14": "改进客户服务。",
+        "des15": "向我们的提供商验证您的身份，以遵守反洗钱政策。",
+        "des16": "处理交易。未经您的同意，您的信息不会被出售、交换或提供给任何其他公司。",
+        "des17": "定期发送有关您的订单、请求及相关促销、产品或服务的电子邮件。",
+        "Our Cookie Policy": "我们的 Cookie 政策：",
+        "des18": "同意开启 cookie，即表示您也同意收集有关您在线行为的数据。这些数据用于根据您的需求定制我们的网站。请注意，cookie 不允许我们控制您的计算机。您可以通过互联网浏览器设置禁用 cookie。",
+        "Link to Third Party": "第三方链接：",
+        "des19": "我们可能在网站上提供第三方产品或服务。这些第三方网站拥有独立且分开的隐私政策。我们鼓励您在与其互动前查看其政策。我们不对第三方网站的内容或行为负责。",
+        "Repair/Update/Delete Personal Information": "修改/更新/删除个人信息：",
+        "des20": "您有权访问、更正、更新和删除您的个人信息。如需对您的个人信息提出任何要求，请发送电子邮件至 info@pionechain.com。我们将根据法律和运营义务处理您的请求。",
+        "Security": "安全：",
+        "des21": "我们采取合理措施保护您的个人信息免遭误用、丢失、未经授权的访问、修改或披露，包括实施适当的安全措施。但是，我们不能保证此类事件不会发生。",
+        "Retention of Personal Information": "个人信息的保留：",
+        "des22": "我们仅在为本隐私政策所述目的所需的期限内，并根据法律法规要求保留您的个人信息。",
+        "Changes": "变更：",
+        "des23": "我们可能随时修订、修改、更新和/或补充我们的隐私政策，恕不另行通知。如果我们做出任何更改，我们将通过网站通知用户并发布修订后的隐私政策。",
+        "SMS Opt-In Policy for Phone Number Verification": "电话号码验证的短信订阅政策：",
+        "des24": "感谢您选择 PIONE Chain。我们的短信订阅政策概述了我们如何处理您的电话号码和用于验证的消息。注册我们的平台，即表示您同意接收用于电话号码验证的短信。这些消息将仅包含验证码或账户相关信息。我们非常重视您的隐私，未经您的同意不会将您的电话号码与第三方共享。如果您希望退出短信消息，请注意，您可能无法使用我们的平台，因为电话号码验证对于安全目的至关重要。",
+        "des25": "有关我们隐私政策或短信订阅政策的任何询问或疑虑，请通过 info@pionechain.com 与我们联系。"
+    },
+    "Solution": {
+        "title": "全面的区块链解决方案",
+        "with": "与",
+        "title_0": "多领域应用",
+        "title_1": "安全",
+        "title_2": "透明",
+        "title_3": "保密性",
+        "title_4": "可持续性",
+        "subTitle": "Pione Chain 帮助企业、组织和用户轻松、安全且低成本地接入区块链 —— 准备好与现实世界连接。",
+        "GetStarted": "立即开始",
+        "LearnMore": "了解更多",
+        "Problems": {
+            "PROBLEMS": "问题",
+            "title": "阻碍区块链采用的障碍",
+            "problem_0": "由于技术和法律障碍难以应用",
+            "problem_1": "缺乏透明度和溯源性",
+            "problem_2": "成本高、速度慢",
+            "problem_3": "难以访问并与传统系统集成",
+            "problem_4": "缺乏现实生活中的应用"
+        },
+        "Solutions": {
+            "Solution": "解决方案",
+            "title": "新一代区块链基础设施 —— 灵活、透明、高效",
+            "subTitle": "Pione Chain 带来了多层区块链架构，结合了两个互补的网络：",
+            "value": "Pione Chain 是下一代战略性区块链基础设施平台，其愿景是将区块链技术引入实际应用。凭借其高性能架构、强大的安全性以及与专业生态系统的灵活集成能力，Pione Chain 不仅仅是一个独立的区块链，还是一个支持数字资产管理和透明数据溯源的多层基础设施模型。",
+            "gas": "Pione Chain 生态系统由两个独立但互补的区块链网络组成，旨在优化处理多样化的现实生活用例。"
+        },
+        "PioneChainComp": {
+            "subTitle": "数字经济基础设施",
+            "title_0": "数字资产管理：",
+            "title_1": "去中心化金融交易：",
+            "title_2": "灵活的智能合约：",
+            "title_3": "PoAT 共识 (AI 追踪证明)：",
+            "content_0": "包括原生代币 $PIO、NFTs、虚拟资产和去中心化钱包。",
+            "content_1": "支持 DeFi 活动、质押、NFT 市场、空投等 ...",
+            "content_2": "允许开发者为任何领域构建定制化的去中心化应用程序 (dApps)。",
+            "content_3": "集成人工智能 (AI) 以实时自动追踪、验证并检测数据不一致性，确保链的完整性。"
+        },
+        "PioneZeroComp": {
+            "title": "免费数据追踪与数字身份",
+            "titleCard_0": "零 Gas 费",
+            "titleCard_1": "数字身份与数据验证",
+            "titleCard_2": "公开透明的数据",
+            "titleCard_3": "传统数据与 Web3 之间的桥梁",
+            "descriptionCard_0": "用户无需为写入或检索数据支付费用，甚至可以获得 Gas 费奖励作为激励机制。",
+            "descriptionCard_1": "用于验证房地产、医疗记录、农产品原产地及其他行政数据。",
+            "descriptionCard_2": "适用于医疗健康、教育、金融、农业和房地产，这些领域需要快速验证、易于检索且不可篡改的数据。",
+            "descriptionCard_3": "Pione Zero 充当智能“桥梁”，将传统管理系统中的数据转换为区块链环境。这有助于企业、政府和组织在集成 Web3 生态系统的同时，保持原始数据的安全性及法律有效性。"
+        },
+        "Benefit": {
+            "content_0": "安全快速的交易",
+            "content_1": "免费数据追踪",
+            "content_2": "易于集成",
+            "content_3": "多行业应用"
+        },
+        "footer_slogan": {
+            "title": "探索 Pione Chain 的最优解决方案 —— 在供应链中拥抱透明与安全",
+            "contact": "与我们合作",
+            "subtitle": "开启您的数字化转型和业务优化之旅。凭借先进的区块链技术，我们提供透明、安全且易于集成的解决方案。欢迎今天联系我们，共同塑造供应链的未来！"
+        }
+    },
+    "news": {
+        "title": "最新动态与更新",
+        "subTitle": "随时了解 Pione Chain 的最新进展和见解",
+        "ReadMore": "阅读更多",
+        "Category": "类别",
+        "All Categroy": "所有类别",
+        "Tags": "标签",
+        "All Tag": "所有标签",
+        "searchPlaceholder": "搜索动态...",
+        "NoData": "未找到相关动态"
+    },
+    "Yummy_data": {
+        "KeyBenefitsData": {
+            "title_0": "1. 针对用户",
+            "title_1": "2. 针对合作伙伴商户",
+            "title_2": "3. 针对生态系统",
+            "description_0_0": "便利性：所有核心功能——存储、交易和支付——都集成在单一应用程序中。",
+            "description_0_1": "安全性：先进的安全技术保护用户的数字资产。",
+            "description_0_2": "实际应用：用户可以在通过 NFT 标识注册的商户和合作伙伴处直接使用数字资产进行支付，无需转换为法定货币。",
+            "description_1_0": "增加收入：利用偏好使用数字资产的新客户群带来的新机会。",
+            "description_1_1": "扩大对新客户群体的覆盖，特别是那些热衷于区块链创新的人群。",
+            "description_1_2": "以极地的基础设施要求促进快速交易。",
+            "description_2_0": "促进数字资产在日常生活中的采用。",
+            "description_2_1": "弥合数字金融与传统商业之间的鸿沟。",
+            "description_2_2": "为可持续金融生态系统的发展做出贡献。"
+        },
+        "OverviewData": {
+            "title_0": "1. 核心产品",
+            "title_1": "2. 核心亮点",
+            "title_2": "3. 我们的愿景",
+            "content_0_0": "投资：买卖热门数字资产，如 Bitcoin, Ethereum, BNB 等多种资产。",
+            "content_0_1": "资产管理：追踪数字资产组合并通过 AI 分析优化绩效。",
+            "content_1_0": "智能 AI：分析数字资产市场并优化用户投资组合以提高回报。",
+            "content_1_1": "用户友好界面：支持多种设备和语言，包括越南语和英语（现已支持中文）。",
+            "content_1_2": "低手续费：具有竞争力的交易费，每笔交易在 0% 到 0.2% 之间。",
+            "content_2": "成为全球领先的数字资产投资应用，并在三年内达到 500,000 名用户。"
+        },
+        "WorksCardData": {
+            "title_0": "1. 用户注册",
+            "title_1": "2. 投资代币",
+            "title_2": "3. 投资组合管理",
+            "title_3": "4. 存入 / 提取资金",
+            "title_4": "5. 技术支持",
+            "description_0_0": "下载 Pione Invest App（支持 iOS/Android）或访问 Web 平台。",
+            "description_0_1": "在 3 分钟内完成 eKYC 验证（身份证/护照及人脸识别）。",
+            "description_0_2": "连接您的加密钱包（如 Pione Wallet, MetaMask, Trust Wallet）。",
+            "description_1_0": "直接在 App 内买卖代币（BTC, ETH, USDT 等）。",
+            "description_1_1": "获取数字资产的实时价格数据。",
+            "description_2_0": "通过直观的图表追踪钱包价值和盈亏。",
+            "description_2_1": "基于代币价格波动的 AI 驱动投资组合优化。",
+            "description_2_2": "发生市场波动时通过推送通知进行价格预警。",
+            "description_3_0": "与银行（如 Vietcombank, Techcombank）和数字资产钱包集成。",
+            "description_3_1": "即时转账，手续费在 0% 到 0.3% 之间。",
+            "description_4_0": "提供 24/7 AI 驱动的聊天机器人，支持中文、越南语和英语。",
+            "description_4_1": "免费的学习资源，包括关于数字资产投资的视频和文章。"
+        },
+        "CoreFeaturesData": {
+            "title_0": "1. 投资",
+            "title_1": "2. 市场分析",
+            "title_2": "3. 投资组合管理",
+            "title_3": "4. 实用工具",
+            "title_4": "5. 安全",
+            "description_0_0": "买卖 BTC, ETH, BNB, USDT 等多种代币。",
+            "description_0_1": "高速交易，订单执行时间低于 1 秒。",
+            "description_1_0": "实时代币价格面板，用于实时追踪加密货币价格。",
+            "description_1_1": "基于市值、趋势和交易量的代币过滤器。",
+            "description_1_2": "高级分析图表，包括 RSI, MACD 和价格趋势指标。",
+            "description_2_0": "通过实时投资组合追踪监控盈亏和代币分配。",
+            "description_2_1": "AI 驱动的投资组合建议，例如基于市场趋势和用户目标的优化配置（如 50% BTC, 30% ETH）。",
+            "description_3_0": "可定制界面：个性化颜色方案和布局偏好。",
+            "description_3_1": "投资学习：通过视频和游戏化挑战帮助用户提高投资知识 —— 通过互动学习获取积分并兑换奖励。",
+            "description_3_2": "24/7 支持：通过在线聊天和热线提供全天候协助，随时随地确保流畅的用户体验。",
+            "description_4_0": "AES-256 加密和 SSL/TLS 协议确保数据保密性和通信安全。",
+            "description_4_1": "集成的双重身份验证 (2FA) 和一次性密码 (OTP)，增强账户安全性。"
+        },
+        "TechnologyOperationsData": {
+            "title_0": "1. 技术",
+            "title_1": "2. AI/ML",
+            "title_2": "3. 安全",
+            "title_3": "4. 运营",
+            "title_4": "5. 客户支持",
+            "title_5": "6. 法律合规",
+            "content_0_0": "前端：",
+            "content_0_1": "React Native (移动 App)：支持多语言且流畅的用户界面。",
+            "content_0_2": "Next.js (Web)：加载快速，SEO 优化。",
+            "content_0_3": "后端：",
+            "content_0_4": "基于 Node.js 的微服务架构：可处理数百万次交易的可扩展后端。",
+            "content_0_5": "AWS 上的 Kubernetes：实现无缝扩展和高可用性。",
+            "content_1_0": "TensorFlow：通过先进的机器学习模型用于市场分析和投资组合优化。",
+            "content_1_1": "NLP (自然语言处理)：用于分析数字资产新闻以提取信息并评估市场情绪。",
+            "content_2_0": "SSL/TLS 和 AES-256 加密。双重身份验证 (2FA) 和定期安全审计。",
+            "content_3_0": "交易管理：后台系统可靠高效地处理代币买卖操作。",
+            "content_3_1": "维护：每月 App 更新确保持续改进、稳定性和新功能集成。",
+            "content_4_0": "AI 聊天机器人处理 80% 的用户咨询。",
+            "content_4_1": "通过即时聊天和热线提供 24/7 人工支持团队。",
+            "content_5_0": "遵守世界各地的数字资产法规，确保在所在国合法运营。",
+            "content_5_1": "支持 KYC/AML 协议，并为国际监管扩展做好准备。"
+        },
+        "CurrentProblemsData": {
+            "title_0": "存储以外的功能有限",
+            "title_1": "用户体验复杂",
+            "title_2": "安全挑战尚未解决",
+            "content_0": "大多数现有钱包仅专注于存储和交易数字资产，缺乏与现实应用场景的集成。",
+            "content_1": "用户体验仍然复杂，对初学者构成了重大挑战。界面往往杂乱无章，学习曲线陡峭，导致用户难以有效地导航和使用平台。",
+            "content_2": "安全和隐私仍然是主要担忧。"
+        },
+        "SolutionPioneWalletData": {
+            "title_0": "1. 集成的生态系统",
+            "title_1": "2. 连接区块链与现实生活",
+            "title_2": "3. 优化的用户体验",
+            "description_0": "PioneWallet 不仅仅是数字资产存储，它还支持 DeFi 和 dApps，使用户能够有效地优化和管理其数字投资组合。",
+            "description_1": "通过在医疗健康、教育和商业等部门应用区块链技术，Pione Wallet 使区块链更实用、更易于访问且与日常生活更相关。",
+            "description_2": "直观的界面、多语言支持以及 AI 集成确保即使是初次使用的用户也能轻松导航并利用该平台。"
+        },
+        "KeyHighlightsData": {
+            "title_0": "非托管架构",
+            "title_1": "多生态系统集成",
+            "title_2": "多区块链兼容性",
+            "title_3": "DApp 连接性",
+            "content_0": "用户保留对自己私钥和助记词的完全控制权，确保数字资产的最大安全性和所有权。",
+            "content_1": "无缝连接 PioneHouse（数字房地产）、PioneCare（医疗健康）、PioneFarm（数字农业）及各类其他生态系统。",
+            "content_2": "支持 PioneChain, Ethereum, Binance Smart Chain 以及未来的区块链集成 —— 无需使用多个钱包。",
+            "content_3": "支持与数千个去中心化应用程序 (dApps) 进行交互，允许用户无需离开 PioneWallet 界面即可执行各种任务。"
+        },
+        "DigitalAssetManagementData": {
+            "title_0": "1. 钱包创建与管理",
+            "title_1": "2. 多资产管理",
+            "title_2": "3. RPC (远程过程调用)",
+            "content_0_0": "支持使用高安全性助记词创建新钱包。",
+            "content_0_1": "提供用户友好的备份和恢复功能，确保在任何情况下都能快速安全地访问钱包。",
+            "content_0_2": "保证用户始终拥有对其数字资产的完全所有权和访问权，无需依赖第三方。",
+            "content_1_0": "允许用户在单一钱包内管理多种类型的数字资产 —— 包括数字货币、NFT 和代币。",
+            "content_1_1": "显示全面的资产余额和交易历史，让用户清晰、轻松地追踪和监控其持有量。",
+            "content_2": "PioneWallet 利用 RPC (远程过程调用) 协议连接区块链网络节点并执行无缝交易。"
+        },
+        "BenefitsData": {
+            "title_0": "用户收益",
+            "title_1": "扩展性",
+            "title_2": "企业应用",
+            "description_0_0": "高透明度和安全性",
+            "description_0_1": "对数字资产的完全控制",
+            "description_0_2": "集成多种功能的友好用户界面",
+            "description_1": "与生态系统和 dApps 的可扩展性和集成",
+            "description_2": "安全的数字资产管理"
+        },
+        "IntroductionIdentificationData": {
+            "title_1": "2. 已验证的所有权支持",
+            "title_2": "3. 优化的信息可访问性",
+            "title_3": "4. 智能资产管理",
+            "content_0": "不可篡改的资产记录，杜绝欺诈。",
+            "content_1": "轻松访问交易历史和法律状态",
+            "content_2": "使买家、卖家和监管机构能够快速检索和验证数据",
+            "content_3": "实时房产信息更新和跟踪"
+        },
+        "VisionsMissionsData": {
+            "title_0": "增强安全性",
+            "title_1": "确保房产所有权",
+            "title_2": "促进访问",
+            "content_0": "提高房地产信息的透明度和安全性",
+            "content_1": "通过不可篡改的数据记录确保房产所有权",
+            "content_2": "支持买家、卖家及利益相关者获取准确、及时的信息"
+        },
+        "BenefitsBuyersData": {
+            "title_0": "来源验证",
+            "title_1": "可靠信息",
+            "title_2": "防欺诈保护",
+            "content_0": "轻松验证房产来源和法律地位",
+            "content_1": "获取透明可靠的信息",
+            "content_2": "免受欺诈风险"
+        },
+        "BenefitsSellersData": {
+            "title_0": "透明度",
+            "title_1": "增强信任",
+            "title_2": "缩短交易时间",
+            "content_0": "专业的房地产推广",
+            "content_1": "提升房产价值",
+            "content_2": "通过区块链加速验证"
+        },
+        "ForRegulatoryAuthoritiesData": {
+            "content_0": "有效管理资产数据",
+            "content_1": "简化所有权和法律文件的验证过程",
+            "content_2": "确保透明度，防止欺诈，遏制市场操纵。",
+            "title_0": "数据管理",
+            "title_1": "所有权验证",
+            "title_2": "防欺诈"
+        },
+        "WhyChoosePioneCareData": {
+            "content_0": "快速便捷的预约挂号 - 避免拥挤，减少等待时间。",
+            "content_1": "智能病历管理 - 安全存储、无缝同步、轻松访问。",
+            "content_2": "透明的健康信息 - 让患者掌控自己的个人数据。",
+            "title_0": "1. Pione Care：更优质的医疗，更简单的流程",
+            "title_1": "2. 您的健康，触手可及 - Pione Care",
+            "title_2": "3. 智能、安全、以患者为中心 - Pione Care"
+        },
+        "BenefitsPatientsData": {
+            "content_0": "通过值得信赖的医疗机构便捷地进行在线预约挂号",
+            "content_1": "在区块链上安全、不可篡改地存储和管理病历",
+            "content_2": "在区块链上以完全透明的方式轻松访问个人病历。",
+            "title_0": "预约挂号",
+            "title_1": "安全存储",
+            "title_2": "轻松访问"
+        },
+        "HealthcareProviderData": {
+            "content_0": "集成了区块链技术的预约挂号系统。易于数据检索。",
+            "content_1": "在区块链平台上存储患者记录，确保安全性并易于管理。",
+            "content_2": "提高准确性和效率。",
+            "title_0": "预约挂号系统",
+            "title_1": "患者管理",
+            "title_2": "防伪记录"
+        },
+        "RegulatoryAuthoritiesData": {
+            "content_0": "以透明、不可篡改的方式安全地存储和管理患者病历。",
+            "content_1": "提高医疗服务效率。",
+            "title_0": "区块链平台上的数据管理",
+            "title_1": "优化系统"
+        },
+        "KeyFeaturesData": {
+            "title_0": "基于区块链的预约挂号。",
+            "title_1": "个人健康档案管理。",
+            "title_2": "集成了区块链的医疗服务搜索系统。",
+            "content_0_0": "用户可以安全地搜索医生、诊所和医院并预约挂号。",
+            "content_0_1": "区块链确保挂号流程的透明度，并验证与医疗机构或医院关联的医生身份。",
+            "content_1_0": "在区块链上安全存储病历、处方和诊断报告，确保其不可篡改性和强大的安全性。",
+            "content_1_1": "不可篡改的健康记录确保透明度并防止未经授权的修改。",
+            "content_1_2": "通过区块链技术轻松地与医疗服务提供者共享病历。",
+            "content_2_0": "智能搜索功能可根据验证信息定位附近的医院、诊所和专家医生。",
+            "content_2_1": "根据区块链验证的数据、位置、专业领域和患者评价筛选服务。"
+        },
+        "ExecutiveSummaryData": {
+            "content_0_0": "- 许多国家正通过支持性政策和举措优先发展智慧和高科技农业。",
+            "content_0_1": "- 公众意识的增强和农业初创企业的迅速增加反映了该领域的强劲势头。",
+            "content_0_2": "- 消费者越来越追求健康、安全和来源透明的食品，对清洁农业解决方案产生了迫切需求。",
+            "content_1_0": "- 对变革的恐惧和技术采用的障碍",
+            "content_1_1": "- 科学研究、政府管理和技术解决方案提供商之间的联系仍然薄弱且不协调，限制了创新的规模和效果。",
+            "content_2_0": "- 促进对技术应用如何提高农业生产力和可持续性的理解。",
+            "content_2_1": "- 提供投资资金、税收优惠、技术培训和研讨会，帮助中小企业、农场和合作社获取及采用现代技术。",
+            "content_2_2": "- 通过加强针对实际农业需求的研发，开发实用、低成本且符合背景的技术解决方案。",
+            "content_2_3": "- 支持农村和偏远地区的 3G/4G 移动互联网服务，使农民能够从数字农业技术中获益。",
+            "content_3_0": "- 每个国家的农业都有其优势，但仍主要基于小规模家庭生产，劳动生产率相对较低。意识到这一点，PIONE GROUP 在 PIONE FARM 项目上投入了三年多的时间——这是一项由整个团队的热情推动的专门计划。其目标是通过将信息技术融入耕作实践，创造国际标准化的农产品。",
+            "content_3_1": "- 这种方法为小农户转型为高效且价值驱动的农业企业提供了重大机遇，从而改善他们的生活质量。更广泛的目标是在各国开发并统一农业技术平台，建立共同的集体增长和可持续发展标准。",
+            "title_0": "优势",
+            "title_1": "劣势",
+            "title_2": "解决方案",
+            "title_3": "结论"
+        },
+        "OperatingPrinciplesData": {
+            "title_0": "1. 关键组件",
+            "title_1": "2. 运行流程",
+            "title_2": "3. 验证者选择过程",
+            "title_3": "4. 交易验证",
+            "content_0_0": "验证者：网络中负责验证交易和创建新区块的节点。",
+            "content_0_1": "AI 模型：经过训练的评估和选择验证者的人工智能模型。",
+            "content_0_2": "输入数据：关于验证者的信息，包括质押代币数量、声誉、准确性和性能。",
+            "content_1_0": "数据采集",
+            "content_1_1": "系统从验证者处收集数据，包括：",
+            "content_1_2": "质押代币数量",
+            "content_1_3": "声誉评分（reputation）。",
+            "content_1_4": "交易验证准确性（accuracy）。",
+            "content_1_5": "运行性能（performance）。",
+            "content_1_6": "AI 模型训练",
+            "content_1_7": "采集的数据用于训练 AI 模型。",
+            "content_1_8": "AI 学习评估并预测哪些验证者最有能力准确地验证交易。",
+            "content_2_0": "AI 模型根据输入因素为每个验证者计算分数。",
+            "content_2_1": "得分最高的验证者被选出进行交易验证并创建新区块。",
+            "content_3_0": "Pione Chain 拥有清晰的发展路线图和多样化的实际应用。",
+            "content_3_1": "定位：",
+            "content_3_2": "构建一个智能、安全且高效的区块链生态系统。",
+            "content_3_3": "在各领域集成 AI，推动社会的数字化转型和技术创新。",
+            "content_3_4": "开发针对现实生活需求的技术解决方案，如支付、资产管理和数据安全。",
+            "content_3_5": "实际应用：",
+            "content_3_6": "农业：利用 AI 和区块链监测耕作过程，确保产品溯源，增强信息的透明度和安全性。",
+            "content_3_7": "房地产：通过区块链确保房地产交易的法律效力和安全性。",
+            "content_3_8": "智慧城市：结合 AI 和 IoT 对应急、能源和城市系统进行高效管理。",
+            "content_3_9": "医疗保健：应用 AI 监测用户健康，并针对潜在健康问题提供早期预警。",
+            "content_3_10": "金融与经济：利用 AI 进行市场数据分析、投资建议、智能交易处理和金融产品开发。",
+            "content_3_11": "数字资产安全：Pione Security 作为保护去中心化生态系统内数据和交易的平台。"
+        },
+        "ApplicationData": {
+            "title_0": "1. 代币化资产钱包 - Pione Wallet",
+            "title_1": "2. 智能供应链管理 - Pione Farm",
+            "title_2": "3. 智能医疗系统 - Pione Care",
+            "title_3": "4. 房地产 - Pione House",
+            "title_4": "5. 高级安全系统 - Pione Security",
+            "title_5": "6. PoAI 在实际应用中的突出优势",
+            "content_0_0": "高速支付系统：能够处理每秒 50,000 笔交易，延迟低于 500 毫秒。",
+            "content_0_1": "自动化数字债券发行平台：集成 AI 的智能合约自动化整个生命周期——从发行、利息支付到到期。",
+            "content_0_2": "智能信用欺诈检测系统：AI 实时分析交易行为，并以 99.8% 的准确率检测异常。",
+            "content_1_0": "先进农产品溯源系统：结合 IoT 和 AI，监控从农场到餐桌的 15 项质量指标。",
+            "content_1_1": "专门的药物监控：跟踪存储温度和湿度，并在超过阈值时自动发出警报。",
+            "content_1_2": "产品认证：集成了基于 AI 的身份验证的物理 NFT，防止假冒商品。",
+            "content_2_0": "跨医院电子病历：医生可以在 2 秒内安全地访问患者的完整病历记录。",
+            "content_2_1": "稀缺药品管理：跟踪从生产到终端患者的完整供应链。",
+            "content_2_2": "AI 辅助诊断：将区块链数据与深度学习模型结合，提供 98% 的诊断准确率。",
+            "content_3_0": "自动化房地产交易：智能合约实现整个买卖及所有权转让流程的自动化。",
+            "content_3_1": "智能公寓管理：通过集成 IoT 和区块链实现综合性的物业管理。",
+            "content_3_2": "房地产代币化：将实物资产转化为碎片化的 NFT。",
+            "content_4_0": "运行原则：AI 实时检测并预防网络攻击。",
+            "content_4_1": "敏感数据保护：将量子加密与区块链结合，确保核心数据的安全。",
+            "content_4_2": "金融交易监控：AI 以 99.9% 的准确率识别异常活动。",
+            "content_5_0": "超高性能处理速度：满足大规模企业的需求。",
+            "content_5_1": "多层安全防护：确保敏感数据的绝对安全。",
+            "content_5_2": "智能自动化：降低高达 90% 的运营成本。",
+            "content_5_3": "AI/ML 集成：提升运营效率。",
+            "content_5_4": "严格的法律合规性：符合所有国际标准。"
+        },
+        "FeaturesOfPioneHouseData": {
+            "title_0": "资产管理",
+            "title_1": "溯源",
+            "title_2": "房地产 KYC",
+            "title_3": "证券型代币发行 (STO)",
+            "content_0_0": "准确存储和检索房地产信息。",
+            "content_0_1": "合同及法律文件的数字化管理。",
+            "content_1_0": "验证房产的所有权历史和交易记录。",
+            "content_1_1": "验证资产的法律有效性。",
+            "content_2_0": "根据各国法律框架实现房地产 KYC。",
+            "content_2_1": "房地产代币化。",
+            "content_3_0": "促成以证券型代币形式发行房地产股权。",
+            "content_3_1": "促成通过数字代币表示资产，从而降低零售投资者的投资门槛。"
+        },
+        "GoalsMissionsData": {
+            "title_0": "去中心化记录",
+            "title_1": "高效挂号",
+            "title_2": "经验证的医疗服务",
+            "content_0": "个人病历的安全及去中心化管理。",
+            "content_1": "在区块链技术支持下，实现无缝高效且可追踪的医疗预约挂号管理。",
+            "content_2": "快速获取经过验证的医疗服务和系统。"
+        },
+        "HealthcareServiceSearchData": {
+            "title_0": "智能搜索",
+            "title_1": "经过验证的凭证",
+            "title_2": "筛选服务",
+            "content_0": "搜索附近的医院和专家医生。",
+            "content_1": "经过区块链验证的数据。",
+            "content_2": "基于地理位置和评分。"
+        },
+        "RealWorldApplicationsData": {
+            "title_0": "1. PIONE WALLET (数字资产钱包)",
+            "title_1": "2. EXPIONE (数字资产交易平台)",
+            "title_2": "3. PIONE HOUSE (房地产)",
+            "title_3": "4. PIONE FARM (农业)",
+            "content_1_0": "- 使用的技术：",
+            "content_1_1": "撮合引擎：一种高性能的订单撮合系统，能够每秒处理数百万笔交易。",
+            "content_1_2": "冷存储：安全线下存储，保护资产免受网络攻击。",
+            "content_1_3": "- 实际应用：",
+            "content_1_4": "使越南企业能够通过发行代币筹集资金。",
+            "content_1_5": "满足国内外用户对数字资产交易和投资的需求。",
+            "content_1_6": "投资建议：分析市场趋势并提供个性化的投资策略建议。",
+            "content_1_7": "防欺诈 AI 引擎：及早检测市场操纵行为，自动拦截洗钱或欺诈性交易活动。",
+            "content_0_0": "- 使用的技术：",
+            "content_0_1": "单签名 (Single-Sig)：使用户能够极度便捷地管理数字资产。",
+            "content_0_2": "分层确定性 (HD) 钱包：从单个助记词生成新的钱包地址，简化资产管理。",
+            "content_0_3": "- 实际应用：",
+            "content_0_4": "支持越南用户安全、透明地管理数字资产。",
+            "content_0_5": "与传统金融服务集成，桥接数字资产与法币。",
+            "content_0_6": "财务行为分析：根据交易历史提供智能消费建议。",
+            "content_0_7": "异常检测：针对可疑或非正常交易发出警报。",
+            "content_3_0": "- 使用的技术：",
+            "content_3_1": "IoT (物联技术)：与区块链集成以监测和管理农业供应链。",
+            "content_3_2": "RFID/NFC 标签：直接贴在产品上，用于追踪产地和质量。",
+            "content_3_3": "- 实际应用：",
+            "content_3_4": "产品溯源：验证农产品原产地，确保质量和食品安全。",
+            "content_3_5": "作物与病虫害预测：分析实时农业数据，预测收获季节并探测病虫害。",
+            "content_3_6": "供需管理：根据市场需求优化配送和出口。",
+            "content_3_7": "农民的市场准入：通过智能合约实现国际市场准入。",
+            "content_2_0": "- 使用的技术",
+            "content_2_1": "•智能合约：自动执行房产交易和转让，将房地产信息直接存储在 Pione Zero 上。",
+            "content_2_2": "•代币化：将房产所有权转换为区块链上的可交易代币。",
+            "content_2_3": "•多所有者模式：使用户能够通过映射到现实世界资产价值的 NFT 共同拥有一处房产。",
+            "content_2_4": "- 实际应用：",
+            "content_2_5": "•通过区块链透明度最大程度减少房地产交易中的欺诈行为。",
+            "content_2_6": "•为用户提供安全、便捷的房地产市场准入渠道。",
+            "content_2_7": "•房产估值：分析市场数据和位置，提供客观的房产评估。",
+            "content_2_8": "•法律风险探测：验证资产及合同的法律地位。"
+        },
+        "ConclusionData": {
+            "title_0": "1. PoAI 是以下方面的最佳解决方案：",
+            "title_1": "2. PoA 适用于：",
+            "content_0_0": "需要极高安全性水平的项目。",
+            "content_0_1": "需要适应未来技术的应用",
+            "content_1_0": "需要较低部署成本的场景。",
+            "content_1_1": "去中心化程度的折中是可以接受的。"
+        },
+        "TestimonialsData": {
+            "name_0": "1. Pione AI 简介：",
+            "name_1": "2. 愿景与目标",
+            "name_2": "3. 起源与发展",
+            "name_3": "4. 目标用户：",
+            "name_4": "5. 定位与实际应用：",
+            "quote_0_0": "介绍 Pione AI 模型 - 由 Pione 开发的领域专用人工智能",
+            "quote_0_1": "Pione AI 是 Pione 公司研发的人工智能模型，建立在 DeepSeek 架构之上。它旨在作为医疗、农业和金融领域的专家助手——这些领域对语言精度和专业背景要求极高。Pione AI 经过了专门的定向训练，以满足这些需求。",
+            "quote_0_2": "该模型基于源自学术、实践和权威引用的海量经过清洗的数据集进行训练，确保了深度的语境理解，并能提供自然、准确且有理有据的回应。Pione AI 在越南语处理方面表现卓越，同时也支持越英双语交互，有效服务于 Pione Group 生态系统内的各种应用。",
+            "quote_1_0": "将 AI（人工智能）集成到 Pione Chain 生态系统中，标志着区块链和工业 4.0 技术的重大进步。这一构想源于结合 AI 的能力与区块链的固有优势，从而创建一个更智能、更安全且更高效的生态系统。",
+            "quote_1_1": "将 AI 集成到 Pione Chain 的主要目的包括：",
+            "quote_1_2": "•通过利用 AI 分析节点行为、检测欺诈并智能调整系统来优化区块链交易处理。",
+            "quote_1_3": "•在农业、金融、房地产、智慧城市、医疗等多个领域提供尖端的技术解决方案。",
+            "quote_1_4": "•确保 Pione Chain 生态系统运营中的透明度、安全性和能源效率。",
+            "quote_2_0": "Pione Chain 是由 Pione Group 技术团队开发的区块链项目。使 Pione Chain 与传统区块链不同的是，它采用了 PoAI (人工智能证明) 共识算法，而非传统的 PoW 或 PoS 机制。",
+            "quote_2_1": "这一想法源于对可应用于现实生活场景的、安全高效的区块链系统日益增长的需求。",
+            "quote_2_2": "发展：Pione Chain 已成功研发并实施了 PoAI 算法，实现了更快的交易处理速度、更低的能耗以及更强的安全性。",
+            "quote_3_0": "Pione Chain 生态系统旨在为广大用户提供服务：",
+            "quote_3_1": "个人用户：寻求参与区块链生态系统、利用 AI 驱动的服务或保护其数字资产的个人。",
+            "quote_3_2": "企业：农业、房地产、智能技术 (IoT) 和智慧城市等领域的企业，可以利用 Pione Chain 实现运营数字化、确保法律合规并增强数据安全性。",
+            "quote_4_0": "Pione Chain 拥有清晰的发展路线图和多样化的实际应用。",
+            "quote_4_1": "- 定位：",
+            "quote_4_2": "构建一个智能、安全且高效的区块链生态系统。",
+            "quote_4_3": "在各领域集成 AI，推动社会的数字化转型和技术创新。",
+            "quote_4_4": "开发针对现实生活需求的技术解决方案，如支付、资产管理和数据安全。",
+            "quote_4_5": "- 实际应用：",
+            "quote_4_6": "农业：利用 AI 和区块链监测耕作过程，确保产品溯源，增强信息的透明度和安全性。",
+            "quote_4_7": "房地产：通过区块链确保房地产交易的法律效力和安全性。",
+            "quote_4_8": "智慧城市：结合 AI 和 IoT 对应急、能源和城市系统进行高效管理。",
+            "quote_4_9": "医疗保健：应用 AI 监测用户健康，并针对潜在健康问题提供早期预警。",
+            "quote_4_10": "金融与经济：利用 AI 进行市场数据分析、投资建议、智能交易处理和金融产品开发。",
+            "quote_4_11": "数字资产安全：Pione Security 作为保护去中心化生态系统内数据和交易的平台。"
+        },
+        "ConnectedEcosystemData": {
+            "title_0": "Pione House",
+            "title_1": "Pione Care",
+            "title_2": "Pione Farm",
+            "content_2": "为农民和企业提供端到端的农产品溯源，优化供应链的同时确保透明度和食品安全。该解决方案实现了从耕作到消费的产品全流程追踪。",
+            "content_1": "促进医疗病历的识别与管理，使公民能够享受到透明、安全且现代的医疗服务。",
+            "content_0": "实现房地产资产的代币化和验证，增强房产交易和资产管理中的透明度。"
+        },
+        "HealthRecordManagementData": {
+            "title_1": "01. 安全存储",
+            "title_2": "02. 不可篡改记录",
+            "title_3": "03. 轻松访问"
+        },
+        "BenefitsPioneFarmData": {
+            "title_0": "企业获益",
+            "title_1": "农民获益",
+            "title_2": "消费者获益",
+            "content_0_0": "+ 验证农产品原产地及质量。",
+            "content_0_1": "+ 提升营收。",
+            "content_0_2": "+ 通过 PIONE FARM 生态系统发现可靠且经过验证的农产品。",
+            "content_0_3": "+ 建立消费者信任。",
+            "content_1_0": "+ 通过透明溯源及直接对接市场获得更多利润。",
+            "content_1_1": "+ 获得先进区块链技术支持。",
+            "content_1_2": "+ 快速便捷的交易体验。",
+            "content_1_3": "+ 提升农产品价值。",
+            "content_1_4": "+ 降低总体成本。",
+            "content_2_0": "+ 寻找高质量、健康的农产品。",
+            "content_2_1": "+ 清晰的原产地信息保证了卫生及安全标准。",
+            "content_2_2": "+ 通过 PIONE FARM 系统扫描二维码即可获取农产品的所有详情。"
+        },
+        "TechnicalPlatformData": {
+            "title_0": "参数",
+            "title_1": "PoAI (Pione Chain)",
+            "title_2": "PoA (币安智能链)",
+            "content_0_0": "平台",
+            "content_0_1": "AI 层 + 区块链 (TensorFlow/PyTorch 直接集成到共识中)",
+            "content_0_2": "改进型拜占庭容错 (mBFT)",
+            "content_1_0": "验证机制",
+            "content_1_1": "AI 验证者评分：质押 (40%), 声誉 (30%), 准确性 (20%), 性能 (10%)",
+            "content_1_2": "币安预先批准的验证者列表 (KYC AML Level 3)",
+            "content_2_0": "处理速度",
+            "content_2_1": "≥ 100,000 TPS (AI 实时优化)",
+            "content_2_2": "3,000-5,000 TPS (21 个验证者)",
+            "content_3_0": "区块延迟",
+            "content_3_1": "≤ 500 毫秒",
+            "content_3_2": "≥ 3 秒"
+        },
+        "WhyChoosePioneFarmData": {
+            "title_0": "任务",
+            "title_1": "手动记录",
+            "content_0_0": "数据存储",
+            "content_0_1": "易丢失",
+            "content_0_2": "非常简单",
+            "content_1_0": "查看历史数据",
+            "content_1_1": "困难",
+            "content_1_2": "非常简单",
+            "content_2_0": "来源溯源",
+            "content_2_1": "困难",
+            "content_2_2": "非常简单",
+            "content_3_0": "汇总与统计",
+            "content_3_1": "耗费大量时间和精力",
+            "content_3_2": "全自动化",
+            "content_4_0": "自动化或数据集成",
+            "content_4_1": "不可能",
+            "content_4_2": "轻松实现"
+        }
+    },
+    "community": {
+        "banner": {
+            "title": "加入我们的社区",
+            "subtitle": "加入 Pione Chain 意味着加入一个不断扩大的全球创新者、开发者和区块链爱好者网络。",
+            "joinTelegram": "加入 Pione Telegram",
+            "getSupport": "获取支持"
+        },
+        "social": {
+            "title": "保持联系",
+            "subtitle": "寻找朋友、构建产品、发现您的社区。",
+            "members": "成员",
+            "channels": {
+                "telegram": "加入我们的官方社区",
+                "twitter": "关注最新动态",
+                "facebook": "关注我们的更新与新闻",
+                "tiktok": "观看教程与视频",
+                "reddit": "加入 Reddit 上的讨论",
+                "medium": "阅读我们的深度文章",
+                "discord": "与社区聊天",
+                "youtube": "观看教程与更新",
+                "slack": "通过 Slack 连接"
+            }
+        },
+        "involved": {
+            "title": "参与其中",
+            "subtitle": "发出您的声音 —— 为 Pione Chain 做出贡献",
+            "items": {
+                "docs": {
+                    "title": "文档",
+                    "description": "借助我们的官方文档了解并开始在 Pione 上构建。"
+                },
+                "roadmap": {
+                    "title": "路线图",
+                    "description": "跟进我们的旅程，探索 Pione Chain 官方路线图上的里程碑。"
+                }
+            },
+            "ecosystem": {
+                "title": "Pione 生态系统",
+                "subtitle": "在一个地方探索最热门 dApp、解决方案提供商和其他生态系统推动者。",
+                "button": "探索生态系统",
+                "projects": {
+                    "wallet": "在 Pione Chain 上安全管理资产",
+                    "swap": "以低费率和高速交换代币",
+                    "ai": "针对区块链数据的智能解决方案",
+                    "scan": "针对 Pione 的全面区块链浏览器",
+                    "bot": "自动化您的交易和提醒",
+                    "dapp": "去中心化应用程序平台"
+                }
+            }
+        },
+        "events": {
+            "title": "活动",
+            "subtitle": "查看 Pione Chain 的足迹以及我们的下一步动向"
+        }
+    }
+}
