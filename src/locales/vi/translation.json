@@ -212,6 +212,27 @@
       "feature2": "Kỳ hạn linh hoạt: 6 - 24 tháng",
       "feature3": "Minh bạch: Ecosystem Reward Fund được quản lý bởi Smart Contract on-chain, đảm bảo mọi hoạt động phân bổ và sử dụng quỹ đều minh bạch, không thể chỉnh sửa và có thể kiểm chứng công khai trên blockchain",
       "feature4": "Tham gia Ecosystem Reward để thúc đẩy hệ sinh thái Pione Chain và gia tăng giá trị PIO"
+    },
+    "projectSection": {
+      "title": "Dự án nổi bật trong hệ sinh thái Pione Chain",
+      "subTitle": "PIONE TRACE - Hạ tầng số cho tài sản thực (RWA)",
+      "description": "Nền tảng ứng dụng Blockchain, AI và IoT trong định danh, xác thực và truy xuất nguồn gốc. Chuẩn hóa dữ liệu, đảm bảo minh bạch và mở rộng giá trị trong không gian số.",
+      "button1": "Tìm hiểu thêm",
+      "button2": "Khám phá khối Pione Trace",
+      "cards": {
+        "card0": {
+          "title": "Giới thiệu Pione Trace",
+          "content": "Xây dựng <1>hạ tầng dữ liệu số tin cậy</1> cho tài sản thực. Định danh, xác thực và lưu vết minh bạch trên Blockchain để hình thành hồ sơ tài sản số, hướng tới mô hình <2>Real World Assets (RWA)</2>."
+        },
+        "card1": {
+          "title": "Cách Pione Trace Xây Dựng Hạ Tầng RWA Cho Nông Sản, Hàng Hóa & Bất Động Sản",
+          "content": "Tổng quan quy trình vận hành hệ sinh thái RWA trên Pione Trace. Giải pháp <1>số hóa tài sản thực</1> toàn diện từ định danh, xác thực đến truy xuất nguồn gốc thông qua Blockchain, AI và IoT."
+        },
+        "card2": {
+          "title": "Giải mã Pione Trace | Token hóa RWA & Truy xuất nguồn gốc",
+          "content": "Xây dựng Hạ tầng Số cho Tài sản Thực. Trong nền kinh tế số, thách thức lớn nhất không chỉ là thu thập dữ liệu — mà là kiến tạo một <1>hạ tầng dữ liệu minh bạch, có thể xác thực và đáng tin cậy</1> cho nông nghiệp, chuỗi cung ứng và bất động sản."
+        }
+      }
     }
   },
   "ecosystem": {

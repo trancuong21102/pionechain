@@ -212,6 +212,27 @@
       "feature2": "Flexible Terms: 6 - 24 months",
       "feature3": "Transparent: The Ecosystem Reward Fund is managed by an on-chain smart contract, ensuring that all fund allocations and usage are transparent, immutable, and publicly verifiable on the blockchain",
       "feature4": "Entry: 1,000 - 100,000 PIO"
+    },
+    "projectSection": {
+      "title": "Featured project in the Pione Chain ecosystem",
+      "subTitle": "PIONE TRACE - Digital Infrastructure for Real-World Assets (RWA)",
+      "description": "A platform utilizing Blockchain, AI, and IoT for identification, authentication, and traceability. Standardizing data, ensuring transparency, and expanding value in the digital space.",
+      "button1": "Learn more",
+      "button2": "Explore Pione Trace Blocks",
+      "cards": {
+        "card0": {
+          "title": "Introducing Pione Trace",
+          "content": "Building a <1>reliable digital data infrastructure</1> for real assets. Identification, authentication, and transparent tracking on the Blockchain to form digital asset profiles, advancing towards the <2>Real World Assets (RWA)</2> model."
+        },
+        "card1": {
+          "title": "How Pione Trace Builds RWA Infrastructure for Agriculture, Commodities & Real Estate",
+          "content": "Overview of the RWA ecosystem workflow on Pione Trace. A comprehensive <1>real-world asset digitization</1> solution from identification and authentication to traceability using Blockchain, AI, and IoT."
+        },
+        "card2": {
+          "title": "Pione Trace Explained | RWA Tokenization & Traceability",
+          "content": "Building Digital Infrastructure for Real-World Assets. In the digital economy, the biggest challenge is not just data collection — but creating a <1>transparent, verifiable, and trusted data infrastructure</1> for agriculture, supply chains, and real estate."
+        }
+      }
     }
   },
   "ecosystem": {

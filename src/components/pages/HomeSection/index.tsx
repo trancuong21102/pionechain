@@ -21,6 +21,15 @@ const MetaVerse = dynamic(
   () => import("./ui/Test").then((mod) => mod.MetaVerse),
   { ssr: false },
 );
+const FeaturedProjects = dynamic(
+  () => import("./ui/FeaturedProjects").then((mod) => mod.FeaturedProjects),
+  { ssr: false },
+);
+
+const HeroPreviewWalls = dynamic(
+  () => import("@/components/ui/hero-preview").then((mod) => mod.HeroPreviewWalls),
+  { ssr: false },
+);
 
 export default function HomeSection() {
   const { t } = useTranslation();
@@ -66,6 +75,8 @@ export default function HomeSection() {
         <Future />
         <Empowering />
         <Tool />
+        {/* <FeaturedProjects /> */}
+        <HeroPreviewWalls />
         <MetaVerse />
       </div>
     </div>

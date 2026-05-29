@@ -235,6 +235,99 @@
             "card4": "Meilleure personnalisation",
             "card5": "Sécurité robuste",
             "card6": "Confidentialité intégrée"
+        },
+        "empoweringSection": {
+            "title": "Autonomiser les développeurs",
+            "subTitle": "Avec Pione Chain",
+            "description": "Pione Chain offre des conditions optimales aux développeurs et équipes d'entreprise pour construire et personnaliser dans un environnement sans permission - s'adaptant à divers contextes et modèles économiques pour maximiser la qualité du produit avec une vitesse et une efficacité maximales lors de sa livraison aux utilisateurs.",
+            "card1": {
+                "title": "Multidisciplinaire",
+                "description": "Nous travaillons sans relâche dans le but d'appliquer la technologie blockchain à la vie réelle dans de multiples secteurs : agriculture, santé, éducation, e-commerce, divertissement, immobilier, etc."
+            },
+            "card2": {
+                "title": "Décentralisé",
+                "description": "Pione Chain fonctionne sur un réseau décentralisé, utilisant la technologie blockchain et les contrats intelligents pour créer des opportunités d'investissement efficaces pour tous, construisant une économie compétitive et équitable pour un développement durable."
+            },
+            "card3": {
+                "title": "Évolutivité",
+                "description": "La direction de Pione Chain est d'appliquer et intégrer la technologie blockchain dans la vie pratique, en résolvant efficacement les points douloureux du marché pour offrir une valeur réelle, en phase avec la tendance mondiale de la tokenisation des actifs (RWA)."
+            },
+            "card4": {
+                "title": "Axé sur les développeurs",
+                "description": "L'objectif est de fournir une documentation claire et concise avec des outils puissants pour un développement de produit rapide, permettant aux développeurs de se concentrer sur la création de produits plutôt que sur la résolution de problèmes liés à la saisie de données."
+            }
+        },
+        "buildingSection": {
+            "title": "Engagement pour un développement mondial et durable",
+            "subTitle": "Plus de temps pour le développement",
+            "content1": {
+                "title": "Interface optimisée (Streamlined UI)",
+                "description": "Nous éliminons les barrières complexes. L'objectif est de fournir une interface utilisateur (UI) épurée, moderne et conviviale, vous permettant d'accéder aux informations essentielles en quelques opérations simples."
+            },
+            "content2": {
+                "title": "Récompenses efficaces (Rewards)",
+                "description": "Pour stimuler l'écosystème, nous nous concentrons sur la meilleure façon pour la communauté de gagner des récompenses grâce au protocole de staking. Nos tokens agissent comme des validateurs, garantissant des avantages équitables pour la contribution des membres."
+            },
+            "content3": {
+                "title": "Communauté transparente (Community)",
+                "description": "Nous nous efforçons de construire un écosystème complet, transparent et fiable pour les investisseurs mondiaux. Tous les membres sont encouragés à engager un dialogue ouvert, façonnant avec nous la tendance de la tokenisation des actifs du monde réel."
+            }
+        },
+        "metaverseSection": {
+            "title": "Métavers",
+            "subTitle": "LA RÉALITÉ DE VOTRE JUMEAU NUMÉRIQUE",
+            "description": "Le Métavers est une représentation numérique du monde réel, incluant des personnes, des services et des objets. Chacun est représenté par un jumeau numérique intelligent fonctionnant sur un système interconnecté, leur permettant de se trouver et d'interagir directement sans intermédiaire. Cela permet aux jumeaux numériques de se connecter à un réseau croissant de systèmes et de services pour mieux vous assister. Aidez-nous à construire le Métavers dès aujourd'hui ! Consultez la documentation développeur.",
+            "card1": {
+                "title": "Autres jumeaux numériques",
+                "description": "Tout le monde et tout aura bientôt un jumeau numérique, et votre jumeau pourra communiquer, négocier et collaborer avec d'autres pour atteindre vos objectifs."
+            },
+            "card2": {
+                "title": "Marché",
+                "description": "Des représentations de services et plateformes réels avec lesquels votre jumeau peut interagir pour accomplir des tâches spécifiques, comme réserver un transport, planifier des vacances ou engager un service de nettoyage pour votre maison."
+            },
+            "card3": {
+                "title": "Capacités",
+                "description": "Des compétences que votre jumeau numérique peut apprendre pour mieux vous ressembler, comme savoir utiliser un service d'enchères pour enchérir sur des billets pour votre équipe sportive préférée."
+            },
+            "card4": {
+                "title": "Intelligence",
+                "description": "Le cerveau personnel et collectif de votre jumeau. Votre jumeau apprend seul à vous ressembler et intériorise ces informations en toute sécurité. Dans le Métavers, votre jumeau a également accès à des cerveaux collectifs formés par vous, vos amis ou des équipes partageant les mêmes objectifs."
+            }
+        },
+        "rollupSection": {
+            "title": "ROLLUP POUR LES ENTREPRISES",
+            "description": "Les entreprises peuvent déployer leur rollup sans temps ni coûts de développement supplémentaires en intégrant leur logique métier à notre infrastructure.",
+            "button": "Contactez-nous"
+        },
+        "ecosystem_reward_modal": {
+            "title": "Programme de récompenses de l'écosystème",
+            "button": "Rejoindre maintenant",
+            "description": "Participez à la construction d'un écosystème durable et recevez des récompenses attractives pour un accompagnement à long terme avec Pione Chain.",
+            "feature1": "Récompenses attractives : 8 % ~ 15 % / an",
+            "feature2": "Durée flexible : 6 - 24 mois",
+            "feature3": "Transparence : Le fonds de récompense de l'écosystème est géré par un Smart Contract on-chain, garantissant que toutes les allocations et utilisations de fonds sont transparentes, immuables et publiquement vérifiables sur la blockchain.",
+            "feature4": "Participez aux récompenses de l'écosystème pour promouvoir l'écosystème Pione Chain et augmenter la valeur du PIO."
+        },
+        "projectSection": {
+            "title": "Projet phare de l'écosystème Pione Chain",
+            "subTitle": "PIONE TRACE - Infrastructure numérique pour les actifs du monde réel (RWA)",
+            "description": "Plateforme appliquant la blockchain, l'IA et l'IoT pour l'identification, l'authentification et la traçabilité. Standardisation des données, garantie de transparence et expansion de la valeur dans l'espace numérique.",
+            "button1": "En savoir plus",
+            "button2": "Explorer les blocs Pione Trace",
+            "cards": {
+                "card0": {
+                    "title": "Présentation de Pione Trace",
+                    "content": "Construire une <1>infrastructure de données numériques fiable</1> pour les actifs réels. Identification, authentification et suivi transparent sur la Blockchain pour former des profils d'actifs numériques, évoluant vers le modèle <2>Real World Assets (RWA)</2>."
+                },
+                "card1": {
+                    "title": "Comment Pione Trace construit l'infrastructure RWA pour l'agriculture, les matières premières et l'immobilier",
+                    "content": "Aperçu du flux de travail de l'écosystème RWA sur Pione Trace. Une solution complète de <1>numérisation d'actifs du monde réel</1> allant de l'identification et de l'authentification à la traçabilité via la Blockchain, l'IA et l'IoT."
+                },
+                "card2": {
+                    "title": "Pione Trace expliqué | Tokenisation et traçabilité RWA",
+                    "content": "Construire une infrastructure numérique pour les actifs du monde réel. Dans l'économie numérique, le plus grand défi n'est pas seulement la collecte de données — c'est de créer une <1>infrastructure de données transparente, vérifiable et de confiance</1> pour l'agriculture, les chaînes d'approvisionnement et l'immobilier."
+                }
+            }
         }
     },
     "ecosystem": {
