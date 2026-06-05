@@ -1,6 +1,5 @@
 "use client";
 
-// import SquareIcon from "@mui/icons-material/Square";
 import Timeline from "@mui/lab/Timeline";
 import TimelineConnector from "@mui/lab/TimelineConnector";
 import TimelineContent from "@mui/lab/TimelineContent";
@@ -13,11 +12,267 @@ import { useTranslation } from "react-i18next";
 import CircleRoundedIcon from "@mui/icons-material/CircleRounded";
 import { Grid } from "@/components/ui/Grid";
 
+interface RoadmapContent {
+  title: string;
+  desc: string;
+  isUppercase?: boolean;
+}
+
+interface RoadmapItem {
+  date: string;
+  contents: RoadmapContent[];
+}
+
+const roadmapItems: RoadmapItem[] = [
+  {
+    date: "September 5, 2019",
+    contents: [
+      {
+        title: "IDEA PLANNING",
+        desc: "description1"
+      }
+    ]
+  },
+  {
+    date: "November 11, 2021",
+    contents: [
+      {
+        title: "LAUNCH OF SWAPTOBE (TOBECHAIN)",
+        desc: "description2"
+      }
+    ]
+  },
+  {
+    date: "January 1, 2024",
+    contents: [
+      {
+        title: "PROJECT TOBECHAIN RENAMED TO PIONE CHAIN",
+        desc: "description3"
+      }
+    ]
+  },
+  {
+    date: "November 23, 2024",
+    contents: [
+      {
+        title: "PIONE GROUP ESTABLISHED",
+        desc: "description4"
+      }
+    ]
+  },
+  {
+    date: "February 17, 2025",
+    contents: [
+      {
+        title: "PIONE CHAIN OFFICIALLY LAUNCHED",
+        desc: "description5"
+      }
+    ]
+  },
+  {
+    date: "April 4, 2025",
+    contents: [
+      {
+        title: "PIONE WALLET OFFICIALLY LAUNCHED",
+        desc: "description6"
+      }
+    ]
+  },
+  {
+    date: "June 1, 2025",
+    contents: [
+      {
+        title: "REGISTER TO PARTICIPATE IN SANDBOX FOR PILOT DEPLOYMENT OF TYPICAL ECOSYSTEMS",
+        desc: "description7"
+      }
+    ]
+  },
+  {
+    date: "Quarter 4, 2025",
+    contents: [
+      {
+        title: "THE OFFICIAL LISTING OF PIO COIN ON DIGITAL ASSET EXCHANGES",
+        desc: "description8"
+      },
+      {
+        title: "THE OFFICIAL LISTING OF PIO COIN ON DIGITAL ASSET EXCHANGES2",
+        desc: "description82"
+      }
+    ]
+  },
+  {
+    date: "December 2025",
+    contents: [
+      {
+        title: "launch DEX P2P (Pioneswap.com)",
+        desc: "descriptiondec"
+      },
+      {
+        title: "Pione Dream Start up",
+        desc: "descriptiondec2",
+        isUppercase: true
+      }
+    ]
+  },
+  {
+    date: "January 2026",
+    contents: [
+      {
+        title: "DIGITAL HEALTHCARE & SUPER APP PAYMENT DEVELOPMENT",
+        desc: "description9"
+      }
+    ]
+  },
+  {
+    date: "Quarter 1, 2026",
+    contents: [
+      {
+        title: "Listing on centralized exchanges (CEXs) to expand international markets and drive sustainable growth across the Pione Chain ecosystem",
+        desc: "description17"
+      }
+    ]
+  },
+  {
+    date: "April 2026",
+    contents: [
+      {
+        title: "Pioneer Security – Digitalization of Securities Assets for the RWA Era",
+        desc: "description10"
+      }
+    ]
+  },
+  {
+    date: "Quarter 2, 2026",
+    contents: [
+      {
+        title: "Pione BOS Chain Mainnet Launch",
+        desc: "description16"
+      }
+    ]
+  },
+  {
+    date: "June, 2026",
+    contents: [
+      {
+        title: "LAUNCH OF PIONE TRACE",
+        desc: "description_pionetrace"
+      }
+    ]
+  },
+  {
+    date: "October 2026",
+    contents: [
+      {
+        title: "CORE INFRASTRUCTURE OPERATION - FOUNDATION FOR THE RWA ECOSYSTEM",
+        desc: "description18"
+      }
+    ]
+  },
+  {
+    date: "December 2026",
+    contents: [
+      {
+        title: "LAUNCH OF PIONE DAPPSTORE – RWA APPLICATION GATEWAY",
+        desc: "description19"
+      }
+    ]
+  },
+  {
+    date: "Quarter 4, 2026",
+    contents: [
+      {
+        title: "DIGITAL MEDICAL DEVELOPMENT & PAYMENT SUPER APP",
+        desc: "description11"
+      }
+    ]
+  },
+  {
+    date: "Quarter 1, 2027",
+    contents: [
+      {
+        title: "Pione Chain Ecosystem Operates Strongly",
+        desc: "description14"
+      }
+    ]
+  },
+  {
+    date: "march 2027",
+    contents: [
+      {
+        title: "LAUNCH OF PIONE CHARITY – TRANSPARENT COMMUNITY CONTRIBUTIONS",
+        desc: "description20"
+      }
+    ]
+  },
+  {
+    date: "May 2027",
+    contents: [
+      {
+        title: "LAUNCH OF PIONE GAME – RWA-ENABLED WEB3 GAMING PLATFORM",
+        desc: "description21"
+      }
+    ]
+  },
+  {
+    date: "July 2027",
+    contents: [
+      {
+        title: "LAUNCH OF PIONE MART – DECENTRALIZED E-COMMERCE MARKETPLACE",
+        desc: "description22"
+      }
+    ]
+  },
+  {
+    date: "September 2027",
+    contents: [
+      {
+        title: "LAUNCH OF PIONE PAY – PAYMENT BRIDGE FOR RWA APPLICATIONS",
+        desc: "description23"
+      }
+    ]
+  },
+  {
+    date: "November 2027",
+    contents: [
+      {
+        title: "STABLE OPERATIONS & INTERNATIONAL RWA ECOSYSTEM EXPANSION",
+        desc: "description24"
+      }
+    ]
+  },
+  {
+    date: "January 2028",
+    contents: [
+      {
+        title: "INITIATION OF IPO & SECURITY TOKEN (STO) ROADMAP",
+        desc: "description25"
+      }
+    ]
+  },
+  {
+    date: "April 2028",
+    contents: [
+      {
+        title: "SECURITY TOKEN ISSUANCE PILOT (STO PILOT)",
+        desc: "description26"
+      }
+    ]
+  },
+  {
+    date: "July–September 2028",
+    contents: [
+      {
+        title: "IPO / STO EXECUTION – COMPLETION OF A GLOBAL RWA ECOSYSTEM",
+        desc: "description27"
+      }
+    ]
+  }
+];
+
 export default function TimeLineCustom() {
   const matches = useMediaQuery("(max-width:600px)");
   const { t } = useTranslation();
 
-  // console.log(matches, "matches");
   return (
     <Timeline
       sx={{
@@ -28,2138 +283,109 @@ export default function TimeLineCustom() {
       }}
       position={matches ? "right" : "alternate"}
     >
-      <TimelineItem>
-        {!matches && (
-          <TimelineOppositeContent
-            sx={{ m: "auto 0" }}
-            align="right"
-            variant="body2"
-            color="#fff"
-            fontSize={17}
-          >
-            <span className="inline-block text-lg border p-1 px-3 w-fit  rounded-full border-[#ff6a00] bg-[#2e0d00]">
-              {t("roadmap.September 5, 2019")}
-            </span>
-          </TimelineOppositeContent>
-        )}
+      {roadmapItems.map((item, idx) => {
+        const isCardOnLeft = idx % 2 === 1;
 
-        <TimelineSeparator>
-          <TimelineConnector sx={{ bgcolor: "#BDBDBDBD" }} />
+        return (
+          <TimelineItem key={idx}>
+            {!matches && (
+              <TimelineOppositeContent
+                sx={{ m: "auto 0" }}
+                align={isCardOnLeft ? "left" : "right"}
+                variant="body2"
+                color="#fff"
+                fontSize={17}
+              >
+                <span className="inline-block text-lg border p-1 px-3 w-fit rounded-full border-[#ff6a00] bg-[#2e0d00]">
+                  {t(`roadmap.${item.date}`)}
+                </span>
+              </TimelineOppositeContent>
+            )}
 
-          <Box
-            sx={{
-              position: "relative",
-              width: 20,
-              height: 20,
-              display: "flex",
-              alignItems: "center",
-              justifyContent: "center",
-            }}
-          >
-            {/* Ping circle */}
-            <Box
-              sx={{
-                position: "absolute",
-                width: 20,
-                height: 20,
-                borderRadius: "9999px",
-                backgroundColor: "#cccc",
-                animation: "ping 1.4s infinite",
-                opacity: 0.4,
-              }}
-            />
-            {/* Main icon */}
-            <CircleRoundedIcon htmlColor="#cccc" />
-          </Box>
-          <TimelineConnector sx={{ bgcolor: "#BDBDBDBD" }} />
-        </TimelineSeparator>
-        <TimelineContent sx={{ py: "12px", px: 2 }}>
-          <div className=" flex">
-            <div className="relative bg-gradient-to-b from-zinc-900 to-zinc-800  p-6 rounded-3xl overflow-hidden shadow-[0_8px_32px_rgba(255,255,255,0.1)] max-w-[600px]">
-              <Grid size={20} />
-              <Typography
-                fontSize={17}
-                component="span"
-                color="#ea580b"
-                fontWeight={600}
-              >
-                {t("roadmap.IDEA PLANNING")}
-              </Typography>
-              {matches && (
-                <TimelineOppositeContent
-                  sx={{
-                    textAlign: "left !important",
-                    padding: "0 !important",
-                  }}
-                  variant="body2"
-                  color="#fff"
-                  fontSize={14}
-                >
-                  {t("roadmap.September 5, 2019")}
-                </TimelineOppositeContent>
-              )}
-              <Typography color="#CCCC" fontSize={13} marginTop={1}>
-                {t("roadmap.description1")}
-              </Typography>
-            </div>
-          </div>
-        </TimelineContent>
-      </TimelineItem>
-      <TimelineItem>
-        {!matches && (
-          <TimelineOppositeContent
-            sx={{ m: "auto 0" }}
-            variant="body2"
-            color="#fff"
-            fontSize={17}
-          >
-            <span className="inline-block text-lg border p-1 px-3 w-fit  rounded-full border-[#ff6a00] bg-[#2e0d00]">
-              {t("roadmap.November 11, 2021")}
-            </span>
-          </TimelineOppositeContent>
-        )}
-        <TimelineSeparator>
-          <TimelineConnector sx={{ bgcolor: "#BDBDBDBD" }} />
-          {/* Ping effect wrapper */}
-          <Box
-            sx={{
-              position: "relative",
-              width: 20,
-              height: 20,
-              display: "flex",
-              alignItems: "center",
-              justifyContent: "center",
-            }}
-          >
-            {/* Ping circle */}
-            <Box
-              sx={{
-                position: "absolute",
-                width: 20,
-                height: 20,
-                borderRadius: "9999px",
-                backgroundColor: "#cccc",
-                animation: "ping 1.4s infinite",
-                opacity: 0.4,
-              }}
-            />
-            {/* Main icon */}
-            <CircleRoundedIcon htmlColor="#cccc" />
-          </Box>
-          <TimelineConnector sx={{ bgcolor: "#BDBDBDBD" }} />
-        </TimelineSeparator>
-        <TimelineContent sx={{ py: "12px", px: 2 }}>
-          <div className="md:flex justify-end">
-            <div className="relative bg-gradient-to-b from-zinc-900 to-zinc-800  p-6 rounded-3xl overflow-hidden shadow-[0_8px_32px_rgba(255,255,255,0.1)] max-w-[600px]">
-              <Grid size={20} />
+            <TimelineSeparator>
+              <TimelineConnector sx={{ bgcolor: "#BDBDBDBD" }} />
               <Box
                 sx={{
+                  position: "relative",
+                  width: 20,
+                  height: 20,
                   display: "flex",
-                  flexDirection: "column",
-                  alignItems: !matches ? "end" : "start",
+                  alignItems: "center",
+                  justifyContent: "center",
                 }}
               >
-                <Typography
-                  fontSize={17}
-                  component="span"
-                  color="#ea580b"
-                  fontWeight={600}
-                >
-                  {t("roadmap.LAUNCH OF SWAPTOBE (TOBECHAIN)")}
-                </Typography>
-                {matches && (
-                  <TimelineOppositeContent
-                    sx={{
-                      textAlign: "left !important",
-                      padding: "0 !important",
-                    }}
-                    variant="body2"
-                    color="#fff"
-                    fontSize={14}
-                  >
-                    {t("roadmap.November 11, 2021")}
-                  </TimelineOppositeContent>
-                )}
-                <Typography color="#CCCC" fontSize={13} marginTop={1}>
-                  {t("roadmap.description2")}
-                </Typography>
+                <Box
+                  sx={{
+                    position: "absolute",
+                    width: 20,
+                    height: 20,
+                    borderRadius: "9999px",
+                    backgroundColor: "#cccc",
+                    animation: "ping 1.4s infinite",
+                    opacity: 0.4,
+                  }}
+                />
+                <CircleRoundedIcon htmlColor="#cccc" />
               </Box>
-            </div>
-          </div>
-        </TimelineContent>
-      </TimelineItem>
-      <TimelineItem>
-        {!matches && (
-          <TimelineOppositeContent
-            sx={{ m: "auto 0" }}
-            variant="body2"
-            color="#fff"
-            fontSize={17}
-          >
-            <span className="inline-block text-lg border p-1 px-3 w-fit  rounded-full border-[#ff6a00] bg-[#2e0d00]">
-              {t("roadmap.January 1, 2024")}
-            </span>
-          </TimelineOppositeContent>
-        )}
-        <TimelineSeparator>
-          <TimelineConnector sx={{ bgcolor: "#BDBDBDBD" }} />
-          {/* Ping effect wrapper */}
-          <Box
-            sx={{
-              position: "relative",
-              width: 20,
-              height: 20,
-              display: "flex",
-              alignItems: "center",
-              justifyContent: "center",
-            }}
-          >
-            {/* Ping circle */}
-            <Box
-              sx={{
-                position: "absolute",
-                width: 20,
-                height: 20,
-                borderRadius: "9999px",
-                backgroundColor: "#cccc",
-                animation: "ping 1.4s infinite",
-                opacity: 0.4,
-              }}
-            />
-            {/* Main icon */}
-            <CircleRoundedIcon htmlColor="#cccc" />
-          </Box>
-          <TimelineConnector sx={{ bgcolor: "#BDBDBDBD" }} />
-        </TimelineSeparator>
-        <TimelineContent sx={{ py: "12px", px: 2 }}>
-          <div className=" flex">
-            <div className="relative bg-gradient-to-b from-zinc-900 to-zinc-800  p-6 rounded-3xl overflow-hidden shadow-[0_8px_32px_rgba(255,255,255,0.1)] max-w-[600px]">
-              <Grid size={20} />
-              <Typography
-                fontSize={17}
-                component="span"
-                color="#ea580b"
-                fontWeight={600}
-              >
-                {t("roadmap.PROJECT TOBECHAIN RENAMED TO PIONE CHAIN")}
-              </Typography>
-              {matches && (
-                <TimelineOppositeContent
-                  sx={{
-                    textAlign: "left !important",
-                    padding: "0 !important",
-                  }}
-                  variant="body2"
-                  color="#fff"
-                  fontSize={14}
-                >
-                  {t("roadmap.January 1, 2024")}
-                </TimelineOppositeContent>
-              )}
-              <Typography color="#CCCC" fontSize={13} marginTop={1}>
-                {" "}
-                {t("roadmap.description3")}
-              </Typography>
-            </div>
-          </div>
-        </TimelineContent>
-      </TimelineItem>
-      <TimelineItem>
-        {!matches && (
-          <TimelineOppositeContent
-            sx={{ m: "auto 0" }}
-            variant="body2"
-            color="#fff"
-            fontSize={17}
-          >
-            <span className="inline-block text-lg border p-1 px-3 w-fit  rounded-full border-[#ff6a00] bg-[#2e0d00]">
-              {t("roadmap.November 23, 2024")}
-            </span>
-          </TimelineOppositeContent>
-        )}
-        <TimelineSeparator>
-          <TimelineConnector sx={{ bgcolor: "#BDBDBDBD" }} />
-          {/* Ping effect wrapper */}
-          <Box
-            sx={{
-              position: "relative",
-              width: 20,
-              height: 20,
-              display: "flex",
-              alignItems: "center",
-              justifyContent: "center",
-            }}
-          >
-            {/* Ping circle */}
-            <Box
-              sx={{
-                position: "absolute",
-                width: 20,
-                height: 20,
-                borderRadius: "9999px",
-                backgroundColor: "#cccc",
-                animation: "ping 1.4s infinite",
-                opacity: 0.4,
-              }}
-            />
-            {/* Main icon */}
-            <CircleRoundedIcon htmlColor="#cccc" />
-          </Box>
-          <TimelineConnector sx={{ bgcolor: "#BDBDBDBD" }} />
-        </TimelineSeparator>
-        <TimelineContent sx={{ py: "12px", px: 2 }}>
-          <div className="md:flex justify-end">
-            <div className="relative bg-gradient-to-b from-zinc-900 to-zinc-800  p-6 rounded-3xl overflow-hidden shadow-[0_8px_32px_rgba(255,255,255,0.1)] max-w-[600px]">
-              <Grid size={20} />
-              <Box
-                sx={{
-                  display: "flex",
-                  flexDirection: "column",
-                  alignItems: !matches ? "end" : "start",
-                }}
-              >
-                <Typography
-                  fontSize={17}
-                  component="span"
-                  color="#ea580b"
-                  fontWeight={600}
-                >
-                  {t("roadmap.PIONE GROUP ESTABLISHED")}
-                </Typography>
-                {matches && (
-                  <TimelineOppositeContent
-                    sx={{
-                      textAlign: "left !important",
-                      padding: "0 !important",
-                    }}
-                    variant="body2"
-                    color="#fff"
-                    fontSize={14}
-                  >
-                    {t("roadmap.November 23, 2024")}
-                  </TimelineOppositeContent>
-                )}
-                <Typography color="#CCCC" fontSize={13} marginTop={1}>
-                  {t("roadmap.description4")}
-                </Typography>
-              </Box>
-            </div>
-          </div>
-        </TimelineContent>
-      </TimelineItem>
-      <TimelineItem>
-        {!matches && (
-          <TimelineOppositeContent
-            sx={{ m: "auto 0" }}
-            align="right"
-            variant="body2"
-            color="#fff"
-            fontSize={17}
-          >
-            <span className="inline-block text-lg border p-1 px-3 w-fit  rounded-full border-[#ff6a00] bg-[#2e0d00]">
-              {t("roadmap.February 17, 2025")}
-            </span>
-          </TimelineOppositeContent>
-        )}
-        <TimelineSeparator>
-          <TimelineConnector sx={{ bgcolor: "#BDBDBDBD" }} />
-          {/* Ping effect wrapper */}
-          <Box
-            sx={{
-              position: "relative",
-              width: 20,
-              height: 20,
-              display: "flex",
-              alignItems: "center",
-              justifyContent: "center",
-            }}
-          >
-            {/* Ping circle */}
-            <Box
-              sx={{
-                position: "absolute",
-                width: 20,
-                height: 20,
-                borderRadius: "9999px",
-                backgroundColor: "#cccc",
-                animation: "ping 1.4s infinite",
-                opacity: 0.4,
-              }}
-            />
-            {/* Main icon */}
-            <CircleRoundedIcon htmlColor="#cccc" />
-          </Box>
-          <TimelineConnector sx={{ bgcolor: "#BDBDBDBD" }} />
-        </TimelineSeparator>
-        <TimelineContent sx={{ py: "12px", px: 2 }}>
-          <div className=" flex">
-            <div className="relative bg-gradient-to-b from-zinc-900 to-zinc-800  p-6 rounded-3xl overflow-hidden shadow-[0_8px_32px_rgba(255,255,255,0.1)] max-w-[600px]">
-              <Grid size={20} />
-              <Typography
-                fontSize={17}
-                component="span"
-                color="#ea580b"
-                fontWeight={600}
-              >
-                {t("roadmap.PIONE CHAIN OFFICIALLY LAUNCHED")}
-              </Typography>
-              {matches && (
-                <TimelineOppositeContent
-                  sx={{
-                    textAlign: "left !important",
-                    padding: "0 !important",
-                  }}
-                  variant="body2"
-                  color="#fff"
-                  fontSize={14}
-                >
-                  {t("roadmap.February 17, 2025")}
-                </TimelineOppositeContent>
-              )}
-              <Typography color="#CCCC" fontSize={13} marginTop={1}>
-                {t("roadmap.description5")}
-              </Typography>
-            </div>
-          </div>
-        </TimelineContent>
-      </TimelineItem>
-      <TimelineItem>
-        {!matches && (
-          <TimelineOppositeContent
-            sx={{ m: "auto 0" }}
-            align="right"
-            variant="body2"
-            color="#fff"
-            fontSize={17}
-          >
-            <span className="inline-block text-lg border p-1 px-3 w-fit  rounded-full border-[#ff6a00] bg-[#2e0d00]">
-              {t("roadmap.April 4, 2025")}
-            </span>
-          </TimelineOppositeContent>
-        )}
-        <TimelineSeparator>
-          <TimelineConnector sx={{ bgcolor: "#BDBDBDBD" }} />
-          {/* Ping effect wrapper */}
-          <Box
-            sx={{
-              position: "relative",
-              width: 20,
-              height: 20,
-              display: "flex",
-              alignItems: "center",
-              justifyContent: "center",
-            }}
-          >
-            {/* Ping circle */}
-            <Box
-              sx={{
-                position: "absolute",
-                width: 20,
-                height: 20,
-                borderRadius: "9999px",
-                backgroundColor: "#cccc",
-                animation: "ping 1.4s infinite",
-                opacity: 0.4,
-              }}
-            />
-            {/* Main icon */}
-            <CircleRoundedIcon htmlColor="#cccc" />
-          </Box>
-          <TimelineConnector sx={{ bgcolor: "#BDBDBDBD" }} />
-        </TimelineSeparator>
-        <TimelineContent sx={{ py: "12px", px: 2 }}>
-          <div className="md:flex justify-end">
-            <div className="relative bg-gradient-to-b from-zinc-900 to-zinc-800  p-6 rounded-3xl overflow-hidden shadow-[0_8px_32px_rgba(255,255,255,0.1)] max-w-[600px]">
-              <Grid size={20} />
-              <Box
-                sx={{
-                  display: "flex",
-                  flexDirection: "column",
-                  alignItems: !matches ? "end" : "start",
-                }}
-              >
-                <Typography
-                  fontSize={17}
-                  component="span"
-                  color="#ea580b"
-                  fontWeight={600}
-                >
-                  {t("roadmap.PIONE WALLET OFFICIALLY LAUNCHED")}
-                </Typography>
-                {matches && (
-                  <TimelineOppositeContent
-                    sx={{
-                      textAlign: "left !important",
-                      padding: "0 !important",
-                    }}
-                    variant="body2"
-                    color="#fff"
-                    fontSize={14}
-                  >
-                    {t("roadmap.April 4, 2025")}
-                  </TimelineOppositeContent>
-                )}
-                <Typography color="#CCCC" fontSize={13} marginTop={1}>
-                  {t("roadmap.description6")}
-                </Typography>
-              </Box>
-            </div>
-          </div>
-        </TimelineContent>
-      </TimelineItem>
-      <TimelineItem>
-        {!matches && (
-          <TimelineOppositeContent
-            sx={{ m: "auto 0" }}
-            align="right"
-            variant="body2"
-            color="#fff"
-            fontSize={17}
-          >
-            <span className="inline-block text-lg border p-1 px-3 w-fit  rounded-full border-[#ff6a00] bg-[#2e0d00]">
-              {t("roadmap.June 1, 2025")}
-            </span>
-          </TimelineOppositeContent>
-        )}
-        <TimelineSeparator>
-          <TimelineConnector sx={{ bgcolor: "#BDBDBDBD" }} />
-          {/* Ping effect wrapper */}
-          <Box
-            sx={{
-              position: "relative",
-              width: 20,
-              height: 20,
-              display: "flex",
-              alignItems: "center",
-              justifyContent: "center",
-            }}
-          >
-            {/* Ping circle */}
-            <Box
-              sx={{
-                position: "absolute",
-                width: 20,
-                height: 20,
-                borderRadius: "9999px",
-                backgroundColor: "#cccc",
-                animation: "ping 1.4s infinite",
-                opacity: 0.4,
-              }}
-            />
-            {/* Main icon */}
-            <CircleRoundedIcon htmlColor="#cccc" />
-          </Box>
-          <TimelineConnector sx={{ bgcolor: "#BDBDBDBD" }} />
-        </TimelineSeparator>
-        <TimelineContent sx={{ py: "12px", px: 2 }}>
-          <div className=" flex">
-            <div className="relative bg-gradient-to-b from-zinc-900 to-zinc-800  p-6 rounded-3xl overflow-hidden shadow-[0_8px_32px_rgba(255,255,255,0.1)] max-w-[600px]">
-              <Grid size={20} />
-              <Typography
-                fontSize={17}
-                component="span"
-                color="#ea580b"
-                fontWeight={600}
-              >
-                {t(
-                  "roadmap.REGISTER TO PARTICIPATE IN SANDBOX FOR PILOT DEPLOYMENT OF TYPICAL ECOSYSTEMS",
-                )}
-              </Typography>
-              {matches && (
-                <TimelineOppositeContent
-                  sx={{
-                    textAlign: "left !important",
-                    padding: "0 !important",
-                  }}
-                  variant="body2"
-                  color="#fff"
-                  fontSize={14}
-                >
-                  {t("roadmap.June 1, 2025")}
-                </TimelineOppositeContent>
-              )}
-              <Typography color="#CCCC" fontSize={13} marginTop={1}>
-                {" "}
-                {t("roadmap.description7")}
-              </Typography>
-            </div>
-          </div>
-        </TimelineContent>
-      </TimelineItem>
-      <TimelineItem>
-        {!matches && (
-          <TimelineOppositeContent
-            sx={{ m: "auto 0" }}
-            align="right"
-            variant="body2"
-            color="#fff"
-            fontSize={17}
-          >
-            <span className="inline-block text-lg border p-1 px-3 w-fit  rounded-full border-[#ff6a00] bg-[#2e0d00]">
-              {t("roadmap.Quarter 4, 2025")}
-            </span>
-          </TimelineOppositeContent>
-        )}
-        <TimelineSeparator>
-          <TimelineConnector sx={{ bgcolor: "#BDBDBDBD" }} />
-          {/* Ping effect wrapper */}
-          <Box
-            sx={{
-              position: "relative",
-              width: 20,
-              height: 20,
-              display: "flex",
-              alignItems: "center",
-              justifyContent: "center",
-            }}
-          >
-            {/* Ping circle */}
-            <Box
-              sx={{
-                position: "absolute",
-                width: 20,
-                height: 20,
-                borderRadius: "9999px",
-                backgroundColor: "#cccc",
-                animation: "ping 1.4s infinite",
-                opacity: 0.4,
-              }}
-            />
-            {/* Main icon */}
-            <CircleRoundedIcon htmlColor="#cccc" />
-          </Box>
-          <TimelineConnector sx={{ bgcolor: "#BDBDBDBD" }} />
-        </TimelineSeparator>
-        <TimelineContent sx={{ py: "12px", px: 2 }}>
-          <div className="md:flex justify-end">
-            <div className="relative bg-gradient-to-b from-zinc-900 to-zinc-800  p-6 rounded-3xl overflow-hidden shadow-[0_8px_32px_rgba(255,255,255,0.1)] max-w-[600px] ">
-              <Grid size={20} />
-              <Box
-                sx={{
-                  display: "flex",
-                  flexDirection: "column",
-                  alignItems: !matches ? "end" : "start",
-                }}
-              >
-                <Typography
-                  fontSize={17}
-                  component="span"
-                  color="#ea580b"
-                  fontWeight={600}
-                >
-                  {t(
-                    "roadmap.THE OFFICIAL LISTING OF PIO COIN ON DIGITAL ASSET EXCHANGES",
-                  )}
-                </Typography>
+              <TimelineConnector sx={{ bgcolor: "#BDBDBDBD" }} />
+            </TimelineSeparator>
 
-                {matches && (
-                  <TimelineOppositeContent
+            <TimelineContent sx={{ py: "12px", px: 2 }}>
+              <div className={`flex ${!matches && isCardOnLeft ? "justify-end" : "justify-start"}`}>
+                <div className="relative bg-gradient-to-b from-zinc-900 to-zinc-800 p-6 rounded-3xl overflow-hidden shadow-[0_8px_32px_rgba(255,255,255,0.1)] max-w-[600px] w-full">
+                  <Grid size={20} />
+                  <Box
                     sx={{
-                      textAlign: "left !important",
-                      padding: "0 !important",
+                      display: "flex",
+                      flexDirection: "column",
+                      alignItems: !matches && isCardOnLeft ? "end" : "start",
                     }}
-                    variant="body2"
-                    color="#fff"
-                    fontSize={14}
                   >
-                    {t("roadmap.Quarter 4, 2025")}
-                  </TimelineOppositeContent>
-                )}
-                <Typography color="#CCCC" fontSize={13} marginTop={1}>
-                  {" "}
-                  {t("roadmap.description8")}
-                </Typography>
-                <Typography
-                  fontSize={17}
-                  component="span"
-                  color="#ea580b"
-                  fontWeight={600}
-                  marginTop={3}
-                  textTransform="uppercase"
-                >
-                  {t(
-                    "roadmap.THE OFFICIAL LISTING OF PIO COIN ON DIGITAL ASSET EXCHANGES2",
-                  )}
-                </Typography>
-
-                {matches && (
-                  <TimelineOppositeContent
-                    sx={{
-                      textAlign: "left !important",
-                      padding: "0 !important",
-                    }}
-                    variant="body2"
-                    color="#fff"
-                    fontSize={14}
-                  >
-                    {t("roadmap.Quarter 4, 2025")}
-                  </TimelineOppositeContent>
-                )}
-                <Typography color="#CCCC" fontSize={13} marginTop={1}>
-                  {" "}
-                  {t("roadmap.description82")}
-                </Typography>
-              </Box>
-            </div>
-          </div>
-        </TimelineContent>
-      </TimelineItem>
-      <TimelineItem>
-        {!matches && (
-          <TimelineOppositeContent
-            sx={{ m: "auto 0" }}
-            align="right"
-            variant="body2"
-            color="#fff"
-            fontSize={17}
-          >
-            <span className="inline-block text-lg border p-1 px-3 w-fit  rounded-full border-[#ff6a00] bg-[#2e0d00]">
-              {t("roadmap.December 2025")}
-            </span>
-          </TimelineOppositeContent>
-        )}
-        <TimelineSeparator>
-          <TimelineConnector sx={{ bgcolor: "#BDBDBDBD" }} />
-          {/* Ping effect wrapper */}
-          <Box
-            sx={{
-              position: "relative",
-              width: 20,
-              height: 20,
-              display: "flex",
-              alignItems: "center",
-              justifyContent: "center",
-            }}
-          >
-            {/* Ping circle */}
-            <Box
-              sx={{
-                position: "absolute",
-                width: 20,
-                height: 20,
-                borderRadius: "9999px",
-                backgroundColor: "#cccc",
-                animation: "ping 1.4s infinite",
-                opacity: 0.4,
-              }}
-            />
-            {/* Main icon */}
-            <CircleRoundedIcon htmlColor="#cccc" />
-          </Box>
-          <TimelineConnector sx={{ bgcolor: "#BDBDBDBD" }} />
-        </TimelineSeparator>
-        <TimelineContent sx={{ py: "12px", px: 2 }}>
-          <div className="md:flex ">
-            <div className="relative bg-gradient-to-b from-zinc-900 to-zinc-800  p-6 rounded-3xl overflow-hidden shadow-[0_8px_32px_rgba(255,255,255,0.1)] max-w-[600px] ">
-              <Grid size={20} />
-              <Box
-                sx={{
-                  display: "flex",
-                  flexDirection: "column",
-                  alignItems: !matches ? "start" : "end",
-                }}
-              >
-                <Typography
-                  fontSize={17}
-                  component="span"
-                  color="#ea580b"
-                  fontWeight={600}
-                >
-                  {t("roadmap.launch DEX P2P (Pioneswap.com)")}
-                </Typography>
-
-                {matches && (
-                  <TimelineOppositeContent
-                    sx={{
-                      textAlign: "left !important",
-                      padding: "0 !important",
-                    }}
-                    variant="body2"
-                    color="#fff"
-                    fontSize={14}
-                  >
-                    {t("roadmap.December 2025")}
-                  </TimelineOppositeContent>
-                )}
-                <Typography color="#CCCC" fontSize={13} marginTop={1}>
-                  {" "}
-                  {t("roadmap.descriptiondec")}
-                </Typography>
-                <Typography
-                  fontSize={17}
-                  component="span"
-                  color="#ea580b"
-                  fontWeight={600}
-                  marginTop={3}
-                  textTransform="uppercase"
-                >
-                  {t("roadmap.Pione Dream Start up")}
-                </Typography>
-
-                {matches && (
-                  <TimelineOppositeContent
-                    sx={{
-                      textAlign: "left !important",
-                      padding: "0 !important",
-                    }}
-                    variant="body2"
-                    color="#fff"
-                    fontSize={14}
-                  >
-                    {t("roadmap.December 2025")}
-                  </TimelineOppositeContent>
-                )}
-                <Typography color="#CCCC" fontSize={13} marginTop={1}>
-                  {" "}
-                  {t("roadmap.descriptiondec2")}
-                </Typography>
-              </Box>
-            </div>
-          </div>
-        </TimelineContent>
-      </TimelineItem>
-      <TimelineItem>
-        {!matches && (
-          <TimelineOppositeContent
-            sx={{ m: "auto 0" }}
-            align="right"
-            variant="body2"
-            color="#fff"
-            fontSize={17}
-          >
-            <span className="inline-block text-lg border p-1 px-3 w-fit  rounded-full border-[#ff6a00] bg-[#2e0d00]">
-              {t("roadmap.January 2026")}
-            </span>
-          </TimelineOppositeContent>
-        )}
-        <TimelineSeparator>
-          <TimelineConnector sx={{ bgcolor: "#BDBDBDBD" }} />
-          {/* Ping effect wrapper */}
-          <Box
-            sx={{
-              position: "relative",
-              width: 20,
-              height: 20,
-              display: "flex",
-              alignItems: "center",
-              justifyContent: "center",
-            }}
-          >
-            {/* Ping circle */}
-            <Box
-              sx={{
-                position: "absolute",
-                width: 20,
-                height: 20,
-                borderRadius: "9999px",
-                backgroundColor: "#cccc",
-                animation: "ping 1.4s infinite",
-                opacity: 0.4,
-              }}
-            />
-            {/* Main icon */}
-            <CircleRoundedIcon htmlColor="#cccc" />
-          </Box>
-          <TimelineConnector sx={{ bgcolor: "#BDBDBDBD" }} />
-        </TimelineSeparator>
-        <TimelineContent sx={{ py: "12px", px: 2 }}>
-          <div className=" flex justify-end">
-            <div className="relative bg-gradient-to-b from-zinc-900 to-zinc-800  p-6 rounded-3xl overflow-hidden shadow-[0_8px_32px_rgba(255,255,255,0.1)] max-w-[600px]">
-              <Grid size={20} />
-              <Typography
-                fontSize={17}
-                component="span"
-                color="#ea580b"
-                fontWeight={600}
-              >
-                {t(
-                  "roadmap.DIGITAL HEALTHCARE & SUPER APP PAYMENT DEVELOPMENT",
-                )}
-              </Typography>
-              {matches && (
-                <TimelineOppositeContent
-                  sx={{
-                    textAlign: "left !important",
-                    padding: "0 !important",
-                  }}
-                  variant="body2"
-                  color="#fff"
-                  fontSize={14}
-                >
-                  {t("roadmap.January 2026")}
-                </TimelineOppositeContent>
-              )}
-              <Typography color="#CCCC" fontSize={13} marginTop={1}>
-                {" "}
-                {t("roadmap.description9")}
-              </Typography>
-            </div>
-          </div>
-        </TimelineContent>
-      </TimelineItem>
-      <TimelineItem>
-        {!matches && (
-          <TimelineOppositeContent
-            sx={{ m: "auto 0" }}
-            align="right"
-            variant="body2"
-            color="#fff"
-            fontSize={17}
-          >
-            <span className="inline-block text-lg border p-1 px-3 w-fit  rounded-full border-[#ff6a00] bg-[#2e0d00]">
-              {t("roadmap.Quarter 1, 2026")}
-            </span>
-          </TimelineOppositeContent>
-        )}
-        <TimelineSeparator>
-          <TimelineConnector sx={{ bgcolor: "#BDBDBDBD" }} />
-          <Box
-            sx={{
-              position: "relative",
-              width: 20,
-              height: 20,
-              display: "flex",
-              alignItems: "center",
-              justifyContent: "center",
-            }}
-          >
-            <Box
-              sx={{
-                position: "absolute",
-                width: 20,
-                height: 20,
-                borderRadius: "9999px",
-                backgroundColor: "#cccc",
-                animation: "ping 1.4s infinite",
-                opacity: 0.4,
-              }}
-            />
-            <CircleRoundedIcon htmlColor="#cccc" />
-          </Box>
-          <TimelineConnector sx={{ bgcolor: "#BDBDBDBD" }} />
-        </TimelineSeparator>
-        <TimelineContent sx={{ py: "12px", px: 2 }}>
-          <div className="md:flex justify-start">
-            <div className="relative bg-gradient-to-b from-zinc-900 to-zinc-800  p-6 rounded-3xl overflow-hidden shadow-[0_8px_32px_rgba(255,255,255,0.1)] max-w-[600px]">
-              <Grid size={20} />
-              <Box
-                sx={{
-                  display: "flex",
-                  flexDirection: "column",
-                  alignItems: !matches ? "start" : "end",
-                }}
-              >
-                <Typography
-                  fontSize={17}
-                  component="span"
-                  color="#ea580b"
-                  fontWeight={600}
-                >
-                  {t(
-                    "roadmap.Listing on centralized exchanges (CEXs) to expand international markets and drive sustainable growth across the Pione Chain ecosystem",
-                  )}
-                </Typography>
-                {matches && (
-                  <TimelineOppositeContent
-                    sx={{
-                      textAlign: "left !important",
-                      padding: "0 !important",
-                    }}
-                    variant="body2"
-                    color="#fff"
-                    fontSize={14}
-                  >
-                    {t("roadmap.Quarter 1, 2026")}
-                  </TimelineOppositeContent>
-                )}
-                <Typography color="#CCCC" fontSize={13} marginTop={1}>
-                  {" "}
-                  {t("roadmap.description17")}
-                </Typography>
-              </Box>
-            </div>
-          </div>
-        </TimelineContent>
-      </TimelineItem>
-      <TimelineItem>
-        {!matches && (
-          <TimelineOppositeContent
-            sx={{ m: "auto 0" }}
-            align="right"
-            variant="body2"
-            color="#fff"
-            fontSize={17}
-          >
-            <span className="inline-block text-lg border p-1 px-3 w-fit  rounded-full border-[#ff6a00] bg-[#2e0d00]">
-              {t("roadmap.April 2026")}
-            </span>
-          </TimelineOppositeContent>
-        )}
-        <TimelineSeparator>
-          <TimelineConnector sx={{ bgcolor: "#BDBDBDBD" }} />
-          <Box
-            sx={{
-              position: "relative",
-              width: 20,
-              height: 20,
-              display: "flex",
-              alignItems: "center",
-              justifyContent: "center",
-            }}
-          >
-            <Box
-              sx={{
-                position: "absolute",
-                width: 20,
-                height: 20,
-                borderRadius: "9999px",
-                backgroundColor: "#cccc",
-                animation: "ping 1.4s infinite",
-                opacity: 0.4,
-              }}
-            />
-            <CircleRoundedIcon htmlColor="#cccc" />
-          </Box>
-          <TimelineConnector sx={{ bgcolor: "#BDBDBDBD" }} />
-        </TimelineSeparator>
-        <TimelineContent sx={{ py: "12px", px: 2 }}>
-          <div className="md:flex justify-end">
-            <div className="relative bg-gradient-to-b from-zinc-900 to-zinc-800  p-6 rounded-3xl overflow-hidden shadow-[0_8px_32px_rgba(255,255,255,0.1)] max-w-[600px]">
-              <Grid size={20} />
-              <Box
-                sx={{
-                  display: "flex",
-                  flexDirection: "column",
-                  alignItems: !matches ? "end" : "start",
-                }}
-              >
-                <Typography
-                  fontSize={17}
-                  component="span"
-                  color="#ea580b"
-                  fontWeight={600}
-                >
-                  {t("roadmap.Pioneer Security – Digitalization of Securities Assets for the RWA Era")}
-                </Typography>
-                {matches && (
-                  <TimelineOppositeContent
-                    sx={{
-                      textAlign: "left !important",
-                      padding: "0 !important",
-                    }}
-                    variant="body2"
-                    color="#fff"
-                    fontSize={14}
-                  >
-                    {t("roadmap.April 2026")}
-                  </TimelineOppositeContent>
-                )}
-                <Typography color="#CCCC" fontSize={13} marginTop={1}>
-                  {" "}
-                  {t("roadmap.description10")}
-                </Typography>
-              </Box>
-            </div>
-          </div>
-        </TimelineContent>
-      </TimelineItem>
-      <TimelineItem>
-        {!matches && (
-          <TimelineOppositeContent
-            sx={{ m: "auto 0" }}
-            align="right"
-            variant="body2"
-            color="#fff"
-            fontSize={17}
-          >
-            <span className="inline-block text-lg border p-1 px-3 w-fit  rounded-full border-[#ff6a00] bg-[#2e0d00]">
-              {t("roadmap.Quarter 2, 2026")}
-            </span>
-          </TimelineOppositeContent>
-        )}
-        <TimelineSeparator>
-          <TimelineConnector sx={{ bgcolor: "#BDBDBDBD" }} />
-          <Box
-            sx={{
-              position: "relative",
-              width: 20,
-              height: 20,
-              display: "flex",
-              alignItems: "center",
-              justifyContent: "center",
-            }}
-          >
-            <Box
-              sx={{
-                position: "absolute",
-                width: 20,
-                height: 20,
-                borderRadius: "9999px",
-                backgroundColor: "#cccc",
-                animation: "ping 1.4s infinite",
-                opacity: 0.4,
-              }}
-            />
-            <CircleRoundedIcon htmlColor="#cccc" />
-          </Box>
-          <TimelineConnector sx={{ bgcolor: "#BDBDBDBD" }} />
-        </TimelineSeparator>
-        <TimelineContent sx={{ py: "12px", px: 2 }}>
-          <div className=" flex justify-start">
-            <div className="relative bg-gradient-to-b from-zinc-900 to-zinc-800  p-6 rounded-3xl overflow-hidden shadow-[0_8px_32px_rgba(255,255,255,0.1)] max-w-[600px]">
-              <Grid size={20} />
-              <Typography
-                fontSize={17}
-                component="span"
-                color="#ea580b"
-                fontWeight={600}
-              >
-                {t(
-                  "roadmap.Pione BOS Chain Mainnet Launch",
-                )}
-              </Typography>
-              {matches && (
-                <TimelineOppositeContent
-                  sx={{
-                    textAlign: "left !important",
-                    padding: "0 !important",
-                  }}
-                  variant="body2"
-                  color="#fff"
-                  fontSize={14}
-                >
-                  {t("roadmap.Quarter 2, 2026")}
-                </TimelineOppositeContent>
-              )}
-              <Typography color="#CCCC" fontSize={13} marginTop={1}>
-                {" "}
-                {t("roadmap.description16")}
-              </Typography>
-            </div>
-          </div>
-        </TimelineContent>
-      </TimelineItem>
-      <TimelineItem>
-        {!matches && (
-          <TimelineOppositeContent
-            sx={{ m: "auto 0" }}
-            align="right"
-            variant="body2"
-            color="#fff"
-            fontSize={17}
-          >
-            <span className="inline-block text-lg border p-1 px-3 w-fit  rounded-full border-[#ff6a00] bg-[#2e0d00]">
-              {t("roadmap.June, 2026")}
-            </span>
-          </TimelineOppositeContent>
-        )}
-        <TimelineSeparator>
-          <TimelineConnector sx={{ bgcolor: "#BDBDBDBD" }} />
-          <Box
-            sx={{
-              position: "relative",
-              width: 20,
-              height: 20,
-              display: "flex",
-              alignItems: "center",
-              justifyContent: "center",
-            }}
-          >
-            <Box
-              sx={{
-                position: "absolute",
-                width: 20,
-                height: 20,
-                borderRadius: "9999px",
-                backgroundColor: "#cccc",
-                animation: "ping 1.4s infinite",
-                opacity: 0.4,
-              }}
-            />
-            <CircleRoundedIcon htmlColor="#cccc" />
-          </Box>
-          <TimelineConnector sx={{ bgcolor: "#BDBDBDBD" }} />
-        </TimelineSeparator>
-        <TimelineContent sx={{ py: "12px", px: 2 }}>
-          <div className="md:flex justify-end">
-            <div className="relative bg-gradient-to-b from-zinc-900 to-zinc-800  p-6 rounded-3xl overflow-hidden shadow-[0_8px_32px_rgba(255,255,255,0.1)] max-w-[600px]">
-              <Grid size={20} />
-              <Box
-                sx={{
-                  display: "flex",
-                  flexDirection: "column",
-                  alignItems: !matches ? "end" : "start",
-                }}
-              >
-                <Typography
-                  fontSize={17}
-                  component="span"
-                  color="#ea580b"
-                  fontWeight={600}
-                >
-                  {t("roadmap.DIGITAL MEDICAL DEVELOPMENT & PAYMENT SUPER APP")}
-                </Typography>
-                {matches && (
-                  <TimelineOppositeContent
-                    sx={{
-                      textAlign: "left !important",
-                      padding: "0 !important",
-                    }}
-                    variant="body2"
-                    color="#fff"
-                    fontSize={14}
-                  >
-                    {t("roadmap.June, 2026")}
-                  </TimelineOppositeContent>
-                )}
-                <Typography color="#CCCC" fontSize={13} marginTop={1}>
-                  {" "}
-                  {t("roadmap.description11")}
-                </Typography>
-              </Box>
-            </div>
-          </div>
-        </TimelineContent>
-      </TimelineItem>
-      <TimelineItem>
-        {!matches && (
-          <TimelineOppositeContent
-            sx={{ m: "auto 0" }}
-            align="right"
-            variant="body2"
-            color="#fff"
-            fontSize={17}
-          >
-            <span className="inline-block text-lg border p-1 px-3 w-fit  rounded-full border-[#ff6a00] bg-[#2e0d00]">
-              {t("roadmap.September 2026")}
-            </span>
-          </TimelineOppositeContent>
-        )}
-        <TimelineSeparator>
-          <TimelineConnector sx={{ bgcolor: "#BDBDBDBD" }} />
-          <Box
-            sx={{
-              position: "relative",
-              width: 20,
-              height: 20,
-              display: "flex",
-              alignItems: "center",
-              justifyContent: "center",
-            }}
-          >
-            <Box
-              sx={{
-                position: "absolute",
-                width: 20,
-                height: 20,
-                borderRadius: "9999px",
-                backgroundColor: "#cccc",
-                animation: "ping 1.4s infinite",
-                opacity: 0.4,
-              }}
-            />
-            <CircleRoundedIcon htmlColor="#cccc" />
-          </Box>
-          <TimelineConnector sx={{ bgcolor: "#BDBDBDBD" }} />
-        </TimelineSeparator>
-        <TimelineContent sx={{ py: "12px", px: 2 }}>
-          <div className=" flex justify-start">
-            <div className="relative bg-gradient-to-b from-zinc-900 to-zinc-800  p-6 rounded-3xl overflow-hidden shadow-[0_8px_32px_rgba(255,255,255,0.1)] max-w-[600px]">
-              <Grid size={20} />
-              <Typography
-                fontSize={17}
-                component="span"
-                color="#ea580b"
-                fontWeight={600}
-              >
-                {t("roadmap.DEPLOYING PIONE FARM AGRICULTURAL ECOSYSTEM")}
-              </Typography>
-              {matches && (
-                <TimelineOppositeContent
-                  sx={{
-                    textAlign: "left !important",
-                    padding: "0 !important",
-                  }}
-                  variant="body2"
-                  color="#fff"
-                  fontSize={14}
-                >
-                  {t("roadmap.September 2026")}
-                </TimelineOppositeContent>
-              )}
-              <Typography color="#CCCC" fontSize={13} marginTop={1}>
-                {" "}
-                {t("roadmap.description12")}
-              </Typography>
-            </div>
-          </div>
-        </TimelineContent>
-      </TimelineItem>
-      <TimelineItem>
-        {!matches && (
-          <TimelineOppositeContent
-            sx={{ m: "auto 0" }}
-            align="right"
-            variant="body2"
-            color="#fff"
-            fontSize={17}
-          >
-            <span className="inline-block text-lg border p-1 px-3 w-fit  rounded-full border-[#ff6a00] bg-[#2e0d00]">
-              {t("roadmap.October 2026")}
-            </span>
-          </TimelineOppositeContent>
-        )}
-        <TimelineSeparator>
-          <TimelineConnector sx={{ bgcolor: "#BDBDBDBD" }} />
-          <Box
-            sx={{
-              position: "relative",
-              width: 20,
-              height: 20,
-              display: "flex",
-              alignItems: "center",
-              justifyContent: "center",
-            }}
-          >
-            <Box
-              sx={{
-                position: "absolute",
-                width: 20,
-                height: 20,
-                borderRadius: "9999px",
-                backgroundColor: "#cccc",
-                animation: "ping 1.4s infinite",
-                opacity: 0.4,
-              }}
-            />
-            <CircleRoundedIcon htmlColor="#cccc" />
-          </Box>
-          <TimelineConnector sx={{ bgcolor: "#BDBDBDBD" }} />
-        </TimelineSeparator>
-        <TimelineContent sx={{ py: "12px", px: 2 }}>
-          <div className="md:flex justify-end">
-            <div className="relative bg-gradient-to-b from-zinc-900 to-zinc-800  p-6 rounded-3xl overflow-hidden shadow-[0_8px_32px_rgba(255,255,255,0.1)] max-w-[600px]">
-              <Grid size={20} />
-              <Box
-                sx={{
-                  display: "flex",
-                  flexDirection: "column",
-                  alignItems: !matches ? "end" : "start",
-                }}
-              >
-                <Typography
-                  fontSize={17}
-                  component="span"
-                  color="#ea580b"
-                  fontWeight={600}
-                >
-                  {t(
-                    "roadmap.CORE INFRASTRUCTURE OPERATION - FOUNDATION FOR THE RWA ECOSYSTEM",
-                  )}
-                </Typography>
-                {matches && (
-                  <TimelineOppositeContent
-                    sx={{
-                      textAlign: "left !important",
-                      padding: "0 !important",
-                    }}
-                    variant="body2"
-                    color="#fff"
-                    fontSize={14}
-                  >
-                    {t("roadmap.October 2026")}
-                  </TimelineOppositeContent>
-                )}
-                <Typography color="#CCCC" fontSize={13} marginTop={1}>
-                  {" "}
-                  {t("roadmap.description18")}
-                </Typography>
-              </Box>
-            </div>
-          </div>
-        </TimelineContent>
-      </TimelineItem>
-      <TimelineItem>
-        {!matches && (
-          <TimelineOppositeContent
-            sx={{ m: "auto 0" }}
-            align="right"
-            variant="body2"
-            color="#fff"
-            fontSize={17}
-          >
-            <span className="inline-block text-lg border p-1 px-3 w-fit  rounded-full border-[#ff6a00] bg-[#2e0d00]">
-              {t("roadmap.December 2026")}
-            </span>
-          </TimelineOppositeContent>
-        )}
-        <TimelineSeparator>
-          <TimelineConnector sx={{ bgcolor: "#BDBDBDBD" }} />
-          <Box
-            sx={{
-              position: "relative",
-              width: 20,
-              height: 20,
-              display: "flex",
-              alignItems: "center",
-              justifyContent: "center",
-            }}
-          >
-            <Box
-              sx={{
-                position: "absolute",
-                width: 20,
-                height: 20,
-                borderRadius: "9999px",
-                backgroundColor: "#cccc",
-                animation: "ping 1.4s infinite",
-                opacity: 0.4,
-              }}
-            />
-            <CircleRoundedIcon htmlColor="#cccc" />
-          </Box>
-          <TimelineConnector sx={{ bgcolor: "#BDBDBDBD" }} />
-        </TimelineSeparator>
-        <TimelineContent sx={{ py: "12px", px: 2 }}>
-          <div className=" flex justify-start">
-            <div className="relative bg-gradient-to-b from-zinc-900 to-zinc-800  p-6 rounded-3xl overflow-hidden shadow-[0_8px_32px_rgba(255,255,255,0.1)] max-w-[600px]">
-              <Grid size={20} />
-              <Typography
-                fontSize={17}
-                component="span"
-                color="#ea580b"
-                fontWeight={600}
-              >
-                {t("roadmap.LAUNCH OF PIONE DAPPSTORE – RWA APPLICATION GATEWAY")}
-              </Typography>
-              {matches && (
-                <TimelineOppositeContent
-                  sx={{
-                    textAlign: "left !important",
-                    padding: "0 !important",
-                  }}
-                  variant="body2"
-                  color="#fff"
-                  fontSize={14}
-                >
-                  {t("roadmap.December 2026")}
-                </TimelineOppositeContent>
-              )}
-              <Typography color="#CCCC" fontSize={13} marginTop={1}>
-                {" "}
-                {t("roadmap.description19")}
-              </Typography>
-            </div>
-          </div>
-        </TimelineContent>
-      </TimelineItem>
-
-      <TimelineItem>
-        {!matches && (
-          <TimelineOppositeContent
-            sx={{ m: "auto 0" }}
-            align="right"
-            variant="body2"
-            color="#fff"
-            fontSize={17}
-          >
-            <span className="inline-block text-lg border p-1 px-3 w-fit  rounded-full border-[#ff6a00] bg-[#2e0d00]">
-              {t("roadmap.Quarter 1, 2027")}
-            </span>
-          </TimelineOppositeContent>
-        )}
-        <TimelineSeparator>
-          <TimelineConnector sx={{ bgcolor: "#BDBDBDBD" }} />
-          <Box
-            sx={{
-              position: "relative",
-              width: 20,
-              height: 20,
-              display: "flex",
-              alignItems: "center",
-              justifyContent: "center",
-            }}
-          >
-            <Box
-              sx={{
-                position: "absolute",
-                width: 20,
-                height: 20,
-                borderRadius: "9999px",
-                backgroundColor: "#cccc",
-                animation: "ping 1.4s infinite",
-                opacity: 0.4,
-              }}
-            />
-            <CircleRoundedIcon htmlColor="#cccc" />
-          </Box>
-          <TimelineConnector sx={{ bgcolor: "#BDBDBDBD" }} />
-        </TimelineSeparator>
-        <TimelineContent sx={{ py: "12px", px: 2 }}>
-          <div className=" flex justify-end">
-            <div className="relative bg-gradient-to-b from-zinc-900 to-zinc-800  p-6 rounded-3xl overflow-hidden shadow-[0_8px_32px_rgba(255,255,255,0.1)] max-w-[600px]">
-              <Grid size={20} />
-              <Typography
-                fontSize={17}
-                component="span"
-                color="#ea580b"
-                fontWeight={600}
-              >
-                {t("roadmap.Pione Chain Ecosystem Operates Strongly")}
-              </Typography>
-              {matches && (
-                <TimelineOppositeContent
-                  sx={{
-                    textAlign: "left !important",
-                    padding: "0 !important",
-                  }}
-                  variant="body2"
-                  color="#fff"
-                  fontSize={14}
-                >
-                  {t("roadmap.Quarter 1, 2027")}
-                </TimelineOppositeContent>
-              )}
-              <Typography color="#CCCC" fontSize={13} marginTop={1}>
-                {" "}
-                {t("roadmap.description14")}
-              </Typography>
-            </div>
-          </div>
-        </TimelineContent>
-      </TimelineItem>
-      <TimelineItem>
-        {!matches && (
-          <TimelineOppositeContent
-            sx={{ m: "auto 0" }}
-            align="right"
-            variant="body2"
-            color="#fff"
-            fontSize={17}
-          >
-            <span className="inline-block text-lg border p-1 px-3 w-fit  rounded-full border-[#ff6a00] bg-[#2e0d00]">
-              {t("roadmap.march 2027")}
-            </span>
-          </TimelineOppositeContent>
-        )}
-        <TimelineSeparator>
-          <TimelineConnector sx={{ bgcolor: "#BDBDBDBD" }} />
-          <Box
-            sx={{
-              position: "relative",
-              width: 20,
-              height: 20,
-              display: "flex",
-              alignItems: "center",
-              justifyContent: "center",
-            }}
-          >
-            <Box
-              sx={{
-                position: "absolute",
-                width: 20,
-                height: 20,
-                borderRadius: "9999px",
-                backgroundColor: "#cccc",
-                animation: "ping 1.4s infinite",
-                opacity: 0.4,
-              }}
-            />
-            <CircleRoundedIcon htmlColor="#cccc" />
-          </Box>
-          <TimelineConnector sx={{ bgcolor: "#BDBDBDBD" }} />
-        </TimelineSeparator>
-        <TimelineContent sx={{ py: "12px", px: 2 }}>
-          <div className="md:flex justify-start">
-            <div className="relative bg-gradient-to-b from-zinc-900 to-zinc-800  p-6 rounded-3xl overflow-hidden shadow-[0_8px_32px_rgba(255,255,255,0.1)] max-w-[600px]">
-              <Grid size={20} />
-              <Box
-                sx={{
-                  display: "flex",
-                  flexDirection: "column",
-                  alignItems: !matches ? "end" : "start",
-                }}
-              >
-                <Typography
-                  fontSize={17}
-                  component="span"
-                  color="#ea580b"
-                  fontWeight={600}
-                >
-                  {t(
-                    "roadmap.LAUNCH OF PIONE CHARITY – TRANSPARENT COMMUNITY CONTRIBUTIONS",
-                  )}
-                </Typography>
-                {matches && (
-                  <TimelineOppositeContent
-                    sx={{
-                      textAlign: "left !important",
-                      padding: "0 !important",
-                    }}
-                    variant="body2"
-                    color="#fff"
-                    fontSize={14}
-                  >
-                    {t("roadmap.march 2027")}
-                  </TimelineOppositeContent>
-                )}
-                <Typography color="#CCCC" fontSize={13} marginTop={1}>
-                  {" "}
-                  {t("roadmap.description20")}
-                </Typography>
-              </Box>
-            </div>
-          </div>
-        </TimelineContent>
-      </TimelineItem>
-      <TimelineItem>
-        {!matches && (
-          <TimelineOppositeContent
-            sx={{ m: "auto 0" }}
-            align="right"
-            variant="body2"
-            color="#fff"
-            fontSize={17}
-          >
-            <span className="inline-block text-lg border p-1 px-3 w-fit  rounded-full border-[#ff6a00] bg-[#2e0d00]">
-              {t("roadmap.May 2027")}
-            </span>
-          </TimelineOppositeContent>
-        )}
-        <TimelineSeparator>
-          <TimelineConnector sx={{ bgcolor: "#BDBDBDBD" }} />
-          <Box
-            sx={{
-              position: "relative",
-              width: 20,
-              height: 20,
-              display: "flex",
-              alignItems: "center",
-              justifyContent: "center",
-            }}
-          >
-            <Box
-              sx={{
-                position: "absolute",
-                width: 20,
-                height: 20,
-                borderRadius: "9999px",
-                backgroundColor: "#cccc",
-                animation: "ping 1.4s infinite",
-                opacity: 0.4,
-              }}
-            />
-            <CircleRoundedIcon htmlColor="#cccc" />
-          </Box>
-          <TimelineConnector sx={{ bgcolor: "#BDBDBDBD" }} />
-        </TimelineSeparator>
-        <TimelineContent sx={{ py: "12px", px: 2 }}>
-          <div className=" flex justify-end">
-            <div className="relative bg-gradient-to-b from-zinc-900 to-zinc-800  p-6 rounded-3xl overflow-hidden shadow-[0_8px_32px_rgba(255,255,255,0.1)] max-w-[600px]">
-              <Grid size={20} />
-              <Typography
-                fontSize={17}
-                component="span"
-                color="#ea580b"
-                fontWeight={600}
-              >
-                {t("roadmap.LAUNCH OF PIONE GAME – RWA-ENABLED WEB3 GAMING PLATFORM")}
-              </Typography>
-              {matches && (
-                <TimelineOppositeContent
-                  sx={{
-                    textAlign: "left !important",
-                    padding: "0 !important",
-                  }}
-                  variant="body2"
-                  color="#fff"
-                  fontSize={14}
-                >
-                  {t("roadmap.May 2027")}
-                </TimelineOppositeContent>
-              )}
-              <Typography color="#CCCC" fontSize={13} marginTop={1}>
-                {" "}
-                {t("roadmap.description21")}
-              </Typography>
-            </div>
-          </div>
-        </TimelineContent>
-      </TimelineItem>
-      <TimelineItem>
-        {!matches && (
-          <TimelineOppositeContent
-            sx={{ m: "auto 0" }}
-            align="right"
-            variant="body2"
-            color="#fff"
-            fontSize={17}
-          >
-            <span className="inline-block text-lg border p-1 px-3 w-fit  rounded-full border-[#ff6a00] bg-[#2e0d00]">
-              {t("roadmap.July 2027")}
-            </span>
-          </TimelineOppositeContent>
-        )}
-        <TimelineSeparator>
-          <TimelineConnector sx={{ bgcolor: "#BDBDBDBD" }} />
-          <Box
-            sx={{
-              position: "relative",
-              width: 20,
-              height: 20,
-              display: "flex",
-              alignItems: "center",
-              justifyContent: "center",
-            }}
-          >
-            <Box
-              sx={{
-                position: "absolute",
-                width: 20,
-                height: 20,
-                borderRadius: "9999px",
-                backgroundColor: "#cccc",
-                animation: "ping 1.4s infinite",
-                opacity: 0.4,
-              }}
-            />
-            <CircleRoundedIcon htmlColor="#cccc" />
-          </Box>
-          <TimelineConnector sx={{ bgcolor: "#BDBDBDBD" }} />
-        </TimelineSeparator>
-        <TimelineContent sx={{ py: "12px", px: 2 }}>
-          <div className="md:flex justify-start">
-            <div className="relative bg-gradient-to-b from-zinc-900 to-zinc-800  p-6 rounded-3xl overflow-hidden shadow-[0_8px_32px_rgba(255,255,255,0.1)] max-w-[600px]">
-              <Grid size={20} />
-              <Box
-                sx={{
-                  display: "flex",
-                  flexDirection: "column",
-                  alignItems: !matches ? "end" : "start",
-                }}
-              >
-                <Typography
-                  fontSize={17}
-                  component="span"
-                  color="#ea580b"
-                  fontWeight={600}
-                >
-                  {t(
-                    "roadmap.LAUNCH OF PIONE MART – DECENTRALIZED E-COMMERCE MARKETPLACE",
-                  )}
-                </Typography>
-                {matches && (
-                  <TimelineOppositeContent
-                    sx={{
-                      textAlign: "left !important",
-                      padding: "0 !important",
-                    }}
-                    variant="body2"
-                    color="#fff"
-                    fontSize={14}
-                  >
-                    {t("roadmap.July 2027")}
-                  </TimelineOppositeContent>
-                )}
-                <Typography color="#CCCC" fontSize={13} marginTop={1}>
-                  {" "}
-                  {t("roadmap.description22")}
-                </Typography>
-              </Box>
-            </div>
-          </div>
-        </TimelineContent>
-      </TimelineItem>
-      <TimelineItem>
-        {!matches && (
-          <TimelineOppositeContent
-            sx={{ m: "auto 0" }}
-            align="right"
-            variant="body2"
-            color="#fff"
-            fontSize={17}
-          >
-            <span className="inline-block text-lg border p-1 px-3 w-fit  rounded-full border-[#ff6a00] bg-[#2e0d00]">
-              {t("roadmap.September 2027")}
-            </span>
-          </TimelineOppositeContent>
-        )}
-        <TimelineSeparator>
-          <TimelineConnector sx={{ bgcolor: "#BDBDBDBD" }} />
-          <Box
-            sx={{
-              position: "relative",
-              width: 20,
-              height: 20,
-              display: "flex",
-              alignItems: "center",
-              justifyContent: "center",
-            }}
-          >
-            <Box
-              sx={{
-                position: "absolute",
-                width: 20,
-                height: 20,
-                borderRadius: "9999px",
-                backgroundColor: "#cccc",
-                animation: "ping 1.4s infinite",
-                opacity: 0.4,
-              }}
-            />
-            <CircleRoundedIcon htmlColor="#cccc" />
-          </Box>
-          <TimelineConnector sx={{ bgcolor: "#BDBDBDBD" }} />
-        </TimelineSeparator>
-        <TimelineContent sx={{ py: "12px", px: 2 }}>
-          <div className=" flex justify-end">
-            <div className="relative bg-gradient-to-b from-zinc-900 to-zinc-800  p-6 rounded-3xl overflow-hidden shadow-[0_8px_32px_rgba(255,255,255,0.1)] max-w-[600px]">
-              <Grid size={20} />
-              <Typography
-                fontSize={17}
-                component="span"
-                color="#ea580b"
-                fontWeight={600}
-              >
-                {t("roadmap.LAUNCH OF PIONE PAY – PAYMENT BRIDGE FOR RWA APPLICATIONS")}
-              </Typography>
-              {matches && (
-                <TimelineOppositeContent
-                  sx={{
-                    textAlign: "left !important",
-                    padding: "0 !important",
-                  }}
-                  variant="body2"
-                  color="#fff"
-                  fontSize={14}
-                >
-                  {t("roadmap.September 2027")}
-                </TimelineOppositeContent>
-              )}
-              <Typography color="#CCCC" fontSize={13} marginTop={1}>
-                {" "}
-                {t("roadmap.description23")}
-              </Typography>
-            </div>
-          </div>
-        </TimelineContent>
-      </TimelineItem>
-      <TimelineItem>
-        {!matches && (
-          <TimelineOppositeContent
-            sx={{ m: "auto 0" }}
-            align="right"
-            variant="body2"
-            color="#fff"
-            fontSize={17}
-          >
-            <span className="inline-block text-lg border p-1 px-3 w-fit  rounded-full border-[#ff6a00] bg-[#2e0d00]">
-              {t("roadmap.November 2027")}
-            </span>
-          </TimelineOppositeContent>
-        )}
-        <TimelineSeparator>
-          <TimelineConnector sx={{ bgcolor: "#BDBDBDBD" }} />
-          <Box
-            sx={{
-              position: "relative",
-              width: 20,
-              height: 20,
-              display: "flex",
-              alignItems: "center",
-              justifyContent: "center",
-            }}
-          >
-            <Box
-              sx={{
-                position: "absolute",
-                width: 20,
-                height: 20,
-                borderRadius: "9999px",
-                backgroundColor: "#cccc",
-                animation: "ping 1.4s infinite",
-                opacity: 0.4,
-              }}
-            />
-            <CircleRoundedIcon htmlColor="#cccc" />
-          </Box>
-          <TimelineConnector sx={{ bgcolor: "#BDBDBDBD" }} />
-        </TimelineSeparator>
-        <TimelineContent sx={{ py: "12px", px: 2 }}>
-          <div className="md:flex justify-start">
-            <div className="relative bg-gradient-to-b from-zinc-900 to-zinc-800  p-6 rounded-3xl overflow-hidden shadow-[0_8px_32px_rgba(255,255,255,0.1)] max-w-[600px]">
-              <Grid size={20} />
-              <Box
-                sx={{
-                  display: "flex",
-                  flexDirection: "column",
-                  alignItems: !matches ? "end" : "start",
-                }}
-              >
-                <Typography
-                  fontSize={17}
-                  component="span"
-                  color="#ea580b"
-                  fontWeight={600}
-                >
-                  {t(
-                    "roadmap.STABLE OPERATIONS & INTERNATIONAL RWA ECOSYSTEM EXPANSION",
-                  )}
-                </Typography>
-                {matches && (
-                  <TimelineOppositeContent
-                    sx={{
-                      textAlign: "left !important",
-                      padding: "0 !important",
-                    }}
-                    variant="body2"
-                    color="#fff"
-                    fontSize={14}
-                  >
-                    {t("roadmap.November 2027")}
-                  </TimelineOppositeContent>
-                )}
-                <Typography color="#CCCC" fontSize={13} marginTop={1}>
-                  {" "}
-                  {t("roadmap.description24")}
-                </Typography>
-              </Box>
-            </div>
-          </div>
-        </TimelineContent>
-      </TimelineItem>
-      <TimelineItem>
-        {!matches && (
-          <TimelineOppositeContent
-            sx={{ m: "auto 0" }}
-            align="right"
-            variant="body2"
-            color="#fff"
-            fontSize={17}
-          >
-            <span className="inline-block text-lg border p-1 px-3 w-fit  rounded-full border-[#ff6a00] bg-[#2e0d00]">
-              {t("roadmap.January 2028")}
-            </span>
-          </TimelineOppositeContent>
-        )}
-        <TimelineSeparator>
-          <TimelineConnector sx={{ bgcolor: "#BDBDBDBD" }} />
-          <Box
-            sx={{
-              position: "relative",
-              width: 20,
-              height: 20,
-              display: "flex",
-              alignItems: "center",
-              justifyContent: "center",
-            }}
-          >
-            <Box
-              sx={{
-                position: "absolute",
-                width: 20,
-                height: 20,
-                borderRadius: "9999px",
-                backgroundColor: "#cccc",
-                animation: "ping 1.4s infinite",
-                opacity: 0.4,
-              }}
-            />
-            <CircleRoundedIcon htmlColor="#cccc" />
-          </Box>
-          <TimelineConnector sx={{ bgcolor: "#BDBDBDBD" }} />
-        </TimelineSeparator>
-        <TimelineContent sx={{ py: "12px", px: 2 }}>
-          <div className=" flex justify-end">
-            <div className="relative bg-gradient-to-b from-zinc-900 to-zinc-800  p-6 rounded-3xl overflow-hidden shadow-[0_8px_32px_rgba(255,255,255,0.1)] max-w-[600px]">
-              <Grid size={20} />
-              <Typography
-                fontSize={17}
-                component="span"
-                color="#ea580b"
-                fontWeight={600}
-              >
-                {t("roadmap.INITIATION OF IPO & SECURITY TOKEN (STO) ROADMAP")}
-              </Typography>
-              {matches && (
-                <TimelineOppositeContent
-                  sx={{
-                    textAlign: "left !important",
-                    padding: "0 !important",
-                  }}
-                  variant="body2"
-                  color="#fff"
-                  fontSize={14}
-                >
-                  {t("roadmap.January 2028")}
-                </TimelineOppositeContent>
-              )}
-              <Typography color="#CCCC" fontSize={13} marginTop={1}>
-                {" "}
-                {t("roadmap.description25")}
-              </Typography>
-            </div>
-          </div>
-        </TimelineContent>
-      </TimelineItem>
-      <TimelineItem>
-        {!matches && (
-          <TimelineOppositeContent
-            sx={{ m: "auto 0" }}
-            align="right"
-            variant="body2"
-            color="#fff"
-            fontSize={17}
-          >
-            <span className="inline-block text-lg border p-1 px-3 w-fit  rounded-full border-[#ff6a00] bg-[#2e0d00]">
-              {t("roadmap.April 2028")}
-            </span>
-          </TimelineOppositeContent>
-        )}
-        <TimelineSeparator>
-          <TimelineConnector sx={{ bgcolor: "#BDBDBDBD" }} />
-          <Box
-            sx={{
-              position: "relative",
-              width: 20,
-              height: 20,
-              display: "flex",
-              alignItems: "center",
-              justifyContent: "center",
-            }}
-          >
-            <Box
-              sx={{
-                position: "absolute",
-                width: 20,
-                height: 20,
-                borderRadius: "9999px",
-                backgroundColor: "#cccc",
-                animation: "ping 1.4s infinite",
-                opacity: 0.4,
-              }}
-            />
-            <CircleRoundedIcon htmlColor="#cccc" />
-          </Box>
-          <TimelineConnector sx={{ bgcolor: "#BDBDBDBD" }} />
-        </TimelineSeparator>
-        <TimelineContent sx={{ py: "12px", px: 2 }}>
-          <div className="md:flex justify-start">
-            <div className="relative bg-gradient-to-b from-zinc-900 to-zinc-800  p-6 rounded-3xl overflow-hidden shadow-[0_8px_32px_rgba(255,255,255,0.1)] max-w-[600px]">
-              <Grid size={20} />
-              <Box
-                sx={{
-                  display: "flex",
-                  flexDirection: "column",
-                  alignItems: !matches ? "start" : "end",
-                }}
-              >
-                <Typography
-                  fontSize={17}
-                  component="span"
-                  color="#ea580b"
-                  fontWeight={600}
-                >
-                  {t(
-                    "roadmap.SECURITY TOKEN ISSUANCE PILOT (STO PILOT)",
-                  )}
-                </Typography>
-                {matches && (
-                  <TimelineOppositeContent
-                    sx={{
-                      textAlign: "left !important",
-                      padding: "0 !important",
-                    }}
-                    variant="body2"
-                    color="#fff"
-                    fontSize={14}
-                  >
-                    {t("roadmap.April 2028")}
-                  </TimelineOppositeContent>
-                )}
-                <Typography color="#CCCC" fontSize={13} marginTop={1}>
-                  {" "}
-                  {t("roadmap.description26")}
-                </Typography>
-              </Box>
-            </div>
-          </div>
-        </TimelineContent>
-      </TimelineItem>
-      <TimelineItem>
-        {!matches && (
-          <TimelineOppositeContent
-            sx={{ m: "auto 0" }}
-            align="right"
-            variant="body2"
-            color="#fff"
-            fontSize={17}
-          >
-            <span className="inline-block text-lg border p-1 px-3 w-fit  rounded-full border-[#ff6a00] bg-[#2e0d00]">
-              {t("roadmap.July–September 2028")}
-            </span>
-          </TimelineOppositeContent>
-        )}
-        <TimelineSeparator>
-          <TimelineConnector sx={{ bgcolor: "#BDBDBDBD" }} />
-          <Box
-            sx={{
-              position: "relative",
-              width: 20,
-              height: 20,
-              display: "flex",
-              alignItems: "center",
-              justifyContent: "center",
-            }}
-          >
-            <Box
-              sx={{
-                position: "absolute",
-                width: 20,
-                height: 20,
-                borderRadius: "9999px",
-                backgroundColor: "#cccc",
-                animation: "ping 1.4s infinite",
-                opacity: 0.4,
-              }}
-            />
-            <CircleRoundedIcon htmlColor="#cccc" />
-          </Box>
-          <TimelineConnector sx={{ bgcolor: "#BDBDBDBD" }} />
-        </TimelineSeparator>
-        <TimelineContent sx={{ py: "12px", px: 2 }}>
-          <div className=" flex justify-end">
-            <div className="relative bg-gradient-to-b from-zinc-900 to-zinc-800  p-6 rounded-3xl overflow-hidden shadow-[0_8px_32px_rgba(255,255,255,0.1)] max-w-[600px]">
-              <Grid size={20} />
-              <Typography
-                fontSize={17}
-                component="span"
-                color="#ea580b"
-                fontWeight={600}
-              >
-                {t("roadmap.IPO / STO EXECUTION – COMPLETION OF A GLOBAL RWA ECOSYSTEM")}
-              </Typography>
-              {matches && (
-                <TimelineOppositeContent
-                  sx={{
-                    textAlign: "left !important",
-                    padding: "0 !important",
-                  }}
-                  variant="body2"
-                  color="#fff"
-                  fontSize={14}
-                >
-                  {t("roadmap.July–September 2028")}
-                </TimelineOppositeContent>
-              )}
-              <Typography color="#CCCC" fontSize={13} marginTop={1}>
-                {" "}
-                {t("roadmap.description27")}
-              </Typography>
-            </div>
-          </div>
-        </TimelineContent>
-      </TimelineItem>
+                    {item.contents.map((content, cIdx) => (
+                      <Box
+                        key={cIdx}
+                        sx={{
+                          display: "flex",
+                          flexDirection: "column",
+                          alignItems: !matches && isCardOnLeft ? "end" : "start",
+                          width: "100%",
+                          marginTop: cIdx > 0 ? 3 : 0,
+                        }}
+                      >
+                        <Typography
+                          fontSize={17}
+                          component="span"
+                          color="#ea580b"
+                          fontWeight={600}
+                          textTransform={content.isUppercase ? "uppercase" : "none"}
+                        >
+                          {t(`roadmap.${content.title}`)}
+                        </Typography>
+                        {matches && (
+                          <TimelineOppositeContent
+                            sx={{
+                              textAlign: "left !important",
+                              padding: "0 !important",
+                            }}
+                            variant="body2"
+                            color="#fff"
+                            fontSize={14}
+                          >
+                            {t(`roadmap.${item.date}`)}
+                          </TimelineOppositeContent>
+                        )}
+                        <Typography color="#CCCC" fontSize={13} marginTop={1}>
+                          {t(`roadmap.${content.desc}`)}
+                        </Typography>
+                      </Box>
+                    ))}
+                  </Box>
+                </div>
+              </div>
+            </TimelineContent>
+          </TimelineItem>
+        );
+      })}
     </Timeline>
   );
 }
